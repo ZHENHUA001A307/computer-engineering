@@ -4,7 +4,7 @@
 <title>科目一：计算机工程</title>
 <link>https://github.com/ZHENHUA001A307/computer-engineering</link>
 <description>计算机工程材料推送</description>
-<lastBuildDate>Sat, 03 Oct 2026 02:44:11 +0000</lastBuildDate>
+<lastBuildDate>Mon, 05 Oct 2026 03:52:58 +0000</lastBuildDate>
 <item>
     <title>AutomaticApplicationPython - 028 - 第4章 列表.epub</title>
     <description>&lt;p style='color: #888;'&gt;⏱ 预计阅读时间：70 分钟 (20782 字)&lt;/p&gt;&lt;hr&gt;&lt;h1 id="nav_point_83"&gt;第4章　列表&lt;/h1&gt;
@@ -798,6 +798,7 @@ print(spam)&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 2 章 WorkBuddy的下载、安装、登录与更新</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%202%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%99%BB%E5%BD%95%E4%B8%8E%E6%9B%B4%E6%96%B0/</link>
@@ -805,6 +806,7 @@ print(spam)&lt;/code&gt;
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%202%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%99%BB%E5%BD%95%E4%B8%8E%E6%9B%B4%E6%96%B0/</guid>
       <pubDate>Thu, 20 Aug 2026 00:53:09 +0000</pubDate>
     </item>
+
 
 
 
@@ -1312,6 +1314,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -1319,6 +1322,7 @@ Total number of items: 48&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</guid>
 <pubDate>Thu, 01 Oct 2026 06:58:23 +0000</pubDate>
 </item>
+
 
 
 
@@ -1333,13 +1337,15 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
-<title><![CDATA[WorkBuddyGuide-第 7 章 WorkBuddy 使用连接器]]></title>
+<title>WorkBuddyGuide-第 7 章 WorkBuddy 使用连接器</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</link>
-<description><![CDATA[学习时长：约2小时；学习内容：MCP协议的概念与价值[reference:16]、MCP的核心特点（统一标准、三大能力、C/S架构、本地优先）[reference:17]、内置连接器（腾讯会议/腾讯文档/TAPD等）的加载与使用[reference:18]；学习目的：理解MCP的工作原理，学会通过连接器让WorkBuddy接入外部工具和服务]]></description>
+<description>学习时长：约2小时；学习内容：MCP协议的概念与价值[reference:16]、MCP的核心特点（统一标准、三大能力、C/S架构、本地优先）[reference:17]、内置连接器（腾讯会议/腾讯文档/TAPD等）的加载与使用[reference:18]；学习目的：理解MCP的工作原理，学会通过连接器让WorkBuddy接入外部工具和服务</description>
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</guid>
 <pubDate>Sat, 03 Oct 2026 02:44:11 +0000</pubDate>
 </item>
+
 <item>
     <title>AutomaticApplicationPython - 031 - 第7章 模式匹配与正则表达式.epub</title>
     <description>&lt;p style='color: #888;'&gt;⏱ 预计阅读时间：85 分钟 (25447 字)&lt;/p&gt;&lt;hr&gt;&lt;h1 id="nav_point_162"&gt;第7章　模式匹配与正则表达式&lt;/h1&gt;
@@ -2091,6 +2097,7 @@ help@nostarch.com&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 4 章 快速完成第一个 WorkBuddy 任务</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%204%20%E7%AB%A0%20%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90%E7%AC%AC%E4%B8%80%E4%B8%AA%20WorkBuddy%20%E4%BB%BB%E5%8A%A1/</link>
@@ -2098,6 +2105,7 @@ help@nostarch.com&lt;/code&gt;
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%204%20%E7%AB%A0%20%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90%E7%AC%AC%E4%B8%80%E4%B8%AA%20WorkBuddy%20%E4%BB%BB%E5%8A%A1/</guid>
       <pubDate>Mon, 31 Aug 2026 04:20:41 +0000</pubDate>
     </item>
+
 
 
 
@@ -3165,6 +3173,7 @@ except:
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 8 章 WorkBuddy 接入小程序与 IM 助理</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%208%20%E7%AB%A0%20WorkBuddy%20%E6%8E%A5%E5%85%A5%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8E%20IM%20%E5%8A%A9%E7%90%86/</link>
@@ -3172,6 +3181,7 @@ except:
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%208%20%E7%AB%A0%20WorkBuddy%20%E6%8E%A5%E5%85%A5%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8E%20IM%20%E5%8A%A9%E7%90%86/</guid>
       <pubDate>Mon, 28 Sep 2026 04:16:11 +0000</pubDate>
     </item>
+
 
 
 
@@ -3821,6 +3831,7 @@ cherries Carol moose
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 3 章 WorkBuddy 的主界面、任务与工作区</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%203%20%E7%AB%A0%20WorkBuddy%20%E7%9A%84%E4%B8%BB%E7%95%8C%E9%9D%A2%E3%80%81%E4%BB%BB%E5%8A%A1%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8C%BA/</link>
@@ -3828,6 +3839,7 @@ cherries Carol moose
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%203%20%E7%AB%A0%20WorkBuddy%20%E7%9A%84%E4%B8%BB%E7%95%8C%E9%9D%A2%E3%80%81%E4%BB%BB%E5%8A%A1%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8C%BA/</guid>
       <pubDate>Mon, 24 Aug 2026 01:22:34 +0000</pubDate>
     </item>
+
 
 
 
@@ -4298,6 +4310,7 @@ else:
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 7 章 WorkBuddy 使用连接器</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</link>
@@ -4305,6 +4318,7 @@ else:
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</guid>
       <pubDate>Mon, 21 Sep 2026 03:53:37 +0000</pubDate>
     </item>
+
 
 
 
@@ -4764,6 +4778,7 @@ Done.&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 6 章 WorkBuddy的专家和专家团</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%206%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%93%E5%AE%B6%E5%92%8C%E4%B8%93%E5%AE%B6%E5%9B%A2/</link>
@@ -4771,6 +4786,7 @@ Done.&lt;/code&gt;
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%206%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%93%E5%AE%B6%E5%92%8C%E4%B8%93%E5%AE%B6%E5%9B%A2/</guid>
       <pubDate>Mon, 14 Sep 2026 03:54:24 +0000</pubDate>
     </item>
+
 
 
 
@@ -5393,6 +5409,7 @@ truck was unaffected by these events.&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 5 章 WorkBuddy加载一个真正用得上的 Skill</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%205%20%E7%AB%A0%20WorkBuddy%E5%8A%A0%E8%BD%BD%E4%B8%80%E4%B8%AA%E7%9C%9F%E6%AD%A3%E7%94%A8%E5%BE%97%E4%B8%8A%E7%9A%84%20Skill/</link>
@@ -5405,6 +5422,14 @@ truck was unaffected by these events.&lt;/code&gt;
 
 
 
+
+<item>
+<title><![CDATA[WorkBuddyGuide-第 8 章 WorkBuddy 接入小程序与 IM 助理]]></title>
+<link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%208%20%E7%AB%A0%20WorkBuddy%20%E6%8E%A5%E5%85%A5%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8E%20IM%20%E5%8A%A9%E7%90%86/</link>
+<description><![CDATA[学习时长：约1.5小时；学习内容：小程序的两种模式（本机模式/云端模式）[reference:19]、微信助理的扫码绑定流程[reference:20]、飞书和钉钉机器人的接入配置[reference:21]；学习目的：学会通过小程序和IM工具随时随地使用WorkBuddy，实现移动办公]]></description>
+<guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%208%20%E7%AB%A0%20WorkBuddy%20%E6%8E%A5%E5%85%A5%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8E%20IM%20%E5%8A%A9%E7%90%86/</guid>
+<pubDate>Mon, 05 Oct 2026 03:52:58 +0000</pubDate>
+</item>
 <item>
 <title>Basic Python - 020 - 第 20 章 设置应用程序的样式并部署.epub</title>
 <description>&lt;p style='color:#888;'&gt;⏱ 预计阅读时间：95 分钟 (28476 字)&lt;/p&gt;&lt;hr&gt;&lt;h1 id="nav_point_462"&gt;第 20 章　设置应用程序的样式并部署&lt;/h1&gt;
@@ -6376,14 +6401,6 @@ def topic(request, topic_id):
 </description>
 <pubDate>Fri, 02 Oct 2026 04:43:08 +0000</pubDate>
 <guid isPermaLink="false">epub-38</guid>
-</item>
-
-<item>
-<title>WorkBuddyGuide-课外阅读：一章看懂 AI 工作系统</title>
-<link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E8%AF%BE%E5%A4%96%E9%98%85%E8%AF%BB%EF%BC%9A%E4%B8%80%E7%AB%A0%E7%9C%8B%E6%87%82%20AI%20%E5%B7%A5%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
-<description>学习时长：约2小时；学习内容：AI工作系统的五类角色（LLM/Agent/Skill/工具接口/人）[reference:27]、LLM的原理与幻觉问题[reference:28]、Token与上下文窗口[reference:29]、Prompt的本质[reference:30]；学习目的：建立AI工作系统的完整认知框架，理解各组件如何协同工作</description>
-<guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E8%AF%BE%E5%A4%96%E9%98%85%E8%AF%BB%EF%BC%9A%E4%B8%80%E7%AB%A0%E7%9C%8B%E6%87%82%20AI%20%E5%B7%A5%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
-<pubDate>Fri, 02 Oct 2026 03:53:57 +0000</pubDate>
 </item>
 
 
