@@ -4,7 +4,300 @@
 <title>科目一：计算机工程</title>
 <link>https://github.com/ZHENHUA001A307/computer-engineering</link>
 <description>计算机工程材料推送</description>
-<lastBuildDate>Fri, 09 Oct 2026 11:38:32 +0000</lastBuildDate>
+<lastBuildDate>Wed, 14 Oct 2026 03:30:13 +0000</lastBuildDate>
+<item>
+<title><![CDATA[0024 - Basic Python - 附录 D 使用Git进行版本控制.epub]]></title>
+<description><![CDATA[<p style='color:#888;'>⏱ 预计阅读时间：32 分钟 (9571 字)</p><hr><h1 id="nav_point_533">附录 D　使用Git进行版本控制</h1>
+<blockquote>
+<p><img alt="" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/24_Image00001.gif" style="width: 16%" width="16%"/>
+ 　版本控制软件让你能够拍摄处于可行状态的项目快照。修改项目（如实现新功能）后，如果项目不能正常运行，可恢复到前一个可行状态。</p>
+</blockquote>
+<p>通过使用版本控制软件，你可以放手去改进项目，不用担心项目因你犯错而遭到破坏。对大型项目来说，这显得尤其重要，但对于较小的项目，哪怕是只包含一个文件的程序，这也大有裨益。</p>
+<p>在本附录中，你将学习如何安装Git，以及如何使用它来对当前开发的程序进行版本控制。Git是当前最流行的版本控制软件，包含很多高级工具，可帮助团队协作开发大型项目，但其最基本的功能也非常适合独立开发人员使用。Git通过跟踪对项目中每个文件的修改来实现版本控制，如果你犯了错，只需恢复到保存的前一个状态即可。</p>
+<h2 id="nav_point_534">D.1　安装Git</h2>
+<p>Git可在所有操作系统上运行，但安装方法随操作系统而异。接下来的几小节详细说明了如何在各种操作系统中安装它。</p>
+<h3 id="nav_point_535">D.1.1　Windows系统</h3>
+<p>可从Git网站下载Git安装程序。在这个网站中，你将看到下载链接，指向适合你的系统的安装程序。</p>
+<h3 id="nav_point_536">D.1.2　macOS系统</h3>
+<p>macOS系统可能已经安装了Git，因此请尝试执行命令<strong>
+<code>git --version</code>
+</strong>
+ 。如果在输出中看到了具体的版本号，说明系统安装了Git；如果看到一条消息，提示你安装或升级Git，只需按屏幕上的说明做即可。</p>
+<p>你也可以访问Git网站主页，将看到下载链接，指向适合你系统的安装程序。</p>
+<h3 id="nav_point_537">D.1.3　Linux系统</h3>
+<p>要在Linux系统中安装Git，请执行如下命令：</p>
+<pre class="代码无行号"><code>$ sudo apt install git-all</code>
+</pre>
+<p>这就行了。现在可以在项目中使用Git了。</p>
+<h3 id="nav_point_538">D.1.4　配置Git</h3>
+<p>Git跟踪是谁修改了项目，哪怕参与项目开发的人只有一个。为此，Git需要知道你的用户名和电子邮箱地址。你必须提供用户名，但可使用虚构的电子邮箱地址：</p>
+<pre class="代码无行号"><code>$ git config --global user.name "_username_"
+$ git config --global user.email "_username@example.com_"</code>
+</pre>
+<p>如果你忘记了这一步，在首次提交时Git将提示你提供这些信息。</p>
+<h2 id="nav_point_539">D.2　创建项目</h2>
+<p>我们来创建一个要进行版本控制的项目。在系统中创建一个文件夹，并将其命名为git_practice。在这个文件夹中，创建一个简单的Python程序：</p>
+<p>
+<em>hello_git.py</em>
+</p>
+<pre class="代码无行号"><code>print("Hello Git world!")</code>
+</pre>
+<p>我们将使用这个程序来探索Git的基本功能。</p>
+<h2 id="nav_point_540">D.3　忽略文件</h2>
+<p>扩展名为.pyc的文件是根据.py文件自动生成的，因此无须让Git跟踪它们。这些文件存储在目录__pycache__中。为了让Git忽略这个目录，创建一个名为.gitignore的特殊文件（这个文件名以句点打头且没有扩展名），并在其中添加下面一行内容：</p>
+<p>
+<em>.gitignore</em>
+</p>
+<pre class="代码无行号"><code>__pycache__/</code>
+</pre>
+<p>这让Git忽略目录__pycache__中的所有文件。使用文件.gitignore可避免项目混乱，让其开发起来更容易。</p>
+<p>你可能需要修改文本编辑器的设置，使其显示隐藏的文件，这样才能使用它来打开文件.gitignore。有些编辑器被设置成忽略名称以句点打头的文件。</p>
+<h2 id="nav_point_541">D.4　初始化仓库</h2>
+<p>前面创建了一个目录，其中包含一个Python文件和一个.gitignore文件，现在可以初始化一个Git仓库了。为此，打开一个终端窗口，切换到文件夹git_practice，并执行如下命令：</p>
+<pre class="代码无行号"><code>git_practice$ git init
+Initialized empty Git repository in git_practice/.git/
+git_practice$</code>
+</pre>
+<p>输出表明Git在git_practice中初始化了一个空仓库。<strong>仓库</strong>
+ 是程序中被Git主动跟踪的一组文件。Git用来管理仓库的文件都存储在隐藏的目录.git中，你根本不需要与这个目录打交道，但千万不要删除它，否则将丢失项目的所有历史记录。</p>
+<h2 id="nav_point_542">D.5　检查状态</h2>
+<p>执行其他操作前，先来看一下项目的状态：</p>
+<pre class="代码无行号"><code>  git_practice$ git status
+❶ On branch master
+  No commits yet
+❷ Untracked files:
+    (use "git add &lt;file&gt;..." to include in what will be committed)
+    .gitignore
+    hello_git.py
+❸ nothing added to commit but untracked files present (use "git add" to track)
+  git_practice$</code>
+</pre>
+<p>在Git中，<strong>分支</strong>
+ 是项目的一个版本。从这里的输出可知，我们位于分支<code>master</code>
+ 上（见❶）。你每次查看项目的状态时，输出都将指出位于分支<code>master</code>
+ 上。接下来的输出表明还未执行任何提交。<strong>提交</strong>
+ 是项目在特定时点的快照。</p>
+<p>Git指出了项目中未被跟踪的文件（见❷），因为我们还没有告诉它要跟踪哪些文件。接下来，Git告诉我们尚未将任何东西添加到当前提交中，但指出了可能需要加入仓库中的未跟踪文件（见❸）。</p>
+<h2 id="nav_point_543">D.6　将文件加入仓库中</h2>
+<p>下面将这两个文件加入仓库中，并再次检查状态：</p>
+<pre class="代码无行号"><code>❶ git_practice$ git add .
+❷ git_practice$ git status
+  On branch master
+  No commits yet
+  Changes to be committed:
+    (use "git rm --cached &lt;file&gt;..." to unstage)
+❸   new file:  .gitignore
+    new file:  hello_git.py
+  git_practice$</code>
+</pre>
+<p>命令<code>git add .</code>
+ 将项目中未被跟踪的所有文件都加入仓库中（见❶）。它不提交这些文件，只是让Git开始关注它们。现在检查项目的状态时，我们发现Git找出了需要提交的一些修改（见❷）。标签new file意味着这些文件是新添加到仓库中的（见❸）。</p>
+<h2 id="nav_point_544">D.7　执行提交</h2>
+<p>下面来执行第一次提交：</p>
+<pre class="代码无行号"><code>❶ git_practice$ git commit -m "Started project."
+❷ [master (root-commit) ee76419] Started project.
+❸  2 files changed, 4 insertions(+)
+   create mode 100644 .gitignore
+   create mode 100644 hello_git.py
+❹ git_practice$ git status
+  On branch master
+  nothing to commit, working tree clean
+  git_practice$</code>
+</pre>
+<p>我们执行命令<code>git commit -m "<i>message</i>
+ "</code>
+ （见❶）拍摄项目的快照。标志<code>-m</code>
+ 让Git将接下来的消息（<code>"Started project."</code>
+ ）记录到项目的历史记录中。输出表明位于分支<code>master</code>
+ 上（见❷），且有两个文件被修改了（见❸）。</p>
+<p>现在检查状态时，会发现我们位于分支<code>master</code>
+ 上，且工作树是干净的（见❹）。这是你每次提交项目的可行状态时都希望看到的消息。如果显示的消息不是这样的，请仔细阅读，很可能是你在提交前忘记了添加文件。</p>
+<h2 id="nav_point_545">D.8　查看提交历史</h2>
+<p>Git记录所有的项目提交。下面来看一下提交历史：</p>
+<pre class="代码无行号"><code>git_practice$ git log
+commit a9d74d87f1aa3b8f5b2688cb586eac1a908cfc7f (HEAD -&gt; master)
+Author: Eric Matthes &lt;eric@example.com&gt;
+Date:   Mon Jan 21 21:24:28 2019 -0900
+    Started project.
+git_practice$</code>
+</pre>
+<p>每次提交时，Git都会生成唯一的引用ID，长40字符。它记录提交是谁执行的、提交的时间以及提交时指定的消息。并非在任何情况下都需要所有这些信息，因此Git提供了一个选项，让你能够打印提交历史条目的更简单版本：</p>
+<pre class="代码无行号"><code>git_practice$ git log --pretty=oneline
+ee76419954379819f3f2cacafd15103ea900ecb2 (HEAD -&gt; master) Started project.
+git_practice$</code>
+</pre>
+<p>标志<code>--pretty=oneline</code>
+ 指定显示两项最重要的信息：提交的引用ID和为提交记录的消息。</p>
+<h2 id="nav_point_546">D.9　第二次提交</h2>
+<p>为展示版本控制的强大威力，我们需要修改项目并提交所做的修改。为此，在hello_git.py中再添加一行代码：</p>
+<p>
+<em>hello_git.py</em>
+</p>
+<pre class="代码无行号"><code>print("Hello Git world!")
+print("Hello everyone.")</code>
+</pre>
+<p>如果现在查看项目的状态，将发现Git注意到这个文件发生了变化：</p>
+<pre class="代码无行号"><code>  git_practice$ git status
+❶ On branch master
+   Changes not staged for commit:
+     (use "git add &lt;file&gt;..." to update what will be committed)
+     (use "git checkout -- &lt;file&gt;..." to discard changes in working directory)
+❷  modified:  hello_git.py
+❸ no changes added to commit (use "git add" and/or "git commit -a")
+  git_practice$</code>
+</pre>
+<p>输出指出了当前所在的分支（见❶）和被修改了的文件的名称（见❷），还指出了所做的修改未提交（见❸）。下面来提交所做的修改，并再次查看状态：</p>
+<pre class="代码无行号"><code>❶ git_practice$ git commit -am "Extended greeting."
+  [master 51f0fe5] Extended greeting.
+   1 file changed, 1 insertion(+), 1 deletion(-)
+❷ git_practice$ git status
+  On branch master
+  nothing to commit, working tree clean
+❸ git_practice$ git log --pretty=oneline
+  51f0fe5884e045b91c12c5449fabf4ad0eef8e5d (HEAD -&gt; master) Extended greeting.
+  ee76419954379819f3f2cacafd15103ea900ecb2 Started project.
+  git_practice$</code>
+</pre>
+<p>我们再次执行了提交，并在执行命令<code>git commit</code>
+ 时指定了标志<code>-am</code>
+ （见❶）。标志<code>-a</code>
+ 让Git将仓库中所有修改了的文件都加入当前提交中。（如果在两次提交之间创建了新文件，可再次执行命令<code>git add .</code>
+ ，将这些新文件加入仓库中。）标志<code>-m</code>
+ 让Git在提交历史中记录一条消息。</p>
+<p>查看项目的状态时，我们发现工作树也是干净的（见❷）。最后，可以看到提交历史中包含两个提交（见❸）。</p>
+<h2 id="nav_point_547">D.10　撤销修改</h2>
+<p>下面来看看如何放弃所做的修改，恢复到前一个可行状态。为此，首先在hello_git.py中再添加一行代码：</p>
+<p>
+<em>hello_git.py</em>
+</p>
+<pre class="代码无行号"><code>print("Hello Git world!")
+print("Hello everyone.")
+print("Oh no, I broke the project!")</code>
+</pre>
+<p>保存并运行这个文件。</p>
+<p>我们查看状态，发现Git注意到了所做的修改：</p>
+<pre class="代码无行号"><code>  git_practice$ git status
+  On branch master
+  Changes not staged for commit:
+    (use "git add &lt;file&gt;..." to update what will be committed)
+    (use "git checkout -- &lt;file&gt;..." to discard changes in working directory)
+❶     modified:   hello_git.py
+  no changes added to commit (use "git add" and/or "git commit -a")
+  git_practice$</code>
+</pre>
+<p>Git注意到我们修改了hello_git.py（见❶）。如果愿意，可提交所做的修改，但这次我们不提交所做的修改，而是恢复到最后一个提交（我们知道，那次提交时项目能够正常地运行）。为此，不对hello_git.py执行任何操作（不删除刚添加的代码行，也不使用文本编辑器的撤销功能），而是在终端会话中执行如下命令：</p>
+<pre class="代码无行号"><code>git_practice$ git checkout .
+git_practice$ git status
+On branch master
+nothing to commit, working tree clean
+git_practice$</code>
+</pre>
+<p>命令<code>git checkout</code>
+ 让你能够恢复到以前的任意提交。命令<code>git checkout .</code>
+ 放弃最后一次提交后所做的所有修改，将项目恢复到最后一次提交的状态。</p>
+<p>如果此时返回文本编辑器，将发现hello_git.py被修改成了下面这样：</p>
+<pre class="代码无行号"><code>print("Hello Git world!")
+print("Hello everyone.")</code>
+</pre>
+<p>就这个项目而言，恢复到前一个状态微不足道，但如果我们开发的是大型项目，其中数十个文件都被修改了，那么恢复到前一个状态，将撤销自最后一次提交后对这些文件所做的所有修改。这个功能很有用：实现新功能时，你可以根据需要做任意数量的修改，如果这些修改不可行，可撤销它们，而不会对项目有任何伤害。你无须记住做了哪些修改，因而不必手工撤销所做的修改，Git会替你完成所有这些工作。</p>
+<blockquote>
+<p>
+<strong>注意</strong>
+ 　要看到以前的版本，可能需要在编辑器中刷新文件。</p>
+</blockquote>
+<h2 id="nav_point_548">D.11　检出以前的提交</h2>
+<p>你可以检出提交历史中的任何提交，而不仅仅是最后一次提交，为此可在命令<code>git check</code>
+ 末尾指定该提交的引用ID的前6字符（而不是句点）。通过检出以前的提交，你可以对其进行审核，然后返回到最后一次提交，或者放弃最近所做的工作并选择以前的提交：</p>
+<pre class="代码无行号"><code>  git_practice$ git log --pretty=oneline
+  51f0fe5884e045b91c12c5449fabf4ad0eef8e5d (HEAD -&gt; master) Extended greeting.
+  ee76419954379819f3f2cacafd15103ea900ecb2 Started project.
+  git_practice$ git checkout ee7641
+  Note: checking out 'ee7641'.
+❶ You are in 'detached HEAD' state. You can look around, make experimental
+  changes and commit them, and you can discard any commits you make in this
+  state without impacting any branches by performing another checkout.
+  If you want to create a new branch to retain commits you create, you may
+  do so (now or later) by using -b with the checkout command again. Example:
+    git checkout -b &lt;new-branch-name&gt;
+  HEAD is now at ee7641... Started project.
+  git_practice$</code>
+</pre>
+<p>检出以前的提交后，将离开分支<code>master</code>
+ ，进入Git所说的<strong>分离头指针</strong>
+ （detached HEAD）状态（见❶）。HEAD指针表示当前提交的项目状态，之所以说处于分离状态，是因为我们离开了一个命名分支（这里是<code>master</code>
+ ）。</p>
+<p>要回到分支<code>master</code>
+ ，可检出它：</p>
+<pre class="代码无行号"><code>git_practice$ git checkout master
+Previous HEAD position was ee76419 Started project.
+Switched to branch 'master'
+git_practice$</code>
+</pre>
+<p>这让你回到分支<code>master</code>
+ 。除非要使用Git的高级功能，否则在检出以前的提交之后，最好不要对项目做任何修改。然而，如果参与项目开发的人只有你自己，而你又想放弃较近的所有提交并恢复到以前的状态，也可将项目重置到以前的提交。为此，可在处于分支<code>master</code>
+ 上的情况下，执行如下命令：</p>
+<pre class="代码无行号"><code>❶ git_practice$ git status
+  On branch master
+  nothing to commit, working directory clean
+❷ git_practice$ git log --pretty=oneline
+  51f0fe5884e045b91c12c5449fabf4ad0eef8e5d (HEAD -&gt; master) Extended greeting.
+  ee76419954379819f3f2cacafd15103ea900ecb2 Started project.
+❸ git_practice$ git reset --hard ee76419
+  HEAD is now at ee76419 Started project.
+❹ git_practice$ git status
+  On branch master
+  nothing to commit, working directory clean
+❺ git_practice$ git log --pretty=oneline
+  ee76419954379819f3f2cacafd15103ea900ecb2 (HEAD -&gt; master) Started project.
+  git_practice$</code>
+</pre>
+<p>首先查看状态，确认位于分支<code>master</code>
+ 上（见❶）。查看提交历史时，我们看到了两个提交（见❷）。接下来，执行命令<code>git reset --hard</code>
+ ，并在其中指定要永久恢复到的提交的引用ID前6字符（见❸）。我们再次查看状态，发现位于分支<code>master</code>
+ 上，且没有需要提交的修改（见❹）。再次查看提交历史时，会发现我们回到了要重新开始的提交（见❺）。</p>
+<h2 id="nav_point_549">D.12　删除仓库</h2>
+<p>有时候，仓库的历史记录被你弄乱了，而你又不知道如何恢复。在这种情况下，你首先应考虑使用附录C介绍的方法寻求帮助。如果无法恢复且参与项目开发的只有你一个人，可继续使用这些文件，但要将项目的历史记录删除——删除目录.git。这不会影响任何文件的当前状态，只会删除所有的提交，因此你将无法检出项目的其他任何状态。</p>
+<p>为此，可打开一个文件浏览器，并将目录.git删除，也可通过命令行将其删除。这样做后，需要重新创建一个仓库，重新对修改进行跟踪。下面演示了如何在终端会话中完成这个过程：</p>
+<pre class="代码无行号"><code>❶ git_practice$ git status
+  On branch master
+  nothing to commit, working directory clean
+❷ git_practice$ rm -rf .git
+❸ git_practice$ git status
+  fatal: Not a git repository (or any of the parent directories): .git
+❹ git_practice$ git init
+  Initialized empty Git repository in git_practice/.git/
+❺ git_practice$ git status
+  On branch master
+  No commits yet
+  Untracked files:
+    (use "git add &lt;file&gt;..." to include in what will be committed)
+    .gitignore
+    hello_git.py
+  nothing added to commit but untracked files present (use "git add" to track)
+❻ git_practice$ git add .
+  git_practice$ git commit -m "Starting over."
+  [master (root-commit) 6baf231] Starting over.
+   2 files changed, 4 insertions(+)
+   create mode 100644 .gitignore
+   create mode 100644 hello_git.py
+❼ git_practice$ git status
+  On branch master
+  nothing to commit, working tree clean
+  git_practice$</code>
+</pre>
+<p>首先查看状态，发现工作树是干净的（见❶）。接下来，使用命令<code>rm -rf .git</code>
+ （在Windows系统中，应使用命令<code>rmdir /s .git</code>
+ ）删除目录.git（见❷）。删除文件夹.git后再次查看状态时，我们被告知这不是一个Git仓库（见❸）。Git用来跟踪仓库的信息都存储在文件夹.git中，因此删除该文件夹也将删除整个仓库。</p>
+<p>接下来，使用命令<code>git init</code>
+ 新建一个全新的仓库（见❹）。然后查看状态，发现又回到了初始状态，等待着第一次提交（见❺）。我们将所有文件都加入仓库，并执行第一次提交（见❻）。然后再次查看状态，发现我们位于新的分支<code>master</code>
+ 上，且没有任何未提交的修改（见❼）。</p>
+<p>你需要经过一定的练习才能学会使用版本控制，但一旦开始使用，你就再也离不开它了。</p>
+<br style="page-break-after:always"/>
+<div></div>
+]]></description>
+<pubDate>Wed, 14 Oct 2026 03:30:13 +0000</pubDate>
+<guid isPermaLink="false">epub-24</guid>
+</item>
 <item>
     <title>AutomaticApplicationPython - 028 - 第4章 列表.epub</title>
     <description>&lt;p style='color: #888;'&gt;⏱ 预计阅读时间：70 分钟 (20782 字)&lt;/p&gt;&lt;hr&gt;&lt;h1 id="nav_point_83"&gt;第4章　列表&lt;/h1&gt;
@@ -807,6 +1100,7 @@ print(spam)&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 9 章 如何接入外部 API</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%209%20%E7%AB%A0%20%E5%A6%82%E4%BD%95%E6%8E%A5%E5%85%A5%E5%A4%96%E9%83%A8%20API/</link>
@@ -820,6 +1114,7 @@ print(spam)&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 2 章 WorkBuddy的下载、安装、登录与更新</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%202%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%99%BB%E5%BD%95%E4%B8%8E%E6%9B%B4%E6%96%B0/</link>
@@ -827,6 +1122,7 @@ print(spam)&lt;/code&gt;
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%202%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%99%BB%E5%BD%95%E4%B8%8E%E6%9B%B4%E6%96%B0/</guid>
       <pubDate>Thu, 20 Aug 2026 00:53:09 +0000</pubDate>
     </item>
+
 
 
 
@@ -1352,6 +1648,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -1364,6 +1661,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -1371,6 +1669,7 @@ Total number of items: 48&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</guid>
 <pubDate>Thu, 01 Oct 2026 06:58:23 +0000</pubDate>
 </item>
+
 
 
 
@@ -1403,6 +1702,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 7 章 WorkBuddy 使用连接器</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</link>
@@ -1410,6 +1710,7 @@ Total number of items: 48&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</guid>
 <pubDate>Sat, 03 Oct 2026 02:44:11 +0000</pubDate>
 </item>
+
 
 
 
@@ -2179,6 +2480,7 @@ help@nostarch.com&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 4 章 快速完成第一个 WorkBuddy 任务</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%204%20%E7%AB%A0%20%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90%E7%AC%AC%E4%B8%80%E4%B8%AA%20WorkBuddy%20%E4%BB%BB%E5%8A%A1/</link>
@@ -2186,6 +2488,7 @@ help@nostarch.com&lt;/code&gt;
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%204%20%E7%AB%A0%20%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90%E7%AC%AC%E4%B8%80%E4%B8%AA%20WorkBuddy%20%E4%BB%BB%E5%8A%A1/</guid>
       <pubDate>Mon, 31 Aug 2026 04:20:41 +0000</pubDate>
     </item>
+
 
 
 
@@ -3271,6 +3574,7 @@ except:
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 8 章 WorkBuddy 接入小程序与 IM 助理</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%208%20%E7%AB%A0%20WorkBuddy%20%E6%8E%A5%E5%85%A5%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8E%20IM%20%E5%8A%A9%E7%90%86/</link>
@@ -3278,6 +3582,7 @@ except:
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%208%20%E7%AB%A0%20WorkBuddy%20%E6%8E%A5%E5%85%A5%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8E%20IM%20%E5%8A%A9%E7%90%86/</guid>
       <pubDate>Mon, 28 Sep 2026 04:16:11 +0000</pubDate>
     </item>
+
 
 
 
@@ -3945,6 +4250,7 @@ cherries Carol moose
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 3 章 WorkBuddy 的主界面、任务与工作区</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%203%20%E7%AB%A0%20WorkBuddy%20%E7%9A%84%E4%B8%BB%E7%95%8C%E9%9D%A2%E3%80%81%E4%BB%BB%E5%8A%A1%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8C%BA/</link>
@@ -3952,6 +4258,7 @@ cherries Carol moose
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%203%20%E7%AB%A0%20WorkBuddy%20%E7%9A%84%E4%B8%BB%E7%95%8C%E9%9D%A2%E3%80%81%E4%BB%BB%E5%8A%A1%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8C%BA/</guid>
       <pubDate>Mon, 24 Aug 2026 01:22:34 +0000</pubDate>
     </item>
+
 
 
 
@@ -4440,6 +4747,7 @@ else:
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 7 章 WorkBuddy 使用连接器</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</link>
@@ -4447,6 +4755,7 @@ else:
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</guid>
       <pubDate>Mon, 21 Sep 2026 03:53:37 +0000</pubDate>
     </item>
+
 
 
 
@@ -4924,6 +5233,7 @@ Done.&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 6 章 WorkBuddy的专家和专家团</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%206%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%93%E5%AE%B6%E5%92%8C%E4%B8%93%E5%AE%B6%E5%9B%A2/</link>
@@ -4931,6 +5241,7 @@ Done.&lt;/code&gt;
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%206%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%93%E5%AE%B6%E5%92%8C%E4%B8%93%E5%AE%B6%E5%9B%A2/</guid>
       <pubDate>Mon, 14 Sep 2026 03:54:24 +0000</pubDate>
     </item>
+
 
 
 
@@ -5558,26 +5869,6 @@ truck was unaffected by these events.&lt;/code&gt;
     <guid isPermaLink="false">32</guid>
 </item>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<item>
-      <title>WorkBuddyGuide-第 5 章 WorkBuddy加载一个真正用得上的 Skill</title>
-      <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%205%20%E7%AB%A0%20WorkBuddy%E5%8A%A0%E8%BD%BD%E4%B8%80%E4%B8%AA%E7%9C%9F%E6%AD%A3%E7%94%A8%E5%BE%97%E4%B8%8A%E7%9A%84%20Skill/</link>
-      <description>学习时长：约2小时；学习内容：Skill的概念与目录结构[reference:9]、渐进式披露机制[reference:10]、Skill与Prompt的本质区别[reference:11]；学习目的：理解Skill的工作机制和价值，学会加载和使用Skill来扩展WorkBuddy的专业能力</description>
-      <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%205%20%E7%AB%A0%20WorkBuddy%E5%8A%A0%E8%BD%BD%E4%B8%80%E4%B8%AA%E7%9C%9F%E6%AD%A3%E7%94%A8%E5%BE%97%E4%B8%8A%E7%9A%84%20Skill/</guid>
-      <pubDate>Mon, 07 Sep 2026 03:28:27 +0000</pubDate>
-    </item>
 
 
 
