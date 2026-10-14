@@ -4,97 +4,104 @@
 <title>科目一：计算机工程</title>
 <link>https://github.com/ZHENHUA001A307/computer-engineering</link>
 <description>计算机工程材料推送</description>
-<lastBuildDate>Wed, 14 Oct 2026 03:30:13 +0000</lastBuildDate>
+<lastBuildDate>Wed, 14 Oct 2026 04:05:00 +0000</lastBuildDate>
 <item>
-<title><![CDATA[0024 - Basic Python - 附录 D 使用Git进行版本控制.epub]]></title>
-<description><![CDATA[<p style='color:#888;'>⏱ 预计阅读时间：32 分钟 (9571 字)</p><hr><h1 id="nav_point_533">附录 D　使用Git进行版本控制</h1>
-<blockquote>
-<p><img alt="" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/24_Image00001.gif" style="width: 16%" width="16%"/>
- 　版本控制软件让你能够拍摄处于可行状态的项目快照。修改项目（如实现新功能）后，如果项目不能正常运行，可恢复到前一个可行状态。</p>
-</blockquote>
-<p>通过使用版本控制软件，你可以放手去改进项目，不用担心项目因你犯错而遭到破坏。对大型项目来说，这显得尤其重要，但对于较小的项目，哪怕是只包含一个文件的程序，这也大有裨益。</p>
-<p>在本附录中，你将学习如何安装Git，以及如何使用它来对当前开发的程序进行版本控制。Git是当前最流行的版本控制软件，包含很多高级工具，可帮助团队协作开发大型项目，但其最基本的功能也非常适合独立开发人员使用。Git通过跟踪对项目中每个文件的修改来实现版本控制，如果你犯了错，只需恢复到保存的前一个状态即可。</p>
-<h2 id="nav_point_534">D.1　安装Git</h2>
-<p>Git可在所有操作系统上运行，但安装方法随操作系统而异。接下来的几小节详细说明了如何在各种操作系统中安装它。</p>
-<h3 id="nav_point_535">D.1.1　Windows系统</h3>
-<p>可从Git网站下载Git安装程序。在这个网站中，你将看到下载链接，指向适合你的系统的安装程序。</p>
-<h3 id="nav_point_536">D.1.2　macOS系统</h3>
-<p>macOS系统可能已经安装了Git，因此请尝试执行命令<strong>
-<code>git --version</code>
-</strong>
- 。如果在输出中看到了具体的版本号，说明系统安装了Git；如果看到一条消息，提示你安装或升级Git，只需按屏幕上的说明做即可。</p>
-<p>你也可以访问Git网站主页，将看到下载链接，指向适合你系统的安装程序。</p>
-<h3 id="nav_point_537">D.1.3　Linux系统</h3>
-<p>要在Linux系统中安装Git，请执行如下命令：</p>
-<pre class="代码无行号"><code>$ sudo apt install git-all</code>
-</pre>
-<p>这就行了。现在可以在项目中使用Git了。</p>
-<h3 id="nav_point_538">D.1.4　配置Git</h3>
-<p>Git跟踪是谁修改了项目，哪怕参与项目开发的人只有一个。为此，Git需要知道你的用户名和电子邮箱地址。你必须提供用户名，但可使用虚构的电子邮箱地址：</p>
-<pre class="代码无行号"><code>$ git config --global user.name "_username_"
-$ git config --global user.email "_username@example.com_"</code>
-</pre>
-<p>如果你忘记了这一步，在首次提交时Git将提示你提供这些信息。</p>
-<h2 id="nav_point_539">D.2　创建项目</h2>
-<p>我们来创建一个要进行版本控制的项目。在系统中创建一个文件夹，并将其命名为git_practice。在这个文件夹中，创建一个简单的Python程序：</p>
-<p>
-<em>hello_git.py</em>
-</p>
-<pre class="代码无行号"><code>print("Hello Git world!")</code>
-</pre>
-<p>我们将使用这个程序来探索Git的基本功能。</p>
-<h2 id="nav_point_540">D.3　忽略文件</h2>
-<p>扩展名为.pyc的文件是根据.py文件自动生成的，因此无须让Git跟踪它们。这些文件存储在目录__pycache__中。为了让Git忽略这个目录，创建一个名为.gitignore的特殊文件（这个文件名以句点打头且没有扩展名），并在其中添加下面一行内容：</p>
-<p>
-<em>.gitignore</em>
-</p>
-<pre class="代码无行号"><code>__pycache__/</code>
-</pre>
-<p>这让Git忽略目录__pycache__中的所有文件。使用文件.gitignore可避免项目混乱，让其开发起来更容易。</p>
-<p>你可能需要修改文本编辑器的设置，使其显示隐藏的文件，这样才能使用它来打开文件.gitignore。有些编辑器被设置成忽略名称以句点打头的文件。</p>
-<h2 id="nav_point_541">D.4　初始化仓库</h2>
-<p>前面创建了一个目录，其中包含一个Python文件和一个.gitignore文件，现在可以初始化一个Git仓库了。为此，打开一个终端窗口，切换到文件夹git_practice，并执行如下命令：</p>
-<pre class="代码无行号"><code>git_practice$ git init
+<title><![CDATA[WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务]]></title>
+<link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
+<description><![CDATA[学习时长：约2小时；学习内容：自动化的价值与工作原理[reference:24]、自动化适用场景（资讯日报、数据报表、文件管理等）[reference:25]、判断任务是否适合自动化的六个问题[reference:26]；学习目的：掌握自动化任务的配置方法，把重复性工作交给WorkBuddy定时执行]]></description>
+<guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</guid>
+<pubDate>Wed, 14 Oct 2026 04:05:00 +0000</pubDate>
+</item>
+<item>
+<title>0024 - Basic Python - 附录 D 使用Git进行版本控制.epub</title>
+<description>&lt;p style='color:#888;'&gt;⏱ 预计阅读时间：32 分钟 (9571 字)&lt;/p&gt;&lt;hr&gt;&lt;h1 id="nav_point_533"&gt;附录 D　使用Git进行版本控制&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/24_Image00001.gif" style="width: 16%" width="16%"/&gt;
+ 　版本控制软件让你能够拍摄处于可行状态的项目快照。修改项目（如实现新功能）后，如果项目不能正常运行，可恢复到前一个可行状态。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;通过使用版本控制软件，你可以放手去改进项目，不用担心项目因你犯错而遭到破坏。对大型项目来说，这显得尤其重要，但对于较小的项目，哪怕是只包含一个文件的程序，这也大有裨益。&lt;/p&gt;
+&lt;p&gt;在本附录中，你将学习如何安装Git，以及如何使用它来对当前开发的程序进行版本控制。Git是当前最流行的版本控制软件，包含很多高级工具，可帮助团队协作开发大型项目，但其最基本的功能也非常适合独立开发人员使用。Git通过跟踪对项目中每个文件的修改来实现版本控制，如果你犯了错，只需恢复到保存的前一个状态即可。&lt;/p&gt;
+&lt;h2 id="nav_point_534"&gt;D.1　安装Git&lt;/h2&gt;
+&lt;p&gt;Git可在所有操作系统上运行，但安装方法随操作系统而异。接下来的几小节详细说明了如何在各种操作系统中安装它。&lt;/p&gt;
+&lt;h3 id="nav_point_535"&gt;D.1.1　Windows系统&lt;/h3&gt;
+&lt;p&gt;可从Git网站下载Git安装程序。在这个网站中，你将看到下载链接，指向适合你的系统的安装程序。&lt;/p&gt;
+&lt;h3 id="nav_point_536"&gt;D.1.2　macOS系统&lt;/h3&gt;
+&lt;p&gt;macOS系统可能已经安装了Git，因此请尝试执行命令&lt;strong&gt;
+&lt;code&gt;git --version&lt;/code&gt;
+&lt;/strong&gt;
+ 。如果在输出中看到了具体的版本号，说明系统安装了Git；如果看到一条消息，提示你安装或升级Git，只需按屏幕上的说明做即可。&lt;/p&gt;
+&lt;p&gt;你也可以访问Git网站主页，将看到下载链接，指向适合你系统的安装程序。&lt;/p&gt;
+&lt;h3 id="nav_point_537"&gt;D.1.3　Linux系统&lt;/h3&gt;
+&lt;p&gt;要在Linux系统中安装Git，请执行如下命令：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;$ sudo apt install git-all&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;这就行了。现在可以在项目中使用Git了。&lt;/p&gt;
+&lt;h3 id="nav_point_538"&gt;D.1.4　配置Git&lt;/h3&gt;
+&lt;p&gt;Git跟踪是谁修改了项目，哪怕参与项目开发的人只有一个。为此，Git需要知道你的用户名和电子邮箱地址。你必须提供用户名，但可使用虚构的电子邮箱地址：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;$ git config --global user.name "_username_"
+$ git config --global user.email "_username@example.com_"&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;如果你忘记了这一步，在首次提交时Git将提示你提供这些信息。&lt;/p&gt;
+&lt;h2 id="nav_point_539"&gt;D.2　创建项目&lt;/h2&gt;
+&lt;p&gt;我们来创建一个要进行版本控制的项目。在系统中创建一个文件夹，并将其命名为git_practice。在这个文件夹中，创建一个简单的Python程序：&lt;/p&gt;
+&lt;p&gt;
+&lt;em&gt;hello_git.py&lt;/em&gt;
+&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;print("Hello Git world!")&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;我们将使用这个程序来探索Git的基本功能。&lt;/p&gt;
+&lt;h2 id="nav_point_540"&gt;D.3　忽略文件&lt;/h2&gt;
+&lt;p&gt;扩展名为.pyc的文件是根据.py文件自动生成的，因此无须让Git跟踪它们。这些文件存储在目录__pycache__中。为了让Git忽略这个目录，创建一个名为.gitignore的特殊文件（这个文件名以句点打头且没有扩展名），并在其中添加下面一行内容：&lt;/p&gt;
+&lt;p&gt;
+&lt;em&gt;.gitignore&lt;/em&gt;
+&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;__pycache__/&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;这让Git忽略目录__pycache__中的所有文件。使用文件.gitignore可避免项目混乱，让其开发起来更容易。&lt;/p&gt;
+&lt;p&gt;你可能需要修改文本编辑器的设置，使其显示隐藏的文件，这样才能使用它来打开文件.gitignore。有些编辑器被设置成忽略名称以句点打头的文件。&lt;/p&gt;
+&lt;h2 id="nav_point_541"&gt;D.4　初始化仓库&lt;/h2&gt;
+&lt;p&gt;前面创建了一个目录，其中包含一个Python文件和一个.gitignore文件，现在可以初始化一个Git仓库了。为此，打开一个终端窗口，切换到文件夹git_practice，并执行如下命令：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;git_practice$ git init
 Initialized empty Git repository in git_practice/.git/
-git_practice$</code>
-</pre>
-<p>输出表明Git在git_practice中初始化了一个空仓库。<strong>仓库</strong>
- 是程序中被Git主动跟踪的一组文件。Git用来管理仓库的文件都存储在隐藏的目录.git中，你根本不需要与这个目录打交道，但千万不要删除它，否则将丢失项目的所有历史记录。</p>
-<h2 id="nav_point_542">D.5　检查状态</h2>
-<p>执行其他操作前，先来看一下项目的状态：</p>
-<pre class="代码无行号"><code>  git_practice$ git status
+git_practice$&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;输出表明Git在git_practice中初始化了一个空仓库。&lt;strong&gt;仓库&lt;/strong&gt;
+ 是程序中被Git主动跟踪的一组文件。Git用来管理仓库的文件都存储在隐藏的目录.git中，你根本不需要与这个目录打交道，但千万不要删除它，否则将丢失项目的所有历史记录。&lt;/p&gt;
+&lt;h2 id="nav_point_542"&gt;D.5　检查状态&lt;/h2&gt;
+&lt;p&gt;执行其他操作前，先来看一下项目的状态：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;  git_practice$ git status
 ❶ On branch master
   No commits yet
 ❷ Untracked files:
-    (use "git add &lt;file&gt;..." to include in what will be committed)
+    (use "git add &amp;lt;file&amp;gt;..." to include in what will be committed)
     .gitignore
     hello_git.py
 ❸ nothing added to commit but untracked files present (use "git add" to track)
-  git_practice$</code>
-</pre>
-<p>在Git中，<strong>分支</strong>
- 是项目的一个版本。从这里的输出可知，我们位于分支<code>master</code>
- 上（见❶）。你每次查看项目的状态时，输出都将指出位于分支<code>master</code>
- 上。接下来的输出表明还未执行任何提交。<strong>提交</strong>
- 是项目在特定时点的快照。</p>
-<p>Git指出了项目中未被跟踪的文件（见❷），因为我们还没有告诉它要跟踪哪些文件。接下来，Git告诉我们尚未将任何东西添加到当前提交中，但指出了可能需要加入仓库中的未跟踪文件（见❸）。</p>
-<h2 id="nav_point_543">D.6　将文件加入仓库中</h2>
-<p>下面将这两个文件加入仓库中，并再次检查状态：</p>
-<pre class="代码无行号"><code>❶ git_practice$ git add .
+  git_practice$&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;在Git中，&lt;strong&gt;分支&lt;/strong&gt;
+ 是项目的一个版本。从这里的输出可知，我们位于分支&lt;code&gt;master&lt;/code&gt;
+ 上（见❶）。你每次查看项目的状态时，输出都将指出位于分支&lt;code&gt;master&lt;/code&gt;
+ 上。接下来的输出表明还未执行任何提交。&lt;strong&gt;提交&lt;/strong&gt;
+ 是项目在特定时点的快照。&lt;/p&gt;
+&lt;p&gt;Git指出了项目中未被跟踪的文件（见❷），因为我们还没有告诉它要跟踪哪些文件。接下来，Git告诉我们尚未将任何东西添加到当前提交中，但指出了可能需要加入仓库中的未跟踪文件（见❸）。&lt;/p&gt;
+&lt;h2 id="nav_point_543"&gt;D.6　将文件加入仓库中&lt;/h2&gt;
+&lt;p&gt;下面将这两个文件加入仓库中，并再次检查状态：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;❶ git_practice$ git add .
 ❷ git_practice$ git status
   On branch master
   No commits yet
   Changes to be committed:
-    (use "git rm --cached &lt;file&gt;..." to unstage)
+    (use "git rm --cached &amp;lt;file&amp;gt;..." to unstage)
 ❸   new file:  .gitignore
     new file:  hello_git.py
-  git_practice$</code>
-</pre>
-<p>命令<code>git add .</code>
- 将项目中未被跟踪的所有文件都加入仓库中（见❶）。它不提交这些文件，只是让Git开始关注它们。现在检查项目的状态时，我们发现Git找出了需要提交的一些修改（见❷）。标签new file意味着这些文件是新添加到仓库中的（见❸）。</p>
-<h2 id="nav_point_544">D.7　执行提交</h2>
-<p>下面来执行第一次提交：</p>
-<pre class="代码无行号"><code>❶ git_practice$ git commit -m "Started project."
+  git_practice$&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;命令&lt;code&gt;git add .&lt;/code&gt;
+ 将项目中未被跟踪的所有文件都加入仓库中（见❶）。它不提交这些文件，只是让Git开始关注它们。现在检查项目的状态时，我们发现Git找出了需要提交的一些修改（见❷）。标签new file意味着这些文件是新添加到仓库中的（见❸）。&lt;/p&gt;
+&lt;h2 id="nav_point_544"&gt;D.7　执行提交&lt;/h2&gt;
+&lt;p&gt;下面来执行第一次提交：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;❶ git_practice$ git commit -m "Started project."
 ❷ [master (root-commit) ee76419] Started project.
 ❸  2 files changed, 4 insertions(+)
    create mode 100644 .gitignore
@@ -102,114 +109,114 @@ git_practice$</code>
 ❹ git_practice$ git status
   On branch master
   nothing to commit, working tree clean
-  git_practice$</code>
-</pre>
-<p>我们执行命令<code>git commit -m "<i>message</i>
- "</code>
- （见❶）拍摄项目的快照。标志<code>-m</code>
- 让Git将接下来的消息（<code>"Started project."</code>
- ）记录到项目的历史记录中。输出表明位于分支<code>master</code>
- 上（见❷），且有两个文件被修改了（见❸）。</p>
-<p>现在检查状态时，会发现我们位于分支<code>master</code>
- 上，且工作树是干净的（见❹）。这是你每次提交项目的可行状态时都希望看到的消息。如果显示的消息不是这样的，请仔细阅读，很可能是你在提交前忘记了添加文件。</p>
-<h2 id="nav_point_545">D.8　查看提交历史</h2>
-<p>Git记录所有的项目提交。下面来看一下提交历史：</p>
-<pre class="代码无行号"><code>git_practice$ git log
-commit a9d74d87f1aa3b8f5b2688cb586eac1a908cfc7f (HEAD -&gt; master)
-Author: Eric Matthes &lt;eric@example.com&gt;
+  git_practice$&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;我们执行命令&lt;code&gt;git commit -m "&lt;i&gt;message&lt;/i&gt;
+ "&lt;/code&gt;
+ （见❶）拍摄项目的快照。标志&lt;code&gt;-m&lt;/code&gt;
+ 让Git将接下来的消息（&lt;code&gt;"Started project."&lt;/code&gt;
+ ）记录到项目的历史记录中。输出表明位于分支&lt;code&gt;master&lt;/code&gt;
+ 上（见❷），且有两个文件被修改了（见❸）。&lt;/p&gt;
+&lt;p&gt;现在检查状态时，会发现我们位于分支&lt;code&gt;master&lt;/code&gt;
+ 上，且工作树是干净的（见❹）。这是你每次提交项目的可行状态时都希望看到的消息。如果显示的消息不是这样的，请仔细阅读，很可能是你在提交前忘记了添加文件。&lt;/p&gt;
+&lt;h2 id="nav_point_545"&gt;D.8　查看提交历史&lt;/h2&gt;
+&lt;p&gt;Git记录所有的项目提交。下面来看一下提交历史：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;git_practice$ git log
+commit a9d74d87f1aa3b8f5b2688cb586eac1a908cfc7f (HEAD -&amp;gt; master)
+Author: Eric Matthes &amp;lt;eric@example.com&amp;gt;
 Date:   Mon Jan 21 21:24:28 2019 -0900
     Started project.
-git_practice$</code>
-</pre>
-<p>每次提交时，Git都会生成唯一的引用ID，长40字符。它记录提交是谁执行的、提交的时间以及提交时指定的消息。并非在任何情况下都需要所有这些信息，因此Git提供了一个选项，让你能够打印提交历史条目的更简单版本：</p>
-<pre class="代码无行号"><code>git_practice$ git log --pretty=oneline
-ee76419954379819f3f2cacafd15103ea900ecb2 (HEAD -&gt; master) Started project.
-git_practice$</code>
-</pre>
-<p>标志<code>--pretty=oneline</code>
- 指定显示两项最重要的信息：提交的引用ID和为提交记录的消息。</p>
-<h2 id="nav_point_546">D.9　第二次提交</h2>
-<p>为展示版本控制的强大威力，我们需要修改项目并提交所做的修改。为此，在hello_git.py中再添加一行代码：</p>
-<p>
-<em>hello_git.py</em>
-</p>
-<pre class="代码无行号"><code>print("Hello Git world!")
-print("Hello everyone.")</code>
-</pre>
-<p>如果现在查看项目的状态，将发现Git注意到这个文件发生了变化：</p>
-<pre class="代码无行号"><code>  git_practice$ git status
+git_practice$&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;每次提交时，Git都会生成唯一的引用ID，长40字符。它记录提交是谁执行的、提交的时间以及提交时指定的消息。并非在任何情况下都需要所有这些信息，因此Git提供了一个选项，让你能够打印提交历史条目的更简单版本：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;git_practice$ git log --pretty=oneline
+ee76419954379819f3f2cacafd15103ea900ecb2 (HEAD -&amp;gt; master) Started project.
+git_practice$&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;标志&lt;code&gt;--pretty=oneline&lt;/code&gt;
+ 指定显示两项最重要的信息：提交的引用ID和为提交记录的消息。&lt;/p&gt;
+&lt;h2 id="nav_point_546"&gt;D.9　第二次提交&lt;/h2&gt;
+&lt;p&gt;为展示版本控制的强大威力，我们需要修改项目并提交所做的修改。为此，在hello_git.py中再添加一行代码：&lt;/p&gt;
+&lt;p&gt;
+&lt;em&gt;hello_git.py&lt;/em&gt;
+&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;print("Hello Git world!")
+print("Hello everyone.")&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;如果现在查看项目的状态，将发现Git注意到这个文件发生了变化：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;  git_practice$ git status
 ❶ On branch master
    Changes not staged for commit:
-     (use "git add &lt;file&gt;..." to update what will be committed)
-     (use "git checkout -- &lt;file&gt;..." to discard changes in working directory)
+     (use "git add &amp;lt;file&amp;gt;..." to update what will be committed)
+     (use "git checkout -- &amp;lt;file&amp;gt;..." to discard changes in working directory)
 ❷  modified:  hello_git.py
 ❸ no changes added to commit (use "git add" and/or "git commit -a")
-  git_practice$</code>
-</pre>
-<p>输出指出了当前所在的分支（见❶）和被修改了的文件的名称（见❷），还指出了所做的修改未提交（见❸）。下面来提交所做的修改，并再次查看状态：</p>
-<pre class="代码无行号"><code>❶ git_practice$ git commit -am "Extended greeting."
+  git_practice$&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;输出指出了当前所在的分支（见❶）和被修改了的文件的名称（见❷），还指出了所做的修改未提交（见❸）。下面来提交所做的修改，并再次查看状态：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;❶ git_practice$ git commit -am "Extended greeting."
   [master 51f0fe5] Extended greeting.
    1 file changed, 1 insertion(+), 1 deletion(-)
 ❷ git_practice$ git status
   On branch master
   nothing to commit, working tree clean
 ❸ git_practice$ git log --pretty=oneline
-  51f0fe5884e045b91c12c5449fabf4ad0eef8e5d (HEAD -&gt; master) Extended greeting.
+  51f0fe5884e045b91c12c5449fabf4ad0eef8e5d (HEAD -&amp;gt; master) Extended greeting.
   ee76419954379819f3f2cacafd15103ea900ecb2 Started project.
-  git_practice$</code>
-</pre>
-<p>我们再次执行了提交，并在执行命令<code>git commit</code>
- 时指定了标志<code>-am</code>
- （见❶）。标志<code>-a</code>
- 让Git将仓库中所有修改了的文件都加入当前提交中。（如果在两次提交之间创建了新文件，可再次执行命令<code>git add .</code>
- ，将这些新文件加入仓库中。）标志<code>-m</code>
- 让Git在提交历史中记录一条消息。</p>
-<p>查看项目的状态时，我们发现工作树也是干净的（见❷）。最后，可以看到提交历史中包含两个提交（见❸）。</p>
-<h2 id="nav_point_547">D.10　撤销修改</h2>
-<p>下面来看看如何放弃所做的修改，恢复到前一个可行状态。为此，首先在hello_git.py中再添加一行代码：</p>
-<p>
-<em>hello_git.py</em>
-</p>
-<pre class="代码无行号"><code>print("Hello Git world!")
+  git_practice$&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;我们再次执行了提交，并在执行命令&lt;code&gt;git commit&lt;/code&gt;
+ 时指定了标志&lt;code&gt;-am&lt;/code&gt;
+ （见❶）。标志&lt;code&gt;-a&lt;/code&gt;
+ 让Git将仓库中所有修改了的文件都加入当前提交中。（如果在两次提交之间创建了新文件，可再次执行命令&lt;code&gt;git add .&lt;/code&gt;
+ ，将这些新文件加入仓库中。）标志&lt;code&gt;-m&lt;/code&gt;
+ 让Git在提交历史中记录一条消息。&lt;/p&gt;
+&lt;p&gt;查看项目的状态时，我们发现工作树也是干净的（见❷）。最后，可以看到提交历史中包含两个提交（见❸）。&lt;/p&gt;
+&lt;h2 id="nav_point_547"&gt;D.10　撤销修改&lt;/h2&gt;
+&lt;p&gt;下面来看看如何放弃所做的修改，恢复到前一个可行状态。为此，首先在hello_git.py中再添加一行代码：&lt;/p&gt;
+&lt;p&gt;
+&lt;em&gt;hello_git.py&lt;/em&gt;
+&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;print("Hello Git world!")
 print("Hello everyone.")
-print("Oh no, I broke the project!")</code>
-</pre>
-<p>保存并运行这个文件。</p>
-<p>我们查看状态，发现Git注意到了所做的修改：</p>
-<pre class="代码无行号"><code>  git_practice$ git status
+print("Oh no, I broke the project!")&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;保存并运行这个文件。&lt;/p&gt;
+&lt;p&gt;我们查看状态，发现Git注意到了所做的修改：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;  git_practice$ git status
   On branch master
   Changes not staged for commit:
-    (use "git add &lt;file&gt;..." to update what will be committed)
-    (use "git checkout -- &lt;file&gt;..." to discard changes in working directory)
+    (use "git add &amp;lt;file&amp;gt;..." to update what will be committed)
+    (use "git checkout -- &amp;lt;file&amp;gt;..." to discard changes in working directory)
 ❶     modified:   hello_git.py
   no changes added to commit (use "git add" and/or "git commit -a")
-  git_practice$</code>
-</pre>
-<p>Git注意到我们修改了hello_git.py（见❶）。如果愿意，可提交所做的修改，但这次我们不提交所做的修改，而是恢复到最后一个提交（我们知道，那次提交时项目能够正常地运行）。为此，不对hello_git.py执行任何操作（不删除刚添加的代码行，也不使用文本编辑器的撤销功能），而是在终端会话中执行如下命令：</p>
-<pre class="代码无行号"><code>git_practice$ git checkout .
+  git_practice$&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;Git注意到我们修改了hello_git.py（见❶）。如果愿意，可提交所做的修改，但这次我们不提交所做的修改，而是恢复到最后一个提交（我们知道，那次提交时项目能够正常地运行）。为此，不对hello_git.py执行任何操作（不删除刚添加的代码行，也不使用文本编辑器的撤销功能），而是在终端会话中执行如下命令：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;git_practice$ git checkout .
 git_practice$ git status
 On branch master
 nothing to commit, working tree clean
-git_practice$</code>
-</pre>
-<p>命令<code>git checkout</code>
- 让你能够恢复到以前的任意提交。命令<code>git checkout .</code>
- 放弃最后一次提交后所做的所有修改，将项目恢复到最后一次提交的状态。</p>
-<p>如果此时返回文本编辑器，将发现hello_git.py被修改成了下面这样：</p>
-<pre class="代码无行号"><code>print("Hello Git world!")
-print("Hello everyone.")</code>
-</pre>
-<p>就这个项目而言，恢复到前一个状态微不足道，但如果我们开发的是大型项目，其中数十个文件都被修改了，那么恢复到前一个状态，将撤销自最后一次提交后对这些文件所做的所有修改。这个功能很有用：实现新功能时，你可以根据需要做任意数量的修改，如果这些修改不可行，可撤销它们，而不会对项目有任何伤害。你无须记住做了哪些修改，因而不必手工撤销所做的修改，Git会替你完成所有这些工作。</p>
-<blockquote>
-<p>
-<strong>注意</strong>
- 　要看到以前的版本，可能需要在编辑器中刷新文件。</p>
-</blockquote>
-<h2 id="nav_point_548">D.11　检出以前的提交</h2>
-<p>你可以检出提交历史中的任何提交，而不仅仅是最后一次提交，为此可在命令<code>git check</code>
- 末尾指定该提交的引用ID的前6字符（而不是句点）。通过检出以前的提交，你可以对其进行审核，然后返回到最后一次提交，或者放弃最近所做的工作并选择以前的提交：</p>
-<pre class="代码无行号"><code>  git_practice$ git log --pretty=oneline
-  51f0fe5884e045b91c12c5449fabf4ad0eef8e5d (HEAD -&gt; master) Extended greeting.
+git_practice$&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;命令&lt;code&gt;git checkout&lt;/code&gt;
+ 让你能够恢复到以前的任意提交。命令&lt;code&gt;git checkout .&lt;/code&gt;
+ 放弃最后一次提交后所做的所有修改，将项目恢复到最后一次提交的状态。&lt;/p&gt;
+&lt;p&gt;如果此时返回文本编辑器，将发现hello_git.py被修改成了下面这样：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;print("Hello Git world!")
+print("Hello everyone.")&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;就这个项目而言，恢复到前一个状态微不足道，但如果我们开发的是大型项目，其中数十个文件都被修改了，那么恢复到前一个状态，将撤销自最后一次提交后对这些文件所做的所有修改。这个功能很有用：实现新功能时，你可以根据需要做任意数量的修改，如果这些修改不可行，可撤销它们，而不会对项目有任何伤害。你无须记住做了哪些修改，因而不必手工撤销所做的修改，Git会替你完成所有这些工作。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;strong&gt;注意&lt;/strong&gt;
+ 　要看到以前的版本，可能需要在编辑器中刷新文件。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="nav_point_548"&gt;D.11　检出以前的提交&lt;/h2&gt;
+&lt;p&gt;你可以检出提交历史中的任何提交，而不仅仅是最后一次提交，为此可在命令&lt;code&gt;git check&lt;/code&gt;
+ 末尾指定该提交的引用ID的前6字符（而不是句点）。通过检出以前的提交，你可以对其进行审核，然后返回到最后一次提交，或者放弃最近所做的工作并选择以前的提交：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;  git_practice$ git log --pretty=oneline
+  51f0fe5884e045b91c12c5449fabf4ad0eef8e5d (HEAD -&amp;gt; master) Extended greeting.
   ee76419954379819f3f2cacafd15103ea900ecb2 Started project.
   git_practice$ git checkout ee7641
   Note: checking out 'ee7641'.
@@ -218,29 +225,29 @@ print("Hello everyone.")</code>
   state without impacting any branches by performing another checkout.
   If you want to create a new branch to retain commits you create, you may
   do so (now or later) by using -b with the checkout command again. Example:
-    git checkout -b &lt;new-branch-name&gt;
+    git checkout -b &amp;lt;new-branch-name&amp;gt;
   HEAD is now at ee7641... Started project.
-  git_practice$</code>
-</pre>
-<p>检出以前的提交后，将离开分支<code>master</code>
- ，进入Git所说的<strong>分离头指针</strong>
- （detached HEAD）状态（见❶）。HEAD指针表示当前提交的项目状态，之所以说处于分离状态，是因为我们离开了一个命名分支（这里是<code>master</code>
- ）。</p>
-<p>要回到分支<code>master</code>
- ，可检出它：</p>
-<pre class="代码无行号"><code>git_practice$ git checkout master
+  git_practice$&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;检出以前的提交后，将离开分支&lt;code&gt;master&lt;/code&gt;
+ ，进入Git所说的&lt;strong&gt;分离头指针&lt;/strong&gt;
+ （detached HEAD）状态（见❶）。HEAD指针表示当前提交的项目状态，之所以说处于分离状态，是因为我们离开了一个命名分支（这里是&lt;code&gt;master&lt;/code&gt;
+ ）。&lt;/p&gt;
+&lt;p&gt;要回到分支&lt;code&gt;master&lt;/code&gt;
+ ，可检出它：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;git_practice$ git checkout master
 Previous HEAD position was ee76419 Started project.
 Switched to branch 'master'
-git_practice$</code>
-</pre>
-<p>这让你回到分支<code>master</code>
- 。除非要使用Git的高级功能，否则在检出以前的提交之后，最好不要对项目做任何修改。然而，如果参与项目开发的人只有你自己，而你又想放弃较近的所有提交并恢复到以前的状态，也可将项目重置到以前的提交。为此，可在处于分支<code>master</code>
- 上的情况下，执行如下命令：</p>
-<pre class="代码无行号"><code>❶ git_practice$ git status
+git_practice$&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;这让你回到分支&lt;code&gt;master&lt;/code&gt;
+ 。除非要使用Git的高级功能，否则在检出以前的提交之后，最好不要对项目做任何修改。然而，如果参与项目开发的人只有你自己，而你又想放弃较近的所有提交并恢复到以前的状态，也可将项目重置到以前的提交。为此，可在处于分支&lt;code&gt;master&lt;/code&gt;
+ 上的情况下，执行如下命令：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;❶ git_practice$ git status
   On branch master
   nothing to commit, working directory clean
 ❷ git_practice$ git log --pretty=oneline
-  51f0fe5884e045b91c12c5449fabf4ad0eef8e5d (HEAD -&gt; master) Extended greeting.
+  51f0fe5884e045b91c12c5449fabf4ad0eef8e5d (HEAD -&amp;gt; master) Extended greeting.
   ee76419954379819f3f2cacafd15103ea900ecb2 Started project.
 ❸ git_practice$ git reset --hard ee76419
   HEAD is now at ee76419 Started project.
@@ -248,17 +255,17 @@ git_practice$</code>
   On branch master
   nothing to commit, working directory clean
 ❺ git_practice$ git log --pretty=oneline
-  ee76419954379819f3f2cacafd15103ea900ecb2 (HEAD -&gt; master) Started project.
-  git_practice$</code>
-</pre>
-<p>首先查看状态，确认位于分支<code>master</code>
- 上（见❶）。查看提交历史时，我们看到了两个提交（见❷）。接下来，执行命令<code>git reset --hard</code>
- ，并在其中指定要永久恢复到的提交的引用ID前6字符（见❸）。我们再次查看状态，发现位于分支<code>master</code>
- 上，且没有需要提交的修改（见❹）。再次查看提交历史时，会发现我们回到了要重新开始的提交（见❺）。</p>
-<h2 id="nav_point_549">D.12　删除仓库</h2>
-<p>有时候，仓库的历史记录被你弄乱了，而你又不知道如何恢复。在这种情况下，你首先应考虑使用附录C介绍的方法寻求帮助。如果无法恢复且参与项目开发的只有你一个人，可继续使用这些文件，但要将项目的历史记录删除——删除目录.git。这不会影响任何文件的当前状态，只会删除所有的提交，因此你将无法检出项目的其他任何状态。</p>
-<p>为此，可打开一个文件浏览器，并将目录.git删除，也可通过命令行将其删除。这样做后，需要重新创建一个仓库，重新对修改进行跟踪。下面演示了如何在终端会话中完成这个过程：</p>
-<pre class="代码无行号"><code>❶ git_practice$ git status
+  ee76419954379819f3f2cacafd15103ea900ecb2 (HEAD -&amp;gt; master) Started project.
+  git_practice$&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;首先查看状态，确认位于分支&lt;code&gt;master&lt;/code&gt;
+ 上（见❶）。查看提交历史时，我们看到了两个提交（见❷）。接下来，执行命令&lt;code&gt;git reset --hard&lt;/code&gt;
+ ，并在其中指定要永久恢复到的提交的引用ID前6字符（见❸）。我们再次查看状态，发现位于分支&lt;code&gt;master&lt;/code&gt;
+ 上，且没有需要提交的修改（见❹）。再次查看提交历史时，会发现我们回到了要重新开始的提交（见❺）。&lt;/p&gt;
+&lt;h2 id="nav_point_549"&gt;D.12　删除仓库&lt;/h2&gt;
+&lt;p&gt;有时候，仓库的历史记录被你弄乱了，而你又不知道如何恢复。在这种情况下，你首先应考虑使用附录C介绍的方法寻求帮助。如果无法恢复且参与项目开发的只有你一个人，可继续使用这些文件，但要将项目的历史记录删除——删除目录.git。这不会影响任何文件的当前状态，只会删除所有的提交，因此你将无法检出项目的其他任何状态。&lt;/p&gt;
+&lt;p&gt;为此，可打开一个文件浏览器，并将目录.git删除，也可通过命令行将其删除。这样做后，需要重新创建一个仓库，重新对修改进行跟踪。下面演示了如何在终端会话中完成这个过程：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;❶ git_practice$ git status
   On branch master
   nothing to commit, working directory clean
 ❷ git_practice$ rm -rf .git
@@ -270,7 +277,7 @@ git_practice$</code>
   On branch master
   No commits yet
   Untracked files:
-    (use "git add &lt;file&gt;..." to include in what will be committed)
+    (use "git add &amp;lt;file&amp;gt;..." to include in what will be committed)
     .gitignore
     hello_git.py
   nothing added to commit but untracked files present (use "git add" to track)
@@ -283,21 +290,22 @@ git_practice$</code>
 ❼ git_practice$ git status
   On branch master
   nothing to commit, working tree clean
-  git_practice$</code>
-</pre>
-<p>首先查看状态，发现工作树是干净的（见❶）。接下来，使用命令<code>rm -rf .git</code>
- （在Windows系统中，应使用命令<code>rmdir /s .git</code>
- ）删除目录.git（见❷）。删除文件夹.git后再次查看状态时，我们被告知这不是一个Git仓库（见❸）。Git用来跟踪仓库的信息都存储在文件夹.git中，因此删除该文件夹也将删除整个仓库。</p>
-<p>接下来，使用命令<code>git init</code>
- 新建一个全新的仓库（见❹）。然后查看状态，发现又回到了初始状态，等待着第一次提交（见❺）。我们将所有文件都加入仓库，并执行第一次提交（见❻）。然后再次查看状态，发现我们位于新的分支<code>master</code>
- 上，且没有任何未提交的修改（见❼）。</p>
-<p>你需要经过一定的练习才能学会使用版本控制，但一旦开始使用，你就再也离不开它了。</p>
-<br style="page-break-after:always"/>
-<div></div>
-]]></description>
+  git_practice$&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;首先查看状态，发现工作树是干净的（见❶）。接下来，使用命令&lt;code&gt;rm -rf .git&lt;/code&gt;
+ （在Windows系统中，应使用命令&lt;code&gt;rmdir /s .git&lt;/code&gt;
+ ）删除目录.git（见❷）。删除文件夹.git后再次查看状态时，我们被告知这不是一个Git仓库（见❸）。Git用来跟踪仓库的信息都存储在文件夹.git中，因此删除该文件夹也将删除整个仓库。&lt;/p&gt;
+&lt;p&gt;接下来，使用命令&lt;code&gt;git init&lt;/code&gt;
+ 新建一个全新的仓库（见❹）。然后查看状态，发现又回到了初始状态，等待着第一次提交（见❺）。我们将所有文件都加入仓库，并执行第一次提交（见❻）。然后再次查看状态，发现我们位于新的分支&lt;code&gt;master&lt;/code&gt;
+ 上，且没有任何未提交的修改（见❼）。&lt;/p&gt;
+&lt;p&gt;你需要经过一定的练习才能学会使用版本控制，但一旦开始使用，你就再也离不开它了。&lt;/p&gt;
+&lt;br style="page-break-after:always"/&gt;
+&lt;div&gt;&lt;/div&gt;
+</description>
 <pubDate>Wed, 14 Oct 2026 03:30:13 +0000</pubDate>
 <guid isPermaLink="false">epub-24</guid>
 </item>
+
 <item>
     <title>AutomaticApplicationPython - 028 - 第4章 列表.epub</title>
     <description>&lt;p style='color: #888;'&gt;⏱ 预计阅读时间：70 分钟 (20782 字)&lt;/p&gt;&lt;hr&gt;&lt;h1 id="nav_point_83"&gt;第4章　列表&lt;/h1&gt;
@@ -1101,6 +1109,7 @@ print(spam)&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 9 章 如何接入外部 API</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%209%20%E7%AB%A0%20%E5%A6%82%E4%BD%95%E6%8E%A5%E5%85%A5%E5%A4%96%E9%83%A8%20API/</link>
@@ -1115,6 +1124,7 @@ print(spam)&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 2 章 WorkBuddy的下载、安装、登录与更新</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%202%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%99%BB%E5%BD%95%E4%B8%8E%E6%9B%B4%E6%96%B0/</link>
@@ -1122,6 +1132,7 @@ print(spam)&lt;/code&gt;
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%202%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%99%BB%E5%BD%95%E4%B8%8E%E6%9B%B4%E6%96%B0/</guid>
       <pubDate>Thu, 20 Aug 2026 00:53:09 +0000</pubDate>
     </item>
+
 
 
 
@@ -1649,6 +1660,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -1662,6 +1674,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -1669,6 +1682,7 @@ Total number of items: 48&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</guid>
 <pubDate>Thu, 01 Oct 2026 06:58:23 +0000</pubDate>
 </item>
+
 
 
 
@@ -1703,6 +1717,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 7 章 WorkBuddy 使用连接器</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</link>
@@ -1710,6 +1725,7 @@ Total number of items: 48&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</guid>
 <pubDate>Sat, 03 Oct 2026 02:44:11 +0000</pubDate>
 </item>
+
 
 
 
@@ -2481,6 +2497,7 @@ help@nostarch.com&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 4 章 快速完成第一个 WorkBuddy 任务</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%204%20%E7%AB%A0%20%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90%E7%AC%AC%E4%B8%80%E4%B8%AA%20WorkBuddy%20%E4%BB%BB%E5%8A%A1/</link>
@@ -2488,6 +2505,7 @@ help@nostarch.com&lt;/code&gt;
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%204%20%E7%AB%A0%20%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90%E7%AC%AC%E4%B8%80%E4%B8%AA%20WorkBuddy%20%E4%BB%BB%E5%8A%A1/</guid>
       <pubDate>Mon, 31 Aug 2026 04:20:41 +0000</pubDate>
     </item>
+
 
 
 
@@ -3575,6 +3593,7 @@ except:
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 8 章 WorkBuddy 接入小程序与 IM 助理</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%208%20%E7%AB%A0%20WorkBuddy%20%E6%8E%A5%E5%85%A5%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8E%20IM%20%E5%8A%A9%E7%90%86/</link>
@@ -3582,6 +3601,7 @@ except:
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%208%20%E7%AB%A0%20WorkBuddy%20%E6%8E%A5%E5%85%A5%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8E%20IM%20%E5%8A%A9%E7%90%86/</guid>
       <pubDate>Mon, 28 Sep 2026 04:16:11 +0000</pubDate>
     </item>
+
 
 
 
@@ -4251,6 +4271,7 @@ cherries Carol moose
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 3 章 WorkBuddy 的主界面、任务与工作区</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%203%20%E7%AB%A0%20WorkBuddy%20%E7%9A%84%E4%B8%BB%E7%95%8C%E9%9D%A2%E3%80%81%E4%BB%BB%E5%8A%A1%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8C%BA/</link>
@@ -4258,6 +4279,7 @@ cherries Carol moose
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%203%20%E7%AB%A0%20WorkBuddy%20%E7%9A%84%E4%B8%BB%E7%95%8C%E9%9D%A2%E3%80%81%E4%BB%BB%E5%8A%A1%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8C%BA/</guid>
       <pubDate>Mon, 24 Aug 2026 01:22:34 +0000</pubDate>
     </item>
+
 
 
 
@@ -4748,6 +4770,7 @@ else:
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 7 章 WorkBuddy 使用连接器</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</link>
@@ -4755,6 +4778,7 @@ else:
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</guid>
       <pubDate>Mon, 21 Sep 2026 03:53:37 +0000</pubDate>
     </item>
+
 
 
 
@@ -5234,6 +5258,7 @@ Done.&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 6 章 WorkBuddy的专家和专家团</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%206%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%93%E5%AE%B6%E5%92%8C%E4%B8%93%E5%AE%B6%E5%9B%A2/</link>
@@ -5242,632 +5267,6 @@ Done.&lt;/code&gt;
       <pubDate>Mon, 14 Sep 2026 03:54:24 +0000</pubDate>
     </item>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<item>
-    <title>AutomaticApplicationPython - 032 - 第8章 读写文件.epub</title>
-    <description>&lt;p style='color: #888;'&gt;⏱ 预计阅读时间：80 分钟 (23866 字)&lt;/p&gt;&lt;hr&gt;&lt;h1 id="nav_point_200"&gt;第8章　读写文件&lt;/h1&gt;
-&lt;p class="zw"&gt;当程序运行时，变量是保存数据的好方法，但如果希望程序结束后数据仍然保持，就需要将数据保存到文件中。你可以认为文件的内容是一个字符串值，大小可能有几个GB。在本章中，你将学习如何使用Python在硬盘上创建、读取和保存文件。&lt;/p&gt;
-&lt;h2 id="nav_point_201"&gt;8.1 文件与文件路径&lt;/h2&gt;
-&lt;p class="zw"&gt;文件有两个关键属性：“文件名”（通常写成一个单词）和“路径”。路径指明了文件在计算机上的位置。例如，我的 Windows 7 笔记本上有一个文件名为projects.docx，它的路径在C:\Users\asweigart\Documents。文件名中，最后一个句点之后的部分称为文件的“扩展名”，它指出了文件的类型。project.docx是一个Word文档，Users、asweigart和Documents都是指“文件夹”（也称为目录）。文件夹可以包含文件和其他文件夹。例如，project.docx在Documents文件夹中，该文件夹又在asweigart文件夹中，asweigart文件夹又在Users文件夹中。图8-1展示了这个文件夹的组织结构。&lt;/p&gt;
-&lt;p class="zw"&gt;路径中的C:\部分是“根文件夹”，它包含了所有其他文件夹。在Windows中，根文件夹名为C:\，也称为C：盘。在OS X和Linux中，根文件夹是/。在本书中，我使用Windows风格的根文件夹，C:\。如果你在OS X或Linux上输入交互式环境的例子，请用/代替。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="0801" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/32_Image00095.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图8-1 在文件夹层次结构中的一个文件&lt;/p&gt;
-&lt;p class="zw"&gt;附加卷，诸如DVD驱动器或USB闪存驱动器，在不同的操作系统上显示也不同。在Windows上，它们表示为新的、带字符的根驱动器。诸如D:\或E:\。在OS X上，它们表示为新的文件夹，在/Volumes文件夹下。在Linux上，它们表示为新的文件夹，在/mnt（"mount"）文件夹下。同时也要注意，虽然文件夹名称和文件名在Windows和OS X上是不区分大小写的，但在Linux上是区分大小写的。&lt;/p&gt;
-&lt;h3 id="nav_point_202"&gt;8.1.1 Windows上的倒斜杠以及OS X和Linux上的正斜杠&lt;/h3&gt;
-&lt;p class="zw"&gt;在Windows上，路径书写使用倒斜杠作为文件夹之间的分隔符。但在OS X和Linux上，使用正斜杠作为它们的路径分隔符。如果想要程序运行在所有操作系统上，在编写Python脚本时，就必须处理这两种情况。&lt;/p&gt;
-&lt;p class="zw"&gt;好在，用os.path.join()函数来做这件事很简单。如果将单个文件和路径上的文件夹名称的字符串传递给它，os.path.join()就会返回一个文件路径的字符串，包含正确的路径分隔符。在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import os&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.join('usr', 'bin', 'spam')&lt;/strong&gt;
-'usr\\bin\\spam'
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;我在Windows上运行这些交互式环境的例子，所以，os.path.join('usr', 'bin', 'spam')返回'usr\bin\spam'（请注意，倒斜杠有两个，因为每个倒斜杠需要由另一个倒斜杠字符来转义）。如果我在OS X或Linux上调用这个函数，该字符串就会是'usr/bin/spam'。&lt;/p&gt;
-&lt;p class="zw"&gt;如果需要创建文件名称的字符串，os.path.join()函数就很有用。这些字符串将传递给几个文件相关的函数，本章将进行介绍。例如，下面的例子将一个文件名列表中的名称，添加到文件夹名称的末尾。&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;myFiles = ['accounts.txt', 'details.csv', 'invite.docx']&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;for filename in myFiles:&lt;/strong&gt;
-        print(os.path.join('C:\\Users\\asweigart', filename))
-C:\Users\asweigart\accounts.txt
-C:\Users\asweigart\details.csv
-C:\Users\asweigart\invite.docx
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;h3 id="nav_point_203"&gt;8.1.2 当前工作目录&lt;/h3&gt;
-&lt;p class="zw"&gt;每个运行在计算机上的程序，都有一个“当前工作目录”，或cwd。所有没有从根文件夹开始的文件名或路径，都假定在当前工作目录下。利用os.getcwd()函数，可以取得当前工作路径的字符串，并可以利用os.chdir()改变它。在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import os&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.getcwd()&lt;/strong&gt;
-'C:\\Python34'
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.chdir('C:\\Windows\\System32')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.getcwd()&lt;/strong&gt;
-'C:\\Windows\\System32'
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这里，当前工作目录设置为C:\Python34，所以文件名project.docx指向C:\Python34\project.docx。如果我们将当前工作目录改为C:\Windows\System32，文件就被解释为C:\Windows\System32\project.docx。&lt;/p&gt;
-&lt;p class="zw"&gt;如果要更改的当前工作目录不存在，Python就会显示一个错误。&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.chdir('C:\\ThisFolderDoesNotExist')&lt;/strong&gt;
-Traceback (most recent call last):
-  File "&amp;lt; pyshell#18&amp;gt;", line 1, in &amp;lt; module&amp;gt;
-    os.chdir('C:\\ThisFolderDoesNotExist')
-FileNotFoundError: [WinError 2] The system cannot find the file specified:
-'C:\\ThisFolderDoesNotExist'
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="editing-tag 提示标签"&gt;注意&lt;/p&gt;
-&lt;blockquote class="提示 editing-block"&gt;
-&lt;p class="zw"&gt;&lt;br/&gt;
-&lt;/p&gt;
-虽然文件夹是目录的更新的名称，但请注意，当前工作目录（或当前目录）是标准术语，没有当前工作文件夹这种说法。&lt;/blockquote&gt;
-&lt;h3 id="nav_point_204"&gt;8.1.3 绝对路径与相对路径&lt;/h3&gt;
-&lt;p class="zw"&gt;有两种方法指定一个文件路径。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;“绝对路径”，总是从根文件夹开始。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;“相对路径”，它相对于程序的当前工作目录。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;还有点（.）和点点（..）文件夹。它们不是真正的文件夹，而是可以在路径中使用的特殊名称。单个的句点（“点”）用作文件夹目名称时，是“这个目录”的缩写。两个句点（“点点”）意思是父文件夹。&lt;/p&gt;
-&lt;p class="zw"&gt;图8-2是一些文件夹和文件的例子。如果当前工作目录设置为C:\bacon，这些文件夹和文件的相对目录，就设置为图8-2所示的样子。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="..\0802.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/32_Image00096.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图8-2 在工作目录C:\bacon中的文件夹和文件的相对路径&lt;/p&gt;
-&lt;p class="zw"&gt;相对路径开始处的.\是可选的。例如，.\spam.txt和spam.txt指的是同一个文件。&lt;/p&gt;
-&lt;h3 id="nav_point_205"&gt;8.1.4 用os.makedirs()创建新文件夹&lt;/h3&gt;
-&lt;p class="zw"&gt;程序可以用os.makedirs()函数创建新文件夹（目录）。在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import os&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.makedirs('C:\\delicious\\walnut\\waffles')&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这不仅将创建C:\delicious文件夹，也会在C:\delicious下创建walnut文件夹，并在C:\delicious\walnut中创建waffles文件夹。也就是说，os.makedirs()将创建所有必要的中间文件夹，目的是确保完整路径名存在。图 8-3 展示了这个文件夹的层次结构。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="0803" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/32_Image00097.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图8-3 os.makedirs('C:\delicious\walnut\waffles')的结果&lt;/p&gt;
-&lt;h3 id="nav_point_206"&gt;8.1.5 os.path模块&lt;/h3&gt;
-&lt;p class="zw"&gt;os.path模块包含了许多与文件名和文件路径相关的有用函数。例如，你已经使用了os.path.join()来构建所有操作系统上都有效的路径。因为os.path是os模块中的模块，所以只要执行import os就可以导入它。如果你的程序需要处理文件、文件夹或文件路径，就可以参考本节中这些简短的例子。os.path模块的完整文档在Python网站上：&lt;a href="http://docs.python.org/3/library/os.path.html"&gt;http://docs.python.org/3/library/os.path.html&lt;/a&gt;
- 。&lt;/p&gt;
-&lt;p class="editing-tag 提示标签"&gt;注意&lt;/p&gt;
-&lt;blockquote class="提示 editing-block"&gt;
-&lt;p class="zw"&gt;&lt;br/&gt;
-&lt;/p&gt;
-本章后面的大多数例子都需要os模块，所以要记得在每个脚本开始处导入它，或在重新启动IDLE时导入它。否则，就会遇到错误消息NameError: name 'os' is not defined。&lt;/blockquote&gt;
-&lt;h3 id="nav_point_207"&gt;8.1.6 处理绝对路径和相对路径&lt;/h3&gt;
-&lt;p class="zw"&gt;os.path模块提供了一些函数，返回一个相对路径的绝对路径，以及检查给定的路径是否为绝对路径。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;调用os.path.abspath(path)将返回参数的绝对路径的字符串。这是将相对路径转换为绝对路径的简便方法。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;调用os.path.isabs(path)，如果参数是一个绝对路径，就返回True，如果参数是一个相对路径，就返回False。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;调用os.path.relpath(path, start)将返回从start路径到path的相对路径的字符串。如果没有提供start，就使用当前工作目录作为开始路径。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;在交互式环境中尝试以下函数：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.abspath('.')&lt;/strong&gt;
-'C:\\Python34'
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.abspath('.\\Scripts')&lt;/strong&gt;
-'C:\\Python34\\Scripts'
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.isabs('.')&lt;/strong&gt;
-False
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.isabs(os.path.abspath('.'))&lt;/strong&gt;
-True
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;因为在os.path.abspath()调用时，当前目录是C:\Python34，所以“点”文件夹指的是绝对路径'C:\Python34'。&lt;/p&gt;
-&lt;p class="editing-tag 提示标签"&gt;注意&lt;/p&gt;
-&lt;blockquote class="提示 editing-block"&gt;
-&lt;p class="zw"&gt;&lt;br/&gt;
-&lt;/p&gt;
-因为在你的系统上，文件和文件夹可能与我的不同，所以你不能完全遵照本章中的每一个例子。但还是请尝试用你的计算机上存在的文件夹来完成例子。&lt;/blockquote&gt;
-&lt;p class="zw"&gt;在交互式环境中，输入以下对os.path.relpath()的调用：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.relpath('C:\\Windows', 'C:\\')&lt;/strong&gt;
-'Windows'
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.relpath('C:\\Windows', 'C:\\spam\\eggs')&lt;/strong&gt;
-'..\\..\\Windows'
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.getcwd()&lt;/strong&gt;
-'C:\\Python34'
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;调用os.path.dirname(path)将返回一个字符串，它包含path参数中最后一个斜杠之前的所有内容。调用os.path.basename(path)将返回一个字符串，它包含path 参数中最后一个斜杠之后的所有内容。一个路径的目录名称和基本名称如图8-4所示。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="..\16-0403 换字\16-0403\automate08_dirname_basename.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/32_Image00098.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图8-4 基本名称跟在路径中最后一个斜杠后，它和文件名一样，&lt;br/&gt;
-目录名称是最后一个斜杠之前的所有内容&lt;/p&gt;
-&lt;p class="zw"&gt;例如，在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;path = 'C:\\Windows\\System32\\calc.exe'&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.basename(path)&lt;/strong&gt;
-'calc.exe'
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.dirname(path)&lt;/strong&gt;
-'C:\\Windows\\System32'
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;如果同时需要一个路径的目录名称和基本名称，就可以调用os.path.split()，获得这两个字符串的元组，像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;calcFilePath = 'C:\\Windows\\System32\\calc.exe'&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.split(calcFilePath)&lt;/strong&gt;
-('C:\\Windows\\System32', 'calc.exe')
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;请注意，可以调用os.path.dirname()和os.path.basename()，将它们的返回值放在一个元组中，从而得到同样的元组。&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;(os.path.dirname(calcFilePath), os.path.basename(calcFilePath))&lt;/strong&gt;
-('C:\\Windows\\System32', 'calc.exe')
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;但如果需要两个值，os.path.split()是很好的快捷方式。&lt;/p&gt;
-&lt;p class="zw"&gt;同时也请注意，os.path.split()不会接受一个文件路径并返回每个文件夹的字符串的列表。如果需要这样，请使用split()字符串方法，并根据os.path.sep中的字符串进行分割。回忆一下，根据程序运行的计算机，os.path.sep变量设置为正确的文件夹分割斜杠。&lt;/p&gt;
-&lt;p class="zw"&gt;例如，在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;calcFilePath.split(os.path.sep)&lt;/strong&gt;
-['C:', 'Windows', 'System32', 'calc.exe']
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;在OS X和Linux系统上，返回的列表头上有一个空字符串：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;'/usr/bin'.split(os.path.sep)&lt;/strong&gt;
-['', 'usr', 'bin']
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;split()字符串方法将返回一个列表，包含该路径的所有部分。如果向它传递os.path.sep，就能在所有操作系统上工作。&lt;/p&gt;
-&lt;h3 id="nav_point_208"&gt;8.1.7 查看文件大小和文件夹内容&lt;/h3&gt;
-&lt;p class="zw"&gt;一旦有办法处理文件路径，就可以开始搜集特定文件和文件夹的信息。os.path模块提供了一些函数，用于查看文件的字节数以及给定文件夹中的文件和子文件夹。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;调用os.path.getsize(path)将返回path参数中文件的字节数。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;调用os.listdir(path)将返回文件名字符串的列表，包含path参数中的每个文件（请注意，这个函数在os模块中，而不是os.path）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;下面是我在交互式环境中尝试这些函数的结果：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.getsize('C:\\Windows\\System32\\calc.exe')&lt;/strong&gt;
-776192
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.listdir('C:\\Windows\\System32')&lt;/strong&gt;
-['0409', '12520437.cpx', '12520850.cpx', '5U877.ax', 'aaclient.dll',
---_snip_--
-'xwtpdui.dll', 'xwtpw32.dll', 'zh-CN', 'zh-HK', 'zh-TW', 'zipfldr.dll']
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;可以看到，我的计算机上的calc.exe程序是776192字节。在我的C:\Windows\ system32下有许多文件。如果想知道这个目录下所有文件的总字节数，就可以同时使用os.path.getsize()和os.listdir()。&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;totalSize = 0&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;for filename in os.listdir('C:\\Windows\\System32'):&lt;/strong&gt;
-&lt;strong&gt;     totalSize = totalSize + os.path.getsize(os.path.join('C:\\Windows\\System32', filename))&lt;/strong&gt;
-&lt;strong&gt;　&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;print(totalSize)&lt;/strong&gt;
-1117846456
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;当循环遍历C:\Windows\System32文件夹中的每个文件时，totalSize变量依次增加每个文件的字节数。请注意，我在调用os.path.getsize()时，使用了os.path.join()来连接文件夹名称和当前的文件名。os.path.getsize()返回的整数添加到totalSize中。在循环遍历所有文件后，我打印出totalSize，看看C:\Windows\System32文件夹的总字节数。&lt;/p&gt;
-&lt;h3 id="nav_point_209"&gt;8.1.8 检查路径有效性&lt;/h3&gt;
-&lt;p class="zw"&gt;如果你提供的路径不存在，许多Python函数就会崩溃并报错。os.path模块提供了一些函数，用于检测给定的路径是否存在，以及它是文件还是文件夹。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;如果path参数所指的文件或文件夹存在，调用os.path.exists(path)将返回True，否则返回False。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;如果path参数存在，并且是一个文件，调用os.path.isfile(path)将返回True，否则返回False。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;如果path参数存在，并且是一个文件夹，调用os.path.isdir(path)将返回True，否则返回False。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;下面是我在交互式环境中尝试这些函数的结果：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.exists('C:\\Windows')&lt;/strong&gt;
-True
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.exists('C:\\some_made_up_folder')&lt;/strong&gt;
-False
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.isdir('C:\\Windows\\System32')&lt;/strong&gt;
-True
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.isfile('C:\\Windows\\System32')&lt;/strong&gt;
-False
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.isdir('C:\\Windows\\System32\\calc.exe')&lt;/strong&gt;
-False
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.isfile('C:\\Windows\\System32\\calc.exe')&lt;/strong&gt;
-True
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;利用os.path.exists()函数，可以确定DVD或闪存盘当前是否连在计算机上。例如，如果在Windows计算机上，我想用卷名D:\检查一个闪存盘，可以这样做：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.path.exists('D:\\')&lt;/strong&gt;
-False
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;不好！看起来我忘记插入闪存盘了。&lt;/p&gt;
-&lt;h2 id="nav_point_210"&gt;8.2 文件读写过程&lt;/h2&gt;
-&lt;p class="zw"&gt;在熟悉了处理文件夹和相对路径后，你就可以指定文件的位置，进行读写。接下来几节介绍的函数适用于纯文本文件。“纯文本文件”只包含基本文本字符，不包含字体、大小和颜色信息。带有.txt扩展名的文本文件，以及带有.py扩展名的Python脚本文件，都是纯文本文件的例子。它们可以被Windows的Notepad或OS X的TextEdit应用打开。你的程序可以轻易地读取纯文本文件的内容，将它们作为普通的字符串值。&lt;/p&gt;
-&lt;p class="zw"&gt;“二进制文件”是所有其他文件类型，诸如字处理文档、PDF、图像、电子表格和可执行程序。如果用Notepad或TextEdit打开一个二进制文件，它看起来就像乱码，如图8-5所示。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="0805" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/32_Image00099.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图8-5 在Notepad中打开Windows的calc.exe程序&lt;/p&gt;
-&lt;p class="zw"&gt;既然每种不同类型的二进制文件，都必须用它自己的方式来处理，本书就不会探讨直接读写二进制文件。好在，许多模块让二进制文件的处理变得更容易。在本章稍后，你将探索其中一个模块：shelve。&lt;/p&gt;
-&lt;p class="zw"&gt;在Python中，读写文件有3个步骤：&lt;/p&gt;
-&lt;p class="zw"&gt;1．调用open()函数，返回一个File对象。&lt;/p&gt;
-&lt;p class="zw"&gt;2．调用File对象的read()或write()方法。&lt;/p&gt;
-&lt;p class="zw"&gt;3．调用File对象的close()方法，关闭该文件。&lt;/p&gt;
-&lt;h3 id="nav_point_211"&gt;8.2.1 用open()函数打开文件&lt;/h3&gt;
-&lt;p class="zw"&gt;要用open()函数打开一个文件，就要向它传递一个字符串路径，表明希望打开的文件。这既可以是绝对路径，也可以是相对路径。open()函数返回一个File对象。&lt;/p&gt;
-&lt;p class="zw"&gt;尝试一下，先用Notepad或TextEdit创建一个文本文件，名为hello.txt。输入Hello world!作为该文本文件的内容，将它保存在你的用户文件夹中。然后，如果使用Windows，在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;helloFile = open('C:\\Users\\_your_home_folder_\\hello.txt')&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;如果使用OS X，在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;helloFile = open('/Users/_your_home_folder_/hello.txt')&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;请确保用你自己的计算机用户名取代your_home_folder。例如，我的用户名是asweigart，所以我在windows下输入'C:\Users\asweigart\hello.txt'。&lt;/p&gt;
-&lt;p class="zw"&gt;这些命令都将以读取纯文本文件的模式打开文件，或简称为“读模式”。当文件以读模式打开时，Python只让你从文件中读取数据，你不能以任何方式写入或修改它。在Python中打开文件时，读模式是默认的模式。但如果你不希望依赖于Python的默认值，也可以明确指明该模式，向open()传入字符串'r'，作为第二个参数。所以open('/Users/asweigart/hello.txt', 'r')和open('/Users/asweigart/hello.txt')做的事情一样。&lt;/p&gt;
-&lt;p class="zw"&gt;调用open()将返回一个File对象。File对象代表计算机中的一个文件，它只是Python中另一种类型的值，就像你已熟悉的列表和字典。在前面的例子中，你将File对象保存在helloFile变量中。现在，当你需要读取或写入该文件，就可以调用helloFile变量中的File对象的方法。&lt;/p&gt;
-&lt;h3 id="nav_point_212"&gt;8.2.2 读取文件内容&lt;/h3&gt;
-&lt;p class="zw"&gt;既然有了一个File对象，就可以开始从它读取内容。如果你希望将整个文件的内容读取为一个字符串值，就使用File对象的read()方法。让我们继续使用保存在helloFile中的hello.txt File对象。在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;helloContent = helloFile.read()&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;helloContent&lt;/strong&gt;
-'Hello world!'
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;如果你将文件的内容看成是单个大字符串，read()方法就返回保存在该文件中的这个字符串。&lt;/p&gt;
-&lt;p class="zw"&gt;或者，可以使用readlines()方法，从该文件取得一个字符串的列表。列表中的每个字符串就是文本中的每一行。例如，在hello.txt文件相同的目录下，创建一个名为sonnet29.txt的文件，并在其中写入以下文本：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;When, in disgrace with fortune and men's eyes,
-I all alone beweep my outcast state,
-And trouble deaf heaven with my bootless cries,
-And look upon myself and curse my fate,&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;确保用换行分开这4行。然后在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;sonnetFile = open('sonnet29.txt')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;sonnetFile.readlines()&lt;/strong&gt;
-[When, in disgrace with fortune and men's eyes,\n', ' I all alone beweep my
-outcast state,\n', And trouble deaf heaven with my bootless cries,\n', And
-look upon myself and curse my fate,']
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;请注意，每个字符串值都以一个换行字符\n结束。除了文件的最后一行。与单个大字符串相比，字符串的列表通常更容易处理。&lt;/p&gt;
-&lt;h3 id="nav_point_213"&gt;8.2.3 写入文件&lt;/h3&gt;
-&lt;p class="zw"&gt;Python允许你将内容写入文件，方式与print()函数将字符串“写”到屏幕上类似。但是，如果打开文件时用读模式，就不能写入文件。你需要以“写入纯文本模式”或“添加纯文本模式”打开该文件，或简称为“写模式”和“添加模式”。&lt;/p&gt;
-&lt;p class="zw"&gt;写模式将覆写原有的文件，从头开始，就像你用一个新值覆写一个变量的值。将'w'作为第二个参数传递给open()，以写模式打开该文件。不同的是，添加模式将在已有文件的末尾添加文本。你可以认为这类似向一个变量中的列表添加内容，而不是完全覆写该变量。将'a'作为第二个参数传递给open()，以添加模式打开该文件。&lt;/p&gt;
-&lt;p class="zw"&gt;如果传递给 open()的文件名不存在，写模式和添加模式都会创建一个新的空文件。在读取或写入文件后，调用close()方法，然后才能再次打开该文件。&lt;/p&gt;
-&lt;p class="zw"&gt;让我们整合这些概念。在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;baconFile = open('bacon.txt', 'w')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;baconFile.write('Hello world!\n')&lt;/strong&gt;
-13
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;baconFile.close()&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;baconFile = open('bacon.txt', 'a')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;baconFile.write('Bacon is not a vegetable.')&lt;/strong&gt;
-25
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;baconFile.close()&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;baconFile = open('bacon.txt')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;content = baconFile.read()&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;baconFile.close()&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;print(content)&lt;/strong&gt;
-Hello world!
-Bacon is not a vegetable.
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;首先，我们以写模式打开bacon.txt。因为还没有bacon.txt，Python就创建了一个。在打开的文件上调用write()，并向write()传入字符串参数'Hello world! \n'，将字符串写入文件，并返回写入的字符个数，包括换行符。然后关闭该文件。&lt;/p&gt;
-&lt;p class="zw"&gt;为了将文本添加到文件已有的内容，而不是取代我们刚刚写入的字符串，我们就以添加模式打开该文件。向该文件写入'Bacon is not a vegetable.'，并关闭它。最后，为了将文件的内容打印到屏幕上，我们以默认的读模式打开该文件，调用read()，将得到的内容保存在content中，关闭该文件，并打印content。&lt;/p&gt;
-&lt;p class="zw"&gt;请注意，write()方法不会像print()函数那样，在字符串的末尾自动添加换行字符。必须自己添加该字符。&lt;/p&gt;
-&lt;h2 id="nav_point_214"&gt;8.3 用shelve模块保存变量&lt;/h2&gt;
-&lt;p class="zw"&gt;利用shelve模块，你可以将Python程序中的变量保存到二进制的shelf文件中。这样，程序就可以从硬盘中恢复变量的数据。shelve模块让你在程序中添加“保存”和“打开”功能。例如，如果运行一个程序，并输入了一些配置设置，就可以将这些设置保存到一个shelf文件，然后让程序下一次运行时加载它们。&lt;/p&gt;
-&lt;p class="zw"&gt;在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import shelve&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;shelfFile = shelve.open('mydata')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;cats = ['Zophie', 'Pooka', 'Simon']&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;shelfFile['cats'] = cats&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;shelfFile.close()&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;要利用shelve模块读写数据，首先要导入它。调用函数shelve.open()并传入一个文件名，然后将返回的值保存在一个变量中。可以对这个变量的shelf值进行修改，就像它是一个字典一样。当你完成时，在这个值上调用close()。这里，我们的shelf值保存在shelfFile中。我们创建了一个列表cats，并写下shelfFile['cats'] =cats，将该列表保存在shelfFile中，作为键'cats'关联的值（就像在字典中一样）。然后我们在shelfFile上调用close()。&lt;/p&gt;
-&lt;p class="zw"&gt;在Windows上运行前面的代码，你会看到在当前工作目录下有3个新文件：mydata.bak、mydata.dat和mydata.dir。在OS X上，只会创建一个mydata.db文件。&lt;/p&gt;
-&lt;p class="zw"&gt;这些二进制文件包含了存储在shelf中的数据。这些二进制文件的格式并不重要，你只需要知道shelve模块做了什么，而不必知道它是怎么做的。该模块让你不用操心如何将程序的数据保存到文件中。&lt;/p&gt;
-&lt;p class="zw"&gt;你的程序稍后可以使用shelve模块，重新打开这些文件并取出数据。shelf值不必用读模式或写模式打开，因为它们在打开后，既能读又能写。在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;shelfFile = shelve.open('mydata')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;type(shelfFile)&lt;/strong&gt;
-&amp;lt; class 'shelve.DbfilenameShelf'&amp;gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;shelfFile['cats']&lt;/strong&gt;
-['Zophie', 'Pooka', 'Simon']
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;shelfFile.close()&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这里，我们打开了shelf文件，检查我们的数据是否正确存储。输入shelfFile['cats']将返回我们前面保存的同一个列表，所以我们就知道该列表得到了正确存储，然后我们调用close()。&lt;/p&gt;
-&lt;p class="zw"&gt;就像字典一样，shelf值有keys()和values()方法，返回shelf中键和值的类似列表的值。因为这些方法返回类似列表的值，而不是真正的列表，所以应该将它们传递给list()函数，取得列表的形式。在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;shelfFile = shelve.open('mydata')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;list(shelfFile.keys())&lt;/strong&gt;
-['cats']
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;list(shelfFile.values())&lt;/strong&gt;
-[['Zophie', 'Pooka', 'Simon']]
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;shelfFile.close()&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;创建文件时，如果你需要在Notepad或TextEdit这样的文本编辑器中读取它们，纯文本就非常有用。但是，如果想要保存Python程序中的数据，那就使用shelve模块。&lt;/p&gt;
-&lt;h2 id="nav_point_215"&gt;8.4 用pprint.pformat()函数保存变量&lt;/h2&gt;
-&lt;p class="zw"&gt;回忆一下5.2节“漂亮打印”中，pprint.pprint()函数将列表或字典中的内容“漂亮打印”到屏幕，而pprint.pformat()函数将返回同样的文本字符串，但不是打印它。这个字符串不仅是易于阅读的格式，同时也是语法上正确的Python代码。假定你有一个字典，保存在一个变量中，你希望保存这个变量和它的内容，以便将来使用。pprint.pformat()函数将提供一个字符串，你可以将它写入.py文件。该文件将成为你自己的模块，如果你需要使用存储在其中的变量，就可以导入它。&lt;/p&gt;
-&lt;p class="zw"&gt;例如，在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import pprint&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;cats = [{'name': 'Zophie', 'desc': 'chubby'}, {'name': 'Pooka', 'desc': 'fluffy'}]&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;pprint.pformat(cats)&lt;/strong&gt;
-"[{'desc': 'chubby', 'name': 'Zophie'}, {'desc': 'fluffy', 'name': 'Pooka'}]"
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;fileObj = open('myCats.py', 'w')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;fileObj.write('cats = ' + pprint.pformat(cats) + '\n')&lt;/strong&gt;
-83
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;fileObj.close()&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这里，我们导入了pprint，以便能使用pprint.pformat()。我们有一个字典的列表，保存在变量cats中。为了让cats中的列表在关闭交互式环境后仍然可用，我们利用pprint.pformat()，将它返回为一个字符串。当我们有了cats中数据的字符串形式，就很容易将该字符串写入一个文件，我们将它命名为myCats.py。&lt;/p&gt;
-&lt;p class="zw"&gt;import语句导入的模块本身就是Python脚本。如果来自pprint.pformat()的字符串保存为一个.py文件，该文件就是一个可以导入的模块，像其他模块一样。&lt;/p&gt;
-&lt;p class="zw"&gt;由于Python脚本本身也是带有.py文件扩展名的文本文件，所以你的Python程序甚至可以生成其他Python程序。然后可以将这些文件导入到脚本中。&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import myCats&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;myCats.cats&lt;/strong&gt;
-[{'name': 'Zophie', 'desc': 'chubby'}, {'name': 'Pooka', 'desc': 'fluffy'}]
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;myCats.cats[0]&lt;/strong&gt;
-{'name': 'Zophie', 'desc': 'chubby'}
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;myCats.cats[0]['name']&lt;/strong&gt;
-'Zophie'
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;创建一个.py文件（而不是利用shelve模块保存变量）的好处在于，因为它是一个文本文件，所以任何人都可以用一个简单的文本编辑器读取和修改该文件的内容。但是，对于大多数应用，利用shelve模块来保存数据，是将变量保存到文件的最佳方式。只有基本数据类型，诸如整型、浮点型、字符串、列表和字典，可以作为简单文本写入一个文件。例如，File对象就不能够编码为文本。&lt;/p&gt;
-&lt;h2 id="nav_point_216"&gt;8.5 项目：生成随机的测验试卷文件&lt;/h2&gt;
-&lt;p class="zw"&gt;假如你是一位地理老师，班上有35名学生，你希望进行美国各州首府的一个小测验。不妙的是，班里有几个坏蛋，你无法确信学生不会作弊。你希望随机调整问题的次序，这样每份试卷都是独一无二的，这让任何人都不能从其他人那里抄袭答案。当然，手工完成这件事又费时又无聊。好在，你懂一些Python。&lt;/p&gt;
-&lt;p class="zw"&gt;下面是程序所做的事：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;创建35份不同的测验试卷。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;为每份试卷创建50个多重选择题，次序随机。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;为每个问题提供一个正确答案和3个随机的错误答案，次序随机。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;将测验试卷写到35个文本文件中。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;将答案写到35个文本文件中。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;这意味着代码需要做下面的事：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;将州和它们的首府保存在一个字典中。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;针对测验文本文件和答案文本文件，调用open()、write()和close()。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;利用random.shuffle()随机调整问题和多重选项的次序。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="nav_point_217"&gt;第1步：将测验数据保存在一个字典中&lt;/h3&gt;
-&lt;p class="zw"&gt;第一步是创建一个脚本框架，并填入测验数据。创建一个名为randomQuiz Generator.py的文件，让它看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　#! python3
-　# randomQuizGenerator.py - Creates quizzes with questions and answers in
-　# random order, along with the answer key.
-❶ import random
-　# The quiz data. Keys are states and values are their capitals.
-❷ capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona': 'Phoenix',
-　'Arkansas': 'Little Rock', 'California': 'Sacramento', 'Colorado': 'Denver',
-　'Connecticut': 'Hartford', 'Delaware': 'Dover', 'Florida': 'Tallahassee',
-　'Georgia': 'Atlanta', 'Hawaii': 'Honolulu', 'Idaho': 'Boise', 'Illinois':
-　'Springfield', 'Indiana': 'Indianapolis', 'Iowa': 'Des Moines', 'Kansas':
-　'Topeka', 'Kentucky': 'Frankfort', 'Louisiana': 'Baton Rouge', 'Maine':
-　'Augusta', 'Maryland': 'Annapolis', 'Massachusetts': 'Boston', 'Michigan':
-　'Lansing', 'Minnesota': 'Saint Paul', 'Mississippi': 'Jackson', 'Missouri':
-　'Jefferson City', 'Montana': 'Helena', 'Nebraska': 'Lincoln', 'Nevada':
-　'Carson City', 'New Hampshire': 'Concord', 'New Jersey': 'Trenton', 'New
-　Mexico': 'Santa Fe', 'New York': 'Albany', 'North Carolina': 'Raleigh',
-　'North Dakota': 'Bismarck', 'Ohio': 'Columbus', 'Oklahoma': 'Oklahoma City',
-　'Oregon': 'Salem', 'Pennsylvania': 'Harrisburg', 'Rhode Island': 'Providence',
-　'South Carolina': 'Columbia', 'South Dakota': 'Pierre', 'Tennessee':
-　'Nashville', 'Texas': 'Austin', 'Utah': 'Salt Lake City', 'Vermont':
-　'Montpelier', 'Virginia': 'Richmond', 'Washington': 'Olympia', 'West
-　Virginia': 'Charleston', 'Wisconsin': 'Madison', 'Wyoming': 'Cheyenne'}
-　# Generate 35 quiz files.
-❸ for quizNum in range(35):
-　    # TODO: Create the quiz and answer key files.
-　    # TODO: Write out the header for the quiz.
-　    # TODO: Shuffle the order of the states.
-　    # TODO: Loop through all 50 states, making a question for each.&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;因为这个程序将随机安排问题和答案的次序，所以需要导入random模块❶，以便利用其中的函数。capitals变量❷含一个字典，以美国州名作为键，以州首府作为值。因为你希望创建35份测验试卷，所以实际生成测验试卷和答案文件的代码（暂时用TODO注释标注）会放在一个for循环中，循环35次❸（这个数字可以改变，生成任何数目的测验试卷文件）。&lt;/p&gt;
-&lt;h3 id="nav_point_218"&gt;第2步：创建测验文件，并打乱问题的次序&lt;/h3&gt;
-&lt;p class="zw"&gt;现在是时候填入那些TODO了。&lt;/p&gt;
-&lt;p class="zw"&gt;循环中的代码将重复执行35次（每次生成一份测验试卷），所以在循环中，你只需要考虑一份测验试卷。首先你要创建一个实际的测验试卷文件，它需要有唯一的文件名，并且有某种标准的标题部分，留出位置，让学生填写姓名、日期和班级。然后需要得到随机排列的州的列表，稍后将用它来创建测验试卷的问题和答案。&lt;/p&gt;
-&lt;p class="zw"&gt;在randomQuizGenerator.py中添加以下代码行：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　#! python3
-　# randomQuizGenerator.py - Creates quizzes with questions and answers in
-　# random order, along with the answer key.
-　--_snip_--
-　# Generate 35 quiz files.
-　for quizNum in range(35):
-　&lt;strong&gt;    # Create the quiz and answer key files.&lt;/strong&gt;
-❶ &lt;strong&gt;    quizFile = open('capitalsquiz%s.txt' % (quizNum + 1), 'w')&lt;/strong&gt;
-❷ &lt;strong&gt;    answerKeyFile = open('capitalsquiz_answers%s.txt' % (quizNum + 1), 'w')&lt;/strong&gt;
-　&lt;strong&gt;　&lt;/strong&gt;
-　&lt;strong&gt;    # Write out the header for the quiz.&lt;/strong&gt;
-❸ &lt;strong&gt;    quizFile.write('Name:\n\nDate:\n\nPeriod:\n\n')&lt;/strong&gt;
-　&lt;strong&gt;    quizFile.write((' ' * 20) + 'State Capitals Quiz (Form %s)' % (quizNum + 1))&lt;/strong&gt;
-　&lt;strong&gt;    quizFile.write('\n\n')&lt;/strong&gt;
-　&lt;strong&gt;　&lt;/strong&gt;
-　&lt;strong&gt;    # Shuffle the order of the states.&lt;/strong&gt;
-　&lt;strong&gt;    states = list(capitals.keys())&lt;/strong&gt;
-❹ &lt;strong&gt;    random.shuffle(states)&lt;/strong&gt;
-　&lt;strong&gt;　&lt;/strong&gt;
-　&lt;strong&gt;    &lt;/strong&gt;
-# TODO: Loop through all 50 states, making a question for each.
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;测验试卷的文件名将是capitalsquiz&amp;lt;N&amp;gt;.txt，其中&amp;lt;N&amp;gt;是该测验试卷的唯一编号，来自于quizNum，即for循环的计数器。针对capitalsquiz&amp;lt;N&amp;gt;.txt的答案将保存在一个文本文件中，名为capitalsquiz_answers&amp;lt;N&amp;gt;.txt。每次执行循环，'capitalsquiz%s.txt'和'capitalsquiz_answers%s.txt'中的占位符%s都将被(quizNum + 1)取代，所以第一个测验试卷和答案将是capitalsquiz1.txt和capitalsquiz_answers1.txt。在❶和❷的open()函数调用将创建这些文件，以'w'作为第二个参数，以写模式打开它们。&lt;/p&gt;
-&lt;p class="zw"&gt;❸处write()语句创建了测验标题，让学生填写。最后，利用random.shuffle()函数❹，创建了美国州名的随机列表。该函数重新随机排列传递给它的列表中的值。&lt;/p&gt;
-&lt;h3 id="nav_point_219"&gt;第3步：创建答案选项&lt;/h3&gt;
-&lt;p class="zw"&gt;现在需要为每个问题生成答案选项，这将是A到D的多重选择。你需要创建另一个for循环，该循环生成测验试卷的50个问题的内容。然后里面会嵌套第三个for循环，为每个问题生成多重选项。让你的代码看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　#! python3
-　# randomQuizGenerator.py - Creates quizzes with questions and answers in
-　# random order, along with the answer key.
-　--_snip_--
-　&lt;strong&gt;    # Loop through all 50 states, making a question for each.&lt;/strong&gt;
-　&lt;strong&gt;    for questionNum in range(50):&lt;/strong&gt;
-　&lt;strong&gt;　&lt;/strong&gt;
-　&lt;strong&gt;        # Get right and wrong answers.&lt;/strong&gt;
-❶ &lt;strong&gt;        correctAnswer = capitals[states[questionNum]]&lt;/strong&gt;
-❷ &lt;strong&gt;        wrongAnswers = list(capitals.values())&lt;/strong&gt;
-❸ &lt;strong&gt;        del wrongAnswers[wrongAnswers.index(correctAnswer)]&lt;/strong&gt;
-❹ &lt;strong&gt;        wrongAnswers = random.sample(wrongAnswers, 3)&lt;/strong&gt;
-❺ &lt;strong&gt;        answerOptions = wrongAnswers + [correctAnswer]&lt;/strong&gt;
-❻ &lt;strong&gt;        random.shuffle(answerOptions)&lt;/strong&gt;
-　&lt;strong&gt;　&lt;/strong&gt;
-　&lt;strong&gt;        # TODO: Write the question and answer options to the quiz file.&lt;/strong&gt;
-　&lt;strong&gt;　&lt;/strong&gt;
-　&lt;strong&gt;        # TODO: Write the answer key to a file.&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;正确的答案很容易得到，它作为一个值保存在capitals字典中❶。这个循环将遍历打乱过的states列表中的州，从states[0]到states[49]，在capitals中找到每个州，将该州对应的首府保存在correctAnswer中。&lt;/p&gt;
-&lt;p class="zw"&gt;可能的错误答案列表需要一点技巧。你可以从capitals字典中复制所有的值❷，删除正确的答案❸，然后从该列表中选择3个随机的值❹。random.sample()函数使得这种选择很容易，它的第一个参数是你希望选择的列表，第二个参数是你希望选择的值的个数。完整的答案选项列表是这3个错误答案与正确答案的组合❺。最后，答案需要随机排列❻，这样正确的答案就不会总是选项D。&lt;/p&gt;
-&lt;h3 id="nav_point_220"&gt;第4步：将内容写入测验试卷和答案文件&lt;/h3&gt;
-&lt;p class="zw"&gt;剩下来就是将问题写入测验试卷文件，将答案写入答案文件。让你的代码看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　#! python3
-　# randomQuizGenerator.py - Creates quizzes with questions and answers in
-　# random order, along with the answer key.
-　--_snip_--
-　  # Loop through all 50 states, making a question for each.
-　  for questionNum in range(50):
-　    --_snip_--
-　    &lt;strong&gt;# Write the question and the answer options to the quiz file.&lt;/strong&gt;
-　    &lt;strong&gt;quizFile.write('%s. What is the capital of %s?\n' % (questionNum + 1,&lt;/strong&gt;
-　        &lt;strong&gt;states[questionNum]))&lt;/strong&gt;
-❶     &lt;strong&gt;for i in range(4):&lt;/strong&gt;
-❷         &lt;strong&gt;quizFile.write(' %s. %s\n' % ('ABCD'[i], answerOptions[i]))&lt;/strong&gt;
-　    &lt;strong&gt;quizFile.write('\n')&lt;/strong&gt;
-&lt;strong&gt;　&lt;/strong&gt;
-　    &lt;strong&gt;# Write the answer key to a file.&lt;/strong&gt;
-❸     &lt;strong&gt;answerKeyFile.write('%s. %s\n' % (questionNum + 1, 'ABCD'[&lt;/strong&gt;
-　        &lt;strong&gt;answerOptions.index(correctAnswer)]))&lt;/strong&gt;
-&lt;strong&gt;quizFile.close()&lt;/strong&gt;
-&lt;strong&gt;answerKeyFile.close()&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;一个遍历整数0到3的for循环，将答案选项写入answerOptions列表❶。❷处的表达式'ABCD'[i]将字符串'ABCD'看成是一个数组，它在循环的每次迭代中，将分别求值为'A'、'B'、'C'和'D'。&lt;/p&gt;
-&lt;p class="zw"&gt;在最后一行❸，表达式answerOptions.index(correctAnswer)将在随机排序的答案选项中，找到正确答案的整数下标，并且'ABCD'[answerOptions.index(correctAnswer)]将求值为正确答案的字母，写入到答案文件中。&lt;/p&gt;
-&lt;p class="zw"&gt;在运行该程序后，下面就是capitalsquiz1.txt文件看起来的样子。但是，你的问题和答案选项当然与这里显示的可能会不同。这取决于random.shuffle()调用的结果：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;Name:
-Date:
-Period:
-                    State Capitals Quiz (Form 1)
-1. What is the capital of West Virginia?
-    A. Hartford
-    B. Santa Fe
-    C. Harrisburg
-    D. Charleston
-2. What is the capital of Colorado?
-    A. Raleigh
-    B. Harrisburg
-    C. Denver
-    D. Lincoln
---&lt;em&gt;snip&lt;/em&gt;
---
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;对应的capitalsquiz_answers1.txt文本文件看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;1. D
-2. C
-3. A
-4. C
---&lt;em&gt;snip&lt;/em&gt;
---
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;h2 id="nav_point_221"&gt;8.6 项目：多重剪贴板&lt;/h2&gt;
-&lt;p class="zw"&gt;假定你有一个无聊的任务，要填充一个网页或软件中的许多表格，其中包含一些文本字段。剪贴板让你不必一次又一次输入同样的文本，但剪贴板上一次只有一个内容。如果你有几段不同的文本需要拷贝粘贴，就不得不一次又一次的标记和拷贝几个同样的内容。&lt;/p&gt;
-&lt;p class="zw"&gt;可以编写一个Python程序，追踪几段文本。这个“多重剪贴板”将被命名为mcb.pyw（因为“mcb”比输入“multiclipboard”更简单）。.pyw扩展名意味着Python运行该程序时，不会显示终端窗口（详细内容请参考附录B）。&lt;/p&gt;
-&lt;p class="zw"&gt;该程序将利用一个关键字保存每段剪贴板文本。例如，当运行py mcb.pyw save spam，剪贴板中当前的内容就用关键字spam保存。通过运行py mcb.pyw spam，这段文本稍后将重新加载到剪贴板中。如果用户忘记了都有哪些关键字，他们可以运行py mcb.pyw list，将所有关键字的列表复制到剪贴板中。&lt;/p&gt;
-&lt;p class="zw"&gt;下面是程序要做的事：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;针对要检查的关键字，提供命令行参数。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;如果参数是save，那么将剪贴板的内容保存到关键字。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;如果参数是list，就将所有的关键字拷贝到剪贴板。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;否则，就将关键词对应的文本拷贝到剪贴板。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;这意味着代码需要做下列事情：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;从sys.argv读取命令行参数。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;读写剪贴板。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;保存并加载shelf文件。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;如果你使用Windows，可以创建一个名为mcb.bat的批处理文件，很容易地通过“Run…”窗口运行这个脚本。该批处理文件包含如下内容：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;@pyw.exe C:\Python34\mcb.pyw %*&lt;/code&gt;
-&lt;/pre&gt;
-&lt;h3 id="nav_point_222"&gt;第1步：注释和shelf设置&lt;/h3&gt;
-&lt;p class="zw"&gt;我们从一个脚本框架开始，其中包含一些注释和基本设置。让你的代码看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　#! python3
-　# mcb.pyw - Saves and loads pieces of text to the clipboard.
-❶ # Usage: py.exe mcb.pyw save &amp;lt;keyword&amp;gt; - Saves clipboard to keyword.
-　#        py.exe mcb.pyw &amp;lt;keyword&amp;gt; - Loads keyword to clipboard.
-　#        py.exe mcb.pyw list - Loads all keywords to clipboard.
-❷ import shelve, pyperclip, sys
-❸ mcbShelf = shelve.open('mcb')
-　# TODO: Save clipboard content.
-　# TODO: List keywords and load content.
-　mcbShelf.close()&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;将一般用法信息放在文件顶部的注释中，这是常见的做法❶。如果忘了如何运行这个脚本，就可以看看这些注释，帮助回忆起来。然后导入模块❷。拷贝和粘贴需要pyperclip模块，读取命令行参数需要sys模块。shelve模块也需要准备好。当用户希望保存一段剪贴板文本时，你需要将它保存到一个shelf文件中。然后，当用户希望将文本拷贝回剪贴板时，你需要打开shelf文件，将它重新加载到程序中。这个shlef文件命名时带有前缀mcb❸。&lt;/p&gt;
-&lt;h3 id="nav_point_223"&gt;第2步：用一个关键字保存剪贴板内容&lt;/h3&gt;
-&lt;p class="zw"&gt;根据用户希望保存文本到一个关键字，或加载文本到剪贴板，或列出已有的关键字，该程序做的事情不一样。让我们来处理第一种情况。让你的代码看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　#! python3
-　# mcb.pyw - Saves and loads pieces of text to the clipboard.
-　--&lt;em&gt;snip&lt;/em&gt;
---
-　&lt;strong&gt;# Save clipboard content.&lt;/strong&gt;
-❶ &lt;strong&gt;if len(sys.argv) == 3 and sys.argv[1].lower() == 'save':&lt;/strong&gt;
-❷         &lt;strong&gt;mcbShelf[sys.argv[2]] = pyperclip.paste()&lt;/strong&gt;
-&lt;strong&gt;elif len(sys.argv) == 2:&lt;/strong&gt;
-❸     # TODO: List keywords and load content.
-　mcbShelf.close()
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;如果第一个命令行参数（它总是在sys.argv列表的下标1处）是字符串'save' ❶，第二个命令行参数就是保存剪贴板当前内容的关键字。关键字将用做 mcbShelf中的键，值就是当前剪贴板上的文本❷。&lt;/p&gt;
-&lt;p class="zw"&gt;如果只有一个命令行参数，就假定它要么是'list'，要么是需要加载到剪贴板的关键字。稍后你将实现这些代码。现在只是放上一条TODO注释❸。&lt;/p&gt;
-&lt;h3 id="nav_point_224"&gt;第3步：列出关键字和加载关键字的内容&lt;/h3&gt;
-&lt;p class="zw"&gt;最后，让我们实现剩下的两种情况。用户希望从关键字加载剪贴板文本，或希望列出所有可用的关键字。让你的代码看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　#! python3
-　# mcb.pyw - Saves and loads pieces of text to the clipboard.
-　--&lt;em&gt;snip&lt;/em&gt;
---
-　# Save clipboard content.
-　if len(sys.argv) == 3 and sys.argv[1].lower() == 'save':
-　        mcbShelf[sys.argv[2]] = pyperclip.paste()
-　elif len(sys.argv) == 2:
-　&lt;strong&gt;    # List keywords and load content.&lt;/strong&gt;
-❶ &lt;strong&gt;    if sys.argv[1].lower() == 'list':&lt;/strong&gt;
-❷ &lt;strong&gt;        pyperclip.copy(str(list(mcbShelf.keys())))&lt;/strong&gt;
-&lt;strong&gt;    elif sys.argv[1] in mcbShelf:&lt;/strong&gt;
-❸ &lt;strong&gt;        pyperclip.copy(mcbShelf[sys.argv[1]])&lt;/strong&gt;
-&lt;strong&gt;　&lt;/strong&gt;
-　mcbShelf.close()
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;如果只有一个命令行参数，首先检查它是不是'list' ❶。如果是，表示shelf键的列表的字符串将被拷贝到剪贴板❷。用户可以将这个列表拷贝到一个打开的文本编辑器，进行查看。&lt;/p&gt;
-&lt;p class="zw"&gt;否则，你可以假定该命令行参数是一个关键字。如果这个关键字是shelf中的一个键，就可以将对应的值加载到剪贴板❸。&lt;/p&gt;
-&lt;p class="zw"&gt;齐活了！加载这个程序有几个不同步骤，这取决于你的计算机使用哪种操作系统。请查看附录B，了解操作系统的详情。&lt;/p&gt;
-&lt;p class="zw"&gt;回忆一下第6章中创建的口令保管箱程序，它将口令保存在一个字典中。更新口令需要更改该程序的源代码。这不太理想，因为普通用户不太适应通过更改源代码来更新他们的软件。而且，每次修改程序的源代码时，就有可能不小心引入新的缺陷。将程序的数据保存在不同的地方，而不是在代码中，就可以让别人更容易使用你的程序，并且更不容易出错。&lt;/p&gt;
-&lt;h2 id="nav_point_225"&gt;8.7 小结&lt;/h2&gt;
-&lt;p class="zw"&gt;文件被组织在文件夹中（也称为目录），路径描述了一个文件的位置。运行在计算机上的每个程序都有一个当前工作目录，它让你相对于当前的位置指定文件路径，而非总是需要完整路径（绝对路径）。os.path模块包含许多函数，用于操作文件路径。&lt;/p&gt;
-&lt;p class="zw"&gt;你的程序也可以直接操作文本文件的内容。open()函数将打开这些文件，将它们的内容读取为一个大字符串（利用rede()方法），或读取为字符串的列表（利用方法readlines()）。Open()函数可以将文件以写模式或添加模式打开，分别创建新的文本文件或在原有的文本文件中添加内容。&lt;/p&gt;
-&lt;p class="zw"&gt;在前面几章中，你利用剪贴板在程序中获得大量文本，而不是通过手工输入。现在你可以用程序直接读取硬盘上的文件，这是一大进步。因为文件比剪贴板更不易变化。在下一章中，你将学习如何处理文件本身，包括复制、删除、重命名、移动等。&lt;/p&gt;
-&lt;h2 id="nav_point_226"&gt;8.8 习题&lt;/h2&gt;
-&lt;p class="zw"&gt;1．相对路径是相对于什么？&lt;/p&gt;
-&lt;p class="zw"&gt;2．绝对路径从什么开始？&lt;/p&gt;
-&lt;p class="zw"&gt;3．os.getcwd()和os.chdir()函数做什么事？&lt;/p&gt;
-&lt;p class="zw"&gt;4．.和..文件夹是什么？&lt;/p&gt;
-&lt;p class="zw"&gt;5．在C:\bacon\eggs\spam.txt中，哪一部分是目录名称，哪一部分是基本名称？&lt;/p&gt;
-&lt;p class="zw"&gt;6．可以传递给open()函数的3种“模式”参数是什么？&lt;/p&gt;
-&lt;p class="zw"&gt;7．如果已有的文件以写模式打开，会发生什么？&lt;/p&gt;
-&lt;p class="zw"&gt;8．read()和readlines()方法之间的区别是什么？&lt;/p&gt;
-&lt;p class="zw"&gt;9．shelf值与什么数据结构相似？&lt;/p&gt;
-&lt;h2 id="nav_point_227"&gt;8.9 实践项目&lt;/h2&gt;
-&lt;p class="zw"&gt;作为实践，设计并编写下列程序。&lt;/p&gt;
-&lt;h3 id="nav_point_228"&gt;8.9.1 扩展多重剪贴板&lt;/h3&gt;
-&lt;p class="zw"&gt;扩展本章中的多重剪贴板程序，增加一个delete &amp;lt;keyword&amp;gt;命令行参数，它将从shelf中删除一个关键字。然后添加一个delete命令行参数，它将删除所有关键字。&lt;/p&gt;
-&lt;h3 id="nav_point_229"&gt;8.9.2 疯狂填词&lt;/h3&gt;
-&lt;p class="zw"&gt;创建一个疯狂填词（Mad Libs）程序，它将读入文本文件，并让用户在该文本文件中出现ADJECTIVE、NOUN、ADVERB或VERB等单词的地方，加上他们自己的文本。例如，一个文本文件可能看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;The ADJECTIVE panda walked to the NOUN and then VERB. A nearby NOUN was
-unaffected by these events.&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;程序将找到这些出现的单词，并提示用户取代它们。&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;Enter an adjective:
-&lt;strong&gt;silly&lt;/strong&gt;
-Enter a noun:
-&lt;strong&gt;chandelier&lt;/strong&gt;
-Enter a verb:
-&lt;strong&gt;screamed&lt;/strong&gt;
-Enter a noun:
-&lt;strong&gt;pickup truck&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;以下的文本文件将被创建：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;The silly panda walked to the chandelier and then screamed. A nearby pickup
-truck was unaffected by these events.&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;结果应该打印到屏幕上，并保存为一个新的文本文件。&lt;/p&gt;
-&lt;h3 id="nav_point_230"&gt;8.9.3 正则表达式查找&lt;/h3&gt;
-&lt;p class="zw"&gt;编写一个程序，打开文件夹中所有的.txt文件，查找匹配用户提供的正则表达式的所有行。结果应该打印到屏幕上。&lt;/p&gt;
-&lt;p class="zw"&gt;&lt;br style="page-break-after:always"/&gt;
-&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt;
-</description>
-    <pubDate>Mon, 07 Sep 2026 03:36:46 +0000</pubDate>
-    <guid isPermaLink="false">32</guid>
-</item>
 
 
 
