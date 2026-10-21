@@ -4,14 +4,811 @@
 <title>科目一：计算机工程</title>
 <link>https://github.com/ZHENHUA001A307/computer-engineering</link>
 <description>计算机工程材料推送</description>
-<lastBuildDate>Wed, 14 Oct 2026 04:05:00 +0000</lastBuildDate>
+<lastBuildDate>Wed, 21 Oct 2026 03:16:53 +0000</lastBuildDate>
 <item>
-<title><![CDATA[WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务]]></title>
+<title><![CDATA[0025 - AutomaticApplicationPython - 第一部分 Python编程基础.epub]]></title>
+<description><![CDATA[<p style='color:#888;'>⏱ 预计阅读时间：42 分钟 (12531 字)</p><hr><h1 id="nav_point_20">第一部分　Python编程基础</h1>
+<p class="图"><img alt="..\16-0403yds排版\16-0403yds排版\Links\Links\00.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/25_Image00061.jpg"/>
+</p>
+<p class="zw"><br style="page-break-after:always"/>
+</p>
+<div></div>
+<h1 id="nav_point_21">第1章 Python基础</h1>
+<p class="zw">Python编程语言有许多语法结构、标准库函数和交互式开发环境功能。好在，你可以忽略大多数内容。你只需要学习部分内容，就能编写一些方便的小程序。</p>
+<p class="zw">但在动手之前，你必须学习一些基本编程概念。就像魔法师培训，你可能认为这些概念既深奥又啰嗦，但有了一些知识和实践，你就能像魔法师一样指挥你的计算机，完成难以置信的事情。</p>
+<p class="zw">本章有几个例子，我们鼓励你在交互式环境中输入它们。交互式环境让你每次执行一条Python指令，并立即显示结果。使用交互式环境对于了解基本Python指令的行为是很好的，所以你在阅读时要试一下。做过的事比仅仅读过的内容，更令人印象深刻。</p>
+<h2 id="nav_point_22">1.1 在交互式环境中输入表达式</h2>
+<p class="zw">启动IDLE就运行了交互式环境，这是和Python一起安装的。在Windows上，打开“开始”菜单，选择“All ProgramsPython 3.3”，然后选择“IDLE（Python GUI）”。在OS X上，选择“ApplicationsMacPython 3.3IDLE”。在Ubuntu上，打开新的终端窗口并输入idle3。</p>
+<p class="zw">一个窗口会出现，包含&gt;&gt;&gt;提示符，这就是交互式环境。在提示符后输入2 + 2，让Python做一些简单的算术。</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>2 + 2</strong>
+
+
+4</code>
+
+</pre>
+<p class="zw">IDLE窗口现在应该显示下面这样的文本：</p>
+<pre class="代码无行号">
+<code>Python 3.3.2 (v3.3.2:d047928ae3f6, May 16 2013, 00:06:53) [MSC v.1600 64 bit
+(AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+&gt;&gt;&gt; 2 + 2
+4
+&gt;&gt;&gt; </code>
+
+</pre>
+<p class="zw">在Python中，2 + 2称为“表达式”，它是语言中最基本的编程结构。表达式包含“值”（例如2）和“操作符”（例如+），并且总是可以求值（也就是归约）为单个值。这意味着在Python代码中，所有使用表达式的地方，也可以使用一个值。</p>
+<p class="zw">在前面的例子中，2 + 2被求值为单个值4。没有操作符的单个值也被认为是一个表达式，尽管它求值的结果就是它自己，像下面这样：</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>2</strong>
+
+
+2</code>
+
+</pre>
+<p class="editing-tag 超强提示标签">错误没关系！</p>
+<blockquote class="超强提示 editing-block">
+<p class="zw"><br/>
+</p>
+<p class="zw">如果程序包含计算机不能理解的代码，就会崩溃，这将导致Python显示错误信息。错误信息并不会破坏你的计算机，所以不要害怕犯错误。“崩溃”只是意味着程序意外地停止执行。</p>
+<p class="zw">如果你希望对一条错误信息了解更多，可以在网上查找这条信息的准确文本，找到关于这个错误的更多内容。也可以查看<a>http://nostarch.com/automatestuff/</a>
+ ，这里有常见的Python错误信息和含义的列表。</p>
+</blockquote>
+<p class="zw">Python表达式中也可以使用大量其他操作符。例如，表 1-1 列出了Python的所有数学操作符。</p>
+<p class="表题">表1-1 数学操作符</p>
+<table border="1" width="90%">
+<thead>
+<tr>
+<th>
+<p class="表头单元格">操作符</p>
+</th>
+<th>
+<p class="表头单元格">操作</p>
+</th>
+<th>
+<p class="表头单元格">例子</p>
+</th>
+<th>
+<p class="表头单元格">求值为</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="表格单元格">**</p>
+</td>
+<td>
+<p class="表格单元格">指数</p>
+</td>
+<td>
+<p class="表格单元格">2 ** 3</p>
+</td>
+<td>
+<p class="表格单元格">8</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">%</p>
+</td>
+<td>
+<p class="表格单元格">取模/取余数</p>
+</td>
+<td>
+<p class="表格单元格">22 % 8</p>
+</td>
+<td>
+<p class="表格单元格">6</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">//</p>
+</td>
+<td>
+<p class="表格单元格">整除/商数取整</p>
+</td>
+<td>
+<p class="表格单元格">22 // 8</p>
+</td>
+<td>
+<p class="表格单元格">2</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">/</p>
+</td>
+<td>
+<p class="表格单元格">除法</p>
+</td>
+<td>
+<p class="表格单元格">22 / 8</p>
+</td>
+<td>
+<p class="表格单元格">2.75</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">*</p>
+</td>
+<td>
+<p class="表格单元格">乘法</p>
+</td>
+<td>
+<p class="表格单元格">3 * 5</p>
+</td>
+<td>
+<p class="表格单元格">15</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">-</p>
+</td>
+<td>
+<p class="表格单元格">减法</p>
+</td>
+<td>
+<p class="表格单元格">5 - 2</p>
+</td>
+<td>
+<p class="表格单元格">3</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">+</p>
+</td>
+<td>
+<p class="表格单元格">加法</p>
+</td>
+<td>
+<p class="表格单元格">2 + 2</p>
+</td>
+<td>
+<p class="表格单元格">4</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="zw">数学操作符的操作顺序（也称为“优先级”）与数学中类似。**操作符首先求值，接下来是­*、/、//和%操作符，从左到右计算。+和-操作符最后求值，也是从左到右计算。如果需要，可以用括号来改变通常的优先级。在交互式环境中输入下列表达式：</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>2 + 3 * 6</strong>
+
+
+20
+&gt;&gt;&gt; <strong>(2 + 3) * 6</strong>
+
+
+30
+&gt;&gt;&gt; <strong>48565878 * 578453</strong>
+
+
+28093077826734
+&gt;&gt;&gt; <strong>2 ** 8</strong>
+
+
+256
+&gt;&gt;&gt; <strong>23 /</strong>
+
+ 7
+3.2857142857142856
+&gt;&gt;&gt; <strong>23 // 7</strong>
+
+
+3
+&gt;&gt;&gt; <strong>23 % 7</strong>
+
+
+2
+&gt;&gt;&gt; <strong>2 + 2</strong>
+
+
+4
+&gt;&gt;&gt; <strong>(5 - 1) * ((7 + 1) / (3 - 1))</strong>
+
+
+16.0</code>
+
+</pre>
+<p class="zw">在每个例子中，作为程序员，你必须输入表达式，但Python完成较难的工作，将它求值为单个值。Python将继续求值表达式的各个部分，直到它成为单个值，如图1-1所示。</p>
+<p class="图"><img alt="0101" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/25_Image00065.jpg"/>
+</p>
+<p class="图题">图1-1 表达式求值将它归约为单个值</p>
+<p class="zw">将操作符和值放在一起构成表达式的这些规则，是 Python 编程语言的基本部分，就像帮助我们沟通的语法规则一样。下面是例子：</p>
+<p class="zw">This is a grammatically correct English sentence.</p>
+<p class="zw">This grammatically is sentence not English correct a.</p>
+<p class="zw">第二行很难解释，因为它不符合英语的规则。类似地，如果你输入错误的 Python指令，Python也不能理解，就会显示出错误信息，像下面这样：</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>5 +</strong>
+
+
+  File "&lt;stdin&gt;", line 1
+    5 +
+      ^
+SyntaxError: invalid syntax
+&gt;&gt;&gt; <strong>42 + 5 + * 2</strong>
+
+
+  File "&lt;stdin&gt;", line 1
+    42 + 5 + * 2
+              ^
+SyntaxError: invalid syntax</code>
+
+</pre>
+<p class="zw">你总是可以在交互式环境中输入一条指令，检查它是否能工作。不要担心会弄坏计算机：最坏的情况就是Python显示出错信息。专业的软件开发者在编写代码时，常常会遇到错误信息。</p>
+<h2 id="nav_point_23">1.2 整型、浮点型和字符串数据类型</h2>
+<p class="zw">记住，表达式是值和操作符的组合，它们可以通过求值成为单个值。“数据类型”是一类值，每个值都只属于一种数据类型。表1-2列出了Python中最常见的数据类型。例如，值-2和30属于“整型”值。整型（或int）数据类型表明值是整数。带有小数点的数，如3.14，称为“浮点型”（或float）。请注意，尽管42是一个整型，但42.0是一个浮点型。</p>
+<p class="表题">表1-2 常见数据类型</p>
+<table border="1" width="90%">
+<thead>
+<tr>
+<th>
+<p class="表头单元格">数据类型</p>
+</th>
+<th>
+<p class="表头单元格">例子</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="表格单元格">整型</p>
+</td>
+<td>
+<p class="表格单元格">-2, -1, 0, 1, 2, 3, 4, 5</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">浮点型</p>
+</td>
+<td>
+<p class="表格单元格">-1.25, -1.0, - -0.5, 0.0, 0.5, 1.0, 1.25</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">字符串</p>
+</td>
+<td>
+<p class="表格单元格">'a', 'aa', 'aaa', 'Hello!', '11 cats'</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="zw">Python程序也可以有文本值，称为“字符串”，或strs（发音为“stirs”）。总是用单引号（'）包围住字符串（例如'Hello'或'Goodbye cruel world!'），这样Python就知道字符串的开始和结束。甚至可以有没有字符的字符串，称为“空字符串”。第4章更详细地解释了字符串。</p>
+<p class="zw">如果你看到错误信息SyntaxError: EOL while scanning string literal，可能是忘记了字符串末尾的单引号，如下面的例子所示：</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>'Hello world!</strong>
+
+
+SyntaxError: EOL while scanning string literal</code>
+
+</pre>
+<h2 id="nav_point_24">1.3 字符串连接和复制</h2>
+<p class="zw">根据操作符之后的值的数据类型，操作符的含义可能会改变。例如，在操作两个整型或浮点型值时，+是相加操作符。但是，在用于两个字符串时，它将字符串连接起来，成为“字符串连接”操作符。在交互式环境中输入以下内容：</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>'Alice' + 'Bob'</strong>
+
+
+'AliceBob'</code>
+
+</pre>
+<p class="zw">该表达式求值为一个新字符串，包含了两个字符串的文本。但是，如果你对一个字符串和一个整型值使用加操作符，Python就不知道如何处理，它将显示一条错误信息。</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>'Alice' + 42</strong>
+
+
+Traceback (most recent call last):
+   File "&lt;pyshell#26&gt;", line 1, in &lt;module&gt;
+     'Alice' + 42
+TypeError: Can't convert 'int' object to str implicitly</code>
+
+</pre>
+<p class="zw">错误信息Can't convert 'int' object to str implicitly表示Python认为，你试图将一个整数连接到字符串'Alice'。代码必须显式地将整数转换为字符串，因为Python不能自动完成转换。（1.6节“程序剖析”在讨论函数时，将解释数据类型转换。）</p>
+<p class="zw">在用于两个整型或浮点型值时，­*­操作符表示乘法。但­*­操作符用于一个字符串值和一个整型值时，它变成了“字符串复制”操作符。在交互式环境中输入一个字符串乘一个数字，看看效果。</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>'Alice' * 5</strong>
+
+
+'AliceAliceAliceAliceAlice'</code>
+
+</pre>
+<p class="zw">该表达式求值为一个字符串，它将原来的字符串重复若干次，次数就是整型的值。字符串复制是一个有用的技巧，但不像字符串连接那样常用。</p>
+<p class="zw">*操作符只能用于两个数字（作为乘法），或一个字符串和一个整型（作为字符串复制操作符）。否则，Python将显示错误信息。</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>'Alice' * 'Bob'</strong>
+
+
+Traceback (most recent call last):
+  File "&lt;pyshell#32&gt;", line 1, in &lt;module&gt;
+    'Alice' * 'Bob'
+TypeError: can't multiply sequence by non-int of type 'str'
+&gt;&gt;&gt; <strong>'Alice' * 5.0</strong>
+
+
+Traceback (most recent call last):
+  File "&lt;pyshell#33&gt;", line 1, in &lt;module&gt;
+    'Alice' * 5.0
+TypeError: can't multiply sequence by non-int of type 'float'</code>
+
+</pre>
+<p class="zw">Python不理解这些表达式是有道理的：你不能把两个单词相乘，也很难将一个任意字符串复制小数次。</p>
+<h2 id="nav_point_25">1.4 在变量中保存值</h2>
+<p class="zw">“变量”就像计算机内存中的一个盒子，其中可以存放一个值。如果你的程序稍后将用到一个已求值的表达式的结果，就可以将它保存在一个变量中。</p>
+<h3 id="nav_point_26">1.4.1 赋值语句</h3>
+<p class="zw">用“赋值语句”将值保存在变量中。赋值语句包含一个变量名、一个等号（称为赋值操作符），以及要存储的值。如果输入赋值语句spam = 42，那么名为spam的变量将保存一个整型值42。</p>
+<p class="zw">可以将变量看成一个带标签的盒子，值放在其中，如图1-2所示。</p>
+<p class="图"><img alt="0102" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/25_Image00066.jpg"/>
+</p>
+<p class="图题">图1-2 spam = 42 就像是告诉程序“变量spam现在有整数42放在里面”</p>
+<p class="zw">例如，在交互式环境中输入以下内容：</p>
+<pre class="代码无行号">
+<code>❶ &gt;&gt;&gt; <strong>spam = 40</strong>
+
+
+　&gt;&gt;&gt; <strong>spam</strong>
+
+
+　40
+　&gt;&gt;&gt; <strong>eggs = 2</strong>
+
+
+❷ &gt;&gt;&gt; <strong>spam + eggs</strong>
+
+
+　42
+　&gt;&gt;&gt; <strong>spam + eggs + spam</strong>
+
+
+　82
+❸ &gt;&gt;&gt; <strong>spam = spam + 2</strong>
+
+
+　&gt;&gt;&gt; <strong>spam</strong>
+
+
+　42</code>
+
+</pre>
+<p class="zw">第一次存入一个值，变量就被“初始化”（或创建）❶。此后，可以在表达式中使用它，以及其他变量和值❷。如果变量被赋了一个新值，老值就被忘记了❸。这就是为什么在例子结束时，spam求值为42，而不是40。这称为“覆写”该变量。在交互式环境中输入以下代码，尝试覆写一个字符串：</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>spam = 'Hello'</strong>
+
+
+&gt;&gt;&gt; <strong>spam</strong>
+
+
+'Hello'
+&gt;&gt;&gt; <strong>spam = 'Goodbye'</strong>
+
+
+&gt;&gt;&gt; <strong>spam</strong>
+
+
+'Goodbye'</code>
+
+</pre>
+<p class="zw">就像图1-3中的盒子，这个例子中的spam变量保存了'Hello'，直到你用'Goodbye'替代它。</p>
+<p class="图"><img alt="0103" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/25_Image00067.jpg"/>
+</p>
+<p class="图题">图1-3 如果一个新值赋给变量，老值就被遗忘了</p>
+<h3 id="nav_point_27">1.4.2 变量名</h3>
+<p class="zw">表1-3中有一些合法变量名的例子。你可以给变量取任何名字，只要它遵守以下3条规则：</p>
+<p class="zw">1．只能是一个词。</p>
+<p class="zw">2．只能包含字母、数字和下划线。</p>
+<p class="zw">3．不能以数字开头。</p>
+<p class="表题">表1-3 有效和无效的变量名</p>
+<table border="1" width="90%">
+<thead>
+<tr>
+<th>
+<p class="表头单元格">有效的变量名</p>
+</th>
+<th>
+<p class="表头单元格">无效的变量名</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="表格单元格">balance</p>
+</td>
+<td>
+<p class="表格单元格">current-balance（不允许中划线）</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">currentBalance</p>
+</td>
+<td>
+<p class="表格单元格">current balanc（不允许空格）</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">current_balance</p>
+</td>
+<td>
+<p class="表格单元格">4account（不允许数字开头）</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">_spam</p>
+</td>
+<td>
+<p class="表格单元格">42（不允许数字开头）</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">SPAM</p>
+</td>
+<td>
+<p class="表格单元格">total_$um（不允许$这样的特殊字符）</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">account4</p>
+</td>
+<td>
+<p class="表格单元格">'hello'（不允许'这样的特殊字符）</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="zw">变量名是区分大小写的。这意味着，spam、 SPAM、Spam和sPaM是4个不同的变量。变量用小写字母开头是Python的惯例。</p>
+<p class="zw">本书的变量名使用了驼峰形式，没有用下划线。也就是说，变量名用lookLikeThis，而不是looking_like_this。一些有经验的程序员可能会指出，官方的Python代码风格PEP 8，即应该使用下划线。我喜欢驼峰式，这没有错，并认为PEP 8本身“愚蠢的一致性是头脑狭隘人士的心魔”：</p>
+<blockquote class="提示 editing-block">“一致地满足风格指南是重要的。但最重要的是，知道何时要不一致，因为有时候风格指南就是不适用。如果有怀疑，请相信自己的最佳判断。”</blockquote>
+<p class="zw">好的变量名描述了它包含的数据。设想你搬到一间新屋子，搬家纸箱上标的都是“东西”。你永远找不到任何东西！本书的例子和许多Python的文档，使用spam、eggs和bacon等变量名作为一般名称（受到Monty Python的“Spam”短剧的影响），但在你的程序中，具有描述性的名字有助于提高代码可读性。</p>
+<h2 id="nav_point_28">1.5 第一个程序</h2>
+<p class="zw">虽然交互式环境对于一次运行一条 Python指令很好，但要编写完整的Python程序，就需要在文件编辑器中输入指令。“文件编辑器”类似于Notepad或TextMate这样的文本编辑器，它有一些针对输入源代码的特殊功能。要在IDLE中打开文件编辑器，请选择FileNew ▶File。</p>
+<p class="zw">出现的窗口中应该包含一个光标，等待你输入，但它与交互式环境不同。在交互式环境中，按下回车，就会执行Python指令。文件编辑器允许输入许多指令，保存为文件，并运行该程序。下面是区别这两者的方法：</p>
+<ul>
+<li class="第1级无序列表">交互式环境窗口总是有&gt;&gt;&gt;提示符。</li>
+<li class="第1级无序列表">文件编辑器窗口没有&gt;&gt;&gt;提示符。</li>
+</ul>
+<p class="zw">现在是创建第一个程序的时候了！在文件编辑器窗口打开后，输入以下内容：</p>
+<pre class="代码无行号">
+<code>❶ # This program says hello and asks for my name.
+
+❷ print('Hello world!')
+　print('What is your name?') # ask for their name
+❸ myName = input()
+❹ print('It is good to meet you, ' + myName)
+❺ print('The length of your name is:')
+　print(len(myName))
+❻ print('What is your age?') # ask for their age
+　myAge = input()
+　print('You will be ' + str(int(myAge) + 1) + ' in a year.') </code>
+
+</pre>
+<p class="zw">在输入完源代码后保存它，这样就不必在每次启动IDLE时重新输入。从文件编辑器窗口顶部的菜单，选择File▶Save As。在“Save As”窗口中，在输入框输入hello.py，然后点击“Save”。</p>
+<p class="zw">在输入程序时，应该过一段时间就保存你的程序。这样，如果计算机崩溃，或者不小心退出了IDLE，也不会丢失代码。作为快捷键，可以在Windows和Linux上按Ctrl-S，在OS X上按⌘-S，来保存文件。</p>
+<p class="zw">在保存文件后，让我们来运行程序。选择Run▶Run Module，或按下F5键。程序将在交互式环境窗口中运行，该窗口是首次启动IDLE时出现的。记住，必须在文件编辑器窗口中按F5，而不是在交互式环境窗口中。在程序要求输入时，输入你的名字。在交互式环境中，程序输出应该看起来像这样：</p>
+<pre class="代码无行号">
+<code>Python 3.3.2 (v3.3.2:d047928ae3f6, May 16 2013, 00:06:53) [MSC v.1600 64 bit
+(AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+&gt;&gt;&gt; ================================ RESTART ================================
+&gt;&gt;&gt;
+Hello world!
+What is your name?
+<strong>Al</strong>
+
+
+It is good to meet you, Al
+The length of your name is:
+2
+What is your age?
+<strong>4</strong>
+
+
+You will be 5 in a year.
+&gt;&gt;&gt; </code>
+
+</pre>
+<p class="zw">如果没有更多代码行要执行，Python程序就会“中止”。也就是说，它停止运行。（也可以说Python程序“退出”了。）</p>
+<p class="zw">可以通过点击窗口上部的X，关闭文件编辑器。要重新加载一个保存了的程序，就在菜单中选择File▶Open。现在请这样做，在出现的窗口中选择hello.py，并点击“Open”按钮。前面保存的程序hello.py应该在文件编辑器窗口中打开。</p>
+<h2 id="nav_point_29">1.6 程序剖析</h2>
+<p class="zw">新程序在文件编辑器中打开后，让我们快速看一看它用到的Python指令，逐一查看每行代码。</p>
+<h3 id="nav_point_30">1.6.1 注释</h3>
+<p class="zw">下面这行称为“注释”。</p>
+<pre class="代码无行号">
+<code>❶ # This program says hello and asks for my name. </code>
+
+</pre>
+<p class="zw">Python会忽略注释，你可以用它们来写程序注解，或提醒自己代码试图完成的事。这一行中，#标志之后的所有文本都是注释。</p>
+<p class="zw">有时候，程序员在测试代码时，会在一行代码前面加上#，临时删除它。这称为“注释掉”代码。在你想搞清楚为什么程序不工作时，这样做可能有用。稍后，如果你准备还原这一行代码，可以去掉#。</p>
+<p class="zw">Python也会忽略注释之后的空行。在程序中，想加入空行时就可以加入。这会让你的代码更容易阅读，就像书中的段落一样。</p>
+<h3 id="nav_point_31">1.6.2 print()函数</h3>
+<p class="zw">print()函数将括号内的字符串显示在屏幕上。</p>
+<pre class="代码无行号">
+<code>❷ print('Hello world!')
+　print('What is your name?') # ask for their name</code>
+
+</pre>
+<p class="zw">代码行print('Hello world!')表示“打印出字符串'Hello world!'的文本”。Python执行到这行时，你告诉Python调用print()函数，并将字符串“传递”给函数。传递给函数的值称为“参数”。请注意，引号没有打印在屏幕上。它们只是表示字符串的起止，不是字符串的一部分。</p>
+<p class="zw">也可以用这个函数在屏幕上打印出空行，只要调用print()就可以了，括号内没有任何东西。</p>
+<p class="zw">在写函数名时，末尾的左右括号表明它是一个函数的名字。这就是为什么在本书中你会看到print()，而不是print。第2章更详细地探讨了函数。</p>
+<h3 id="nav_point_32">1.6.3 input()函数</h3>
+<p class="zw">函数等待用户在键盘上输入一些文本，并按下回车键。</p>
+<pre class="代码无行号">
+<code>❸ myName = input()</code>
+
+</pre>
+<p class="zw">这个函数求值为一个字符串，即用户输入的文本。前面的代码行将这个字符串赋给变量myName。</p>
+<p class="zw">你可以认为input()函数调用是一个表达式，它求值为用户输入的任何字符串。如果用户输入'Al'，那么该表达式就求值为myName = 'Al'。</p>
+<h3 id="nav_point_33">1.6.4 打印用户的名字</h3>
+<p class="zw">接下来的print()调用，在括号间包含表达式'It is good to meet you, ' + myName。</p>
+<pre class="代码无行号">
+<code>❹ print('It is good to meet you, ' + myName) </code>
+
+</pre>
+<p class="zw">要记住，表达式总是可以求值为一个值。如果'Al'是上一行代码保存在myName中的值，那么这个表达式就求值为'It is good to meet you, Al'。这个字符串传给print()，它将输出到屏幕上。</p>
+<h3 id="nav_point_34">1.6.5 len()函数</h3>
+<p class="zw">你可以向len()函数传递一个字符串（或包含字符串的变量），然后该函数求值为一个整型值，即字符串中字符的个数。</p>
+<pre class="代码无行号">
+<code>❺ print('The length of your name is:')
+　print(len(myName)) </code>
+
+</pre>
+<p class="zw">在交互式环境中输入以下内容试一试：</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>len('hello')</strong>
+
+
+5
+&gt;&gt;&gt; <strong>len('My very energetic monster just scarfed nachos.')</strong>
+
+
+46
+&gt;&gt;&gt; <strong>len('')</strong>
+
+
+0</code>
+
+</pre>
+<p class="zw">就像这些例子，len(myName)求值为一个整数。然后它被传递给print()，在屏幕上显示。请注意，print()允许传入一个整型值或字符串。但如果在交互式环境中输入以下内容，就会报错：</p>
+<pre class="代码无行号">
+<code> &gt;&gt;&gt; <strong>print('I am ' + 29 + ' years old.')</strong>
+
+
+Traceback (most recent call last):
+  File "&lt;pyshell#6&gt;", line 1, in &lt;module&gt;
+    print('I am ' + 29 + ' years old.')
+TypeError: Can't convert 'int' object to str implicitly</code>
+
+</pre>
+<p class="zw">导致错误的原因不是print()函数，而是你试图传递给print()的表达式。如果在交互式环境中单独输入这个表达式，也会得到同样的错误。</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>'I am ' + 29 + ' years old.'</strong>
+
+
+Traceback (most recent call last):
+  File "&lt;pyshell#7&gt;", line 1, in &lt;module&gt;
+   'I am ' + 29 + ' years old.'
+TypeError: Can't convert 'int' object to str implicitly</code>
+
+</pre>
+<p class="zw">报错是因为，只能用+操作符加两个整数，或连接两个字符串。不能让一个整数和一个字符串相加，因为这不符合Python的语法。可以使用字符串版本的整数，修复这个错误。这在下一节中解释。</p>
+<h3 id="nav_point_35">1.6.6 str()、int()和float()函数</h3>
+<p class="zw">如果想要连接一个整数（如29）和一个字符串，再传递给print()，就需要获得值'29'。它是29的字符串形式。str()函数可以传入一个整型值，并求值为它的字符串形式，像下面这样：</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>str(29)</strong>
+
+
+'29'
+&gt;&gt;&gt; <strong>print('I am ' + str(29) + ' years old.')</strong>
+
+
+I am 29 years old. </code>
+
+</pre>
+<p class="zw">因为str(29)求值为’29’，所以表达式'I am ' + str(29) + ' years old.'求值为'I am ' + '29' + ' years old.'，它又求值为'I am 29 years old.'。这就是传递给print()函数的值。</p>
+<p class="zw">str()、int()和float()函数将分别求值为传入值的字符串、整数和浮点数形式。请尝试用这些函数在交互式环境中转换一些值，看看会发生什么。</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>str(0)</strong>
+
+
+'0'
+&gt;&gt;&gt; <strong>str(-3.14)</strong>
+
+
+'-3.14'
+&gt;&gt;&gt; <strong>int('42')</strong>
+
+
+42
+&gt;&gt;&gt; <strong>int('-99')</strong>
+
+
+-99
+&gt;&gt;&gt; <strong>int(1.25)</strong>
+
+
+1
+&gt;&gt;&gt; <strong>int(1.99)</strong>
+
+
+1
+&gt;&gt;&gt; <strong>float('3.14')</strong>
+
+
+3.14
+&gt;&gt;&gt; <strong>float(10)</strong>
+
+
+10.0</code>
+
+</pre>
+<p class="zw">前面的例子调用了str()、int()和float()函数，向它们传入其他数据类型的值，得到了字符串、整型或浮点型的值。</p>
+<p class="zw">如果想要将一个整数或浮点数与一个字符串连接，str()函数就很方便。如果你有一些字符串值，希望将它们用于数学运算，int()函数也很有用。例如，input()函数总是返回一个字符串，即便用户输入的是一个数字。在交互式环境中输入spam = input()，在它等待文本时输入101。</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>spam = input()</strong>
+
+
+101
+&gt;&gt;&gt; <strong>spam</strong>
+
+
+'101'</code>
+
+</pre>
+<p class="zw">保存在spam中的值不是整数101，而是字符串'101'。如果想要用spam中的值进行数学运算，那就用int()函数取得spam的整数形式，然后将这个新值存在spam中。</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>spam = int(spam)</strong>
+
+
+&gt;&gt;&gt; <strong>spam</strong>
+
+
+101</code>
+
+</pre>
+<p class="zw">现在你应该能将spam变量作为整数，而不是字符串使用。</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>spam * 10 / 5</strong>
+
+
+202.0</code>
+
+</pre>
+<p class="zw">请注意，如果你将一个不能求值为整数的值传递给int()，Python将显示出错信息。</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>int('99.99')</strong>
+
+
+Traceback (most recent call last):
+  File "&lt;pyshell#18&gt;", line 1, in &lt;module&gt;
+    int('99.99')
+ValueError: invalid literal for int() with base 10: '99.99'
+&gt;&gt;&gt; <strong>int('twelve')</strong>
+
+
+Traceback (most recent call last):
+  File "&lt;pyshell#19&gt;", line 1, in &lt;module&gt;
+    int('twelve')
+ValueError: invalid literal for int() with base 10: 'twelve'</code>
+
+</pre>
+<p class="zw">如果需要对浮点数进行取整运算，也可以用int()函数。</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>int(7.7)</strong>
+
+
+7
+&gt;&gt;&gt; <strong>int(7.7) + 1</strong>
+
+
+8</code>
+
+</pre>
+<p class="zw">在你的程序中，最后3行使用了函数int()和str()，取得适当数据类型的值。</p>
+<pre class="代码无行号">
+<code>❻ print('What is your age?') # ask for their age
+　myAge = input()
+　print('You will be ' + str(int(myAge) + 1) + ' in a year.') </code>
+
+</pre>
+<p class="zw">myAge变量包含了input()函数返回的值。因为input()函数总是返回一个字符串（即使用户输入的是数字），所以你可以使用int(myAge)返回字符串的整型值。这个整型值随后在表达式int(myAge) + 1中与1相加。</p>
+<p class="zw">相加的结果传递给str()函数：str(int(myAge) + 1)。然后，返回的字符串与字符串'You will be '和' in a year.'连接，求值为一个更长的字符串。这个更长的字符串最终传递给print()，在屏幕上显示。</p>
+<p class="zw">假定用户输入字符串'4'，保存在myAge中。字符串'4'被转换为一个整型，所以你可以对它加1。结果是5。str()函数将这个结果转化为字符串，这样你就可以将它与第二个字符串'in a year.'连接，创建最终的消息。这些求值步骤如图1-4所示。</p>
+<p class="editing-tag 超强提示标签">文本和数字相等判断</p>
+<blockquote class="超强提示 editing-block">
+<p class="zw"><br/>
+</p>
+<p class="zw">虽然数字的字符串值被认为与整型值和浮点型值完全不同，但整型值可以与浮点值相等。</p>
+<pre class="代码无行号">
+<code>&gt;&gt;&gt; <strong>42 == '42'</strong>
+
+
+False
+&gt;&gt;&gt; <strong>42 == 42.0</strong>
+
+
+True
+&gt;&gt;&gt; <strong>42.0 == 0042.000</strong>
+
+
+True</code>
+
+</pre>
+<p class="zw">Python进行这种区分，因为字符串是文本，而整型值和浮点型都是数字。</p>
+</blockquote>
+<p class="图"><img alt="0104" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/25_Image00068.jpg"/>
+</p>
+<p class="图题">图1-4 如果4保存在myAge中，求值的步骤</p>
+<h2 id="nav_point_36">1.7 小结</h2>
+<p class="zw">你可以用一个计算器来计算表达式，或在文本处理器中输入字符串连接。甚至可以通过复制粘贴文本，很容易地实现字符串复制。但是表达式以及组成它们的值（操作符、变量和函数调用），才是构成程序的基本构建块。一旦你知道如何处理这些元素，就能够用Python操作大量的数据。</p>
+<p class="zw">最好是记住本章中介绍的不同类型的操作符（+、-、­*­、/、//、%和­**­是数学操作符，+和­*­是字符串操作符），以及3种数据类型（整型、浮点型和字符串）。</p>
+<p class="zw">我们还介绍了几个不同的函数。print()和input()函数处理简单的文本输出（到屏幕）和输入（通过键盘）。len()函数接受一个字符串，并求值为该字符串中字符的数目。</p>
+<p class="zw">在下一章中，你将学习如何告诉Python根据它拥有的值，明智地决定什么代码要运行，什么代码要跳过，什么代码要重复。这称为“控制流”，它让你编写程序来做出明智的决定。</p>
+<h2 id="nav_point_37">1.8 习题</h2>
+<p class="zw">1．下面哪些是操作符，哪些是值？</p>
+<pre class="代码无行号">
+<code>*
+'hello'
+-88.8
+-
+/
++
+5</code>
+
+</pre>
+<p class="zw">2．下面哪个是变量，哪个是字符串？</p>
+<pre class="代码无行号">
+<code>spam
+'spam'</code>
+
+</pre>
+<p class="zw">3．说出3种数据类型。</p>
+<p class="zw">4．表达式由什么构成？所有表达式都做什么事？</p>
+<p class="zw">5．本章介绍了赋值语句，如spam = 10。表达式和语句有什么区别？</p>
+<p class="zw">6．下列语句运行后，变量bacon的值是什么？</p>
+<pre class="代码无行号">
+<code>bacon = 20
+bacon + 1</code>
+
+</pre>
+<p class="zw">7．下面两个表达式求值的结果是什么？</p>
+<pre class="代码无行号">
+<code>'spam' + 'spamspam'
+'spam' * 3</code>
+
+</pre>
+<p class="zw">8．为什么eggs是有效的变量名，而100是无效的？</p>
+<p class="zw">9．哪3个函数能分别取得一个值的整型、浮点型或字符串版本？</p>
+<p class="zw">10．为什么这个表达式会导致错误？如何修复？</p>
+<pre class="代码无行号">
+<code>'I have eaten ' + 99 + ' burritos.'</code>
+
+</pre>
+<p class="zw">附加题：在线查找len()函数的Python文档。它在一个标题为“Built-in Functions”的网页上。扫一眼Python的其他函数的列表，查看round()函数的功能，在交互式环境中使用它。</p>
+<p class="zw"><br style="page-break-after:always"/>
+</p>
+<div></div>
+]]></description>
+<pubDate>Wed, 21 Oct 2026 03:16:53 +0000</pubDate>
+<guid isPermaLink="false">epub-25</guid>
+</item>
+<item>
+<title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
-<description><![CDATA[学习时长：约2小时；学习内容：自动化的价值与工作原理[reference:24]、自动化适用场景（资讯日报、数据报表、文件管理等）[reference:25]、判断任务是否适合自动化的六个问题[reference:26]；学习目的：掌握自动化任务的配置方法，把重复性工作交给WorkBuddy定时执行]]></description>
+<description>学习时长：约2小时；学习内容：自动化的价值与工作原理[reference:24]、自动化适用场景（资讯日报、数据报表、文件管理等）[reference:25]、判断任务是否适合自动化的六个问题[reference:26]；学习目的：掌握自动化任务的配置方法，把重复性工作交给WorkBuddy定时执行</description>
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</guid>
 <pubDate>Wed, 14 Oct 2026 04:05:00 +0000</pubDate>
 </item>
+
 <item>
 <title>0024 - Basic Python - 附录 D 使用Git进行版本控制.epub</title>
 <description>&lt;p style='color:#888;'&gt;⏱ 预计阅读时间：32 分钟 (9571 字)&lt;/p&gt;&lt;hr&gt;&lt;h1 id="nav_point_533"&gt;附录 D　使用Git进行版本控制&lt;/h1&gt;
@@ -305,6 +1102,7 @@ git_practice$&lt;/code&gt;
 <pubDate>Wed, 14 Oct 2026 03:30:13 +0000</pubDate>
 <guid isPermaLink="false">epub-24</guid>
 </item>
+
 
 <item>
     <title>AutomaticApplicationPython - 028 - 第4章 列表.epub</title>
@@ -1110,6 +1908,7 @@ print(spam)&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 9 章 如何接入外部 API</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%209%20%E7%AB%A0%20%E5%A6%82%E4%BD%95%E6%8E%A5%E5%85%A5%E5%A4%96%E9%83%A8%20API/</link>
@@ -1125,6 +1924,7 @@ print(spam)&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 2 章 WorkBuddy的下载、安装、登录与更新</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%202%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%99%BB%E5%BD%95%E4%B8%8E%E6%9B%B4%E6%96%B0/</link>
@@ -1132,6 +1932,7 @@ print(spam)&lt;/code&gt;
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%202%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%99%BB%E5%BD%95%E4%B8%8E%E6%9B%B4%E6%96%B0/</guid>
       <pubDate>Thu, 20 Aug 2026 00:53:09 +0000</pubDate>
     </item>
+
 
 
 
@@ -1661,6 +2462,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -1675,6 +2477,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -1682,6 +2485,7 @@ Total number of items: 48&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</guid>
 <pubDate>Thu, 01 Oct 2026 06:58:23 +0000</pubDate>
 </item>
+
 
 
 
@@ -1718,6 +2522,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 7 章 WorkBuddy 使用连接器</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</link>
@@ -1725,6 +2530,7 @@ Total number of items: 48&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</guid>
 <pubDate>Sat, 03 Oct 2026 02:44:11 +0000</pubDate>
 </item>
+
 
 
 
@@ -2498,6 +3304,7 @@ help@nostarch.com&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 4 章 快速完成第一个 WorkBuddy 任务</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%204%20%E7%AB%A0%20%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90%E7%AC%AC%E4%B8%80%E4%B8%AA%20WorkBuddy%20%E4%BB%BB%E5%8A%A1/</link>
@@ -2505,6 +3312,7 @@ help@nostarch.com&lt;/code&gt;
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%204%20%E7%AB%A0%20%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90%E7%AC%AC%E4%B8%80%E4%B8%AA%20WorkBuddy%20%E4%BB%BB%E5%8A%A1/</guid>
       <pubDate>Mon, 31 Aug 2026 04:20:41 +0000</pubDate>
     </item>
+
 
 
 
@@ -3594,6 +4402,7 @@ except:
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 8 章 WorkBuddy 接入小程序与 IM 助理</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%208%20%E7%AB%A0%20WorkBuddy%20%E6%8E%A5%E5%85%A5%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8E%20IM%20%E5%8A%A9%E7%90%86/</link>
@@ -3601,6 +4410,7 @@ except:
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%208%20%E7%AB%A0%20WorkBuddy%20%E6%8E%A5%E5%85%A5%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8E%20IM%20%E5%8A%A9%E7%90%86/</guid>
       <pubDate>Mon, 28 Sep 2026 04:16:11 +0000</pubDate>
     </item>
+
 
 
 
@@ -4272,6 +5082,7 @@ cherries Carol moose
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 3 章 WorkBuddy 的主界面、任务与工作区</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%203%20%E7%AB%A0%20WorkBuddy%20%E7%9A%84%E4%B8%BB%E7%95%8C%E9%9D%A2%E3%80%81%E4%BB%BB%E5%8A%A1%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8C%BA/</link>
@@ -4279,6 +5090,7 @@ cherries Carol moose
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%203%20%E7%AB%A0%20WorkBuddy%20%E7%9A%84%E4%B8%BB%E7%95%8C%E9%9D%A2%E3%80%81%E4%BB%BB%E5%8A%A1%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8C%BA/</guid>
       <pubDate>Mon, 24 Aug 2026 01:22:34 +0000</pubDate>
     </item>
+
 
 
 
@@ -4771,6 +5583,7 @@ else:
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 7 章 WorkBuddy 使用连接器</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</link>
@@ -4778,6 +5591,7 @@ else:
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</guid>
       <pubDate>Mon, 21 Sep 2026 03:53:37 +0000</pubDate>
     </item>
+
 
 
 
@@ -5244,28 +6058,6 @@ Done.&lt;/code&gt;
     <guid isPermaLink="false">33</guid>
 </item>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<item>
-      <title>WorkBuddyGuide-第 6 章 WorkBuddy的专家和专家团</title>
-      <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%206%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%93%E5%AE%B6%E5%92%8C%E4%B8%93%E5%AE%B6%E5%9B%A2/</link>
-      <description>学习时长：约2小时；学习内容：专家与Skill的区别[reference:12]、专家的定义与创建方法[reference:13][reference:14]、专家团的概念与协作机制[reference:15]；学习目的：理解专家和专家团的工作方式，学会召唤和创建专家，用专家团处理复杂项目</description>
-      <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%206%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%93%E5%AE%B6%E5%92%8C%E4%B8%93%E5%AE%B6%E5%9B%A2/</guid>
-      <pubDate>Mon, 14 Sep 2026 03:54:24 +0000</pubDate>
-    </item>
 
 
 
