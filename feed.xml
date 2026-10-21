@@ -4,482 +4,489 @@
 <title>科目一：计算机工程</title>
 <link>https://github.com/ZHENHUA001A307/computer-engineering</link>
 <description>计算机工程材料推送</description>
-<lastBuildDate>Wed, 21 Oct 2026 03:16:53 +0000</lastBuildDate>
+<lastBuildDate>Wed, 21 Oct 2026 03:50:28 +0000</lastBuildDate>
 <item>
-<title><![CDATA[0025 - AutomaticApplicationPython - 第一部分 Python编程基础.epub]]></title>
-<description><![CDATA[<p style='color:#888;'>⏱ 预计阅读时间：42 分钟 (12531 字)</p><hr><h1 id="nav_point_20">第一部分　Python编程基础</h1>
-<p class="图"><img alt="..\16-0403yds排版\16-0403yds排版\Links\Links\00.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/25_Image00061.jpg"/>
-</p>
-<p class="zw"><br style="page-break-after:always"/>
-</p>
-<div></div>
-<h1 id="nav_point_21">第1章 Python基础</h1>
-<p class="zw">Python编程语言有许多语法结构、标准库函数和交互式开发环境功能。好在，你可以忽略大多数内容。你只需要学习部分内容，就能编写一些方便的小程序。</p>
-<p class="zw">但在动手之前，你必须学习一些基本编程概念。就像魔法师培训，你可能认为这些概念既深奥又啰嗦，但有了一些知识和实践，你就能像魔法师一样指挥你的计算机，完成难以置信的事情。</p>
-<p class="zw">本章有几个例子，我们鼓励你在交互式环境中输入它们。交互式环境让你每次执行一条Python指令，并立即显示结果。使用交互式环境对于了解基本Python指令的行为是很好的，所以你在阅读时要试一下。做过的事比仅仅读过的内容，更令人印象深刻。</p>
-<h2 id="nav_point_22">1.1 在交互式环境中输入表达式</h2>
-<p class="zw">启动IDLE就运行了交互式环境，这是和Python一起安装的。在Windows上，打开“开始”菜单，选择“All ProgramsPython 3.3”，然后选择“IDLE（Python GUI）”。在OS X上，选择“ApplicationsMacPython 3.3IDLE”。在Ubuntu上，打开新的终端窗口并输入idle3。</p>
-<p class="zw">一个窗口会出现，包含&gt;&gt;&gt;提示符，这就是交互式环境。在提示符后输入2 + 2，让Python做一些简单的算术。</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>2 + 2</strong>
+<title><![CDATA[WorkBuddyGuide-课外阅读：一章看懂 AI 工作系统]]></title>
+<link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E8%AF%BE%E5%A4%96%E9%98%85%E8%AF%BB%EF%BC%9A%E4%B8%80%E7%AB%A0%E7%9C%8B%E6%87%82%20AI%20%E5%B7%A5%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+<description><![CDATA[学习时长：约2小时；学习内容：AI工作系统的五类角色（LLM/Agent/Skill/工具接口/人）[reference:27]、LLM的原理与幻觉问题[reference:28]、Token与上下文窗口[reference:29]、Prompt的本质[reference:30]；学习目的：建立AI工作系统的完整认知框架，理解各组件如何协同工作]]></description>
+<guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E8%AF%BE%E5%A4%96%E9%98%85%E8%AF%BB%EF%BC%9A%E4%B8%80%E7%AB%A0%E7%9C%8B%E6%87%82%20AI%20%E5%B7%A5%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
+<pubDate>Wed, 21 Oct 2026 03:50:28 +0000</pubDate>
+</item>
+<item>
+<title>0025 - AutomaticApplicationPython - 第一部分 Python编程基础.epub</title>
+<description>&lt;p style='color:#888;'&gt;⏱ 预计阅读时间：42 分钟 (12531 字)&lt;/p&gt;&lt;hr&gt;&lt;h1 id="nav_point_20"&gt;第一部分　Python编程基础&lt;/h1&gt;
+&lt;p class="图"&gt;&lt;img alt="..\16-0403yds排版\16-0403yds排版\Links\Links\00.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/25_Image00061.jpg"/&gt;
+&lt;/p&gt;
+&lt;p class="zw"&gt;&lt;br style="page-break-after:always"/&gt;
+&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;h1 id="nav_point_21"&gt;第1章 Python基础&lt;/h1&gt;
+&lt;p class="zw"&gt;Python编程语言有许多语法结构、标准库函数和交互式开发环境功能。好在，你可以忽略大多数内容。你只需要学习部分内容，就能编写一些方便的小程序。&lt;/p&gt;
+&lt;p class="zw"&gt;但在动手之前，你必须学习一些基本编程概念。就像魔法师培训，你可能认为这些概念既深奥又啰嗦，但有了一些知识和实践，你就能像魔法师一样指挥你的计算机，完成难以置信的事情。&lt;/p&gt;
+&lt;p class="zw"&gt;本章有几个例子，我们鼓励你在交互式环境中输入它们。交互式环境让你每次执行一条Python指令，并立即显示结果。使用交互式环境对于了解基本Python指令的行为是很好的，所以你在阅读时要试一下。做过的事比仅仅读过的内容，更令人印象深刻。&lt;/p&gt;
+&lt;h2 id="nav_point_22"&gt;1.1 在交互式环境中输入表达式&lt;/h2&gt;
+&lt;p class="zw"&gt;启动IDLE就运行了交互式环境，这是和Python一起安装的。在Windows上，打开“开始”菜单，选择“All ProgramsPython 3.3”，然后选择“IDLE（Python GUI）”。在OS X上，选择“ApplicationsMacPython 3.3IDLE”。在Ubuntu上，打开新的终端窗口并输入idle3。&lt;/p&gt;
+&lt;p class="zw"&gt;一个窗口会出现，包含&amp;gt;&amp;gt;&amp;gt;提示符，这就是交互式环境。在提示符后输入2 + 2，让Python做一些简单的算术。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;2 + 2&lt;/strong&gt;
 
 
-4</code>
+4&lt;/code&gt;
 
-</pre>
-<p class="zw">IDLE窗口现在应该显示下面这样的文本：</p>
-<pre class="代码无行号">
-<code>Python 3.3.2 (v3.3.2:d047928ae3f6, May 16 2013, 00:06:53) [MSC v.1600 64 bit
+&lt;/pre&gt;
+&lt;p class="zw"&gt;IDLE窗口现在应该显示下面这样的文本：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;Python 3.3.2 (v3.3.2:d047928ae3f6, May 16 2013, 00:06:53) [MSC v.1600 64 bit
 (AMD64)] on win32
 Type "copyright", "credits" or "license()" for more information.
-&gt;&gt;&gt; 2 + 2
+&amp;gt;&amp;gt;&amp;gt; 2 + 2
 4
-&gt;&gt;&gt; </code>
+&amp;gt;&amp;gt;&amp;gt; &lt;/code&gt;
 
-</pre>
-<p class="zw">在Python中，2 + 2称为“表达式”，它是语言中最基本的编程结构。表达式包含“值”（例如2）和“操作符”（例如+），并且总是可以求值（也就是归约）为单个值。这意味着在Python代码中，所有使用表达式的地方，也可以使用一个值。</p>
-<p class="zw">在前面的例子中，2 + 2被求值为单个值4。没有操作符的单个值也被认为是一个表达式，尽管它求值的结果就是它自己，像下面这样：</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>2</strong>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;在Python中，2 + 2称为“表达式”，它是语言中最基本的编程结构。表达式包含“值”（例如2）和“操作符”（例如+），并且总是可以求值（也就是归约）为单个值。这意味着在Python代码中，所有使用表达式的地方，也可以使用一个值。&lt;/p&gt;
+&lt;p class="zw"&gt;在前面的例子中，2 + 2被求值为单个值4。没有操作符的单个值也被认为是一个表达式，尽管它求值的结果就是它自己，像下面这样：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;2&lt;/strong&gt;
 
 
-2</code>
+2&lt;/code&gt;
 
-</pre>
-<p class="editing-tag 超强提示标签">错误没关系！</p>
-<blockquote class="超强提示 editing-block">
-<p class="zw"><br/>
-</p>
-<p class="zw">如果程序包含计算机不能理解的代码，就会崩溃，这将导致Python显示错误信息。错误信息并不会破坏你的计算机，所以不要害怕犯错误。“崩溃”只是意味着程序意外地停止执行。</p>
-<p class="zw">如果你希望对一条错误信息了解更多，可以在网上查找这条信息的准确文本，找到关于这个错误的更多内容。也可以查看<a>http://nostarch.com/automatestuff/</a>
- ，这里有常见的Python错误信息和含义的列表。</p>
-</blockquote>
-<p class="zw">Python表达式中也可以使用大量其他操作符。例如，表 1-1 列出了Python的所有数学操作符。</p>
-<p class="表题">表1-1 数学操作符</p>
-<table border="1" width="90%">
-<thead>
-<tr>
-<th>
-<p class="表头单元格">操作符</p>
-</th>
-<th>
-<p class="表头单元格">操作</p>
-</th>
-<th>
-<p class="表头单元格">例子</p>
-</th>
-<th>
-<p class="表头单元格">求值为</p>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p class="表格单元格">**</p>
-</td>
-<td>
-<p class="表格单元格">指数</p>
-</td>
-<td>
-<p class="表格单元格">2 ** 3</p>
-</td>
-<td>
-<p class="表格单元格">8</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">%</p>
-</td>
-<td>
-<p class="表格单元格">取模/取余数</p>
-</td>
-<td>
-<p class="表格单元格">22 % 8</p>
-</td>
-<td>
-<p class="表格单元格">6</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">//</p>
-</td>
-<td>
-<p class="表格单元格">整除/商数取整</p>
-</td>
-<td>
-<p class="表格单元格">22 // 8</p>
-</td>
-<td>
-<p class="表格单元格">2</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">/</p>
-</td>
-<td>
-<p class="表格单元格">除法</p>
-</td>
-<td>
-<p class="表格单元格">22 / 8</p>
-</td>
-<td>
-<p class="表格单元格">2.75</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">*</p>
-</td>
-<td>
-<p class="表格单元格">乘法</p>
-</td>
-<td>
-<p class="表格单元格">3 * 5</p>
-</td>
-<td>
-<p class="表格单元格">15</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">-</p>
-</td>
-<td>
-<p class="表格单元格">减法</p>
-</td>
-<td>
-<p class="表格单元格">5 - 2</p>
-</td>
-<td>
-<p class="表格单元格">3</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">+</p>
-</td>
-<td>
-<p class="表格单元格">加法</p>
-</td>
-<td>
-<p class="表格单元格">2 + 2</p>
-</td>
-<td>
-<p class="表格单元格">4</p>
-</td>
-</tr>
-</tbody>
-</table>
-<p class="zw">数学操作符的操作顺序（也称为“优先级”）与数学中类似。**操作符首先求值，接下来是­*、/、//和%操作符，从左到右计算。+和-操作符最后求值，也是从左到右计算。如果需要，可以用括号来改变通常的优先级。在交互式环境中输入下列表达式：</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>2 + 3 * 6</strong>
+&lt;/pre&gt;
+&lt;p class="editing-tag 超强提示标签"&gt;错误没关系！&lt;/p&gt;
+&lt;blockquote class="超强提示 editing-block"&gt;
+&lt;p class="zw"&gt;&lt;br/&gt;
+&lt;/p&gt;
+&lt;p class="zw"&gt;如果程序包含计算机不能理解的代码，就会崩溃，这将导致Python显示错误信息。错误信息并不会破坏你的计算机，所以不要害怕犯错误。“崩溃”只是意味着程序意外地停止执行。&lt;/p&gt;
+&lt;p class="zw"&gt;如果你希望对一条错误信息了解更多，可以在网上查找这条信息的准确文本，找到关于这个错误的更多内容。也可以查看&lt;a&gt;http://nostarch.com/automatestuff/&lt;/a&gt;
+ ，这里有常见的Python错误信息和含义的列表。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p class="zw"&gt;Python表达式中也可以使用大量其他操作符。例如，表 1-1 列出了Python的所有数学操作符。&lt;/p&gt;
+&lt;p class="表题"&gt;表1-1 数学操作符&lt;/p&gt;
+&lt;table border="1" width="90%"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;p class="表头单元格"&gt;操作符&lt;/p&gt;
+&lt;/th&gt;
+&lt;th&gt;
+&lt;p class="表头单元格"&gt;操作&lt;/p&gt;
+&lt;/th&gt;
+&lt;th&gt;
+&lt;p class="表头单元格"&gt;例子&lt;/p&gt;
+&lt;/th&gt;
+&lt;th&gt;
+&lt;p class="表头单元格"&gt;求值为&lt;/p&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;**&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;指数&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;2 ** 3&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;8&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;%&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;取模/取余数&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;22 % 8&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;6&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;//&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;整除/商数取整&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;22 // 8&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;/&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;除法&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;22 / 8&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;2.75&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;*&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;乘法&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;3 * 5&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;15&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;-&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;减法&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;5 - 2&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;3&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;+&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;加法&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;2 + 2&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;4&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p class="zw"&gt;数学操作符的操作顺序（也称为“优先级”）与数学中类似。**操作符首先求值，接下来是­*、/、//和%操作符，从左到右计算。+和-操作符最后求值，也是从左到右计算。如果需要，可以用括号来改变通常的优先级。在交互式环境中输入下列表达式：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;2 + 3 * 6&lt;/strong&gt;
 
 
 20
-&gt;&gt;&gt; <strong>(2 + 3) * 6</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;(2 + 3) * 6&lt;/strong&gt;
 
 
 30
-&gt;&gt;&gt; <strong>48565878 * 578453</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;48565878 * 578453&lt;/strong&gt;
 
 
 28093077826734
-&gt;&gt;&gt; <strong>2 ** 8</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;2 ** 8&lt;/strong&gt;
 
 
 256
-&gt;&gt;&gt; <strong>23 /</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;23 /&lt;/strong&gt;
 
  7
 3.2857142857142856
-&gt;&gt;&gt; <strong>23 // 7</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;23 // 7&lt;/strong&gt;
 
 
 3
-&gt;&gt;&gt; <strong>23 % 7</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;23 % 7&lt;/strong&gt;
 
 
 2
-&gt;&gt;&gt; <strong>2 + 2</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;2 + 2&lt;/strong&gt;
 
 
 4
-&gt;&gt;&gt; <strong>(5 - 1) * ((7 + 1) / (3 - 1))</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;(5 - 1) * ((7 + 1) / (3 - 1))&lt;/strong&gt;
 
 
-16.0</code>
+16.0&lt;/code&gt;
 
-</pre>
-<p class="zw">在每个例子中，作为程序员，你必须输入表达式，但Python完成较难的工作，将它求值为单个值。Python将继续求值表达式的各个部分，直到它成为单个值，如图1-1所示。</p>
-<p class="图"><img alt="0101" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/25_Image00065.jpg"/>
-</p>
-<p class="图题">图1-1 表达式求值将它归约为单个值</p>
-<p class="zw">将操作符和值放在一起构成表达式的这些规则，是 Python 编程语言的基本部分，就像帮助我们沟通的语法规则一样。下面是例子：</p>
-<p class="zw">This is a grammatically correct English sentence.</p>
-<p class="zw">This grammatically is sentence not English correct a.</p>
-<p class="zw">第二行很难解释，因为它不符合英语的规则。类似地，如果你输入错误的 Python指令，Python也不能理解，就会显示出错误信息，像下面这样：</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>5 +</strong>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;在每个例子中，作为程序员，你必须输入表达式，但Python完成较难的工作，将它求值为单个值。Python将继续求值表达式的各个部分，直到它成为单个值，如图1-1所示。&lt;/p&gt;
+&lt;p class="图"&gt;&lt;img alt="0101" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/25_Image00065.jpg"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图1-1 表达式求值将它归约为单个值&lt;/p&gt;
+&lt;p class="zw"&gt;将操作符和值放在一起构成表达式的这些规则，是 Python 编程语言的基本部分，就像帮助我们沟通的语法规则一样。下面是例子：&lt;/p&gt;
+&lt;p class="zw"&gt;This is a grammatically correct English sentence.&lt;/p&gt;
+&lt;p class="zw"&gt;This grammatically is sentence not English correct a.&lt;/p&gt;
+&lt;p class="zw"&gt;第二行很难解释，因为它不符合英语的规则。类似地，如果你输入错误的 Python指令，Python也不能理解，就会显示出错误信息，像下面这样：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;5 +&lt;/strong&gt;
 
 
-  File "&lt;stdin&gt;", line 1
+  File "&amp;lt;stdin&amp;gt;", line 1
     5 +
       ^
 SyntaxError: invalid syntax
-&gt;&gt;&gt; <strong>42 + 5 + * 2</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;42 + 5 + * 2&lt;/strong&gt;
 
 
-  File "&lt;stdin&gt;", line 1
+  File "&amp;lt;stdin&amp;gt;", line 1
     42 + 5 + * 2
               ^
-SyntaxError: invalid syntax</code>
+SyntaxError: invalid syntax&lt;/code&gt;
 
-</pre>
-<p class="zw">你总是可以在交互式环境中输入一条指令，检查它是否能工作。不要担心会弄坏计算机：最坏的情况就是Python显示出错信息。专业的软件开发者在编写代码时，常常会遇到错误信息。</p>
-<h2 id="nav_point_23">1.2 整型、浮点型和字符串数据类型</h2>
-<p class="zw">记住，表达式是值和操作符的组合，它们可以通过求值成为单个值。“数据类型”是一类值，每个值都只属于一种数据类型。表1-2列出了Python中最常见的数据类型。例如，值-2和30属于“整型”值。整型（或int）数据类型表明值是整数。带有小数点的数，如3.14，称为“浮点型”（或float）。请注意，尽管42是一个整型，但42.0是一个浮点型。</p>
-<p class="表题">表1-2 常见数据类型</p>
-<table border="1" width="90%">
-<thead>
-<tr>
-<th>
-<p class="表头单元格">数据类型</p>
-</th>
-<th>
-<p class="表头单元格">例子</p>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p class="表格单元格">整型</p>
-</td>
-<td>
-<p class="表格单元格">-2, -1, 0, 1, 2, 3, 4, 5</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">浮点型</p>
-</td>
-<td>
-<p class="表格单元格">-1.25, -1.0, - -0.5, 0.0, 0.5, 1.0, 1.25</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">字符串</p>
-</td>
-<td>
-<p class="表格单元格">'a', 'aa', 'aaa', 'Hello!', '11 cats'</p>
-</td>
-</tr>
-</tbody>
-</table>
-<p class="zw">Python程序也可以有文本值，称为“字符串”，或strs（发音为“stirs”）。总是用单引号（'）包围住字符串（例如'Hello'或'Goodbye cruel world!'），这样Python就知道字符串的开始和结束。甚至可以有没有字符的字符串，称为“空字符串”。第4章更详细地解释了字符串。</p>
-<p class="zw">如果你看到错误信息SyntaxError: EOL while scanning string literal，可能是忘记了字符串末尾的单引号，如下面的例子所示：</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>'Hello world!</strong>
-
-
-SyntaxError: EOL while scanning string literal</code>
-
-</pre>
-<h2 id="nav_point_24">1.3 字符串连接和复制</h2>
-<p class="zw">根据操作符之后的值的数据类型，操作符的含义可能会改变。例如，在操作两个整型或浮点型值时，+是相加操作符。但是，在用于两个字符串时，它将字符串连接起来，成为“字符串连接”操作符。在交互式环境中输入以下内容：</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>'Alice' + 'Bob'</strong>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;你总是可以在交互式环境中输入一条指令，检查它是否能工作。不要担心会弄坏计算机：最坏的情况就是Python显示出错信息。专业的软件开发者在编写代码时，常常会遇到错误信息。&lt;/p&gt;
+&lt;h2 id="nav_point_23"&gt;1.2 整型、浮点型和字符串数据类型&lt;/h2&gt;
+&lt;p class="zw"&gt;记住，表达式是值和操作符的组合，它们可以通过求值成为单个值。“数据类型”是一类值，每个值都只属于一种数据类型。表1-2列出了Python中最常见的数据类型。例如，值-2和30属于“整型”值。整型（或int）数据类型表明值是整数。带有小数点的数，如3.14，称为“浮点型”（或float）。请注意，尽管42是一个整型，但42.0是一个浮点型。&lt;/p&gt;
+&lt;p class="表题"&gt;表1-2 常见数据类型&lt;/p&gt;
+&lt;table border="1" width="90%"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;p class="表头单元格"&gt;数据类型&lt;/p&gt;
+&lt;/th&gt;
+&lt;th&gt;
+&lt;p class="表头单元格"&gt;例子&lt;/p&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;整型&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;-2, -1, 0, 1, 2, 3, 4, 5&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;浮点型&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;-1.25, -1.0, - -0.5, 0.0, 0.5, 1.0, 1.25&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;字符串&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;'a', 'aa', 'aaa', 'Hello!', '11 cats'&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p class="zw"&gt;Python程序也可以有文本值，称为“字符串”，或strs（发音为“stirs”）。总是用单引号（'）包围住字符串（例如'Hello'或'Goodbye cruel world!'），这样Python就知道字符串的开始和结束。甚至可以有没有字符的字符串，称为“空字符串”。第4章更详细地解释了字符串。&lt;/p&gt;
+&lt;p class="zw"&gt;如果你看到错误信息SyntaxError: EOL while scanning string literal，可能是忘记了字符串末尾的单引号，如下面的例子所示：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;'Hello world!&lt;/strong&gt;
 
 
-'AliceBob'</code>
+SyntaxError: EOL while scanning string literal&lt;/code&gt;
 
-</pre>
-<p class="zw">该表达式求值为一个新字符串，包含了两个字符串的文本。但是，如果你对一个字符串和一个整型值使用加操作符，Python就不知道如何处理，它将显示一条错误信息。</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>'Alice' + 42</strong>
+&lt;/pre&gt;
+&lt;h2 id="nav_point_24"&gt;1.3 字符串连接和复制&lt;/h2&gt;
+&lt;p class="zw"&gt;根据操作符之后的值的数据类型，操作符的含义可能会改变。例如，在操作两个整型或浮点型值时，+是相加操作符。但是，在用于两个字符串时，它将字符串连接起来，成为“字符串连接”操作符。在交互式环境中输入以下内容：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;'Alice' + 'Bob'&lt;/strong&gt;
+
+
+'AliceBob'&lt;/code&gt;
+
+&lt;/pre&gt;
+&lt;p class="zw"&gt;该表达式求值为一个新字符串，包含了两个字符串的文本。但是，如果你对一个字符串和一个整型值使用加操作符，Python就不知道如何处理，它将显示一条错误信息。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;'Alice' + 42&lt;/strong&gt;
 
 
 Traceback (most recent call last):
-   File "&lt;pyshell#26&gt;", line 1, in &lt;module&gt;
+   File "&amp;lt;pyshell#26&amp;gt;", line 1, in &amp;lt;module&amp;gt;
      'Alice' + 42
-TypeError: Can't convert 'int' object to str implicitly</code>
+TypeError: Can't convert 'int' object to str implicitly&lt;/code&gt;
 
-</pre>
-<p class="zw">错误信息Can't convert 'int' object to str implicitly表示Python认为，你试图将一个整数连接到字符串'Alice'。代码必须显式地将整数转换为字符串，因为Python不能自动完成转换。（1.6节“程序剖析”在讨论函数时，将解释数据类型转换。）</p>
-<p class="zw">在用于两个整型或浮点型值时，­*­操作符表示乘法。但­*­操作符用于一个字符串值和一个整型值时，它变成了“字符串复制”操作符。在交互式环境中输入一个字符串乘一个数字，看看效果。</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>'Alice' * 5</strong>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;错误信息Can't convert 'int' object to str implicitly表示Python认为，你试图将一个整数连接到字符串'Alice'。代码必须显式地将整数转换为字符串，因为Python不能自动完成转换。（1.6节“程序剖析”在讨论函数时，将解释数据类型转换。）&lt;/p&gt;
+&lt;p class="zw"&gt;在用于两个整型或浮点型值时，­*­操作符表示乘法。但­*­操作符用于一个字符串值和一个整型值时，它变成了“字符串复制”操作符。在交互式环境中输入一个字符串乘一个数字，看看效果。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;'Alice' * 5&lt;/strong&gt;
 
 
-'AliceAliceAliceAliceAlice'</code>
+'AliceAliceAliceAliceAlice'&lt;/code&gt;
 
-</pre>
-<p class="zw">该表达式求值为一个字符串，它将原来的字符串重复若干次，次数就是整型的值。字符串复制是一个有用的技巧，但不像字符串连接那样常用。</p>
-<p class="zw">*操作符只能用于两个数字（作为乘法），或一个字符串和一个整型（作为字符串复制操作符）。否则，Python将显示错误信息。</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>'Alice' * 'Bob'</strong>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;该表达式求值为一个字符串，它将原来的字符串重复若干次，次数就是整型的值。字符串复制是一个有用的技巧，但不像字符串连接那样常用。&lt;/p&gt;
+&lt;p class="zw"&gt;*操作符只能用于两个数字（作为乘法），或一个字符串和一个整型（作为字符串复制操作符）。否则，Python将显示错误信息。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;'Alice' * 'Bob'&lt;/strong&gt;
 
 
 Traceback (most recent call last):
-  File "&lt;pyshell#32&gt;", line 1, in &lt;module&gt;
+  File "&amp;lt;pyshell#32&amp;gt;", line 1, in &amp;lt;module&amp;gt;
     'Alice' * 'Bob'
 TypeError: can't multiply sequence by non-int of type 'str'
-&gt;&gt;&gt; <strong>'Alice' * 5.0</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;'Alice' * 5.0&lt;/strong&gt;
 
 
 Traceback (most recent call last):
-  File "&lt;pyshell#33&gt;", line 1, in &lt;module&gt;
+  File "&amp;lt;pyshell#33&amp;gt;", line 1, in &amp;lt;module&amp;gt;
     'Alice' * 5.0
-TypeError: can't multiply sequence by non-int of type 'float'</code>
+TypeError: can't multiply sequence by non-int of type 'float'&lt;/code&gt;
 
-</pre>
-<p class="zw">Python不理解这些表达式是有道理的：你不能把两个单词相乘，也很难将一个任意字符串复制小数次。</p>
-<h2 id="nav_point_25">1.4 在变量中保存值</h2>
-<p class="zw">“变量”就像计算机内存中的一个盒子，其中可以存放一个值。如果你的程序稍后将用到一个已求值的表达式的结果，就可以将它保存在一个变量中。</p>
-<h3 id="nav_point_26">1.4.1 赋值语句</h3>
-<p class="zw">用“赋值语句”将值保存在变量中。赋值语句包含一个变量名、一个等号（称为赋值操作符），以及要存储的值。如果输入赋值语句spam = 42，那么名为spam的变量将保存一个整型值42。</p>
-<p class="zw">可以将变量看成一个带标签的盒子，值放在其中，如图1-2所示。</p>
-<p class="图"><img alt="0102" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/25_Image00066.jpg"/>
-</p>
-<p class="图题">图1-2 spam = 42 就像是告诉程序“变量spam现在有整数42放在里面”</p>
-<p class="zw">例如，在交互式环境中输入以下内容：</p>
-<pre class="代码无行号">
-<code>❶ &gt;&gt;&gt; <strong>spam = 40</strong>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;Python不理解这些表达式是有道理的：你不能把两个单词相乘，也很难将一个任意字符串复制小数次。&lt;/p&gt;
+&lt;h2 id="nav_point_25"&gt;1.4 在变量中保存值&lt;/h2&gt;
+&lt;p class="zw"&gt;“变量”就像计算机内存中的一个盒子，其中可以存放一个值。如果你的程序稍后将用到一个已求值的表达式的结果，就可以将它保存在一个变量中。&lt;/p&gt;
+&lt;h3 id="nav_point_26"&gt;1.4.1 赋值语句&lt;/h3&gt;
+&lt;p class="zw"&gt;用“赋值语句”将值保存在变量中。赋值语句包含一个变量名、一个等号（称为赋值操作符），以及要存储的值。如果输入赋值语句spam = 42，那么名为spam的变量将保存一个整型值42。&lt;/p&gt;
+&lt;p class="zw"&gt;可以将变量看成一个带标签的盒子，值放在其中，如图1-2所示。&lt;/p&gt;
+&lt;p class="图"&gt;&lt;img alt="0102" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/25_Image00066.jpg"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图1-2 spam = 42 就像是告诉程序“变量spam现在有整数42放在里面”&lt;/p&gt;
+&lt;p class="zw"&gt;例如，在交互式环境中输入以下内容：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;❶ &amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spam = 40&lt;/strong&gt;
 
 
-　&gt;&gt;&gt; <strong>spam</strong>
+　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spam&lt;/strong&gt;
 
 
 　40
-　&gt;&gt;&gt; <strong>eggs = 2</strong>
+　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;eggs = 2&lt;/strong&gt;
 
 
-❷ &gt;&gt;&gt; <strong>spam + eggs</strong>
+❷ &amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spam + eggs&lt;/strong&gt;
 
 
 　42
-　&gt;&gt;&gt; <strong>spam + eggs + spam</strong>
+　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spam + eggs + spam&lt;/strong&gt;
 
 
 　82
-❸ &gt;&gt;&gt; <strong>spam = spam + 2</strong>
+❸ &amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spam = spam + 2&lt;/strong&gt;
 
 
-　&gt;&gt;&gt; <strong>spam</strong>
+　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spam&lt;/strong&gt;
 
 
-　42</code>
+　42&lt;/code&gt;
 
-</pre>
-<p class="zw">第一次存入一个值，变量就被“初始化”（或创建）❶。此后，可以在表达式中使用它，以及其他变量和值❷。如果变量被赋了一个新值，老值就被忘记了❸。这就是为什么在例子结束时，spam求值为42，而不是40。这称为“覆写”该变量。在交互式环境中输入以下代码，尝试覆写一个字符串：</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>spam = 'Hello'</strong>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;第一次存入一个值，变量就被“初始化”（或创建）❶。此后，可以在表达式中使用它，以及其他变量和值❷。如果变量被赋了一个新值，老值就被忘记了❸。这就是为什么在例子结束时，spam求值为42，而不是40。这称为“覆写”该变量。在交互式环境中输入以下代码，尝试覆写一个字符串：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spam = 'Hello'&lt;/strong&gt;
 
 
-&gt;&gt;&gt; <strong>spam</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spam&lt;/strong&gt;
 
 
 'Hello'
-&gt;&gt;&gt; <strong>spam = 'Goodbye'</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spam = 'Goodbye'&lt;/strong&gt;
 
 
-&gt;&gt;&gt; <strong>spam</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spam&lt;/strong&gt;
 
 
-'Goodbye'</code>
+'Goodbye'&lt;/code&gt;
 
-</pre>
-<p class="zw">就像图1-3中的盒子，这个例子中的spam变量保存了'Hello'，直到你用'Goodbye'替代它。</p>
-<p class="图"><img alt="0103" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/25_Image00067.jpg"/>
-</p>
-<p class="图题">图1-3 如果一个新值赋给变量，老值就被遗忘了</p>
-<h3 id="nav_point_27">1.4.2 变量名</h3>
-<p class="zw">表1-3中有一些合法变量名的例子。你可以给变量取任何名字，只要它遵守以下3条规则：</p>
-<p class="zw">1．只能是一个词。</p>
-<p class="zw">2．只能包含字母、数字和下划线。</p>
-<p class="zw">3．不能以数字开头。</p>
-<p class="表题">表1-3 有效和无效的变量名</p>
-<table border="1" width="90%">
-<thead>
-<tr>
-<th>
-<p class="表头单元格">有效的变量名</p>
-</th>
-<th>
-<p class="表头单元格">无效的变量名</p>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p class="表格单元格">balance</p>
-</td>
-<td>
-<p class="表格单元格">current-balance（不允许中划线）</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">currentBalance</p>
-</td>
-<td>
-<p class="表格单元格">current balanc（不允许空格）</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">current_balance</p>
-</td>
-<td>
-<p class="表格单元格">4account（不允许数字开头）</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">_spam</p>
-</td>
-<td>
-<p class="表格单元格">42（不允许数字开头）</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">SPAM</p>
-</td>
-<td>
-<p class="表格单元格">total_$um（不允许$这样的特殊字符）</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">account4</p>
-</td>
-<td>
-<p class="表格单元格">'hello'（不允许'这样的特殊字符）</p>
-</td>
-</tr>
-</tbody>
-</table>
-<p class="zw">变量名是区分大小写的。这意味着，spam、 SPAM、Spam和sPaM是4个不同的变量。变量用小写字母开头是Python的惯例。</p>
-<p class="zw">本书的变量名使用了驼峰形式，没有用下划线。也就是说，变量名用lookLikeThis，而不是looking_like_this。一些有经验的程序员可能会指出，官方的Python代码风格PEP 8，即应该使用下划线。我喜欢驼峰式，这没有错，并认为PEP 8本身“愚蠢的一致性是头脑狭隘人士的心魔”：</p>
-<blockquote class="提示 editing-block">“一致地满足风格指南是重要的。但最重要的是，知道何时要不一致，因为有时候风格指南就是不适用。如果有怀疑，请相信自己的最佳判断。”</blockquote>
-<p class="zw">好的变量名描述了它包含的数据。设想你搬到一间新屋子，搬家纸箱上标的都是“东西”。你永远找不到任何东西！本书的例子和许多Python的文档，使用spam、eggs和bacon等变量名作为一般名称（受到Monty Python的“Spam”短剧的影响），但在你的程序中，具有描述性的名字有助于提高代码可读性。</p>
-<h2 id="nav_point_28">1.5 第一个程序</h2>
-<p class="zw">虽然交互式环境对于一次运行一条 Python指令很好，但要编写完整的Python程序，就需要在文件编辑器中输入指令。“文件编辑器”类似于Notepad或TextMate这样的文本编辑器，它有一些针对输入源代码的特殊功能。要在IDLE中打开文件编辑器，请选择FileNew ▶File。</p>
-<p class="zw">出现的窗口中应该包含一个光标，等待你输入，但它与交互式环境不同。在交互式环境中，按下回车，就会执行Python指令。文件编辑器允许输入许多指令，保存为文件，并运行该程序。下面是区别这两者的方法：</p>
-<ul>
-<li class="第1级无序列表">交互式环境窗口总是有&gt;&gt;&gt;提示符。</li>
-<li class="第1级无序列表">文件编辑器窗口没有&gt;&gt;&gt;提示符。</li>
-</ul>
-<p class="zw">现在是创建第一个程序的时候了！在文件编辑器窗口打开后，输入以下内容：</p>
-<pre class="代码无行号">
-<code>❶ # This program says hello and asks for my name.
+&lt;/pre&gt;
+&lt;p class="zw"&gt;就像图1-3中的盒子，这个例子中的spam变量保存了'Hello'，直到你用'Goodbye'替代它。&lt;/p&gt;
+&lt;p class="图"&gt;&lt;img alt="0103" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/25_Image00067.jpg"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图1-3 如果一个新值赋给变量，老值就被遗忘了&lt;/p&gt;
+&lt;h3 id="nav_point_27"&gt;1.4.2 变量名&lt;/h3&gt;
+&lt;p class="zw"&gt;表1-3中有一些合法变量名的例子。你可以给变量取任何名字，只要它遵守以下3条规则：&lt;/p&gt;
+&lt;p class="zw"&gt;1．只能是一个词。&lt;/p&gt;
+&lt;p class="zw"&gt;2．只能包含字母、数字和下划线。&lt;/p&gt;
+&lt;p class="zw"&gt;3．不能以数字开头。&lt;/p&gt;
+&lt;p class="表题"&gt;表1-3 有效和无效的变量名&lt;/p&gt;
+&lt;table border="1" width="90%"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;p class="表头单元格"&gt;有效的变量名&lt;/p&gt;
+&lt;/th&gt;
+&lt;th&gt;
+&lt;p class="表头单元格"&gt;无效的变量名&lt;/p&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;balance&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;current-balance（不允许中划线）&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;currentBalance&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;current balanc（不允许空格）&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;current_balance&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;4account（不允许数字开头）&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;_spam&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;42（不允许数字开头）&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;SPAM&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;total_$um（不允许$这样的特殊字符）&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;account4&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;'hello'（不允许'这样的特殊字符）&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p class="zw"&gt;变量名是区分大小写的。这意味着，spam、 SPAM、Spam和sPaM是4个不同的变量。变量用小写字母开头是Python的惯例。&lt;/p&gt;
+&lt;p class="zw"&gt;本书的变量名使用了驼峰形式，没有用下划线。也就是说，变量名用lookLikeThis，而不是looking_like_this。一些有经验的程序员可能会指出，官方的Python代码风格PEP 8，即应该使用下划线。我喜欢驼峰式，这没有错，并认为PEP 8本身“愚蠢的一致性是头脑狭隘人士的心魔”：&lt;/p&gt;
+&lt;blockquote class="提示 editing-block"&gt;“一致地满足风格指南是重要的。但最重要的是，知道何时要不一致，因为有时候风格指南就是不适用。如果有怀疑，请相信自己的最佳判断。”&lt;/blockquote&gt;
+&lt;p class="zw"&gt;好的变量名描述了它包含的数据。设想你搬到一间新屋子，搬家纸箱上标的都是“东西”。你永远找不到任何东西！本书的例子和许多Python的文档，使用spam、eggs和bacon等变量名作为一般名称（受到Monty Python的“Spam”短剧的影响），但在你的程序中，具有描述性的名字有助于提高代码可读性。&lt;/p&gt;
+&lt;h2 id="nav_point_28"&gt;1.5 第一个程序&lt;/h2&gt;
+&lt;p class="zw"&gt;虽然交互式环境对于一次运行一条 Python指令很好，但要编写完整的Python程序，就需要在文件编辑器中输入指令。“文件编辑器”类似于Notepad或TextMate这样的文本编辑器，它有一些针对输入源代码的特殊功能。要在IDLE中打开文件编辑器，请选择FileNew ▶File。&lt;/p&gt;
+&lt;p class="zw"&gt;出现的窗口中应该包含一个光标，等待你输入，但它与交互式环境不同。在交互式环境中，按下回车，就会执行Python指令。文件编辑器允许输入许多指令，保存为文件，并运行该程序。下面是区别这两者的方法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class="第1级无序列表"&gt;交互式环境窗口总是有&amp;gt;&amp;gt;&amp;gt;提示符。&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;文件编辑器窗口没有&amp;gt;&amp;gt;&amp;gt;提示符。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="zw"&gt;现在是创建第一个程序的时候了！在文件编辑器窗口打开后，输入以下内容：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;❶ # This program says hello and asks for my name.
 
 ❷ print('Hello world!')
 　print('What is your name?') # ask for their name
@@ -489,318 +496,319 @@ TypeError: can't multiply sequence by non-int of type 'float'</code>
 　print(len(myName))
 ❻ print('What is your age?') # ask for their age
 　myAge = input()
-　print('You will be ' + str(int(myAge) + 1) + ' in a year.') </code>
+　print('You will be ' + str(int(myAge) + 1) + ' in a year.') &lt;/code&gt;
 
-</pre>
-<p class="zw">在输入完源代码后保存它，这样就不必在每次启动IDLE时重新输入。从文件编辑器窗口顶部的菜单，选择File▶Save As。在“Save As”窗口中，在输入框输入hello.py，然后点击“Save”。</p>
-<p class="zw">在输入程序时，应该过一段时间就保存你的程序。这样，如果计算机崩溃，或者不小心退出了IDLE，也不会丢失代码。作为快捷键，可以在Windows和Linux上按Ctrl-S，在OS X上按⌘-S，来保存文件。</p>
-<p class="zw">在保存文件后，让我们来运行程序。选择Run▶Run Module，或按下F5键。程序将在交互式环境窗口中运行，该窗口是首次启动IDLE时出现的。记住，必须在文件编辑器窗口中按F5，而不是在交互式环境窗口中。在程序要求输入时，输入你的名字。在交互式环境中，程序输出应该看起来像这样：</p>
-<pre class="代码无行号">
-<code>Python 3.3.2 (v3.3.2:d047928ae3f6, May 16 2013, 00:06:53) [MSC v.1600 64 bit
+&lt;/pre&gt;
+&lt;p class="zw"&gt;在输入完源代码后保存它，这样就不必在每次启动IDLE时重新输入。从文件编辑器窗口顶部的菜单，选择File▶Save As。在“Save As”窗口中，在输入框输入hello.py，然后点击“Save”。&lt;/p&gt;
+&lt;p class="zw"&gt;在输入程序时，应该过一段时间就保存你的程序。这样，如果计算机崩溃，或者不小心退出了IDLE，也不会丢失代码。作为快捷键，可以在Windows和Linux上按Ctrl-S，在OS X上按⌘-S，来保存文件。&lt;/p&gt;
+&lt;p class="zw"&gt;在保存文件后，让我们来运行程序。选择Run▶Run Module，或按下F5键。程序将在交互式环境窗口中运行，该窗口是首次启动IDLE时出现的。记住，必须在文件编辑器窗口中按F5，而不是在交互式环境窗口中。在程序要求输入时，输入你的名字。在交互式环境中，程序输出应该看起来像这样：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;Python 3.3.2 (v3.3.2:d047928ae3f6, May 16 2013, 00:06:53) [MSC v.1600 64 bit
 (AMD64)] on win32
 Type "copyright", "credits" or "license()" for more information.
-&gt;&gt;&gt; ================================ RESTART ================================
-&gt;&gt;&gt;
+&amp;gt;&amp;gt;&amp;gt; ================================ RESTART ================================
+&amp;gt;&amp;gt;&amp;gt;
 Hello world!
 What is your name?
-<strong>Al</strong>
+&lt;strong&gt;Al&lt;/strong&gt;
 
 
 It is good to meet you, Al
 The length of your name is:
 2
 What is your age?
-<strong>4</strong>
+&lt;strong&gt;4&lt;/strong&gt;
 
 
 You will be 5 in a year.
-&gt;&gt;&gt; </code>
+&amp;gt;&amp;gt;&amp;gt; &lt;/code&gt;
 
-</pre>
-<p class="zw">如果没有更多代码行要执行，Python程序就会“中止”。也就是说，它停止运行。（也可以说Python程序“退出”了。）</p>
-<p class="zw">可以通过点击窗口上部的X，关闭文件编辑器。要重新加载一个保存了的程序，就在菜单中选择File▶Open。现在请这样做，在出现的窗口中选择hello.py，并点击“Open”按钮。前面保存的程序hello.py应该在文件编辑器窗口中打开。</p>
-<h2 id="nav_point_29">1.6 程序剖析</h2>
-<p class="zw">新程序在文件编辑器中打开后，让我们快速看一看它用到的Python指令，逐一查看每行代码。</p>
-<h3 id="nav_point_30">1.6.1 注释</h3>
-<p class="zw">下面这行称为“注释”。</p>
-<pre class="代码无行号">
-<code>❶ # This program says hello and asks for my name. </code>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;如果没有更多代码行要执行，Python程序就会“中止”。也就是说，它停止运行。（也可以说Python程序“退出”了。）&lt;/p&gt;
+&lt;p class="zw"&gt;可以通过点击窗口上部的X，关闭文件编辑器。要重新加载一个保存了的程序，就在菜单中选择File▶Open。现在请这样做，在出现的窗口中选择hello.py，并点击“Open”按钮。前面保存的程序hello.py应该在文件编辑器窗口中打开。&lt;/p&gt;
+&lt;h2 id="nav_point_29"&gt;1.6 程序剖析&lt;/h2&gt;
+&lt;p class="zw"&gt;新程序在文件编辑器中打开后，让我们快速看一看它用到的Python指令，逐一查看每行代码。&lt;/p&gt;
+&lt;h3 id="nav_point_30"&gt;1.6.1 注释&lt;/h3&gt;
+&lt;p class="zw"&gt;下面这行称为“注释”。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;❶ # This program says hello and asks for my name. &lt;/code&gt;
 
-</pre>
-<p class="zw">Python会忽略注释，你可以用它们来写程序注解，或提醒自己代码试图完成的事。这一行中，#标志之后的所有文本都是注释。</p>
-<p class="zw">有时候，程序员在测试代码时，会在一行代码前面加上#，临时删除它。这称为“注释掉”代码。在你想搞清楚为什么程序不工作时，这样做可能有用。稍后，如果你准备还原这一行代码，可以去掉#。</p>
-<p class="zw">Python也会忽略注释之后的空行。在程序中，想加入空行时就可以加入。这会让你的代码更容易阅读，就像书中的段落一样。</p>
-<h3 id="nav_point_31">1.6.2 print()函数</h3>
-<p class="zw">print()函数将括号内的字符串显示在屏幕上。</p>
-<pre class="代码无行号">
-<code>❷ print('Hello world!')
-　print('What is your name?') # ask for their name</code>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;Python会忽略注释，你可以用它们来写程序注解，或提醒自己代码试图完成的事。这一行中，#标志之后的所有文本都是注释。&lt;/p&gt;
+&lt;p class="zw"&gt;有时候，程序员在测试代码时，会在一行代码前面加上#，临时删除它。这称为“注释掉”代码。在你想搞清楚为什么程序不工作时，这样做可能有用。稍后，如果你准备还原这一行代码，可以去掉#。&lt;/p&gt;
+&lt;p class="zw"&gt;Python也会忽略注释之后的空行。在程序中，想加入空行时就可以加入。这会让你的代码更容易阅读，就像书中的段落一样。&lt;/p&gt;
+&lt;h3 id="nav_point_31"&gt;1.6.2 print()函数&lt;/h3&gt;
+&lt;p class="zw"&gt;print()函数将括号内的字符串显示在屏幕上。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;❷ print('Hello world!')
+　print('What is your name?') # ask for their name&lt;/code&gt;
 
-</pre>
-<p class="zw">代码行print('Hello world!')表示“打印出字符串'Hello world!'的文本”。Python执行到这行时，你告诉Python调用print()函数，并将字符串“传递”给函数。传递给函数的值称为“参数”。请注意，引号没有打印在屏幕上。它们只是表示字符串的起止，不是字符串的一部分。</p>
-<p class="zw">也可以用这个函数在屏幕上打印出空行，只要调用print()就可以了，括号内没有任何东西。</p>
-<p class="zw">在写函数名时，末尾的左右括号表明它是一个函数的名字。这就是为什么在本书中你会看到print()，而不是print。第2章更详细地探讨了函数。</p>
-<h3 id="nav_point_32">1.6.3 input()函数</h3>
-<p class="zw">函数等待用户在键盘上输入一些文本，并按下回车键。</p>
-<pre class="代码无行号">
-<code>❸ myName = input()</code>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;代码行print('Hello world!')表示“打印出字符串'Hello world!'的文本”。Python执行到这行时，你告诉Python调用print()函数，并将字符串“传递”给函数。传递给函数的值称为“参数”。请注意，引号没有打印在屏幕上。它们只是表示字符串的起止，不是字符串的一部分。&lt;/p&gt;
+&lt;p class="zw"&gt;也可以用这个函数在屏幕上打印出空行，只要调用print()就可以了，括号内没有任何东西。&lt;/p&gt;
+&lt;p class="zw"&gt;在写函数名时，末尾的左右括号表明它是一个函数的名字。这就是为什么在本书中你会看到print()，而不是print。第2章更详细地探讨了函数。&lt;/p&gt;
+&lt;h3 id="nav_point_32"&gt;1.6.3 input()函数&lt;/h3&gt;
+&lt;p class="zw"&gt;函数等待用户在键盘上输入一些文本，并按下回车键。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;❸ myName = input()&lt;/code&gt;
 
-</pre>
-<p class="zw">这个函数求值为一个字符串，即用户输入的文本。前面的代码行将这个字符串赋给变量myName。</p>
-<p class="zw">你可以认为input()函数调用是一个表达式，它求值为用户输入的任何字符串。如果用户输入'Al'，那么该表达式就求值为myName = 'Al'。</p>
-<h3 id="nav_point_33">1.6.4 打印用户的名字</h3>
-<p class="zw">接下来的print()调用，在括号间包含表达式'It is good to meet you, ' + myName。</p>
-<pre class="代码无行号">
-<code>❹ print('It is good to meet you, ' + myName) </code>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;这个函数求值为一个字符串，即用户输入的文本。前面的代码行将这个字符串赋给变量myName。&lt;/p&gt;
+&lt;p class="zw"&gt;你可以认为input()函数调用是一个表达式，它求值为用户输入的任何字符串。如果用户输入'Al'，那么该表达式就求值为myName = 'Al'。&lt;/p&gt;
+&lt;h3 id="nav_point_33"&gt;1.6.4 打印用户的名字&lt;/h3&gt;
+&lt;p class="zw"&gt;接下来的print()调用，在括号间包含表达式'It is good to meet you, ' + myName。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;❹ print('It is good to meet you, ' + myName) &lt;/code&gt;
 
-</pre>
-<p class="zw">要记住，表达式总是可以求值为一个值。如果'Al'是上一行代码保存在myName中的值，那么这个表达式就求值为'It is good to meet you, Al'。这个字符串传给print()，它将输出到屏幕上。</p>
-<h3 id="nav_point_34">1.6.5 len()函数</h3>
-<p class="zw">你可以向len()函数传递一个字符串（或包含字符串的变量），然后该函数求值为一个整型值，即字符串中字符的个数。</p>
-<pre class="代码无行号">
-<code>❺ print('The length of your name is:')
-　print(len(myName)) </code>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;要记住，表达式总是可以求值为一个值。如果'Al'是上一行代码保存在myName中的值，那么这个表达式就求值为'It is good to meet you, Al'。这个字符串传给print()，它将输出到屏幕上。&lt;/p&gt;
+&lt;h3 id="nav_point_34"&gt;1.6.5 len()函数&lt;/h3&gt;
+&lt;p class="zw"&gt;你可以向len()函数传递一个字符串（或包含字符串的变量），然后该函数求值为一个整型值，即字符串中字符的个数。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;❺ print('The length of your name is:')
+　print(len(myName)) &lt;/code&gt;
 
-</pre>
-<p class="zw">在交互式环境中输入以下内容试一试：</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>len('hello')</strong>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;在交互式环境中输入以下内容试一试：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;len('hello')&lt;/strong&gt;
 
 
 5
-&gt;&gt;&gt; <strong>len('My very energetic monster just scarfed nachos.')</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;len('My very energetic monster just scarfed nachos.')&lt;/strong&gt;
 
 
 46
-&gt;&gt;&gt; <strong>len('')</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;len('')&lt;/strong&gt;
 
 
-0</code>
+0&lt;/code&gt;
 
-</pre>
-<p class="zw">就像这些例子，len(myName)求值为一个整数。然后它被传递给print()，在屏幕上显示。请注意，print()允许传入一个整型值或字符串。但如果在交互式环境中输入以下内容，就会报错：</p>
-<pre class="代码无行号">
-<code> &gt;&gt;&gt; <strong>print('I am ' + 29 + ' years old.')</strong>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;就像这些例子，len(myName)求值为一个整数。然后它被传递给print()，在屏幕上显示。请注意，print()允许传入一个整型值或字符串。但如果在交互式环境中输入以下内容，就会报错：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt; &amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;print('I am ' + 29 + ' years old.')&lt;/strong&gt;
 
 
 Traceback (most recent call last):
-  File "&lt;pyshell#6&gt;", line 1, in &lt;module&gt;
+  File "&amp;lt;pyshell#6&amp;gt;", line 1, in &amp;lt;module&amp;gt;
     print('I am ' + 29 + ' years old.')
-TypeError: Can't convert 'int' object to str implicitly</code>
+TypeError: Can't convert 'int' object to str implicitly&lt;/code&gt;
 
-</pre>
-<p class="zw">导致错误的原因不是print()函数，而是你试图传递给print()的表达式。如果在交互式环境中单独输入这个表达式，也会得到同样的错误。</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>'I am ' + 29 + ' years old.'</strong>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;导致错误的原因不是print()函数，而是你试图传递给print()的表达式。如果在交互式环境中单独输入这个表达式，也会得到同样的错误。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;'I am ' + 29 + ' years old.'&lt;/strong&gt;
 
 
 Traceback (most recent call last):
-  File "&lt;pyshell#7&gt;", line 1, in &lt;module&gt;
+  File "&amp;lt;pyshell#7&amp;gt;", line 1, in &amp;lt;module&amp;gt;
    'I am ' + 29 + ' years old.'
-TypeError: Can't convert 'int' object to str implicitly</code>
+TypeError: Can't convert 'int' object to str implicitly&lt;/code&gt;
 
-</pre>
-<p class="zw">报错是因为，只能用+操作符加两个整数，或连接两个字符串。不能让一个整数和一个字符串相加，因为这不符合Python的语法。可以使用字符串版本的整数，修复这个错误。这在下一节中解释。</p>
-<h3 id="nav_point_35">1.6.6 str()、int()和float()函数</h3>
-<p class="zw">如果想要连接一个整数（如29）和一个字符串，再传递给print()，就需要获得值'29'。它是29的字符串形式。str()函数可以传入一个整型值，并求值为它的字符串形式，像下面这样：</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>str(29)</strong>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;报错是因为，只能用+操作符加两个整数，或连接两个字符串。不能让一个整数和一个字符串相加，因为这不符合Python的语法。可以使用字符串版本的整数，修复这个错误。这在下一节中解释。&lt;/p&gt;
+&lt;h3 id="nav_point_35"&gt;1.6.6 str()、int()和float()函数&lt;/h3&gt;
+&lt;p class="zw"&gt;如果想要连接一个整数（如29）和一个字符串，再传递给print()，就需要获得值'29'。它是29的字符串形式。str()函数可以传入一个整型值，并求值为它的字符串形式，像下面这样：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;str(29)&lt;/strong&gt;
 
 
 '29'
-&gt;&gt;&gt; <strong>print('I am ' + str(29) + ' years old.')</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;print('I am ' + str(29) + ' years old.')&lt;/strong&gt;
 
 
-I am 29 years old. </code>
+I am 29 years old. &lt;/code&gt;
 
-</pre>
-<p class="zw">因为str(29)求值为’29’，所以表达式'I am ' + str(29) + ' years old.'求值为'I am ' + '29' + ' years old.'，它又求值为'I am 29 years old.'。这就是传递给print()函数的值。</p>
-<p class="zw">str()、int()和float()函数将分别求值为传入值的字符串、整数和浮点数形式。请尝试用这些函数在交互式环境中转换一些值，看看会发生什么。</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>str(0)</strong>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;因为str(29)求值为’29’，所以表达式'I am ' + str(29) + ' years old.'求值为'I am ' + '29' + ' years old.'，它又求值为'I am 29 years old.'。这就是传递给print()函数的值。&lt;/p&gt;
+&lt;p class="zw"&gt;str()、int()和float()函数将分别求值为传入值的字符串、整数和浮点数形式。请尝试用这些函数在交互式环境中转换一些值，看看会发生什么。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;str(0)&lt;/strong&gt;
 
 
 '0'
-&gt;&gt;&gt; <strong>str(-3.14)</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;str(-3.14)&lt;/strong&gt;
 
 
 '-3.14'
-&gt;&gt;&gt; <strong>int('42')</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;int('42')&lt;/strong&gt;
 
 
 42
-&gt;&gt;&gt; <strong>int('-99')</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;int('-99')&lt;/strong&gt;
 
 
 -99
-&gt;&gt;&gt; <strong>int(1.25)</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;int(1.25)&lt;/strong&gt;
 
 
 1
-&gt;&gt;&gt; <strong>int(1.99)</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;int(1.99)&lt;/strong&gt;
 
 
 1
-&gt;&gt;&gt; <strong>float('3.14')</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;float('3.14')&lt;/strong&gt;
 
 
 3.14
-&gt;&gt;&gt; <strong>float(10)</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;float(10)&lt;/strong&gt;
 
 
-10.0</code>
+10.0&lt;/code&gt;
 
-</pre>
-<p class="zw">前面的例子调用了str()、int()和float()函数，向它们传入其他数据类型的值，得到了字符串、整型或浮点型的值。</p>
-<p class="zw">如果想要将一个整数或浮点数与一个字符串连接，str()函数就很方便。如果你有一些字符串值，希望将它们用于数学运算，int()函数也很有用。例如，input()函数总是返回一个字符串，即便用户输入的是一个数字。在交互式环境中输入spam = input()，在它等待文本时输入101。</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>spam = input()</strong>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;前面的例子调用了str()、int()和float()函数，向它们传入其他数据类型的值，得到了字符串、整型或浮点型的值。&lt;/p&gt;
+&lt;p class="zw"&gt;如果想要将一个整数或浮点数与一个字符串连接，str()函数就很方便。如果你有一些字符串值，希望将它们用于数学运算，int()函数也很有用。例如，input()函数总是返回一个字符串，即便用户输入的是一个数字。在交互式环境中输入spam = input()，在它等待文本时输入101。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spam = input()&lt;/strong&gt;
 
 
 101
-&gt;&gt;&gt; <strong>spam</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spam&lt;/strong&gt;
 
 
-'101'</code>
+'101'&lt;/code&gt;
 
-</pre>
-<p class="zw">保存在spam中的值不是整数101，而是字符串'101'。如果想要用spam中的值进行数学运算，那就用int()函数取得spam的整数形式，然后将这个新值存在spam中。</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>spam = int(spam)</strong>
-
-
-&gt;&gt;&gt; <strong>spam</strong>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;保存在spam中的值不是整数101，而是字符串'101'。如果想要用spam中的值进行数学运算，那就用int()函数取得spam的整数形式，然后将这个新值存在spam中。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spam = int(spam)&lt;/strong&gt;
 
 
-101</code>
-
-</pre>
-<p class="zw">现在你应该能将spam变量作为整数，而不是字符串使用。</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>spam * 10 / 5</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spam&lt;/strong&gt;
 
 
-202.0</code>
+101&lt;/code&gt;
 
-</pre>
-<p class="zw">请注意，如果你将一个不能求值为整数的值传递给int()，Python将显示出错信息。</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>int('99.99')</strong>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;现在你应该能将spam变量作为整数，而不是字符串使用。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spam * 10 / 5&lt;/strong&gt;
+
+
+202.0&lt;/code&gt;
+
+&lt;/pre&gt;
+&lt;p class="zw"&gt;请注意，如果你将一个不能求值为整数的值传递给int()，Python将显示出错信息。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;int('99.99')&lt;/strong&gt;
 
 
 Traceback (most recent call last):
-  File "&lt;pyshell#18&gt;", line 1, in &lt;module&gt;
+  File "&amp;lt;pyshell#18&amp;gt;", line 1, in &amp;lt;module&amp;gt;
     int('99.99')
 ValueError: invalid literal for int() with base 10: '99.99'
-&gt;&gt;&gt; <strong>int('twelve')</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;int('twelve')&lt;/strong&gt;
 
 
 Traceback (most recent call last):
-  File "&lt;pyshell#19&gt;", line 1, in &lt;module&gt;
+  File "&amp;lt;pyshell#19&amp;gt;", line 1, in &amp;lt;module&amp;gt;
     int('twelve')
-ValueError: invalid literal for int() with base 10: 'twelve'</code>
+ValueError: invalid literal for int() with base 10: 'twelve'&lt;/code&gt;
 
-</pre>
-<p class="zw">如果需要对浮点数进行取整运算，也可以用int()函数。</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>int(7.7)</strong>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;如果需要对浮点数进行取整运算，也可以用int()函数。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;int(7.7)&lt;/strong&gt;
 
 
 7
-&gt;&gt;&gt; <strong>int(7.7) + 1</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;int(7.7) + 1&lt;/strong&gt;
 
 
-8</code>
+8&lt;/code&gt;
 
-</pre>
-<p class="zw">在你的程序中，最后3行使用了函数int()和str()，取得适当数据类型的值。</p>
-<pre class="代码无行号">
-<code>❻ print('What is your age?') # ask for their age
+&lt;/pre&gt;
+&lt;p class="zw"&gt;在你的程序中，最后3行使用了函数int()和str()，取得适当数据类型的值。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;❻ print('What is your age?') # ask for their age
 　myAge = input()
-　print('You will be ' + str(int(myAge) + 1) + ' in a year.') </code>
+　print('You will be ' + str(int(myAge) + 1) + ' in a year.') &lt;/code&gt;
 
-</pre>
-<p class="zw">myAge变量包含了input()函数返回的值。因为input()函数总是返回一个字符串（即使用户输入的是数字），所以你可以使用int(myAge)返回字符串的整型值。这个整型值随后在表达式int(myAge) + 1中与1相加。</p>
-<p class="zw">相加的结果传递给str()函数：str(int(myAge) + 1)。然后，返回的字符串与字符串'You will be '和' in a year.'连接，求值为一个更长的字符串。这个更长的字符串最终传递给print()，在屏幕上显示。</p>
-<p class="zw">假定用户输入字符串'4'，保存在myAge中。字符串'4'被转换为一个整型，所以你可以对它加1。结果是5。str()函数将这个结果转化为字符串，这样你就可以将它与第二个字符串'in a year.'连接，创建最终的消息。这些求值步骤如图1-4所示。</p>
-<p class="editing-tag 超强提示标签">文本和数字相等判断</p>
-<blockquote class="超强提示 editing-block">
-<p class="zw"><br/>
-</p>
-<p class="zw">虽然数字的字符串值被认为与整型值和浮点型值完全不同，但整型值可以与浮点值相等。</p>
-<pre class="代码无行号">
-<code>&gt;&gt;&gt; <strong>42 == '42'</strong>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;myAge变量包含了input()函数返回的值。因为input()函数总是返回一个字符串（即使用户输入的是数字），所以你可以使用int(myAge)返回字符串的整型值。这个整型值随后在表达式int(myAge) + 1中与1相加。&lt;/p&gt;
+&lt;p class="zw"&gt;相加的结果传递给str()函数：str(int(myAge) + 1)。然后，返回的字符串与字符串'You will be '和' in a year.'连接，求值为一个更长的字符串。这个更长的字符串最终传递给print()，在屏幕上显示。&lt;/p&gt;
+&lt;p class="zw"&gt;假定用户输入字符串'4'，保存在myAge中。字符串'4'被转换为一个整型，所以你可以对它加1。结果是5。str()函数将这个结果转化为字符串，这样你就可以将它与第二个字符串'in a year.'连接，创建最终的消息。这些求值步骤如图1-4所示。&lt;/p&gt;
+&lt;p class="editing-tag 超强提示标签"&gt;文本和数字相等判断&lt;/p&gt;
+&lt;blockquote class="超强提示 editing-block"&gt;
+&lt;p class="zw"&gt;&lt;br/&gt;
+&lt;/p&gt;
+&lt;p class="zw"&gt;虽然数字的字符串值被认为与整型值和浮点型值完全不同，但整型值可以与浮点值相等。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;42 == '42'&lt;/strong&gt;
 
 
 False
-&gt;&gt;&gt; <strong>42 == 42.0</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;42 == 42.0&lt;/strong&gt;
 
 
 True
-&gt;&gt;&gt; <strong>42.0 == 0042.000</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;42.0 == 0042.000&lt;/strong&gt;
 
 
-True</code>
+True&lt;/code&gt;
 
-</pre>
-<p class="zw">Python进行这种区分，因为字符串是文本，而整型值和浮点型都是数字。</p>
-</blockquote>
-<p class="图"><img alt="0104" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/25_Image00068.jpg"/>
-</p>
-<p class="图题">图1-4 如果4保存在myAge中，求值的步骤</p>
-<h2 id="nav_point_36">1.7 小结</h2>
-<p class="zw">你可以用一个计算器来计算表达式，或在文本处理器中输入字符串连接。甚至可以通过复制粘贴文本，很容易地实现字符串复制。但是表达式以及组成它们的值（操作符、变量和函数调用），才是构成程序的基本构建块。一旦你知道如何处理这些元素，就能够用Python操作大量的数据。</p>
-<p class="zw">最好是记住本章中介绍的不同类型的操作符（+、-、­*­、/、//、%和­**­是数学操作符，+和­*­是字符串操作符），以及3种数据类型（整型、浮点型和字符串）。</p>
-<p class="zw">我们还介绍了几个不同的函数。print()和input()函数处理简单的文本输出（到屏幕）和输入（通过键盘）。len()函数接受一个字符串，并求值为该字符串中字符的数目。</p>
-<p class="zw">在下一章中，你将学习如何告诉Python根据它拥有的值，明智地决定什么代码要运行，什么代码要跳过，什么代码要重复。这称为“控制流”，它让你编写程序来做出明智的决定。</p>
-<h2 id="nav_point_37">1.8 习题</h2>
-<p class="zw">1．下面哪些是操作符，哪些是值？</p>
-<pre class="代码无行号">
-<code>*
+&lt;/pre&gt;
+&lt;p class="zw"&gt;Python进行这种区分，因为字符串是文本，而整型值和浮点型都是数字。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p class="图"&gt;&lt;img alt="0104" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/25_Image00068.jpg"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图1-4 如果4保存在myAge中，求值的步骤&lt;/p&gt;
+&lt;h2 id="nav_point_36"&gt;1.7 小结&lt;/h2&gt;
+&lt;p class="zw"&gt;你可以用一个计算器来计算表达式，或在文本处理器中输入字符串连接。甚至可以通过复制粘贴文本，很容易地实现字符串复制。但是表达式以及组成它们的值（操作符、变量和函数调用），才是构成程序的基本构建块。一旦你知道如何处理这些元素，就能够用Python操作大量的数据。&lt;/p&gt;
+&lt;p class="zw"&gt;最好是记住本章中介绍的不同类型的操作符（+、-、­*­、/、//、%和­**­是数学操作符，+和­*­是字符串操作符），以及3种数据类型（整型、浮点型和字符串）。&lt;/p&gt;
+&lt;p class="zw"&gt;我们还介绍了几个不同的函数。print()和input()函数处理简单的文本输出（到屏幕）和输入（通过键盘）。len()函数接受一个字符串，并求值为该字符串中字符的数目。&lt;/p&gt;
+&lt;p class="zw"&gt;在下一章中，你将学习如何告诉Python根据它拥有的值，明智地决定什么代码要运行，什么代码要跳过，什么代码要重复。这称为“控制流”，它让你编写程序来做出明智的决定。&lt;/p&gt;
+&lt;h2 id="nav_point_37"&gt;1.8 习题&lt;/h2&gt;
+&lt;p class="zw"&gt;1．下面哪些是操作符，哪些是值？&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;*
 'hello'
 -88.8
 -
 /
 +
-5</code>
+5&lt;/code&gt;
 
-</pre>
-<p class="zw">2．下面哪个是变量，哪个是字符串？</p>
-<pre class="代码无行号">
-<code>spam
-'spam'</code>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;2．下面哪个是变量，哪个是字符串？&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;spam
+'spam'&lt;/code&gt;
 
-</pre>
-<p class="zw">3．说出3种数据类型。</p>
-<p class="zw">4．表达式由什么构成？所有表达式都做什么事？</p>
-<p class="zw">5．本章介绍了赋值语句，如spam = 10。表达式和语句有什么区别？</p>
-<p class="zw">6．下列语句运行后，变量bacon的值是什么？</p>
-<pre class="代码无行号">
-<code>bacon = 20
-bacon + 1</code>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;3．说出3种数据类型。&lt;/p&gt;
+&lt;p class="zw"&gt;4．表达式由什么构成？所有表达式都做什么事？&lt;/p&gt;
+&lt;p class="zw"&gt;5．本章介绍了赋值语句，如spam = 10。表达式和语句有什么区别？&lt;/p&gt;
+&lt;p class="zw"&gt;6．下列语句运行后，变量bacon的值是什么？&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;bacon = 20
+bacon + 1&lt;/code&gt;
 
-</pre>
-<p class="zw">7．下面两个表达式求值的结果是什么？</p>
-<pre class="代码无行号">
-<code>'spam' + 'spamspam'
-'spam' * 3</code>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;7．下面两个表达式求值的结果是什么？&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;'spam' + 'spamspam'
+'spam' * 3&lt;/code&gt;
 
-</pre>
-<p class="zw">8．为什么eggs是有效的变量名，而100是无效的？</p>
-<p class="zw">9．哪3个函数能分别取得一个值的整型、浮点型或字符串版本？</p>
-<p class="zw">10．为什么这个表达式会导致错误？如何修复？</p>
-<pre class="代码无行号">
-<code>'I have eaten ' + 99 + ' burritos.'</code>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;8．为什么eggs是有效的变量名，而100是无效的？&lt;/p&gt;
+&lt;p class="zw"&gt;9．哪3个函数能分别取得一个值的整型、浮点型或字符串版本？&lt;/p&gt;
+&lt;p class="zw"&gt;10．为什么这个表达式会导致错误？如何修复？&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;
+&lt;code&gt;'I have eaten ' + 99 + ' burritos.'&lt;/code&gt;
 
-</pre>
-<p class="zw">附加题：在线查找len()函数的Python文档。它在一个标题为“Built-in Functions”的网页上。扫一眼Python的其他函数的列表，查看round()函数的功能，在交互式环境中使用它。</p>
-<p class="zw"><br style="page-break-after:always"/>
-</p>
-<div></div>
-]]></description>
+&lt;/pre&gt;
+&lt;p class="zw"&gt;附加题：在线查找len()函数的Python文档。它在一个标题为“Built-in Functions”的网页上。扫一眼Python的其他函数的列表，查看round()函数的功能，在交互式环境中使用它。&lt;/p&gt;
+&lt;p class="zw"&gt;&lt;br style="page-break-after:always"/&gt;
+&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+</description>
 <pubDate>Wed, 21 Oct 2026 03:16:53 +0000</pubDate>
 <guid isPermaLink="false">epub-25</guid>
 </item>
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -808,6 +816,7 @@ bacon + 1</code>
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</guid>
 <pubDate>Wed, 14 Oct 2026 04:05:00 +0000</pubDate>
 </item>
+
 
 <item>
 <title>0024 - Basic Python - 附录 D 使用Git进行版本控制.epub</title>
@@ -1102,6 +1111,7 @@ git_practice$&lt;/code&gt;
 <pubDate>Wed, 14 Oct 2026 03:30:13 +0000</pubDate>
 <guid isPermaLink="false">epub-24</guid>
 </item>
+
 
 
 <item>
@@ -1909,6 +1919,7 @@ print(spam)&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 9 章 如何接入外部 API</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%209%20%E7%AB%A0%20%E5%A6%82%E4%BD%95%E6%8E%A5%E5%85%A5%E5%A4%96%E9%83%A8%20API/</link>
@@ -1925,6 +1936,7 @@ print(spam)&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 2 章 WorkBuddy的下载、安装、登录与更新</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%202%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%99%BB%E5%BD%95%E4%B8%8E%E6%9B%B4%E6%96%B0/</link>
@@ -1932,6 +1944,7 @@ print(spam)&lt;/code&gt;
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%202%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%99%BB%E5%BD%95%E4%B8%8E%E6%9B%B4%E6%96%B0/</guid>
       <pubDate>Thu, 20 Aug 2026 00:53:09 +0000</pubDate>
     </item>
+
 
 
 
@@ -2463,6 +2476,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -2478,6 +2492,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -2485,6 +2500,7 @@ Total number of items: 48&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</guid>
 <pubDate>Thu, 01 Oct 2026 06:58:23 +0000</pubDate>
 </item>
+
 
 
 
@@ -2523,6 +2539,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 7 章 WorkBuddy 使用连接器</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</link>
@@ -2530,6 +2547,7 @@ Total number of items: 48&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</guid>
 <pubDate>Sat, 03 Oct 2026 02:44:11 +0000</pubDate>
 </item>
+
 
 
 
@@ -3305,6 +3323,7 @@ help@nostarch.com&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 4 章 快速完成第一个 WorkBuddy 任务</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%204%20%E7%AB%A0%20%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90%E7%AC%AC%E4%B8%80%E4%B8%AA%20WorkBuddy%20%E4%BB%BB%E5%8A%A1/</link>
@@ -3312,6 +3331,7 @@ help@nostarch.com&lt;/code&gt;
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%204%20%E7%AB%A0%20%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90%E7%AC%AC%E4%B8%80%E4%B8%AA%20WorkBuddy%20%E4%BB%BB%E5%8A%A1/</guid>
       <pubDate>Mon, 31 Aug 2026 04:20:41 +0000</pubDate>
     </item>
+
 
 
 
@@ -4403,6 +4423,7 @@ except:
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 8 章 WorkBuddy 接入小程序与 IM 助理</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%208%20%E7%AB%A0%20WorkBuddy%20%E6%8E%A5%E5%85%A5%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8E%20IM%20%E5%8A%A9%E7%90%86/</link>
@@ -4410,6 +4431,7 @@ except:
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%208%20%E7%AB%A0%20WorkBuddy%20%E6%8E%A5%E5%85%A5%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8E%20IM%20%E5%8A%A9%E7%90%86/</guid>
       <pubDate>Mon, 28 Sep 2026 04:16:11 +0000</pubDate>
     </item>
+
 
 
 
@@ -5083,6 +5105,7 @@ cherries Carol moose
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 3 章 WorkBuddy 的主界面、任务与工作区</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%203%20%E7%AB%A0%20WorkBuddy%20%E7%9A%84%E4%B8%BB%E7%95%8C%E9%9D%A2%E3%80%81%E4%BB%BB%E5%8A%A1%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8C%BA/</link>
@@ -5090,6 +5113,7 @@ cherries Carol moose
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%203%20%E7%AB%A0%20WorkBuddy%20%E7%9A%84%E4%B8%BB%E7%95%8C%E9%9D%A2%E3%80%81%E4%BB%BB%E5%8A%A1%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8C%BA/</guid>
       <pubDate>Mon, 24 Aug 2026 01:22:34 +0000</pubDate>
     </item>
+
 
 
 
@@ -5584,6 +5608,7 @@ else:
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 7 章 WorkBuddy 使用连接器</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</link>
@@ -5592,471 +5617,6 @@ else:
       <pubDate>Mon, 21 Sep 2026 03:53:37 +0000</pubDate>
     </item>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<item>
-    <title>AutomaticApplicationPython - 033 - 第9章 组织文件.epub</title>
-    <description>&lt;p style='color: #888;'&gt;⏱ 预计阅读时间：64 分钟 (19059 字)&lt;/p&gt;&lt;hr&gt;&lt;h1 id="nav_point_231"&gt;第9章　组织文件&lt;/h1&gt;
-&lt;p class="zw"&gt;在上一章中，你学习了如何用Python创建并写入新文件。你的程序也可以组织硬盘上已经存在的文件。也许你曾经经历过查找一个文件夹，里面有几十个、几百个，甚至上千个文件，需要手工进行复制、改名、移动或压缩。或者考虑下面这样的任务：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;在一个文件夹及其所有子文件夹中，复制所有的pdf文件（且只复制pdf文件）&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;针对一个文件夹中的所有文件，删除文件名中前导的零，该文件夹中有数百个文件，名为spam001.txt、spam002.txt、spam003.txt等。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;将几个文件夹的内容压缩到一个ZIP文件中（这可能是一个简单的备份系统）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;所有这种无聊的任务，正是在请求用Python实现自动化。通过对电脑编程来完成这些任务，你就把它变成了一个快速工作的文件职员，而且从不犯错。&lt;/p&gt;
-&lt;p class="zw"&gt;在开始处理文件时你会发现，如果能够很快查看文件的扩展名（.txt、.pdf、.jpg等），是很有帮助的。在OS X和Linux上，文件浏览器很有可能自动显示扩展名。在Windows上，文件扩展名可能默认是隐藏的。要显示扩展名，请点开Start►Control Panel►Appearance和Personalization►Folder选项。在View选项卡中，Advanced Settings之下，取消Hide extensions for known file types复选框。&lt;/p&gt;
-&lt;h2 id="nav_point_232"&gt;9.1 shutil模块&lt;/h2&gt;
-&lt;p class="zw"&gt;shutil（或称为shell工具）模块中包含一些函数，让你在Python程序中复制、移动、改名和删除文件。要使用shutil的函数，首先需要import shutil。&lt;/p&gt;
-&lt;h3 id="nav_point_233"&gt;9.1.1 复制文件和文件夹&lt;/h3&gt;
-&lt;p class="zw"&gt;shutil模块提供了一些函数，用于复制文件和整个文件夹。&lt;/p&gt;
-&lt;p class="zw"&gt;调用shutil.copy(source, destination)，将路径source处的文件复制到路径destination处的文件夹（source和destination都是字符串）。如果destination是一个文件名，它将作为被复制文件的新名字。该函数返回一个字符串，表示被复制文件的路径。&lt;/p&gt;
-&lt;p class="zw"&gt;在交互式环境中输入以下代码，看看shutil.copy()的效果：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import shutil, os&lt;/strong&gt;
-　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.chdir('C:\\')&lt;/strong&gt;
-❶ &amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;shutil.copy('C:\\spam.txt', 'C:\\delicious')&lt;/strong&gt;
-　'C:\\delicious\\spam.txt'
-❷ &amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;shutil.copy('eggs.txt', 'C:\\delicious\\eggs2.txt')&lt;/strong&gt;
-　'C:\\delicious\\eggs2.txt'
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;第一个shutil.copy()调用将文件C:\spam.txt复制到文件夹C:\delicious。返回值是刚刚被复制的文件的路径。请注意，因为指定了一个文件夹作为目的地❶，原来的文件名spam.txt就被用作新复制的文件名。第二个shutil.copy()调用❷也将文件C:\eggs.txt复制到文件夹C:\delicious，但为新文件提供了一个名字eggs2.txt。&lt;/p&gt;
-&lt;p class="zw"&gt;shutil.copy()将复制一个文件，shutil.copytree()将复制整个文件夹，以及它包含的文件夹和文件。调用shutil.copytree(source, destination)，将路径source处的文件夹，包括它的所有文件和子文件夹，复制到路径destination处的文件夹。source和destination参数都是字符串。该函数返回一个字符串，是新复制的文件夹的路径。&lt;/p&gt;
-&lt;p class="zw"&gt;在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import shutil, os&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.chdir('C:\\')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;shutil.copytree('C:\\bacon', 'C:\\bacon_backup')&lt;/strong&gt;
-'C:\\bacon_backup'
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;shutil.copytree()调用创建了一个新文件夹，名为bacon_backup，其中的内容与原来的bacon文件夹一样。现在你已经备份了非常非常宝贵的“bacon”。&lt;/p&gt;
-&lt;h3 id="nav_point_234"&gt;9.1.2 文件和文件夹的移动与改名&lt;/h3&gt;
-&lt;p class="zw"&gt;调用shutil.move(source, destination)，将路径source处的文件夹移动到路径destination，并返回新位置的绝对路径的字符串。&lt;/p&gt;
-&lt;p class="zw"&gt;如果destination指向一个文件夹，source文件将移动到destination中，并保持原来的文件名。例如，在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import shutil&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;shutil.move('C:\\bacon.txt', 'C:\\eggs')&lt;/strong&gt;
-'C:\\eggs\\bacon.txt'
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;假定在C:\目录中已存在一个名为eggs的文件夹，这个shutil.move()调用就是说，“将C:\bacon.txt移动到文件夹C:\eggs中。&lt;/p&gt;
-&lt;p class="zw"&gt;如果在C:\eggs中原来已经存在一个文件bacon.txt，它就会被覆写。因为用这种方式很容易不小心覆写文件，所以在使用move()时应该注意。&lt;/p&gt;
-&lt;p class="zw"&gt;destination路径也可以指定一个文件名。在下面的例子中，source文件被移动并改名。&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;shutil.move('C:\\bacon.txt', 'C:\\eggs\\new_bacon.txt')&lt;/strong&gt;
-'C:\\eggs\\new_bacon.txt'
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这一行是说，“将C:\bacon.txt移动到文件夹C:\eggs，完成之后，将bacon.txt文件改名为new_bacon.txt。”&lt;/p&gt;
-&lt;p class="zw"&gt;前面两个例子都假设在C:\目录下有一个文件夹eggs。但是如果没有eggs文件夹，move()就会将bacon.txt改名，变成名为eggs的文件。&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;shutil.move('C:\\bacon.txt', 'C:\\eggs')&lt;/strong&gt;
-'C:\\eggs'
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这里，move()在C:\目录下找不到名为eggs的文件夹，所以假定destination指的是一个文件，而非文件夹。所以bacon.txt文本文件被改名为eggs（没有.txt文件扩展名的文本文件），但这可能不是你所希望的！这可能是程序中很难发现的缺陷，因为move()调用会很开心地做一些事情，但和你所期望的完全不同。这也是在使用move()时要小心的另一个理由。&lt;/p&gt;
-&lt;p class="zw"&gt;最后，构成目的地的文件夹必须已经存在，否则Python会抛出异常。在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;shutil.move('spam.txt', 'c:\\does_not_exist\\eggs\\ham')&lt;/strong&gt;
-Traceback (most recent call last):
-  File "C:\Python34\lib\shutil.py", line 521, in move
-    os.rename(src, real_dst)
-FileNotFoundError: [WinError 3] The system cannot find the path specified:
-'spam.txt' -&amp;gt; 'c:\\does_not_exist\\eggs\\ham'
-During handling of the above exception, another exception occurred:
-Traceback (most recent call last):
-  File "&amp;lt; pyshell#29&amp;gt;", line 1, in &amp;lt; module&amp;gt;
-    shutil.move('spam.txt', 'c:\\does_not_exist\\eggs\\ham')
-  File "C:\Python34\lib\shutil.py", line 533, in move
-    copy2(src, real_dst)
-  File "C:\Python34\lib\shutil.py", line 244, in copy2
-    copyfile(src, dst, follow_symlinks=follow_symlinks)
-  File "C:\Python34\lib\shutil.py", line 108, in copyfile
-    with open(dst, 'wb') as fdst:
-FileNotFoundError: [Errno 2] No such file or directory: 'c:\\does_not_exist\\
-eggs\\ham'
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;Python在does_not_exist目录中寻找eggs和ham。它没有找到不存在的目录，所以不能将spam.txt移动到指定的路径。&lt;/p&gt;
-&lt;h3 id="nav_point_235"&gt;9.1.3 永久删除文件和文件夹&lt;/h3&gt;
-&lt;p class="zw"&gt;利用os模块中的函数，可以删除一个文件或一个空文件夹。但利用shutil模块，可以删除一个文件夹及其所有的内容。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;用os.unlink(path)将删除path处的文件。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;调用os.rmdir(path)将删除path处的文件夹。该文件夹必须为空，其中没有任何文件和文件夹。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;调用shutil.rmtree(path)将删除path处的文件夹，它包含的所有文件和文件夹都会被删除。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;在程序中使用这些函数时要小心！可以第一次运行程序时，注释掉这些调用，并且加上print()调用，显示会被删除的文件。这样做是一个好主意。下面有一个Python程序，本来打算删除具有.txt扩展名的文件，但有一处录入错误（用粗体突出显示），结果导致它删除了.rxt文件。&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;import os
-for filename in os.listdir():
-    if filename.endswith('.&lt;strong&gt;r&lt;/strong&gt;
-xt'):
-        os.unlink(filename)
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;如果你有某些重要的文件以.rxt结尾，它们就会被不小心永久地删除。作为替代，你应该先运行像这样的程序：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;import os
-for filename in os.listdir():
-    if filename.endswith('.rxt'):
-        #os.unlink(filename)
-        print(filename)&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;现在os.unlink()调用被注释掉，所以Python会忽略它。作为替代，你会打印出将被删除的文件名。先运行这个版本的程序，你就会知道，你不小心告诉程序要删除.rxt文件，而不是.txt文件。&lt;/p&gt;
-&lt;p class="zw"&gt;在确定程序按照你的意图工作后，删除print(filename)代码行，取消os.unlink(filename)代码行的注释。然后再次运行该程序，实际删除这些文件。&lt;/p&gt;
-&lt;h3 id="nav_point_236"&gt;9.1.4 用send2trash模块安全地删除&lt;/h3&gt;
-&lt;p class="zw"&gt;因为Python内建的shutil.rmtree()函数不可恢复地删除文件和文件夹，所以用起来可能有危险。删除文件和文件夹的更好方法，是使用第三方的send2trash模块。你可以在终端窗口中运行pip install send2trash，安装该模块（参见附录A，其中更详细地解释了如何安装第三方模块）。&lt;/p&gt;
-&lt;p class="zw"&gt;利用send2trash，比Python常规的删除函数要安全得多，因为它会将文件夹和文件发送到计算机的垃圾箱或回收站，而不是永久删除它们。如果因程序缺陷而用send2trash删除了某些你不想删除的东西，稍后可以从垃圾箱恢复。&lt;/p&gt;
-&lt;p class="zw"&gt;安装send2trash后，在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import send2trash&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;baconFile = open('bacon.txt', 'a') # creates the file&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;baconFile.write('Bacon is not a vegetable.')&lt;/strong&gt;
-25
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;baconFile.close()&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;send2trash.send2trash('bacon.txt')&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;一般来说，总是应该使用send2trash.send2trash()函数来删除文件和文件夹。虽然它将文件发送到垃圾箱，让你稍后能够恢复它们，但是这不像永久删除文件，不会释放磁盘空间。如果你希望程序释放磁盘空间，就要用os和shutil来删除文件和文件夹。请注意，send2trash()函数只能将文件送到垃圾箱，不能从中恢复文件。&lt;/p&gt;
-&lt;h2 id="nav_point_237"&gt;9.2 遍历目录树&lt;/h2&gt;
-&lt;p class="zw"&gt;假定你希望对某个文件夹中的所有文件改名，包括该文件夹中所有子文件夹中的所有文件。也就是说，你希望遍历目录树，处理遇到的每个文件。写程序完成这件事，可能需要一些技巧。好在，Python提供了一个函数，替你处理这个过程。&lt;/p&gt;
-&lt;p class="zw"&gt;请看C:\delicious文件夹及其内容，如图9-1所示。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="0901" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/33_Image00100.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图9-1 一个示例文件夹，包含3个文件夹和4个文件&lt;/p&gt;
-&lt;p class="zw"&gt;这里有一个例子程序，针对图9-1的目录树，使用了os.walk()函数：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;import os
-for folderName, subfolders, filenames in os.walk('C:\\delicious'):
-    print('The current folder is ' + folderName)
-    for subfolder in subfolders:
-        print('SUBFOLDER OF ' + folderName + ': ' + subfolder)
-    for filename in filenames:
-        print('FILE INSIDE ' + folderName + ': '+ filename)
-    print('')&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;os.walk()函数被传入一个字符串值，即一个文件夹的路径。你可以在一个for循环语句中使用os.walk()函数，遍历目录树，就像使用range()函数遍历一个范围的数字一样。不像range()，os.walk()在循环的每次迭代中，返回3个值：&lt;/p&gt;
-&lt;p class="zw"&gt;1．当前文件夹名称的字符串。&lt;/p&gt;
-&lt;p class="zw"&gt;2．当前文件夹中子文件夹的字符串的列表。&lt;/p&gt;
-&lt;p class="zw"&gt;3．当前文件夹中文件的字符串的列表。&lt;/p&gt;
-&lt;p class="zw"&gt;所谓当前文件夹，是指for循环当前迭代的文件夹。程序的当前工作目录，不会因为os.walk()而改变。&lt;/p&gt;
-&lt;p class="zw"&gt;就像你可以在代码for i in range(10):中选择变量名称i一样，你也可以选择前面列出来的3个字的变量名称。我通常使用foldername、subfolders和filenames。&lt;/p&gt;
-&lt;p class="zw"&gt;运行该程序，它的输出如下：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;The current folder is C:\delicious
-SUBFOLDER OF C:\delicious: cats
-SUBFOLDER OF C:\delicious: walnut
-FILE INSIDE C:\delicious: spam.txt
-The current folder is C:\delicious\cats
-FILE INSIDE C:\delicious\cats: catnames.txt
-FILE INSIDE C:\delicious\cats: zophie.jpg
-The current folder is C:\delicious\walnut
-SUBFOLDER OF C:\delicious\walnut: waffles
-The current folder is C:\delicious\walnut\waffles
-FILE INSIDE C:\delicious\walnut\waffles: butter.txt.&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;因为os.walk()返回字符串的列表，保存在subfolder和filename变量中，所以你可以在它们自己的for循环中使用这些列表。用你自己定制的代码，取代print()函数调用（或者如果不需要，就删除for循环）。&lt;/p&gt;
-&lt;h2 id="nav_point_238"&gt;9.3 用zipfile模块压缩文件&lt;/h2&gt;
-&lt;p class="zw"&gt;你可能熟悉ZIP文件（带有.zip文件扩展名），它可以包含许多其他文件的压缩内容。压缩一个文件会减少它的大小，这在因特网上传输时很有用。因为一个ZIP文件可以包含多个文件和子文件夹，所以它是一种很方便的方式，将多个文件打包成一个文件。这个文件叫做“归档文件”，然后可以用作电子邮件的附件，或其他用途。&lt;/p&gt;
-&lt;p class="zw"&gt;利用zipfile模块中的函数，Python程序可以创建和打开（或解压）ZIP文件。假定你有一个名为example.zip的zip文件，它的内容如图9-2所示。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="0902" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/33_Image00101.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图9-2 example.zip的内容&lt;/p&gt;
-&lt;p class="zw"&gt;可以从&lt;a href="http://nostarch.com/automatestuff/"&gt;http://nostarch.com/automatestuff/&lt;/a&gt;
- 下载这个ZIP文件，或者利用计算机上已有的一个ZIP文件，接着完成下面的操作。&lt;/p&gt;
-&lt;h3 id="nav_point_239"&gt;9.3.1 读取ZIP文件&lt;/h3&gt;
-&lt;p class="zw"&gt;要读取ZIP文件的内容，首先必须创建一个ZipFile对象（请注意大写首字母Z和F）。ZipFile对象在概念上与File对象相似，你在第8章中曾经看到open()函数返回File对象：它们是一些值，程序通过它们与文件打交道。要创建一个ZipFile对象，就调用zipfile.ZipFile()函数，向它传入一个字符串，表示.zip文件的文件名。请注意，zipfile是Python模块的名称，ZipFile()是函数的名称。&lt;/p&gt;
-&lt;p class="zw"&gt;例如，在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import zipfile, os&lt;/strong&gt;
-　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.chdir('C:\\') # move to the folder with example.zip&lt;/strong&gt;
-　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;exampleZip = zipfile.ZipFile('example.zip')&lt;/strong&gt;
-　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;exampleZip.namelist()&lt;/strong&gt;
-　['spam.txt', 'cats/', 'cats/catnames.txt', 'cats/zophie.jpg']
-　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spamInfo = exampleZip.getinfo('spam.txt')&lt;/strong&gt;
-　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spamInfo.file_size&lt;/strong&gt;
-　13908
-　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spamInfo.compress_size&lt;/strong&gt;
-　3828
-❶ &amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;'Compressed file is %sx smaller!' % (round(spamInfo.file_size / spamInfo&lt;/strong&gt;
-　&lt;strong&gt;.compress_size, 2))&lt;/strong&gt;
-　'Compressed file is 3.63x smaller!'
-　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;exampleZip.close()&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;ZipFile对象有一个namelist()方法，返回ZIP文件中包含的所有文件和文件夹的字符串的列表。这些字符串可以传递给ZipFile对象的getinfo()方法，返回一个关于特定文件的ZipInfo对象。ZipInfo对象有自己的属性，诸如表示字节数的file_size和compress_size，它们分别表示原来文件大小和压缩后文件大小。ZipFile对象表示整个归档文件，而ZipInfo对象则保存该归档文件中每个文件的有用信息。&lt;/p&gt;
-&lt;p class="zw"&gt;❶处的命令计算出example.zip压缩的效率，用压缩后文件的大小除以原来文件的大小，并以%s字符串格式打印出这一信息。&lt;/p&gt;
-&lt;h3 id="nav_point_240"&gt;9.3.2 从ZIP文件中解压缩&lt;/h3&gt;
-&lt;p class="zw"&gt;ZipFile对象的extractall()方法从ZIP文件中解压缩所有文件和文件夹，放到当前工作目录中。&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import zipfile, os&lt;/strong&gt;
-　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;os.chdir('C:\\') # move to the folder with example.zip&lt;/strong&gt;
-　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;exampleZip = zipfile.ZipFile('example.zip')&lt;/strong&gt;
-❶ &amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;exampleZip.extractall()&lt;/strong&gt;
-　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;exampleZip.close()&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;运行这段代码后，example.zip的内容将被解压缩到C:\。或者，你可以向extractall()传递的一个文件夹名称，它将文件解压缩到那个文件夹，而不是当前工作目录。如果传递给extractall()方法的文件夹不存在，它会被创建。例如，如果你用exampleZip.extractall('C:\ delicious')取代❶处的调用，代码就会从example.zip中解压缩文件，放到新创建的C:\delicious文件夹中。&lt;/p&gt;
-&lt;p class="zw"&gt;ZipFile对象的extract()方法从ZIP文件中解压缩单个文件。继续交互式环境中的例子：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;exampleZip.extract('spam.txt')&lt;/strong&gt;
-'C:\\spam.txt'
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;exampleZip.extract('spam.txt', 'C:\\some\\new\\folders')&lt;/strong&gt;
-'C:\\some\\new\\folders\\spam.txt'
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;exampleZip.close()&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;传递给extract()的字符串，必须匹配namelist()返回的字符串列表中的一个。或者，你可以向extract()传递第二个参数，将文件解压缩到指定的文件夹，而不是当前工作目录。如果第二个参数指定的文件夹不存在，Python就会创建它。extract()的返回值是被压缩后文件的绝对路径。&lt;/p&gt;
-&lt;h3 id="nav_point_241"&gt;9.3.3 创建和添加到ZIP文件&lt;/h3&gt;
-&lt;p class="zw"&gt;要创建你自己的压缩ZIP文件，必须以“写模式”打开ZipFile对象，即传入'w'作为第二个参数（这类似于向open()函数传入'w'，以写模式打开一个文本文件）。&lt;/p&gt;
-&lt;p class="zw"&gt;如果向ZipFile对象的write()方法传入一个路径，Python就会压缩该路径所指的文件，将它加到ZIP文件中。write()方法的第一个参数是一个字符串，代表要添加的文件名。第二个参数是“压缩类型”参数，它告诉计算机使用怎样的算法来压缩文件。可以总是将这个值设置为zipfile.ZIP_DEFLATED（这指定了deflate压缩算法，它对各种类型的数据都很有效）。在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import zipfile&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;newZip = zipfile.ZipFile('new.zip', 'w')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;newZip.write('spam.txt', compress_type=zipfile.ZIP_DEFLATED)&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;newZip.close()&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这段代码将创建一个新的ZIP文件，名为new.zip，它包含spam.txt压缩后的内容。&lt;/p&gt;
-&lt;p class="zw"&gt;要记住，就像写入文件一样，写模式将擦除ZIP文件中所有原有的内容。如果只是希望将文件添加到原有的ZIP文件中，就要向zipfile.ZipFile()传入'a'作为第二个参数，以添加模式打开ZIP文件。&lt;/p&gt;
-&lt;h2 id="nav_point_242"&gt;9.4 项目：将带有美国风格日期的文件改名为欧洲风格日期&lt;/h2&gt;
-&lt;p class="zw"&gt;假定你的老板用电子邮件发给你上千个文件，文件名包含美国风格的日期（MM-DD-YYYY），需要将它们改名为欧洲风格的日期（DD-MM-YYYY）。手工完成这个无聊的任务可能需要几天时间！让我们写一个程序来完成它。&lt;/p&gt;
-&lt;p class="zw"&gt;下面是程序要做的事：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;检查当前工作目录的所有文件名，寻找美国风格的日期。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;如果找到，将该文件改名，交换月份和日期的位置，使之成为欧洲风格。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;这意味着代码需要做下面的事情：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;创建一个正则表达式，可以识别美国风格日期的文本模式。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;调用os.listdir()，找出工作目录中的所有文件。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;循环遍历每个文件名，利用该正则表达式检查它是否包含日期。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;如果它包含日期，用shutil.move()对该文件改名。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;对于这个项目，打开一个新的文件编辑器窗口，将代码保存为renameDates.py。&lt;/p&gt;
-&lt;h3 id="nav_point_243"&gt;第1步：为美国风格的日期创建一个正则表达式&lt;/h3&gt;
-&lt;p class="zw"&gt;程序的第一部分需要导入必要的模块，并创建一个正则表达式，它能识别MM-DD-YYYY格式的日期。TODO注释将提醒你，这个程序还要写什么。将它们作为TODO，就很容易利用IDLE的Ctrl-F查找功能找到它们。让你的代码看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　#! python3
-　# renameDates.py - Renames filenames with American MM-DD-YYYY date format
-　# to European DD-MM-YYYY.
-❶ import shutil, os, re
-　# Create a regex that matches files with the American date format.
-❷ datePattern = re.compile(r"""^(.*?)     # all text before the date
-　    ((0|1)?\d)-                 # one or two digits for the month
-　    ((0|1|2|3)?\d)-            # one or two digits for the day
- 　   ((19|20)\d\d)             # four digits for the year
-　    (.*?)$                     # all text after the date
-❸     """, re.VERBOSE)
-　# TODO: Loop over the files in the working directory.
-　# TODO: Skip files without a date.
-　# TODO: Get the different parts of the filename.
-　# TODO: Form the European-style filename.
-　# TODO: Get the full, absolute file paths.
-　# TODO: Rename the files.&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;通过本章，你知道shutil.move()函数可以用于文件改名：它的参数是要改名的文件名，以及新的文件名。因为这个函数存在于shutil模块中，所以你必须导入该模块❶。&lt;/p&gt;
-&lt;p class="zw"&gt;在为这些文件改名之前，需要确定哪些文件要改名。文件名如果包含spam4-4-1984.txt和01-03-2014eggs.zip这样的日期，就应该改名，而文件名不包含日期的应该忽略，诸如littlebrother.epub。&lt;/p&gt;
-&lt;p class="zw"&gt;可以用正则表达式来识别该模式。在开始导入re模块后，调用re.compile()创建一个Regex对象❷。传入re.VERBOSE作为第二参数❸，这将在正则表达式字符串中允许空白字符和注释，让它更可读。&lt;/p&gt;
-&lt;p class="zw"&gt;正则表达式字符串以^(.*?)开始，匹配文件名开始处、日期出现之前的任何文本。((0|1)?\d)分组匹配月份。第一个数字可以是0或1，所以正则表达式匹配12，作为十二月份，也会匹配02，作为二月份。这个数字也是可选的，所以四月份可以是04或4。日期的分组是((0|1|2|3)?\d)，它遵循类似的逻辑。3、03和31是有效的日期数字（是的，这个正则表达式会接受一些无效的日期，诸如4-31-2014、2-29-2013和0-15-2014。日期有许多特例，很容易被遗漏。为了简单，这个程序中的正则表达式已经足够好了）。&lt;/p&gt;
-&lt;p class="zw"&gt;虽然1885是一个有效的年份，但你可能只在寻找20世纪和21世纪的年份。这防止了程序不小心匹配非日期的文件名，它们和日期格式类似，诸如10-10-1000.txt。&lt;/p&gt;
-&lt;p class="zw"&gt;正则表达式的(.*?)$部分，将匹配日期之后的任何文本。&lt;/p&gt;
-&lt;h3 id="nav_point_244"&gt;第2步：识别文件名中的日期部分&lt;/h3&gt;
-&lt;p class="zw"&gt;接下来，程序将循环遍历os.listdir()返回的文件名字符串列表，用这个正则表达式匹配它们。文件名不包含日期的文件将被忽略。如果文件名包含日期，匹配的文本将保存在几个变量中。用下面的代码代替程序中前3个TODO：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　#! python3
-　# renameDates.py - Renames filenames with American MM-DD-YYYY date format
-　# to European DD-MM-YYYY.
-　--&lt;em&gt;snip&lt;/em&gt;
---
-　&lt;strong&gt;# Loop over the files in the working directory.&lt;/strong&gt;
-　&lt;strong&gt;for amerFilename in os.listdir('.'):&lt;/strong&gt;
-　    &lt;strong&gt;mo = datePattern.search(amerFilename)&lt;/strong&gt;
-　&lt;strong&gt;　&lt;/strong&gt;
-　    &lt;strong&gt;# Skip files without a date.&lt;/strong&gt;
-❶     &lt;strong&gt;if mo == None:&lt;/strong&gt;
-❷     &lt;strong&gt;continue&lt;/strong&gt;
-&lt;strong&gt;　&lt;/strong&gt;
-❸     &lt;strong&gt;# Get the different parts of the filename.&lt;/strong&gt;
-　    &lt;strong&gt;beforePart  = mo.group(1)&lt;/strong&gt;
-　    &lt;strong&gt;monthPart   = mo.group(2)&lt;/strong&gt;
-　    &lt;strong&gt;dayPart     = mo.group(4)&lt;/strong&gt;
-　    &lt;strong&gt;yearPart     = mo.group(6)&lt;/strong&gt;
-　    &lt;strong&gt;afterPart   = mo.group(8)&lt;/strong&gt;
-　&lt;strong&gt;　&lt;/strong&gt;
-　--&lt;em&gt;snip&lt;/em&gt;
---
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;如果search()方法返回的Match对象是None❶，那么amerFilename中的文件名不匹配该正则表达式。continue语句❷将跳过循环剩下的部分，转向下一个文件名。&lt;/p&gt;
-&lt;p class="zw"&gt;否则，该正则表达式分组匹配的不同字符串，将保存在名为beforePart、monthPart、dayPart、yearPart和afterPar的变量中❸。这些变量中的字符串将在下一步中使用，用于构成欧洲风格的文件名。&lt;/p&gt;
-&lt;p class="zw"&gt;为了让分组编号直观，请尝试从头阅读该正则表达式，每遇到一个左括号就计数加一。不要考虑代码，只是写下该正则表达式的框架。这有助于使分组变得直观，例如：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;datePattern = re.compile(r"""^(&lt;strong&gt;1&lt;/strong&gt;
-)     # all text before the date
-    (&lt;strong&gt;2 &lt;/strong&gt;
-(&lt;strong&gt;3&lt;/strong&gt;
-) )-                         # one or two digits for the month
-    (&lt;strong&gt;4 &lt;/strong&gt;
-(&lt;strong&gt;5&lt;/strong&gt;
-) )-                         # one or two digits for the day
-    (&lt;strong&gt;6 &lt;/strong&gt;
-(&lt;strong&gt;7&lt;/strong&gt;
-) )                          # four digits for the year
-    (&lt;strong&gt;8&lt;/strong&gt;
-)$                              # all text after the date
-    """, re.VERBOSE)
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这里，编号1至8代表了该正则表达式中的分组。写出该正则表达式的框架，其中只包含括号和分组编号。这让你更清楚地理解所写的正则表达式，然后再转向程序中剩下的部分。&lt;/p&gt;
-&lt;h3 id="nav_point_245"&gt;第3步：构成新文件名，并对文件改名&lt;/h3&gt;
-&lt;p class="zw"&gt;作为最后一步，连接前一步生成的变量中的字符串，得到欧洲风格的日期：日期在月份之前。用下面的代码代替程序中最后3个TODO：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　#! python3
-　# renameDates.py - Renames filenames with American MM-DD-YYYY date format
-　# to European DD-MM-YYYY.
-　--&lt;em&gt;snip&lt;/em&gt;
---
-　    &lt;strong&gt;# Form the European-style filename.&lt;/strong&gt;
-❶     &lt;strong&gt;euroFilename = beforePart + dayPart + '-' + monthPart + '-' + yearPart +&lt;/strong&gt;
-　                   &lt;strong&gt;afterPart&lt;/strong&gt;
-&lt;strong&gt;　&lt;/strong&gt;
-　    &lt;strong&gt;# Get the full, absolute file paths.&lt;/strong&gt;
-　    &lt;strong&gt;absWorkingDir = os.path.abspath('.')&lt;/strong&gt;
-　    &lt;strong&gt;amerFilename = os.path.join(absWorkingDir, amerFilename)&lt;/strong&gt;
-　    &lt;strong&gt;euroFilename = os.path.join(absWorkingDir, euroFilename)&lt;/strong&gt;
-&lt;strong&gt;　&lt;/strong&gt;
-　    &lt;strong&gt;# Rename the files.&lt;/strong&gt;
-❷     &lt;strong&gt;print('Renaming "%s" to "%s"...' % (amerFilename, euroFilename))&lt;/strong&gt;
-❸     &lt;strong&gt;#shutil.move(amerFilename, euroFilename) # uncomment after testing&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;将连接的字符串保存在名为euroFilename的变量中❶。然后将amerFilename中原来的文件名和新的euroFilename变量传递给shutil.move()函数，将该文件改名❸。&lt;/p&gt;
-&lt;p class="zw"&gt;这个程序将shutil.move()调用注释掉，代之以打印出将被改名的文件名❷。先像这样运行程序，你可以确认文件改名是正确的。然后取消shutil.move()调用的注释，再次运行该程序，确实将这些文件改名。&lt;/p&gt;
-&lt;h3 id="nav_point_246"&gt;第4步：类似程序的想法&lt;/h3&gt;
-&lt;p class="zw"&gt;有很多其他的理由，导致你需要对大量的文件改名。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;为文件名添加前缀，诸如添加spam_，将eggs.txt改名为spam_eggs.txt。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;将欧洲风格日期的文件改名为美国风格日期。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;删除文件名中的0，诸如spam0042.txt。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="nav_point_247"&gt;9.5 项目：将一个文件夹备份到一个ZIP文件&lt;/h2&gt;
-&lt;p class="zw"&gt;假定你正在做一个项目，它的文件保存在C:\AlsPythonBook文件夹中。你担心工作会丢失，所以希望为整个文件夹创建一个ZIP文件，作为“快照”。你希望保存不同的版本，希望ZIP文件的文件名每次创建时都有所变化。例如AlsPythonBook_1.zip、AlsPythonBook_2.zip、AlsPythonBook_3.zip，等等。你可以手工完成，但这有点烦人，而且可能不小心弄错ZIP文件的编号。运行一个程序来完成这个烦人的任务会简单得多。&lt;/p&gt;
-&lt;p class="zw"&gt;针对这个项目，打开一个新的文件编辑器窗口，将它保存为backupToZip.py。&lt;/p&gt;
-&lt;h3 id="nav_point_248"&gt;第1步：弄清楚ZIP文件的名称&lt;/h3&gt;
-&lt;p class="zw"&gt;这个程序的代码将放在一个名为backupToZip()的函数中。这样就更容易将该函数复制粘贴到其他需要这个功能的Python程序中。在这个程序的末尾，会调用这个函数进行备份。让你的程序看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　#! python3
-　# backupToZip.py - Copies an entire folder and its contents into
-　# a ZIP file whose filename increments.
-❶ import zipfile, os
-　def backupToZip(folder):
-　    # Backup the entire contents of "folder" into a ZIP file.
-　    folder = os.path.abspath(folder) # make sure folder is absolute
- 　   # Figure out the filename this code should use based on
-　    # what files already exist.
-❷     number = 1
-❸     while True:
-　        zipFilename = os.path.basename(folder) + '_' + str(number) + '.zip'
-　        if not os.path.exists(zipFilename):
- 　           break
-　        number = number + 1
-❹     # TODO: Create the ZIP file.
- 　   # TODO: Walk the entire folder tree and compress the files in each folder.
-　    print('Done.')
-　backupToZip('C:\\delicious')&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;先完成基本任务：添加#!行，描述该程序做什么，并导入zipfile和os模块❶。&lt;/p&gt;
-&lt;p class="zw"&gt;定义backupToZip()函数，它只接收一个参数，即folder。这个参数是一个字符串路径，指向需要备份的文件夹。该函数将决定它创建的ZIP文件使用什么文件名，然后创建该文件，遍历folder文件夹，将每个子文件夹和文件添加到ZIP文件中。在源代码中为这些步骤写下TODO注释，提醒你稍后来完成❹。&lt;/p&gt;
-&lt;p class="zw"&gt;第一部分命名这个ZIP文件，使用folder的绝对路径的基本名称。如果要备份的文件夹是C:\delicious，ZIP文件的名称就应该是delicious_N.zip，第一次运行该程序时N=1，第二次运行时N=2，以此类推。&lt;/p&gt;
-&lt;p class="zw"&gt;通过检查delicious_1.zip是否存在，然后检查delicious_2.zip是否存在，继续下去，可以确定N应该是什么。用一个名为number的变量表示N❷，在一个循环内不断增加它，并调用os.path.exists()来检查该文件是否存在❸。第一个不存在的文件名将导致循环break，因此它就发现了新ZIP文件的文件名。&lt;/p&gt;
-&lt;h3 id="nav_point_249"&gt;第2步：创建新ZIP文件&lt;/h3&gt;
-&lt;p class="zw"&gt;接下来让我们创建ZIP文件。让你的程序看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　#! python3
-　# backupToZip.py - Copies an entire folder and its contents into
-　# a ZIP file whose filename increments.
-　--&lt;em&gt;snip&lt;/em&gt;
---
-　    while True:
- 　       zipFilename = os.path.basename(folder) + '_' + str(number) + '.zip'
-　        if not os.path.exists(zipFilename):
-　            break
-　        number = number + 1
-　    &lt;strong&gt;# Create the ZIP file.&lt;/strong&gt;
-　    &lt;strong&gt;print('Creating %s...' % (zipFilename))&lt;/strong&gt;
-❶     &lt;strong&gt;backupZip = zipfile.ZipFile(zipFilename, 'w')&lt;/strong&gt;
-&lt;strong&gt;　&lt;/strong&gt;
-　    # TODO: Walk the entire folder tree and compress the files in each folder.
-　    print('Done.')
-　backupToZip('C:\\delicious')
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;既然新ZIP文件的文件名保存在zipFilename变量中，你就可以调用zipfile.ZipFile()，实际创建这个ZIP文件❶。确保传入'w'作为第二个参数，这样ZIP文件以写模式打开。&lt;/p&gt;
-&lt;h3 id="nav_point_250"&gt;第3步：遍历目录树并添加到ZIP文件&lt;/h3&gt;
-&lt;p class="zw"&gt;现在需要使用os.walk()函数，列出文件夹以及子文件夹中的每个文件。让你的程序看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　#! python3
-　# backupToZip.py - Copies an entire folder and its contents into
-　# a ZIP file whose filename increments.
-　--&lt;em&gt;snip&lt;/em&gt;
---
-　    &lt;strong&gt;# Walk the entire folder tree and compress the files in each folder.&lt;/strong&gt;
-❶     &lt;strong&gt;for foldername, subfolders, filenames in os.walk(folder):&lt;/strong&gt;
-　       &lt;strong&gt;print('Adding files in %s...' % (foldername))&lt;/strong&gt;
- 　       &lt;strong&gt;# Add the current folder to the ZIP file.&lt;/strong&gt;
-❷         &lt;strong&gt;backupZip.write(foldername)&lt;/strong&gt;
-　    &lt;strong&gt;# Add all the files in this folder to the ZIP file.&lt;/strong&gt;
-❸       &lt;strong&gt;for filename in filenames:&lt;/strong&gt;
-　            &lt;strong&gt;newBase / os.path.basename(folder) + '_'&lt;/strong&gt;
-　            &lt;strong&gt;if filename.startswith(newBase) and filename.endswith('.zip')&lt;/strong&gt;
-　                &lt;strong&gt;continue # don't backup the backup ZIP files&lt;/strong&gt;
- 　           &lt;strong&gt;backupZip.write(os.path.join(foldername, filename))&lt;/strong&gt;
-　    &lt;strong&gt;backupZip.close()&lt;/strong&gt;
-　    print('Done.')
-　backupToZip('C:\\delicious')
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;可以在for循环中使用os.walk()❶，在每次迭代中，它将返回这次迭代当前的文件夹名称、这个文件夹中的子文件夹，以及这个文件夹中的文件名。&lt;/p&gt;
-&lt;p class="zw"&gt;在这个for循环中，该文件夹被添加到ZIP文件❷。嵌套的for循环将遍历filenames列表中的每个文件❸。每个文件都被添加到ZIP文件中，以前生成的备份ZIP文件除外。&lt;/p&gt;
-&lt;p class="zw"&gt;如果运行该程序，它产生的输出看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;Creating delicious_1.zip...
-Adding files in C:\delicious...
-Adding files in C:\delicious\cats...
-Adding files in C:\delicious\waffles...
-Adding files in C:\delicious\walnut...
-Adding files in C:\delicious\walnut\waffles...
-Done.&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;第二次运行它时，它将C:\delicious中的所有文件放进一个ZIP文件，命名为delicious_2.zip，以此类推。&lt;/p&gt;
-&lt;h3 id="nav_point_251"&gt;第4步：类似程序的想法&lt;/h3&gt;
-&lt;p class="zw"&gt;你可以在其他程序中遍历一个目录树，将文件添加到压缩的ZIP归档文件中。例如，你可以编程做下面的事情：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;遍历一个目录树，将特定扩展名的文件归档，诸如.txt或.py，并排除其他文件。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;遍历一个目录树，将除.txt和.py文件以外的其他文件归档。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;在一个目录树中查找文件夹，它包含的文件数最多，或者使用的磁盘空间最大。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="nav_point_252"&gt;9.6 小结&lt;/h2&gt;
-&lt;p class="zw"&gt;即使你是一个有经验的计算机用户，可能也会用鼠标和键盘手工处理文件。现在的文件浏览器使得处理少量文件的工作很容易。但有时候，如果用计算机的浏览器，你需要完成的任务可能要花几个小时。&lt;/p&gt;
-&lt;p class="zw"&gt;os和shutil模块提供了一些函数，用于复制、移动、改名和删除文件。在删除文件时，你可能希望使用send2trash模块，将文件移动到回收站或垃圾箱，而不是永久地删除它们。在编程处理文件时，最好是先注释掉实际会复制/移动/改名/删除文件的代码，添加print()调用，这样你就可以运行该程序，验证它实际会做什么。&lt;/p&gt;
-&lt;p class="zw"&gt;通常，你不仅需要对一个文件夹中的文件执行这些操作，而是对所有下级子文件夹执行操作。os.walk()函数将处理这个艰苦工作，遍历文件夹，这样你就可以专注于程序需要对其中的文件做什么。&lt;/p&gt;
-&lt;p class="zw"&gt;zipfile模块提供了一种方法，用Python压缩和解压ZIP归档文件。和os和shutil模块中的文件处理函数一起使用，很容易将硬盘上任意位置的一些文件打包。和许多独立的文件相比，这些ZIP文件更容易上传到网站，或作为E-mail附件发送。&lt;/p&gt;
-&lt;p class="zw"&gt;本书前面几章提供了源代码让你拷贝。但如果你编写自己的程序，可能在第一次编写时不会完美无缺。下一章将聚焦于一些Python模块，它们帮助你分析和调试程序，这样就能让程序很快正确运行。&lt;/p&gt;
-&lt;h2 id="nav_point_253"&gt;9.7 习题&lt;/h2&gt;
-&lt;p class="zw"&gt;1．shutil.copy()和shutil.copytree()之间的区别是什么？&lt;/p&gt;
-&lt;p class="zw"&gt;2．什么函数用于文件改名？&lt;/p&gt;
-&lt;p class="zw"&gt;3．send2trash和shutil模块中的删除函数之间的区别是什么？&lt;/p&gt;
-&lt;p class="zw"&gt;4．ZipFile对象有一个close()方法，就像File对象的close()方法。ZipFile对象的什么方法等价于File对象的open()方法？&lt;/p&gt;
-&lt;h2 id="nav_point_254"&gt;9.8 实践项目&lt;/h2&gt;
-&lt;p class="zw"&gt;作为实践，编程完成下面的任务。&lt;/p&gt;
-&lt;h3 id="nav_point_255"&gt;9.8.1 选择性拷贝&lt;/h3&gt;
-&lt;p class="zw"&gt;编写一个程序，遍历一个目录树，查找特定扩展名的文件（诸如.pdf或.jpg）。不论这些文件的位置在哪里，将它们拷贝到一个新的文件夹中。&lt;/p&gt;
-&lt;h3 id="nav_point_256"&gt;9.8.2 删除不需要的文件&lt;/h3&gt;
-&lt;p class="zw"&gt;一些不需要的、巨大的文件或文件夹占据了硬盘的空间，这并不少见。如果你试图释放计算机上的空间，那么删除不想要的巨大文件效果最好。但首先你必须找到它们。&lt;/p&gt;
-&lt;p class="zw"&gt;编写一个程序，遍历一个目录树，查找特别大的文件或文件夹，比方说，超过100MB的文件（回忆一下，要获得文件的大小，可以使用 os 模块的os.path.getsize()）。将这些文件的绝对路径打印到屏幕上。&lt;/p&gt;
-&lt;h3 id="nav_point_257"&gt;9.8.3 消除缺失的编号&lt;/h3&gt;
-&lt;p class="zw"&gt;编写一个程序，在一个文件夹中，找到所有带指定前缀的文件，诸如spam001.txt, spam002.txt等，并定位缺失的编号（例如存在spam001.txt和spam003.txt，但不存在spam002.txt）。让该程序对所有后面的文件改名，消除缺失的编号。&lt;/p&gt;
-&lt;p class="zw"&gt;作为附加的挑战，编写另一个程序，在一些连续编号的文件中，空出一些编号，以便加入新的文件。&lt;/p&gt;
-&lt;p class="zw"&gt;&lt;br style="page-break-after:always"/&gt;
-&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt;
-</description>
-    <pubDate>Mon, 14 Sep 2026 04:00:59 +0000</pubDate>
-    <guid isPermaLink="false">33</guid>
-</item>
 
 
 
