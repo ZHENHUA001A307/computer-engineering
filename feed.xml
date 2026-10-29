@@ -4,7 +4,7 @@
 <title>科目一：计算机工程</title>
 <link>https://github.com/ZHENHUA001A307/computer-engineering</link>
 <description>计算机工程材料推送</description>
-<lastBuildDate>Thu, 29 Oct 2026 04:39:55 +0000</lastBuildDate>
+<lastBuildDate>Thu, 29 Oct 2026 04:47:30 +0000</lastBuildDate>
 <item>
 <title>WorkBuddyGuide-课外阅读：一章看懂 AI 工作系统</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E8%AF%BE%E5%A4%96%E9%98%85%E8%AF%BB%EF%BC%9A%E4%B8%80%E7%AB%A0%E7%9C%8B%E6%87%82%20AI%20%E5%B7%A5%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
@@ -12,6 +12,7 @@
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E8%AF%BE%E5%A4%96%E9%98%85%E8%AF%BB%EF%BC%9A%E4%B8%80%E7%AB%A0%E7%9C%8B%E6%87%82%20AI%20%E5%B7%A5%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
 <pubDate>Wed, 21 Oct 2026 03:50:28 +0000</pubDate>
 </item>
+
 
 <item>
 <title>0025 - AutomaticApplicationPython - 第一部分 Python编程基础.epub</title>
@@ -811,6 +812,7 @@ bacon + 1&lt;/code&gt;
 </item>
 
 
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -818,6 +820,7 @@ bacon + 1&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</guid>
 <pubDate>Wed, 14 Oct 2026 04:05:00 +0000</pubDate>
 </item>
+
 
 
 
@@ -1114,6 +1117,7 @@ git_practice$&lt;/code&gt;
 <pubDate>Wed, 14 Oct 2026 03:30:13 +0000</pubDate>
 <guid isPermaLink="false">epub-24</guid>
 </item>
+
 
 
 
@@ -1925,6 +1929,7 @@ print(spam)&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 9 章 如何接入外部 API</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%209%20%E7%AB%A0%20%E5%A6%82%E4%BD%95%E6%8E%A5%E5%85%A5%E5%A4%96%E9%83%A8%20API/</link>
@@ -1943,528 +1948,536 @@ print(spam)&lt;/code&gt;
 
 
 
+
 <item>
-<title><![CDATA[0026 - AutomaticApplicationPython - 第2章 控制流.epub]]></title>
-<description><![CDATA[<p style='color:#888;'>⏱ 预计阅读时间：55 分钟 (16206 字)</p><hr><h1 id="nav_point_38">第2章 控制流</h1>
-<p class="zw">你已经知道了单条指令的基本知识。程序就是一系列指令。但编程真正的力量不仅在于运行（或“执行”）一条接一条的指令，就像周末的任务清单那样。根据表达式求值的结果，程序可以决定跳过指令，重复指令，或从几条指令中选择一条运行。实际上，你几乎永远不希望程序从第一行代码开始，简单地执行每行代码，直到最后一行。“控制流语句”可以决定在什么条件下执行哪些Python语句。</p>
-<p class="zw">这些控制流语句直接对应于流程图中的符号，所以在本章中，我将提供示例代码的流程图。图2-1展示了一张流程图，内容是如果下雨怎么办。按照箭头构成的路径，从开始到结束。</p>
-<p class="zw">在流程图中，通常有不止一种方法从开始走到结束。计算机程序中的代码行也是这样。流程图用菱形表示这些分支节点，其他步骤用矩形表示。开始和结束步骤用带圆角的矩形表示。</p>
-<p class="zw">但在学习流程控制语句之前，首先要学习如何表示这些yes和no选项。同时你也需要理解，如何将这些分支节点写成Python代码。要做到这一点，让我们先看看布尔值、比较操作符和布尔操作符。</p>
-<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_01.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00069.jpg" style="width: 100%" width="100%"/>
-</p>
-<p class="图题">图2-1 一张流程图，告诉你如果下雨要做什么</p>
-<h2 id="nav_point_39">2.1 布尔值</h2>
-<p class="zw">虽然整型、浮点型和字符串数据类型有无数种可能的值，但“布尔”数据类型只有两种值：True和False。Boolean（布尔）的首字母大写，因为这个数据类型是根据数学家George Boole命名的。在作为Python代码输入时，布尔值True和False不像字符串，两边没有引号，它们总是以大写字母T或F开头，后面的字母小写。在交互式环境中输入下面内容，其中有些指令是故意弄错的，它们将导致出错信息。</p>
-<pre class="代码无行号"><code>❶ &gt;&gt;&gt; <strong>spam = True</strong>
-　&gt;&gt;&gt; <strong>spam</strong>
+<title><![CDATA[WorkBuddyGuide-本篇导读]]></title>
+<link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%BA%8C%E7%AF%87%20%E6%A1%88%E4%BE%8B%E7%AF%87%EF%BC%9A%E4%BB%8E%E4%B8%80%E9%A1%B9%E4%BB%BB%E5%8A%A1%E5%88%B0%E4%B8%80%E6%94%AF%20AI%20%E5%9B%A2%E9%98%9F/</link>
+<description><![CDATA[学习时长：约0.5小时；学习内容：第二篇的整体导览与难度地图（L1-L4等级划分）[reference:31]；学习目的：了解案例篇的难度分布，根据自身水平选择合适的学习起点]]></description>
+<guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%BA%8C%E7%AF%87%20%E6%A1%88%E4%BE%8B%E7%AF%87%EF%BC%9A%E4%BB%8E%E4%B8%80%E9%A1%B9%E4%BB%BB%E5%8A%A1%E5%88%B0%E4%B8%80%E6%94%AF%20AI%20%E5%9B%A2%E9%98%9F/</guid>
+<pubDate>Thu, 29 Oct 2026 04:47:30 +0000</pubDate>
+</item>
+<item>
+<title>0026 - AutomaticApplicationPython - 第2章 控制流.epub</title>
+<description>&lt;p style='color:#888;'&gt;⏱ 预计阅读时间：55 分钟 (16206 字)&lt;/p&gt;&lt;hr&gt;&lt;h1 id="nav_point_38"&gt;第2章 控制流&lt;/h1&gt;
+&lt;p class="zw"&gt;你已经知道了单条指令的基本知识。程序就是一系列指令。但编程真正的力量不仅在于运行（或“执行”）一条接一条的指令，就像周末的任务清单那样。根据表达式求值的结果，程序可以决定跳过指令，重复指令，或从几条指令中选择一条运行。实际上，你几乎永远不希望程序从第一行代码开始，简单地执行每行代码，直到最后一行。“控制流语句”可以决定在什么条件下执行哪些Python语句。&lt;/p&gt;
+&lt;p class="zw"&gt;这些控制流语句直接对应于流程图中的符号，所以在本章中，我将提供示例代码的流程图。图2-1展示了一张流程图，内容是如果下雨怎么办。按照箭头构成的路径，从开始到结束。&lt;/p&gt;
+&lt;p class="zw"&gt;在流程图中，通常有不止一种方法从开始走到结束。计算机程序中的代码行也是这样。流程图用菱形表示这些分支节点，其他步骤用矩形表示。开始和结束步骤用带圆角的矩形表示。&lt;/p&gt;
+&lt;p class="zw"&gt;但在学习流程控制语句之前，首先要学习如何表示这些yes和no选项。同时你也需要理解，如何将这些分支节点写成Python代码。要做到这一点，让我们先看看布尔值、比较操作符和布尔操作符。&lt;/p&gt;
+&lt;p class="图"&gt;&lt;img alt="..\16-0403 换字\16-0403\automate02_01.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00069.jpg" style="width: 100%" width="100%"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图2-1 一张流程图，告诉你如果下雨要做什么&lt;/p&gt;
+&lt;h2 id="nav_point_39"&gt;2.1 布尔值&lt;/h2&gt;
+&lt;p class="zw"&gt;虽然整型、浮点型和字符串数据类型有无数种可能的值，但“布尔”数据类型只有两种值：True和False。Boolean（布尔）的首字母大写，因为这个数据类型是根据数学家George Boole命名的。在作为Python代码输入时，布尔值True和False不像字符串，两边没有引号，它们总是以大写字母T或F开头，后面的字母小写。在交互式环境中输入下面内容，其中有些指令是故意弄错的，它们将导致出错信息。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;❶ &amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spam = True&lt;/strong&gt;
+　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spam&lt;/strong&gt;
 　True
-❷&gt;&gt;&gt; <strong>true</strong>
+❷&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;true&lt;/strong&gt;
 　Traceback (most recent call last):
-　  File "&lt;pyshell#2&gt;", line 1, in &lt;module&gt;
+　  File "&amp;lt;pyshell#2&amp;gt;", line 1, in &amp;lt;module&amp;gt;
 　    true
 　NameError: name 'true' is not defined
-❸ &gt;&gt;&gt; <strong>True = 2 + 2</strong>
+❸ &amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;True = 2 + 2&lt;/strong&gt;
 　SyntaxError: assignment to keyword
-</code>
-</pre>
-<p class="zw">像其他值一样，布尔值也用在表达式中，并且可以保存在变量中❶。如果大小写不正确❷，或者试图使用True和False作为变量名❸，Python就会给出错误信息。</p>
-<h2 id="nav_point_40">2.2 比较操作符</h2>
-<p class="zw">“比较操作符”比较两个值，求值为一个布尔值。表2-1列出了比较操作符。</p>
-<p class="表题">表2-1 比较操作符</p>
-<table border="1" width="90%">
-<thead>
-<tr>
-<th>
-<p class="表头单元格">操作符</p>
-</th>
-<th>
-<p class="表头单元格">含义</p>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p class="表格单元格">==</p>
-</td>
-<td>
-<p class="表格单元格">等于</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">!=</p>
-</td>
-<td>
-<p class="表格单元格">不等于</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">&lt;</p>
-</td>
-<td>
-<p class="表格单元格">小于</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">&gt;</p>
-</td>
-<td>
-<p class="表格单元格">大于</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">&lt;=</p>
-</td>
-<td>
-<p class="表格单元格">小于等于</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">&gt;=</p>
-</td>
-<td>
-<p class="表格单元格">大于等于</p>
-</td>
-</tr>
-</tbody>
-</table>
-<p class="zw">这些操作符根据给它们提供的值，求值为True或False。现在让我们尝试一些操作符，从==和!=开始。</p>
-<pre class="代码无行号"><code>&gt;&gt;&gt;  <strong>42 == 42</strong>
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;像其他值一样，布尔值也用在表达式中，并且可以保存在变量中❶。如果大小写不正确❷，或者试图使用True和False作为变量名❸，Python就会给出错误信息。&lt;/p&gt;
+&lt;h2 id="nav_point_40"&gt;2.2 比较操作符&lt;/h2&gt;
+&lt;p class="zw"&gt;“比较操作符”比较两个值，求值为一个布尔值。表2-1列出了比较操作符。&lt;/p&gt;
+&lt;p class="表题"&gt;表2-1 比较操作符&lt;/p&gt;
+&lt;table border="1" width="90%"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;p class="表头单元格"&gt;操作符&lt;/p&gt;
+&lt;/th&gt;
+&lt;th&gt;
+&lt;p class="表头单元格"&gt;含义&lt;/p&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;==&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;等于&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;!=&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;不等于&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;&amp;lt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;小于&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;&amp;gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;大于&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;&amp;lt;=&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;小于等于&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;&amp;gt;=&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;大于等于&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p class="zw"&gt;这些操作符根据给它们提供的值，求值为True或False。现在让我们尝试一些操作符，从==和!=开始。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt;  &lt;strong&gt;42 == 42&lt;/strong&gt;
 True
-&gt;&gt;&gt;  <strong>42 == 99</strong>
+&amp;gt;&amp;gt;&amp;gt;  &lt;strong&gt;42 == 99&lt;/strong&gt;
 False
-&gt;&gt;&gt;  <strong>2 != 3</strong>
+&amp;gt;&amp;gt;&amp;gt;  &lt;strong&gt;2 != 3&lt;/strong&gt;
 True
-&gt;&gt;&gt;  <strong>2 != 2</strong>
+&amp;gt;&amp;gt;&amp;gt;  &lt;strong&gt;2 != 2&lt;/strong&gt;
 False
-</code>
-</pre>
-<p class="zw">如果两边的值一样，==（等于）求值为True。如果两边的值不同，!=（不等于）求值为False。==和!=操作符实际上可以用于所有数据类型的值。</p>
-<pre class="代码无行号"><code>　&gt;&gt;&gt; <strong>'hello' == 'hello'</strong>
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;如果两边的值一样，==（等于）求值为True。如果两边的值不同，!=（不等于）求值为False。==和!=操作符实际上可以用于所有数据类型的值。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;'hello' == 'hello'&lt;/strong&gt;
 　True
-　&gt;&gt;&gt; <strong>'hello' == 'Hello'</strong>
+　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;'hello' == 'Hello'&lt;/strong&gt;
 　False
-　&gt;&gt;&gt; <strong>'dog' != 'cat'</strong>
+　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;'dog' != 'cat'&lt;/strong&gt;
 　True
-　&gt;&gt;&gt; <strong>True == True</strong>
+　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;True == True&lt;/strong&gt;
 　True
-　&gt;&gt;&gt; <strong>True != False</strong>
+　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;True != False&lt;/strong&gt;
 　True
-　&gt;&gt;&gt; <strong>42 == 42.0</strong>
+　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;42 == 42.0&lt;/strong&gt;
 　True
-❶ &gt;&gt;&gt; <strong>42 == '42'</strong>
+❶ &amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;42 == '42'&lt;/strong&gt;
 　False
- </code>
-</pre>
-<p class="zw">请注意，整型或浮点型的值永远不会与字符串相等。表达式42 == '42'❶求值为False是因为，Python认为整数42与字符串'42'不同。</p>
-<p class="zw">另一方面，&lt;、&gt;、&lt;=和&gt;=操作符仅用于整型和浮点型值。</p>
-<pre class="代码无行号"><code>　&gt;&gt;&gt; <strong>42 &lt; 100</strong>
+ &lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;请注意，整型或浮点型的值永远不会与字符串相等。表达式42 == '42'❶求值为False是因为，Python认为整数42与字符串'42'不同。&lt;/p&gt;
+&lt;p class="zw"&gt;另一方面，&amp;lt;、&amp;gt;、&amp;lt;=和&amp;gt;=操作符仅用于整型和浮点型值。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;42 &amp;lt; 100&lt;/strong&gt;
 　True
-　&gt;&gt;&gt; <strong>42 &gt; 100</strong>
+　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;42 &amp;gt; 100&lt;/strong&gt;
 　False
-　&gt;&gt;&gt; <strong>42 &lt; 42</strong>
+　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;42 &amp;lt; 42&lt;/strong&gt;
 　False
-　&gt;&gt;&gt; <strong>eggCount = 42</strong>
-❷&gt;&gt;&gt; <strong>eggCount &lt;= 42</strong>
+　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;eggCount = 42&lt;/strong&gt;
+❷&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;eggCount &amp;lt;= 42&lt;/strong&gt;
 　True
-　&gt;&gt;&gt; <strong>myAge = 29</strong>
-❸ &gt;&gt;&gt; <strong>myAge &gt;= 10</strong>
-　True </code>
-</pre>
-<p class="editing-tag 超强提示标签">操作符的区别</p>
-<blockquote class="超强提示 editing-block">
-<p class="zw"><br/>
-</p>
-<p class="zw">你可能已经注意到，==操作符（等于）有两个等号，而=操作符（赋值）只有一个等号。这两个操作符很容易混淆。只要记住：</p>
-<ul>
-<li>
-<p class="zw">==操作符（等于）问两个值是否彼此相同。</p>
-</li>
-<li>
-<p class="zw">=操作符（赋值）将右边的值放到左边的变量中。</p>
-</li>
-</ul>
-<p class="zw">为了记住谁是谁，请注意==操作符（等于）包含两个字符，就像!=操作符（不等于）包含两个字符一样。</p>
-</blockquote>
-<p class="zw">你会经常用比较操作符比较一个变量和另外某个值。就像在例子eggCount &lt;= 42❶和myAge &gt;= 10❷中一样（毕竟，除了在代码中输入'dog' != 'cat'以外，你本来也可以直接输入True）。稍后，在学习控制流语句时，你会看到更多的例子。</p>
-<h2 id="nav_point_41">2.3 布尔操作符</h2>
-<p class="zw">3个布尔操作符（and、or和not）用于比较布尔值。像比较操作符一样，它们将这些表达式求值为一个布尔值。让我们仔细看看这些操作符，从and操作符开始。</p>
-<h3 id="nav_point_42">2.3.1 二元布尔操作符</h3>
-<p class="zw">and和or操作符总是接受两个布尔值（或表达式），所以它们被认为是“二元”操作符。如果两个布尔值都为True，and操作符就将表达式求值为True，否则求值为False。在交互式环境中输入某个使用and的表达式，看看效果。</p>
-<pre class="代码无行号"><code>&gt;&gt;&gt; <strong>True and True</strong>
+　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;myAge = 29&lt;/strong&gt;
+❸ &amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;myAge &amp;gt;= 10&lt;/strong&gt;
+　True &lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="editing-tag 超强提示标签"&gt;操作符的区别&lt;/p&gt;
+&lt;blockquote class="超强提示 editing-block"&gt;
+&lt;p class="zw"&gt;&lt;br/&gt;
+&lt;/p&gt;
+&lt;p class="zw"&gt;你可能已经注意到，==操作符（等于）有两个等号，而=操作符（赋值）只有一个等号。这两个操作符很容易混淆。只要记住：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p class="zw"&gt;==操作符（等于）问两个值是否彼此相同。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p class="zw"&gt;=操作符（赋值）将右边的值放到左边的变量中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="zw"&gt;为了记住谁是谁，请注意==操作符（等于）包含两个字符，就像!=操作符（不等于）包含两个字符一样。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p class="zw"&gt;你会经常用比较操作符比较一个变量和另外某个值。就像在例子eggCount &amp;lt;= 42❶和myAge &amp;gt;= 10❷中一样（毕竟，除了在代码中输入'dog' != 'cat'以外，你本来也可以直接输入True）。稍后，在学习控制流语句时，你会看到更多的例子。&lt;/p&gt;
+&lt;h2 id="nav_point_41"&gt;2.3 布尔操作符&lt;/h2&gt;
+&lt;p class="zw"&gt;3个布尔操作符（and、or和not）用于比较布尔值。像比较操作符一样，它们将这些表达式求值为一个布尔值。让我们仔细看看这些操作符，从and操作符开始。&lt;/p&gt;
+&lt;h3 id="nav_point_42"&gt;2.3.1 二元布尔操作符&lt;/h3&gt;
+&lt;p class="zw"&gt;and和or操作符总是接受两个布尔值（或表达式），所以它们被认为是“二元”操作符。如果两个布尔值都为True，and操作符就将表达式求值为True，否则求值为False。在交互式环境中输入某个使用and的表达式，看看效果。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;True and True&lt;/strong&gt;
 True
-&gt;&gt;&gt; <strong>True and False</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;True and False&lt;/strong&gt;
 False
-</code>
-</pre>
-<p class="zw">“真值表”显示了布尔操作符的所有可能结果。表2-2是操作符and的真值表。</p>
-<p class="表题">表2-2 and操作符的真值表</p>
-<table border="1" width="90%">
-<thead>
-<tr>
-<th>
-<p class="表头单元格">表达式</p>
-</th>
-<th>
-<p class="表头单元格">求值为</p>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p class="表格单元格">True and True</p>
-</td>
-<td>
-<p class="表格单元格">True</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">True and False</p>
-</td>
-<td>
-<p class="表格单元格">False</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">False and True</p>
-</td>
-<td>
-<p class="表格单元格">False</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">False and False</p>
-</td>
-<td>
-<p class="表格单元格">False</p>
-</td>
-</tr>
-</tbody>
-</table>
-<p class="zw">另一方面，只要有一个布尔值为真，or操作符就将表达式求值为True。如果都是False，所求值为False。</p>
-<pre class="代码无行号"><code>&gt;&gt;&gt; <strong>False or True</strong>
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;“真值表”显示了布尔操作符的所有可能结果。表2-2是操作符and的真值表。&lt;/p&gt;
+&lt;p class="表题"&gt;表2-2 and操作符的真值表&lt;/p&gt;
+&lt;table border="1" width="90%"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;p class="表头单元格"&gt;表达式&lt;/p&gt;
+&lt;/th&gt;
+&lt;th&gt;
+&lt;p class="表头单元格"&gt;求值为&lt;/p&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;True and True&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;True&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;True and False&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;False&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;False and True&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;False&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;False and False&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;False&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p class="zw"&gt;另一方面，只要有一个布尔值为真，or操作符就将表达式求值为True。如果都是False，所求值为False。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;False or True&lt;/strong&gt;
 True
-&gt;&gt;&gt; <strong>False or False</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;False or False&lt;/strong&gt;
 False
-</code>
-</pre>
-<p class="zw">可以在or操作符的真值表中看到每一种可能的结果，如表2-3所示。</p>
-<p class="表题">表2-3 or操作符的真值表</p>
-<table border="1" width="90%">
-<thead>
-<tr>
-<th>
-<p class="表头单元格">表达式</p>
-</th>
-<th>
-<p class="表头单元格">求值为</p>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p class="表格单元格">True or True</p>
-</td>
-<td>
-<p class="表格单元格">True</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">True or False</p>
-</td>
-<td>
-<p class="表格单元格">True</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">False or True</p>
-</td>
-<td>
-<p class="表格单元格">True</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">False or False</p>
-</td>
-<td>
-<p class="表格单元格">False</p>
-</td>
-</tr>
-</tbody>
-</table>
-<h3 id="nav_point_43">2.3.2 not操作符</h3>
-<p class="zw">和and和or不同，not操作符只作用于一个布尔值（或表达式）。not操作符求值为相反的布尔值。</p>
-<pre class="代码无行号"><code>　&gt;&gt;&gt; <strong>not 　True</strong>
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;可以在or操作符的真值表中看到每一种可能的结果，如表2-3所示。&lt;/p&gt;
+&lt;p class="表题"&gt;表2-3 or操作符的真值表&lt;/p&gt;
+&lt;table border="1" width="90%"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;p class="表头单元格"&gt;表达式&lt;/p&gt;
+&lt;/th&gt;
+&lt;th&gt;
+&lt;p class="表头单元格"&gt;求值为&lt;/p&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;True or True&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;True&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;True or False&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;True&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;False or True&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;True&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;False or False&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;False&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="nav_point_43"&gt;2.3.2 not操作符&lt;/h3&gt;
+&lt;p class="zw"&gt;和and和or不同，not操作符只作用于一个布尔值（或表达式）。not操作符求值为相反的布尔值。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;not 　True&lt;/strong&gt;
 　False
-❶ &gt;&gt;&gt; <strong>not not not not True</strong>
+❶ &amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;not not not not True&lt;/strong&gt;
 　True
-</code>
-</pre>
-<p class="zw">就像在说话和写作中使用双重否定，你可以嵌套not操作符❶，虽然在真正的程序中并不经常这样做。表2-4展示了not的真值表。</p>
-<p class="表题">表2-4 not操作符的真值表</p>
-<table border="1" width="90%">
-<thead>
-<tr>
-<th>
-<p class="表头单元格">表达式</p>
-</th>
-<th>
-<p class="表头单元格">求值为</p>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p class="表格单元格">not True</p>
-</td>
-<td>
-<p class="表格单元格">False</p>
-</td>
-</tr>
-<tr>
-<td>
-<p class="表格单元格">not False</p>
-</td>
-<td>
-<p class="表格单元格">True</p>
-</td>
-</tr>
-</tbody>
-</table>
-<h2 id="nav_point_44">2.4 混合布尔和比较操作符</h2>
-<p class="zw">既然比较操作符求值为布尔值，就可以和布尔操作符一起，在表达式中使用。</p>
-<p class="zw">回忆一下，and、or和not操作符称为布尔操作符是因为，它们总是操作于布尔值。虽然像4 &lt; 5这样的表达式不是布尔值，但可以求值为布尔值。在交互式环境中，尝试输入一些使用比较操作符的布尔表达式。</p>
-<pre class="代码无行号"><code>&gt;&gt;&gt; <strong>(4 &lt; 5) and (5 &lt; 6)</strong>
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;就像在说话和写作中使用双重否定，你可以嵌套not操作符❶，虽然在真正的程序中并不经常这样做。表2-4展示了not的真值表。&lt;/p&gt;
+&lt;p class="表题"&gt;表2-4 not操作符的真值表&lt;/p&gt;
+&lt;table border="1" width="90%"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;p class="表头单元格"&gt;表达式&lt;/p&gt;
+&lt;/th&gt;
+&lt;th&gt;
+&lt;p class="表头单元格"&gt;求值为&lt;/p&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;not True&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;False&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;not False&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p class="表格单元格"&gt;True&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="nav_point_44"&gt;2.4 混合布尔和比较操作符&lt;/h2&gt;
+&lt;p class="zw"&gt;既然比较操作符求值为布尔值，就可以和布尔操作符一起，在表达式中使用。&lt;/p&gt;
+&lt;p class="zw"&gt;回忆一下，and、or和not操作符称为布尔操作符是因为，它们总是操作于布尔值。虽然像4 &amp;lt; 5这样的表达式不是布尔值，但可以求值为布尔值。在交互式环境中，尝试输入一些使用比较操作符的布尔表达式。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;(4 &amp;lt; 5) and (5 &amp;lt; 6)&lt;/strong&gt;
 True
-&gt;&gt;&gt; <strong>(4 &lt; 5) and (9 &lt; 6)</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;(4 &amp;lt; 5) and (9 &amp;lt; 6)&lt;/strong&gt;
 False
-&gt;&gt;&gt; <strong>(1 == 2) or (2 == 2)</strong>
+&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;(1 == 2) or (2 == 2)&lt;/strong&gt;
 True
-</code>
-</pre>
-<p class="zw">计算机将先求值左边的表达式，然后再求值右边的表达式。知道两个布尔值后，它又将整个表达式再求值为一个布尔值。你可以认为计算机求值(4 &lt; 5)和(5 &lt; 6)的过程，如图2-2所示。</p>
-<p class="图"><img alt="0202" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00070.jpg"/>
-</p>
-<p class="图题">图2-2 (4 &lt; 5)和 (5 &lt; 6) 求值为True的过程</p>
-<p class="zw">也可以在一个表达式中使用多个布尔操作符，与比较操作符一起使用。</p>
-<pre class="代码无行号"><code>&gt;&gt;&gt; <strong>2 + 2 == 4 and not 2 + 2 == 5 and 2 * 2 == 2 + 2</strong>
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;计算机将先求值左边的表达式，然后再求值右边的表达式。知道两个布尔值后，它又将整个表达式再求值为一个布尔值。你可以认为计算机求值(4 &amp;lt; 5)和(5 &amp;lt; 6)的过程，如图2-2所示。&lt;/p&gt;
+&lt;p class="图"&gt;&lt;img alt="0202" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00070.jpg"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图2-2 (4 &amp;lt; 5)和 (5 &amp;lt; 6) 求值为True的过程&lt;/p&gt;
+&lt;p class="zw"&gt;也可以在一个表达式中使用多个布尔操作符，与比较操作符一起使用。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;2 + 2 == 4 and not 2 + 2 == 5 and 2 * 2 == 2 + 2&lt;/strong&gt;
 True
-</code>
-</pre>
-<p class="zw">和算术操作符一样，布尔操作符也有操作顺序。在所有算术和比较操作符求值后，Python先求值not操作符，然后是and操作符，然后是or操作符。</p>
-<h2 id="nav_point_45">2.5 控制流的元素</h2>
-<p class="zw">控制流语句的开始部分通常是“条件”，接下来是一个代码块，称为“子句”。在开始学习具体的Python控制流语句之前，我将介绍条件和代码块。</p>
-<h3 id="nav_point_46">2.5.1 条件</h3>
-<p class="zw">你前面看到的布尔表达式可以看成是条件，它和表达式是一回事。“条件”只是在控制流语句的上下文中更具体的名称。条件总是求值为一个布尔值，True或False。控制流语句根据条件是True还是False，来决定做什么。几乎所有的控制流语句都使用条件。</p>
-<h3 id="nav_point_47">2.5.2 代码块</h3>
-<p class="zw">一些代码行可以作为一组，放在“代码块”中。可以根据代码行的缩进，知道代码块的开始和结束。代码块有3条规则。</p>
-<p class="zw">1．缩进增加时，代码块开始。</p>
-<p class="zw">2．代码块可以包含其他代码块。</p>
-<p class="zw">3．缩进减少为零，或减少为外面包围代码块的缩进，代码块就结束了。</p>
-<p class="zw">看一些有缩进的代码，更容易理解代码块。所以让我们在一小段游戏程序中，寻找代码块，如下所示：</p>
-<pre class="代码无行号"><code>　if name == 'Mary':
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;和算术操作符一样，布尔操作符也有操作顺序。在所有算术和比较操作符求值后，Python先求值not操作符，然后是and操作符，然后是or操作符。&lt;/p&gt;
+&lt;h2 id="nav_point_45"&gt;2.5 控制流的元素&lt;/h2&gt;
+&lt;p class="zw"&gt;控制流语句的开始部分通常是“条件”，接下来是一个代码块，称为“子句”。在开始学习具体的Python控制流语句之前，我将介绍条件和代码块。&lt;/p&gt;
+&lt;h3 id="nav_point_46"&gt;2.5.1 条件&lt;/h3&gt;
+&lt;p class="zw"&gt;你前面看到的布尔表达式可以看成是条件，它和表达式是一回事。“条件”只是在控制流语句的上下文中更具体的名称。条件总是求值为一个布尔值，True或False。控制流语句根据条件是True还是False，来决定做什么。几乎所有的控制流语句都使用条件。&lt;/p&gt;
+&lt;h3 id="nav_point_47"&gt;2.5.2 代码块&lt;/h3&gt;
+&lt;p class="zw"&gt;一些代码行可以作为一组，放在“代码块”中。可以根据代码行的缩进，知道代码块的开始和结束。代码块有3条规则。&lt;/p&gt;
+&lt;p class="zw"&gt;1．缩进增加时，代码块开始。&lt;/p&gt;
+&lt;p class="zw"&gt;2．代码块可以包含其他代码块。&lt;/p&gt;
+&lt;p class="zw"&gt;3．缩进减少为零，或减少为外面包围代码块的缩进，代码块就结束了。&lt;/p&gt;
+&lt;p class="zw"&gt;看一些有缩进的代码，更容易理解代码块。所以让我们在一小段游戏程序中，寻找代码块，如下所示：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;　if name == 'Mary':
 ❶     print('Hello Mary')
 　if password == 'swordfish':
 ❷    print('Access granted.')
 　else:
 ❸     print('Wrong password.')
-</code>
-</pre>
-<p class="zw">第一个代码块❶开始于代码行print('Hello Mary')，并且包含后面所有的行。在这个代码块中有另一个代码块❷，它只有一行代码：print('Access Granted.')。第三个代码块❸也只有一行：print('Wrong password.')。</p>
-<h2 id="nav_point_48">2.6 程序执行</h2>
-<p class="zw">在第1章的hello.py程序中，Python开始执行程序顶部的指令，然后一条接一条往下执行。“程序执行”（或简称“执行”）这一术语是指当前被执行的指令。如果将源代码打印在纸上，在它执行时用手指指着每一行代码，你可以认为手指就是程序执行。</p>
-<p class="zw">但是，并非所有的程序都是从上至下简单地执行。如果用手指追踪一个带有控制流语句的程序，可能会发现手指会根据条件跳过源代码，有可能跳过整个子句。</p>
-<h2 id="nav_point_49">2.7 控制流语句</h2>
-<p class="zw">现在，让我们来看最重要的控制流部分：语句本身。语句代表了在图2-1的流程图中看到的菱形，它们是程序将做出的实际决定。</p>
-<h3 id="nav_point_50">2.7.1 if语句</h3>
-<p class="zw">最常见的控制流语句是if语句。if语句的子句（也就是紧跟if语句的语句块），将在语句的条件为True时执行。如果条件为False，子句将跳过。</p>
-<p class="zw">在英文中，if语句念起来可能是：“如果条件为真，执行子句中的代码。”在Python中，if语句包含以下部分：</p>
-<ul>
-<li class="第1级无序列表">if关键字；</li>
-<li class="第1级无序列表">条件（即求值为True或False的表达式）；</li>
-<li class="第1级无序列表">冒号；</li>
-<li class="第1级无序列表">在下一行开始，缩进的代码块（称为if子句）。</li>
-</ul>
-<p class="zw">例如，假定有一些代码，检查某人的名字是否为Alice（假设此前曾为name赋值）。</p>
-<pre class="代码无行号"><code>if name == 'Alice':
-    print('Hi, Alice.')</code>
-</pre>
-<p class="zw">所有控制流语句都以冒号结尾，后面跟着一个新的代码块（子句）。语句的if子句是代码块，包含print('Hi, Alice.')。图2-3展示了这段代码的流程图。</p>
-<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_03.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00071.jpg"/>
-</p>
-<p class="图题">图2-3 if语句的流程图</p>
-<h3 id="nav_point_51">2.7.2 else语句</h3>
-<p class="zw">if子句后面有时候也可以跟着else语句。只有if语句的条件为False时，else子句才会执行。在英语中，else语句读起来可能是：“如果条件为真，执行这段代码。否则，执行那段代码”。else语句不包含条件，在代码中，else语句中包含下面部分：</p>
-<ul>
-<li class="第1级无序列表">else关键字；</li>
-<li class="第1级无序列表">冒号；</li>
-<li class="第1级无序列表">在下一行开始，缩进的代码块（称为else子句）。</li>
-</ul>
-<p class="zw">回到Alice的例子，我们来看看使用else语句的一些代码，在名字不是Alice时，提供不一样的问候。</p>
-<pre class="代码无行号"><code>if name == 'Alice':
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;第一个代码块❶开始于代码行print('Hello Mary')，并且包含后面所有的行。在这个代码块中有另一个代码块❷，它只有一行代码：print('Access Granted.')。第三个代码块❸也只有一行：print('Wrong password.')。&lt;/p&gt;
+&lt;h2 id="nav_point_48"&gt;2.6 程序执行&lt;/h2&gt;
+&lt;p class="zw"&gt;在第1章的hello.py程序中，Python开始执行程序顶部的指令，然后一条接一条往下执行。“程序执行”（或简称“执行”）这一术语是指当前被执行的指令。如果将源代码打印在纸上，在它执行时用手指指着每一行代码，你可以认为手指就是程序执行。&lt;/p&gt;
+&lt;p class="zw"&gt;但是，并非所有的程序都是从上至下简单地执行。如果用手指追踪一个带有控制流语句的程序，可能会发现手指会根据条件跳过源代码，有可能跳过整个子句。&lt;/p&gt;
+&lt;h2 id="nav_point_49"&gt;2.7 控制流语句&lt;/h2&gt;
+&lt;p class="zw"&gt;现在，让我们来看最重要的控制流部分：语句本身。语句代表了在图2-1的流程图中看到的菱形，它们是程序将做出的实际决定。&lt;/p&gt;
+&lt;h3 id="nav_point_50"&gt;2.7.1 if语句&lt;/h3&gt;
+&lt;p class="zw"&gt;最常见的控制流语句是if语句。if语句的子句（也就是紧跟if语句的语句块），将在语句的条件为True时执行。如果条件为False，子句将跳过。&lt;/p&gt;
+&lt;p class="zw"&gt;在英文中，if语句念起来可能是：“如果条件为真，执行子句中的代码。”在Python中，if语句包含以下部分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class="第1级无序列表"&gt;if关键字；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;条件（即求值为True或False的表达式）；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;冒号；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;在下一行开始，缩进的代码块（称为if子句）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="zw"&gt;例如，假定有一些代码，检查某人的名字是否为Alice（假设此前曾为name赋值）。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;if name == 'Alice':
+    print('Hi, Alice.')&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;所有控制流语句都以冒号结尾，后面跟着一个新的代码块（子句）。语句的if子句是代码块，包含print('Hi, Alice.')。图2-3展示了这段代码的流程图。&lt;/p&gt;
+&lt;p class="图"&gt;&lt;img alt="..\16-0403 换字\16-0403\automate02_03.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00071.jpg"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图2-3 if语句的流程图&lt;/p&gt;
+&lt;h3 id="nav_point_51"&gt;2.7.2 else语句&lt;/h3&gt;
+&lt;p class="zw"&gt;if子句后面有时候也可以跟着else语句。只有if语句的条件为False时，else子句才会执行。在英语中，else语句读起来可能是：“如果条件为真，执行这段代码。否则，执行那段代码”。else语句不包含条件，在代码中，else语句中包含下面部分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class="第1级无序列表"&gt;else关键字；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;冒号；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;在下一行开始，缩进的代码块（称为else子句）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="zw"&gt;回到Alice的例子，我们来看看使用else语句的一些代码，在名字不是Alice时，提供不一样的问候。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;if name == 'Alice':
     print('Hi, Alice.')
 else:
-    print('Hello, stranger.')</code>
-</pre>
-<p class="zw">图2-4展示了这段代码的流程图。</p>
-<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_04.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00072.jpg"/>
-</p>
-<p class="图题">图2-4 else语句的流程图</p>
-<h3 id="nav_point_52">2.7.3 elif语句</h3>
-<p class="zw">虽然只有if或else子句会被执行，但有时候可能你希望，“许多”可能的子句中有一个被执行。elif语句是“否则如果”，总是跟在if或另一条elif语句后面。它提供了另一个条件，仅在前面的条件为False时才检查该条件。在代码中，elif语句总是包含以下部分：</p>
-<ul>
-<li class="第1级无序列表">elif关键字；</li>
-<li class="第1级无序列表">条件（即求值为True或False的表达式）；</li>
-<li class="第1级无序列表">冒号；</li>
-<li class="第1级无序列表">在下一行开始，缩进的代码块（称为elif子句）。</li>
-</ul>
-<p class="zw">让我们在名字检查程序中添加elif，看看这个语句的效果。</p>
-<pre class="代码无行号"><code>if name == 'Alice':
+    print('Hello, stranger.')&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;图2-4展示了这段代码的流程图。&lt;/p&gt;
+&lt;p class="图"&gt;&lt;img alt="..\16-0403 换字\16-0403\automate02_04.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00072.jpg"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图2-4 else语句的流程图&lt;/p&gt;
+&lt;h3 id="nav_point_52"&gt;2.7.3 elif语句&lt;/h3&gt;
+&lt;p class="zw"&gt;虽然只有if或else子句会被执行，但有时候可能你希望，“许多”可能的子句中有一个被执行。elif语句是“否则如果”，总是跟在if或另一条elif语句后面。它提供了另一个条件，仅在前面的条件为False时才检查该条件。在代码中，elif语句总是包含以下部分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class="第1级无序列表"&gt;elif关键字；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;条件（即求值为True或False的表达式）；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;冒号；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;在下一行开始，缩进的代码块（称为elif子句）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="zw"&gt;让我们在名字检查程序中添加elif，看看这个语句的效果。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;if name == 'Alice':
     print('Hi, Alice.')
-elif age &lt; 12:
-    print('You are not Alice, kiddo.')</code>
-</pre>
-<p class="zw">这一次，检查此人的年龄。如果比 12 岁小，就告诉他一些不同的东西。可以在图2-5中看到这段代码的流程图。</p>
-<p class="zw">如果age &lt; 12为True并且name == 'Alice'为False，elif子句就会执行。但是，如果两个条件都为False，那么两个子句都会跳过。“不能”保证至少有一个子句会被执行。如果有一系列的elif语句，仅有一条或零条子句会被执行。一旦一个语句的条件为True，剩下的elif子句会自动跳过。例如，打开一个新的文件编辑器窗口，输入以下代码，保存为vampire.py。</p>
-<pre class="代码无行号"><code>if name == 'Alice':
+elif age &amp;lt; 12:
+    print('You are not Alice, kiddo.')&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;这一次，检查此人的年龄。如果比 12 岁小，就告诉他一些不同的东西。可以在图2-5中看到这段代码的流程图。&lt;/p&gt;
+&lt;p class="zw"&gt;如果age &amp;lt; 12为True并且name == 'Alice'为False，elif子句就会执行。但是，如果两个条件都为False，那么两个子句都会跳过。“不能”保证至少有一个子句会被执行。如果有一系列的elif语句，仅有一条或零条子句会被执行。一旦一个语句的条件为True，剩下的elif子句会自动跳过。例如，打开一个新的文件编辑器窗口，输入以下代码，保存为vampire.py。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;if name == 'Alice':
     print('Hi, Alice.')
-elif age &lt; 12:
+elif age &amp;lt; 12:
     print('You are not Alice, kiddo.')
-elif age &gt; 2000:
+elif age &amp;gt; 2000:
     print('Unlike you, Alice is not an undead, immortal vampire.')
-elif age &gt; 100:
-    print('You are not Alice, grannie.')</code>
-</pre>
-<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_05.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00073.jpg"/>
-</p>
-<p class="图题">图2-5 elif语句的流程图</p>
-<p class="zw">这里，我添加了另外两条elif语句，让名字检查程序根据age的不同答案而发出问候。图2-6展示了这段代码的流程图。</p>
-<p class="zw">但是，elif语句的次序确实重要。让我们重新排序，引入一个缺陷。回忆一下，一旦找到一个True条件，剩余的子句就会自动跳过。所以如果交换vampire.py中的一些子句，就会遇到问题。像下面这样改变代码，将它保存为vampire2.py。</p>
-<pre class="代码无行号"><code>　if name == 'Alice':
+elif age &amp;gt; 100:
+    print('You are not Alice, grannie.')&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="图"&gt;&lt;img alt="..\16-0403 换字\16-0403\automate02_05.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00073.jpg"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图2-5 elif语句的流程图&lt;/p&gt;
+&lt;p class="zw"&gt;这里，我添加了另外两条elif语句，让名字检查程序根据age的不同答案而发出问候。图2-6展示了这段代码的流程图。&lt;/p&gt;
+&lt;p class="zw"&gt;但是，elif语句的次序确实重要。让我们重新排序，引入一个缺陷。回忆一下，一旦找到一个True条件，剩余的子句就会自动跳过。所以如果交换vampire.py中的一些子句，就会遇到问题。像下面这样改变代码，将它保存为vampire2.py。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;　if name == 'Alice':
 　    print('Hi, Alice.')
-　elif age &lt; 12:
+　elif age &amp;lt; 12:
 　    print('You are not Alice, kiddo.')
-❶ elif age &gt; 100:
+❶ elif age &amp;gt; 100:
 　    print('You are not Alice, grannie.')
-　elif age &gt; 2000:
+　elif age &amp;gt; 2000:
 　    print('Unlike you, Alice is not an undead, immortal vampire.')
-</code>
-</pre>
-<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_06.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00074.jpg"/>
-</p>
-<p class="图题">图2-6 vampire.py程序中多重elif语句的流程图</p>
-<p class="zw">假设在这段代码执行之前，age变量的值是3000。你可能预计代码会打印出字符串'Unlike you, Alice is not an undead, immortal vampire.'。但是，因为age &gt; 100条件为真（毕竟3000大于100）❶，字符串'You are not Alice, grannie.'被打印出来，剩下的语句自动跳过。别忘了，最多只有一个子句会执行，对于elif语句，次序是很重要的。</p>
-<p class="zw">图2-7展示了前面代码的流程图。请注意，菱形age &gt; 100和age &gt; 2000交换了位置。</p>
-<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_07.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00075.jpg"/>
-</p>
-<p class="图题">图2-7 vampire2.py程序的流程图。打叉的路径在逻辑上永远不会发生，<br/>
-因为如果age大于2000，它就已经大于100了</p>
-<p class="zw">你可以选择在最后的elif语句后面加上else语句。在这种情况下，保证至少一个子句（且只有一个）会执行。如果每个if和elif语句中的条件都为False，就执行else子句。例如，让我们使用if、elif和else子句重新编写Alicee程序。</p>
-<pre class="代码无行号"><code>if name == 'Alice':
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="图"&gt;&lt;img alt="..\16-0403 换字\16-0403\automate02_06.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00074.jpg"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图2-6 vampire.py程序中多重elif语句的流程图&lt;/p&gt;
+&lt;p class="zw"&gt;假设在这段代码执行之前，age变量的值是3000。你可能预计代码会打印出字符串'Unlike you, Alice is not an undead, immortal vampire.'。但是，因为age &amp;gt; 100条件为真（毕竟3000大于100）❶，字符串'You are not Alice, grannie.'被打印出来，剩下的语句自动跳过。别忘了，最多只有一个子句会执行，对于elif语句，次序是很重要的。&lt;/p&gt;
+&lt;p class="zw"&gt;图2-7展示了前面代码的流程图。请注意，菱形age &amp;gt; 100和age &amp;gt; 2000交换了位置。&lt;/p&gt;
+&lt;p class="图"&gt;&lt;img alt="..\16-0403 换字\16-0403\automate02_07.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00075.jpg"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图2-7 vampire2.py程序的流程图。打叉的路径在逻辑上永远不会发生，&lt;br/&gt;
+因为如果age大于2000，它就已经大于100了&lt;/p&gt;
+&lt;p class="zw"&gt;你可以选择在最后的elif语句后面加上else语句。在这种情况下，保证至少一个子句（且只有一个）会执行。如果每个if和elif语句中的条件都为False，就执行else子句。例如，让我们使用if、elif和else子句重新编写Alicee程序。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;if name == 'Alice':
     print('Hi, Alice.')
-elif age &lt; 12:
+elif age &amp;lt; 12:
     print('You are not Alice, kiddo.')
 else:
-    print('You are neither Alice nor a little kid.')</code>
-</pre>
-<p class="zw">图2-8展示了这段新代码的流程图，我们将它保存为littleKid.py。</p>
-<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_08.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00076.jpg"/>
-</p>
-<p class="图题">图2-8 前面littleKid.py程序的流程图</p>
-<p class="zw">在英语中，这类控制流结构会使得：“如果第一个条件为真，做这个。否则，如果第二个条件为真，做那个。否则，做另外的事。”如果你同时使用这3个语句，要记住这些次序规则，避免图2-7中那样的缺陷。首先，总是只有一个if语句。所有需要的elif语句都应该跟在if语句之后。其次，如果希望确保至少一条子句被执行，在最后加上else语句。</p>
-<h3 id="nav_point_53">2.7.4 while循环语句</h3>
-<p class="zw">利用while语句，可以让一个代码块一遍又一遍的执行。只要while语句的条件为True，while子句中的代码就会执行。在代码中，while语句总是包含下面几部分：</p>
-<ul>
-<li class="第1级无序列表">关键字；</li>
-<li class="第1级无序列表">条件（求值为True或False的表达式）；</li>
-<li class="第1级无序列表">冒号；</li>
-<li class="第1级无序列表">从新行开始，缩进的代码块（称为while子句）。</li>
-</ul>
-<p class="zw">可以看到，while语句看起来和if语句类似。不同之处是它们的行为。if子句结束时，程序继续执行if语句之后的语句。但在while子句结束时，程序执行跳回到while语句开始处。while子句常被称为“while循环”，或就是“循环”。</p>
-<p class="zw">让我们来看一个if语句和一个while循环。它们使用同样的条件，并基于该条件做出同样的动作。下面是if语句的代码：</p>
-<pre class="代码无行号"><code>spam = 0
-if spam &lt; 5:
+    print('You are neither Alice nor a little kid.')&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;图2-8展示了这段新代码的流程图，我们将它保存为littleKid.py。&lt;/p&gt;
+&lt;p class="图"&gt;&lt;img alt="..\16-0403 换字\16-0403\automate02_08.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00076.jpg"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图2-8 前面littleKid.py程序的流程图&lt;/p&gt;
+&lt;p class="zw"&gt;在英语中，这类控制流结构会使得：“如果第一个条件为真，做这个。否则，如果第二个条件为真，做那个。否则，做另外的事。”如果你同时使用这3个语句，要记住这些次序规则，避免图2-7中那样的缺陷。首先，总是只有一个if语句。所有需要的elif语句都应该跟在if语句之后。其次，如果希望确保至少一条子句被执行，在最后加上else语句。&lt;/p&gt;
+&lt;h3 id="nav_point_53"&gt;2.7.4 while循环语句&lt;/h3&gt;
+&lt;p class="zw"&gt;利用while语句，可以让一个代码块一遍又一遍的执行。只要while语句的条件为True，while子句中的代码就会执行。在代码中，while语句总是包含下面几部分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class="第1级无序列表"&gt;关键字；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;条件（求值为True或False的表达式）；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;冒号；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;从新行开始，缩进的代码块（称为while子句）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="zw"&gt;可以看到，while语句看起来和if语句类似。不同之处是它们的行为。if子句结束时，程序继续执行if语句之后的语句。但在while子句结束时，程序执行跳回到while语句开始处。while子句常被称为“while循环”，或就是“循环”。&lt;/p&gt;
+&lt;p class="zw"&gt;让我们来看一个if语句和一个while循环。它们使用同样的条件，并基于该条件做出同样的动作。下面是if语句的代码：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;spam = 0
+if spam &amp;lt; 5:
     print('Hello, world.')
-    spam = spam + 1</code>
-</pre>
-<p class="zw">下面是while语句的代码：</p>
-<pre class="代码无行号"><code>spam = 0
-while spam &lt; 5:
+    spam = spam + 1&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;下面是while语句的代码：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;spam = 0
+while spam &amp;lt; 5:
     print('Hello, world.')
-    spam = spam + 1</code>
-</pre>
-<p class="zw">这些语句类似，if和while都检查spam的值，如果它小于５，就打印一条消息。但如果运行这两段代码，它们各自的表现非常不同。对于if语句，输出就是"Hello, world."。但对于while语句，输出是"Hello, world."重复了5次！看一看这两段代码的流程图，图2-9和2-10，找一找原因。</p>
-<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_10.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00077.jpg"/>
-</p>
-<p class="图题">图2-9 if语句代码的流程图</p>
-<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_09.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00078.jpg"/>
-</p>
-<p class="图题">图2-10 while语句代码的流程图</p>
-<p class="zw">带有if语句的代码检查条件，如果条件为True，就打印一次"Hello, world."。带有while循环的代码则不同，会打印5次。打印5次后停下来是因为，在每次循环迭代末尾，spam中的整数都增加1。这意味着循环将执行5次，然后spam &lt; 5变为False。</p>
-<p class="zw">在while循环中，条件总是在每次“迭代”开始时检查（也就是每次循环执行时）。如果条件为True，子句就会执行，然后，再次检查条件。当条件第一次为False时，while子句就跳过。</p>
-<h3 id="nav_point_54">2.7.5 恼人的循环</h3>
-<p class="zw">这里有一个小例子，它不停地要求你输入“your name”（就是这个字符串，而不是你的名字）。选择FileNew Window，打开一个新的文件编辑器窗口，输入以下代码，将文件保存为yourName.py：</p>
-<pre class="代码无行号"><code>❶ name = ''
+    spam = spam + 1&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;这些语句类似，if和while都检查spam的值，如果它小于５，就打印一条消息。但如果运行这两段代码，它们各自的表现非常不同。对于if语句，输出就是"Hello, world."。但对于while语句，输出是"Hello, world."重复了5次！看一看这两段代码的流程图，图2-9和2-10，找一找原因。&lt;/p&gt;
+&lt;p class="图"&gt;&lt;img alt="..\16-0403 换字\16-0403\automate02_10.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00077.jpg"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图2-9 if语句代码的流程图&lt;/p&gt;
+&lt;p class="图"&gt;&lt;img alt="..\16-0403 换字\16-0403\automate02_09.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00078.jpg"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图2-10 while语句代码的流程图&lt;/p&gt;
+&lt;p class="zw"&gt;带有if语句的代码检查条件，如果条件为True，就打印一次"Hello, world."。带有while循环的代码则不同，会打印5次。打印5次后停下来是因为，在每次循环迭代末尾，spam中的整数都增加1。这意味着循环将执行5次，然后spam &amp;lt; 5变为False。&lt;/p&gt;
+&lt;p class="zw"&gt;在while循环中，条件总是在每次“迭代”开始时检查（也就是每次循环执行时）。如果条件为True，子句就会执行，然后，再次检查条件。当条件第一次为False时，while子句就跳过。&lt;/p&gt;
+&lt;h3 id="nav_point_54"&gt;2.7.5 恼人的循环&lt;/h3&gt;
+&lt;p class="zw"&gt;这里有一个小例子，它不停地要求你输入“your name”（就是这个字符串，而不是你的名字）。选择FileNew Window，打开一个新的文件编辑器窗口，输入以下代码，将文件保存为yourName.py：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;❶ name = ''
 ❷while name != 'your name':
 　    print('Please type your name.')
 ❸     name = input()
 ❹ print('Thank you!')
-</code>
-</pre>
-<p class="zw">首先，程序将变量name❶设置为一个空字符串。这样，条件name != 'your name'就会求值为True，程序就会进入while循环的子句❷。</p>
-<p class="zw">这个子句内的代码要求用户输入他们的名字，然后赋给name变量❸。因为这是语句块的最后一行，所以执行就回到while循环的开始，重新对条件求值。如果name中的值“不等于”字符串'your name'，那么条件就为True，执行将再次进入while子句。</p>
-<p class="zw">但如果用户输入your name，while循环的条件就变成'your name' != 'your name'，它求值为False。条件现在是False，程序就不会再次进入while循环子句，而是跳过它，继续执行程序后面的部分❹。图2-11展示了yourName.py程序的流程图。</p>
-<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_11.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00079.jpg"/>
-</p>
-<p class="图题">图2-11 yourName.py程序的流程图</p>
-<p class="zw">现在，让我们来看看yourName.py程序的效果。按F5键运行它，输几次your name之外的东西，然后再提供程序想要的输入。</p>
-<pre class="代码无行号"><code>Please type your name.
-<strong>Al</strong>
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;首先，程序将变量name❶设置为一个空字符串。这样，条件name != 'your name'就会求值为True，程序就会进入while循环的子句❷。&lt;/p&gt;
+&lt;p class="zw"&gt;这个子句内的代码要求用户输入他们的名字，然后赋给name变量❸。因为这是语句块的最后一行，所以执行就回到while循环的开始，重新对条件求值。如果name中的值“不等于”字符串'your name'，那么条件就为True，执行将再次进入while子句。&lt;/p&gt;
+&lt;p class="zw"&gt;但如果用户输入your name，while循环的条件就变成'your name' != 'your name'，它求值为False。条件现在是False，程序就不会再次进入while循环子句，而是跳过它，继续执行程序后面的部分❹。图2-11展示了yourName.py程序的流程图。&lt;/p&gt;
+&lt;p class="图"&gt;&lt;img alt="..\16-0403 换字\16-0403\automate02_11.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00079.jpg"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图2-11 yourName.py程序的流程图&lt;/p&gt;
+&lt;p class="zw"&gt;现在，让我们来看看yourName.py程序的效果。按F5键运行它，输几次your name之外的东西，然后再提供程序想要的输入。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;Please type your name.
+&lt;strong&gt;Al&lt;/strong&gt;
 Please type your name.
-<strong>Albert</strong>
+&lt;strong&gt;Albert&lt;/strong&gt;
 Please type your name.
-<strong>%#@#%*(^&amp;!!!</strong>
+&lt;strong&gt;%#@#%*(^&amp;amp;!!!&lt;/strong&gt;
 Please type your name.
-<strong>your name</strong>
+&lt;strong&gt;your name&lt;/strong&gt;
 Thank you!
-</code>
-</pre>
-<p class="zw">如果永不输入your name，那么循环的条件就永远不会为False，程序将永远问下去。这里，input()调用让用户输入正确的字符串，以便让程序继续。在其他程序，条件可能永远没有实际变化，这可能会出问题。让我们来看看如何跳出循环。</p>
-<h3 id="nav_point_55">2.7.6 break语句</h3>
-<p class="zw">有一个捷径，让执行提前跳出while循环子句。如果执行遇到break语句，就会马上退出while循环子句。在代码中，break语句仅包含break关键字。</p>
-<p class="zw">非常简单，对吗？这里有一个程序，和前面的程序做一样的事情，但使用了break语句来跳出循环。输入以下代码，将文件保存为yourName2.py：</p>
-<pre class="代码无行号"><code>❶ while True:
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;如果永不输入your name，那么循环的条件就永远不会为False，程序将永远问下去。这里，input()调用让用户输入正确的字符串，以便让程序继续。在其他程序，条件可能永远没有实际变化，这可能会出问题。让我们来看看如何跳出循环。&lt;/p&gt;
+&lt;h3 id="nav_point_55"&gt;2.7.6 break语句&lt;/h3&gt;
+&lt;p class="zw"&gt;有一个捷径，让执行提前跳出while循环子句。如果执行遇到break语句，就会马上退出while循环子句。在代码中，break语句仅包含break关键字。&lt;/p&gt;
+&lt;p class="zw"&gt;非常简单，对吗？这里有一个程序，和前面的程序做一样的事情，但使用了break语句来跳出循环。输入以下代码，将文件保存为yourName2.py：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;❶ while True:
 　    print('Please type your name.')
 ❷    name = input()
 ❸     if name == 'your name':
 ❹         break
-❺ print('Thank you!')</code>
-</pre>
-<p class="zw">第一行❶创建了一个“无限循环”，它是一个条件总是为True的while循环。（表达式True总是求值为True。）程序执行将总是进入循环，只有遇到break语句执行时才会退出（“永远不”退出的无限循环是一个常见的编程缺陷）。</p>
-<p class="zw">像以前一样，程序要求用户输入your name❷。但是现在，虽然执行仍然在while循环内，但有一个if语句会被执行❸，检查name是否等于your name。如果条件为True，break语句就会运行❹，执行就会跳出循环，转到print('Thank you!') ❺。否则，包含break语句的if语句子句就会跳过，让执行到达while循环的末尾。此时，程序执行跳回到while语句的开始❶，重新检查条件。因为条件是True，所以执行进入循环，再次要求用户输入your name。这个程序的流程图参见图2-12。</p>
-<p class="zw">运行yourName2.py，输入你为yourName.py程序输入的同样文本。重写的程序应该和原来的程序反应相同。</p>
-<p class="图"><img alt="..\automate02_12.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00080.jpg" style="width: 100%" width="100%"/>
-</p>
-<p class="图题">图2-12 带有无限循环的程序的流程图。注意打叉路径在逻辑上<br/>
-永远不会发生，因为循环条件总是为True</p>
-<h3 id="nav_point_56">2.7.7 continue语句</h3>
-<p class="zw">像break语句一样，continue语句用于循环内部。如果程序执行遇到continue语句，就会马上跳回到循环开始处，重新对循环条件求值（这也是执行到达循环末尾时发生的事情）。</p>
-<p class="zw">让我们用continue写一个程序，要求输入名字和口令。在一个新的文件编辑窗口中输入以下代码，将程序保存为swordfish.py。</p>
-<pre class="代码无行号"><code>　while True:
+❺ print('Thank you!')&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;第一行❶创建了一个“无限循环”，它是一个条件总是为True的while循环。（表达式True总是求值为True。）程序执行将总是进入循环，只有遇到break语句执行时才会退出（“永远不”退出的无限循环是一个常见的编程缺陷）。&lt;/p&gt;
+&lt;p class="zw"&gt;像以前一样，程序要求用户输入your name❷。但是现在，虽然执行仍然在while循环内，但有一个if语句会被执行❸，检查name是否等于your name。如果条件为True，break语句就会运行❹，执行就会跳出循环，转到print('Thank you!') ❺。否则，包含break语句的if语句子句就会跳过，让执行到达while循环的末尾。此时，程序执行跳回到while语句的开始❶，重新检查条件。因为条件是True，所以执行进入循环，再次要求用户输入your name。这个程序的流程图参见图2-12。&lt;/p&gt;
+&lt;p class="zw"&gt;运行yourName2.py，输入你为yourName.py程序输入的同样文本。重写的程序应该和原来的程序反应相同。&lt;/p&gt;
+&lt;p class="图"&gt;&lt;img alt="..\automate02_12.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00080.jpg" style="width: 100%" width="100%"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图2-12 带有无限循环的程序的流程图。注意打叉路径在逻辑上&lt;br/&gt;
+永远不会发生，因为循环条件总是为True&lt;/p&gt;
+&lt;h3 id="nav_point_56"&gt;2.7.7 continue语句&lt;/h3&gt;
+&lt;p class="zw"&gt;像break语句一样，continue语句用于循环内部。如果程序执行遇到continue语句，就会马上跳回到循环开始处，重新对循环条件求值（这也是执行到达循环末尾时发生的事情）。&lt;/p&gt;
+&lt;p class="zw"&gt;让我们用continue写一个程序，要求输入名字和口令。在一个新的文件编辑窗口中输入以下代码，将程序保存为swordfish.py。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;　while True:
 　    print('Who are you?')
 　    name = input()
 ❶     if name != 'Joe':
@@ -2473,42 +2486,42 @@ Thank you!
 ❸     password = input()
 　    if password == 'swordfish':
 ❹         break
-❺ print('Access granted.')</code>
-</pre>
-<p class="zw">如果用户输入的名字不是Joe❶，continue语句❷将导致程序执行跳回到循环开始处。再次对条件求值时，执行总是进入循环，因为条件就是True。如果执行通过了if语句，用户就被要求输入口令❸。如果输入的口令是swordfish，break语句运行❹，执行跳出while循环，打印Access granted❺。否则，执行继续到while循环的末尾，又跳回到循环的开始。这个程序的流程图参见图2-13。</p>
-<p class="editing-tag 超强提示标签">陷在无限循环中？</p>
-<blockquote class="超强提示 editing-block">
-<p class="zw"><br/>
-</p>
-如果你运行一个有缺陷的程序，导致陷在一个无限循环中，那么请按Ctrl-C。这将向程序发送KeyboardInterrupt错误，导致它立即停止。试一下，在文件编辑器中创建一个简单的无限循环，将它保存为infiniteloop.py。<pre class="代码无行号"><code>while True:
-   print('Hello world!')</code>
-</pre>
-<p class="zw">如果运行这个程序，它将永远在屏幕上打印Hello world！因为while语句的条件总是True。在IDLE的交互式环境窗口中，只有两种办法停止这个程序：按下Ctrl-C或从菜单中选择ShellRestart Shell。如果你希望马上停止程序，即使它不是陷在一个无限循环中，Ctrl-C也是很方便的。</p>
-</blockquote>
-<p class="zw">运行这个程序，提供一些输入。只有你声称是Joe，它才会要求输入口令。一旦输入了正确的口令，它就会退出。</p>
-<pre class="代码无行号"><code>Who are you?
-<strong>I'm fine, thanks. Who are you?</strong>
+❺ print('Access granted.')&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;如果用户输入的名字不是Joe❶，continue语句❷将导致程序执行跳回到循环开始处。再次对条件求值时，执行总是进入循环，因为条件就是True。如果执行通过了if语句，用户就被要求输入口令❸。如果输入的口令是swordfish，break语句运行❹，执行跳出while循环，打印Access granted❺。否则，执行继续到while循环的末尾，又跳回到循环的开始。这个程序的流程图参见图2-13。&lt;/p&gt;
+&lt;p class="editing-tag 超强提示标签"&gt;陷在无限循环中？&lt;/p&gt;
+&lt;blockquote class="超强提示 editing-block"&gt;
+&lt;p class="zw"&gt;&lt;br/&gt;
+&lt;/p&gt;
+如果你运行一个有缺陷的程序，导致陷在一个无限循环中，那么请按Ctrl-C。这将向程序发送KeyboardInterrupt错误，导致它立即停止。试一下，在文件编辑器中创建一个简单的无限循环，将它保存为infiniteloop.py。&lt;pre class="代码无行号"&gt;&lt;code&gt;while True:
+   print('Hello world!')&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;如果运行这个程序，它将永远在屏幕上打印Hello world！因为while语句的条件总是True。在IDLE的交互式环境窗口中，只有两种办法停止这个程序：按下Ctrl-C或从菜单中选择ShellRestart Shell。如果你希望马上停止程序，即使它不是陷在一个无限循环中，Ctrl-C也是很方便的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p class="zw"&gt;运行这个程序，提供一些输入。只有你声称是Joe，它才会要求输入口令。一旦输入了正确的口令，它就会退出。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;Who are you?
+&lt;strong&gt;I'm fine, thanks. Who are you?&lt;/strong&gt;
 Who are you?
-<strong>Joe</strong>
+&lt;strong&gt;Joe&lt;/strong&gt;
 Hello, Joe. What is the password? (It is a fish.)
-<strong>Mary</strong>
+&lt;strong&gt;Mary&lt;/strong&gt;
 Who are you?
-<strong>Joe</strong>
+&lt;strong&gt;Joe&lt;/strong&gt;
 Hello, Joe. What is the password? (It is a fish.)
-<strong>swordfish</strong>
+&lt;strong&gt;swordfish&lt;/strong&gt;
 Access granted.
-</code>
-</pre>
-<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_13.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00081.jpg" style="width: 100%" width="100%"/>
-</p>
-<p class="图题">图2-13 swordfish.py的流程图。打叉的路径在逻辑上永远不会执行，因为循环条件总是True</p>
-<h3 id="nav_point_57">2.7.8 for循环和range()函数</h3>
-<p class="zw">在条件为True时，while循环就会继续循环（这是它的名称的由来）。但如果你想让一个代码块执行固定次数，该怎么办？可以通过for循环语句和range()函数来实现。</p>
-<p class="editing-tag 超强提示标签">“类真”和“类假”的值</p>
-<blockquote class="超强提示 editing-block">
-<p class="zw"><br/>
-</p>
-其他数据类型中的某些值，条件认为它们等价于True和False。在用于条件时，0、0.0和' '（空字符串）被认为是False，其他值被认为是True。例如，请看下面的程序：<pre class="代码无行号"><code>name = ''
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="图"&gt;&lt;img alt="..\16-0403 换字\16-0403\automate02_13.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00081.jpg" style="width: 100%" width="100%"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图2-13 swordfish.py的流程图。打叉的路径在逻辑上永远不会执行，因为循环条件总是True&lt;/p&gt;
+&lt;h3 id="nav_point_57"&gt;2.7.8 for循环和range()函数&lt;/h3&gt;
+&lt;p class="zw"&gt;在条件为True时，while循环就会继续循环（这是它的名称的由来）。但如果你想让一个代码块执行固定次数，该怎么办？可以通过for循环语句和range()函数来实现。&lt;/p&gt;
+&lt;p class="editing-tag 超强提示标签"&gt;“类真”和“类假”的值&lt;/p&gt;
+&lt;blockquote class="超强提示 editing-block"&gt;
+&lt;p class="zw"&gt;&lt;br/&gt;
+&lt;/p&gt;
+其他数据类型中的某些值，条件认为它们等价于True和False。在用于条件时，0、0.0和' '（空字符串）被认为是False，其他值被认为是True。例如，请看下面的程序：&lt;pre class="代码无行号"&gt;&lt;code&gt;name = ''
 while not name:❶
     print('Enter your name:')
     name = input()
@@ -2516,174 +2529,175 @@ print('How many guests will you have?')
 numOfGuests = int(input())
 if numOfGuests:❷
     print('Be sure to have enough room for all your guests.')❸
-print('Done')</code>
-</pre>
-<p class="zw">如果用户输入一个空字符串给name，那么while语句的条件就会是True ❶，程序继续要求输入名字。如果numOfGuests不是0 ❷，那么条件就被认为是True，程序就会为用户打印一条提醒信息❸。</p>
-<p class="zw">可以用not name != ' '代替not name，用numOfGuests != 0代替numOfGuests，但使用类真和类假的值会让代码更容易阅读。</p>
-</blockquote>
-<p class="zw">在代码中，for语句看起来像for i in range(5):这样，总是包含以下部分：</p>
-<ul>
-<li class="第1级无序列表">for关键字；</li>
-<li class="第1级无序列表">一个变量名；</li>
-<li class="第1级无序列表">in关键字；</li>
-<li class="第1级无序列表">调用range()方法，最多传入3个参数；</li>
-<li class="第1级无序列表">冒号；</li>
-<li class="第1级无序列表">从下一行开始，缩进的代码块（称为for子句）。</li>
-</ul>
-<p class="zw">让我们创建一个新的程序，名为fiveTimes.py，看看for循环的效果。</p>
-<pre class="代码无行号"><code>print('My name is')
+print('Done')&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;如果用户输入一个空字符串给name，那么while语句的条件就会是True ❶，程序继续要求输入名字。如果numOfGuests不是0 ❷，那么条件就被认为是True，程序就会为用户打印一条提醒信息❸。&lt;/p&gt;
+&lt;p class="zw"&gt;可以用not name != ' '代替not name，用numOfGuests != 0代替numOfGuests，但使用类真和类假的值会让代码更容易阅读。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p class="zw"&gt;在代码中，for语句看起来像for i in range(5):这样，总是包含以下部分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class="第1级无序列表"&gt;for关键字；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;一个变量名；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;in关键字；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;调用range()方法，最多传入3个参数；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;冒号；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;从下一行开始，缩进的代码块（称为for子句）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="zw"&gt;让我们创建一个新的程序，名为fiveTimes.py，看看for循环的效果。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;print('My name is')
 for i in range(5):
-    print('Jimmy Five Times (' + str(i) + ')')</code>
-</pre>
-<p class="zw">for循环子句中的代码运行了5次。第一次运行时，变量i被设为0。子句中的print()调用将打印出Jimmy Five Times (0)。Python完成for循环子句内所有代码的一次迭代之后，执行将回到循环的顶部，for语句让i增加1。这就是为什么range(5)导致子句的5次迭代，i分别被设置为0、1、2、3、4。变量i将递增到（但不包括）传递给range()函数的整数。图2-14展示了fiveTimes.py程序的流程图。</p>
-<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_14.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00082.jpg"/>
-</p>
-<p class="图题">图2-14 fiveTimes.py的流程图</p>
-<p class="zw">运行这个程序时，它将打印5次Jimmy Five Times和i的值，然后离开for循环。</p>
-<pre class="代码无行号"><code>My name is
+    print('Jimmy Five Times (' + str(i) + ')')&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;for循环子句中的代码运行了5次。第一次运行时，变量i被设为0。子句中的print()调用将打印出Jimmy Five Times (0)。Python完成for循环子句内所有代码的一次迭代之后，执行将回到循环的顶部，for语句让i增加1。这就是为什么range(5)导致子句的5次迭代，i分别被设置为0、1、2、3、4。变量i将递增到（但不包括）传递给range()函数的整数。图2-14展示了fiveTimes.py程序的流程图。&lt;/p&gt;
+&lt;p class="图"&gt;&lt;img alt="..\16-0403 换字\16-0403\automate02_14.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00082.jpg"/&gt;
+&lt;/p&gt;
+&lt;p class="图题"&gt;图2-14 fiveTimes.py的流程图&lt;/p&gt;
+&lt;p class="zw"&gt;运行这个程序时，它将打印5次Jimmy Five Times和i的值，然后离开for循环。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;My name is
 Jimmy Five Times (0)
 Jimmy Five Times (1)
 Jimmy Five Times (2)
 Jimmy Five Times (3)
-Jimmy Five Times (4)</code>
-</pre>
-<p class="zw">也可以在循环中使用continue语句。continue语句将让for循环变量继续下一个值，就像程序执行已经到达循环的末尾并返回开始一样。实际上，只能在while和for循环内部使用continue和break语句。如果试图在别处使用这些语句，Python将报错。</p>
-<p class="zw">作为for循环的另一个例子，请考虑数学家高斯的故事。当高斯还是一个小孩时，老师想给全班同学布置很多计算作业。老师让他们从0加到100。高斯想到了一个聪明办法，在几秒钟内算出了答案，但你可以用for循环写一个Python程序，替你完成计算。</p>
-<pre class="代码无行号"><code>❶ total = 0
+Jimmy Five Times (4)&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;也可以在循环中使用continue语句。continue语句将让for循环变量继续下一个值，就像程序执行已经到达循环的末尾并返回开始一样。实际上，只能在while和for循环内部使用continue和break语句。如果试图在别处使用这些语句，Python将报错。&lt;/p&gt;
+&lt;p class="zw"&gt;作为for循环的另一个例子，请考虑数学家高斯的故事。当高斯还是一个小孩时，老师想给全班同学布置很多计算作业。老师让他们从0加到100。高斯想到了一个聪明办法，在几秒钟内算出了答案，但你可以用for循环写一个Python程序，替你完成计算。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;❶ total = 0
 ❷for num in range(101):
 ❸     total = total + num
 ❹ print(total)
-</code>
-</pre>
-<p class="zw">结果应该是5050。程序刚开始时，total变量被设为0。然后for循环执行100次total = total + num。当循环完成100次迭代时，0到100的每个整数都加给了total。这时，total被打印到屏幕上。即使在最慢的计算机上，这个程序也不用1秒钟就能完成计算。</p>
-<p class="zw">（小高斯想到，有50对数加起来是100：1 + 99, 2 + 98, 3 + 97……直到49 + 51。因为50 × 100 是5000，再加上中间的50，所以0到100的所有数之和是5050。聪明的孩子！）</p>
-<h3 id="nav_point_58">2.7.9 等价的while循环</h3>
-<p class="zw">实际上可以用while循环来做和for循环同样的事，for循环只是更简洁。让我们用与for循环等价的while循环，重写fiveTimes.py。</p>
-<pre class="代码无行号"><code>print('My name is')
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;结果应该是5050。程序刚开始时，total变量被设为0。然后for循环执行100次total = total + num。当循环完成100次迭代时，0到100的每个整数都加给了total。这时，total被打印到屏幕上。即使在最慢的计算机上，这个程序也不用1秒钟就能完成计算。&lt;/p&gt;
+&lt;p class="zw"&gt;（小高斯想到，有50对数加起来是100：1 + 99, 2 + 98, 3 + 97……直到49 + 51。因为50 × 100 是5000，再加上中间的50，所以0到100的所有数之和是5050。聪明的孩子！）&lt;/p&gt;
+&lt;h3 id="nav_point_58"&gt;2.7.9 等价的while循环&lt;/h3&gt;
+&lt;p class="zw"&gt;实际上可以用while循环来做和for循环同样的事，for循环只是更简洁。让我们用与for循环等价的while循环，重写fiveTimes.py。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;print('My name is')
 i = 0
-while i &lt; 5:
+while i &amp;lt; 5:
     print('Jimmy Five Times (' + str(i) + ')')
-    i = i + 1</code>
-</pre>
-<p class="zw">运行这个程序，输出应该和使用for循环的fiveTimes.py程序一样。</p>
-<h3 id="nav_point_59">2.7.10 range()的开始、停止和步长参数</h3>
-<p class="zw">某些函数可以用多个参数调用，参数之间用逗号分开，range()就是其中之一。这让你能够改变传递给range()的整数，实现各种整数序列，包括从0以外的值开始。</p>
-<pre class="代码无行号"><code>for i in range(12, 16):
-    print(i)</code>
-</pre>
-<p class="zw">第一个参数是for循环变量开始的值，第二个参数是上限，但不包含它，也就是循环停止的数字。</p>
-<pre class="代码无行号"><code>12
+    i = i + 1&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;运行这个程序，输出应该和使用for循环的fiveTimes.py程序一样。&lt;/p&gt;
+&lt;h3 id="nav_point_59"&gt;2.7.10 range()的开始、停止和步长参数&lt;/h3&gt;
+&lt;p class="zw"&gt;某些函数可以用多个参数调用，参数之间用逗号分开，range()就是其中之一。这让你能够改变传递给range()的整数，实现各种整数序列，包括从0以外的值开始。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;for i in range(12, 16):
+    print(i)&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;第一个参数是for循环变量开始的值，第二个参数是上限，但不包含它，也就是循环停止的数字。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;12
 13
 14
-15</code>
-</pre>
-<p class="zw">range()函数也可以有第三个参数。前两个参数分别是起始值和终止值，第三个参数是“步长”。步长是每次迭代后循环变量增加的值。</p>
-<pre class="代码无行号"><code>for i in range(0, 10, 2):
-    print(i)</code>
-</pre>
-<p class="zw">所以调用range(0, 10, 2)将从0数到8，间隔为2。</p>
-<pre class="代码无行号"><code>0
+15&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;range()函数也可以有第三个参数。前两个参数分别是起始值和终止值，第三个参数是“步长”。步长是每次迭代后循环变量增加的值。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;for i in range(0, 10, 2):
+    print(i)&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;所以调用range(0, 10, 2)将从0数到8，间隔为2。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;0
 2
 4
 6
-8</code>
-</pre>
-<p class="zw">在为for循环生成序列数据方面，range()函数很灵活。举例来说，甚至可以用负数作为步长参数，让循环计数逐渐减少，而不是增加。</p>
-<pre class="代码无行号"><code>for i in range(5, -1, -1):
-    print(i)</code>
-</pre>
-<p class="zw">运行一个for循环，用range(5, -1, -1)来打印i，结果将从5降至0。</p>
-<pre class="代码无行号"><code>5
+8&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;在为for循环生成序列数据方面，range()函数很灵活。举例来说，甚至可以用负数作为步长参数，让循环计数逐渐减少，而不是增加。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;for i in range(5, -1, -1):
+    print(i)&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;运行一个for循环，用range(5, -1, -1)来打印i，结果将从5降至0。&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;5
 4
 3
 2
 1
-0</code>
-</pre>
-<h2 id="nav_point_60">2.8 导入模块</h2>
-<p class="zw">Python程序可以调用一组基本的函数，这称为“内建函数”，包括你见到过的print()、input()和len()函数。Python也包括一组模块，称为“标准库”。每个模块都是一个Python程序，包含一组相关的函数，可以嵌入你的程序之中。例如，math模块有数学运算相关的函数，random模块有随机数相关的函数，等等。</p>
-<p class="zw">在开始使用一个模块中的函数之前，必须用import语句导入该模块。在代码中，import语句包含以下部分：</p>
-<ul>
-<li class="第1级无序列表">import关键字；</li>
-<li class="第1级无序列表">模块的名称；</li>
-<li class="第1级无序列表">可选的更多模块名称，之间用逗号隔开。</li>
-</ul>
-<p class="zw">在导入一个模块后，就可以使用该模块中所有很酷的函数。让我们试一试random模块，它让我们能使用random.randint()函数。</p>
-<p class="zw">在文件编辑器中输入以下代码，保存为printRandom.py：</p>
-<pre class="代码无行号"><code>import random
+0&lt;/code&gt;
+&lt;/pre&gt;
+&lt;h2 id="nav_point_60"&gt;2.8 导入模块&lt;/h2&gt;
+&lt;p class="zw"&gt;Python程序可以调用一组基本的函数，这称为“内建函数”，包括你见到过的print()、input()和len()函数。Python也包括一组模块，称为“标准库”。每个模块都是一个Python程序，包含一组相关的函数，可以嵌入你的程序之中。例如，math模块有数学运算相关的函数，random模块有随机数相关的函数，等等。&lt;/p&gt;
+&lt;p class="zw"&gt;在开始使用一个模块中的函数之前，必须用import语句导入该模块。在代码中，import语句包含以下部分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class="第1级无序列表"&gt;import关键字；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;模块的名称；&lt;/li&gt;
+&lt;li class="第1级无序列表"&gt;可选的更多模块名称，之间用逗号隔开。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="zw"&gt;在导入一个模块后，就可以使用该模块中所有很酷的函数。让我们试一试random模块，它让我们能使用random.randint()函数。&lt;/p&gt;
+&lt;p class="zw"&gt;在文件编辑器中输入以下代码，保存为printRandom.py：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;import random
 for i in range(5):
-    print(random.randint(1, 10))</code>
-</pre>
-<p class="zw">如果运行这个程序，输出看起来可能像这样：</p>
-<pre class="代码无行号"><code>4
+    print(random.randint(1, 10))&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;如果运行这个程序，输出看起来可能像这样：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;4
 1
 8
 4
-1</code>
-</pre>
-<p class="zw">random.randint()函数调用求值为传递给它的两个整数之间的一个随机整数。因为randint()属于random模块，必须在函数名称之前先加上random.，告诉python在random模块中寻找这个函数。</p>
-<p class="zw">下面是import语句的例子，它导入了4个不同的模块：</p>
-<pre class="代码无行号"><code>import random, sys, os, math</code>
-</pre>
-<p class="zw">现在我们可以使用这4个模块中的所有函数。本书后面我们将学习更多的相关内容。</p>
-<h3 id="nav_point_61">from import语句</h3>
-<p class="zw">import语句的另一种形式包括from关键字，之后是模块名称，import关键字和一个星号，例如from random import *。</p>
-<p class="zw">使用这种形式的import语句，调用random模块中的函数时不需要random.前缀。但是，使用完整的名称会让代码更可读，所以最好是使用普通形式的import语句。</p>
-<h2 id="nav_point_62">2.9 用sys.exit()提前结束程序</h2>
-<p class="zw">要介绍的最后一个控制流概念，是如何终止程序。当程序执行到指令的底部时，总是会终止。但是，通过调用sys.exit()函数，可以让程序终止或退出。因为这个函数在sys模块中，所以必须先导入sys，才能使用它。</p>
-<p class="zw">打开一个新的文件编辑器窗口，输入以下代码。保存为exitExample.py：</p>
-<pre class="代码无行号"><code>import sys
+1&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;random.randint()函数调用求值为传递给它的两个整数之间的一个随机整数。因为randint()属于random模块，必须在函数名称之前先加上random.，告诉python在random模块中寻找这个函数。&lt;/p&gt;
+&lt;p class="zw"&gt;下面是import语句的例子，它导入了4个不同的模块：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;import random, sys, os, math&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;现在我们可以使用这4个模块中的所有函数。本书后面我们将学习更多的相关内容。&lt;/p&gt;
+&lt;h3 id="nav_point_61"&gt;from import语句&lt;/h3&gt;
+&lt;p class="zw"&gt;import语句的另一种形式包括from关键字，之后是模块名称，import关键字和一个星号，例如from random import *。&lt;/p&gt;
+&lt;p class="zw"&gt;使用这种形式的import语句，调用random模块中的函数时不需要random.前缀。但是，使用完整的名称会让代码更可读，所以最好是使用普通形式的import语句。&lt;/p&gt;
+&lt;h2 id="nav_point_62"&gt;2.9 用sys.exit()提前结束程序&lt;/h2&gt;
+&lt;p class="zw"&gt;要介绍的最后一个控制流概念，是如何终止程序。当程序执行到指令的底部时，总是会终止。但是，通过调用sys.exit()函数，可以让程序终止或退出。因为这个函数在sys模块中，所以必须先导入sys，才能使用它。&lt;/p&gt;
+&lt;p class="zw"&gt;打开一个新的文件编辑器窗口，输入以下代码。保存为exitExample.py：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;import sys
 while True:
     print('Type exit to exit.')
     response = input()
     if response == 'exit':
         sys.exit()
-    print('You typed ' + response + '.')</code>
-</pre>
-<p class="zw">在IDLE中运行这个程序。该程序有一个无限循环，里面没有break语句。结束该程序的唯一方式，就是用户输入exit，导致sys.exit()被调用。如果response等于exit，程序就会中止。因为response变量由input()函数赋值，所以用户必须输入exit，才能停止该程序。</p>
-<h2 id="nav_point_63">2.10 小结</h2>
-<p class="zw">通过使用求值为True或False的表达式（也称为条件），你可以编写程序来决定哪些代码执行，哪些代码跳过。可以在循环中一遍又一遍地执行代码，只要某个条件求值为True。如果需要跳出循环或回到开始处，break和continue语句很有用。</p>
-<p class="zw">这些控制流语句让你写出非常聪明的程序。还有另一种类型的控制流，你可以通过编写自己的函数来实现。这是下一章的主题。</p>
-<h2 id="nav_point_64">2.11 习题</h2>
-<p class="zw">1．布尔数据类型的两个值是什么？如何拼写？</p>
-<p class="zw">2．3个布尔操作符是什么？</p>
-<p class="zw">3．写出每个布尔操作符的真值表（也就是操作数的每种可能组合，以及操作的结果）。</p>
-<p class="zw">4．以下表达式求值的结果是什么？</p>
-<pre class="代码无行号"><code>(5 &gt; 4) and (3 == 5)
-not (5 &gt; 4)
-(5 &gt; 4) or (3 == 5)
-not ((5 &gt; 4) or (3 == 5))
+    print('You typed ' + response + '.')&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;在IDLE中运行这个程序。该程序有一个无限循环，里面没有break语句。结束该程序的唯一方式，就是用户输入exit，导致sys.exit()被调用。如果response等于exit，程序就会中止。因为response变量由input()函数赋值，所以用户必须输入exit，才能停止该程序。&lt;/p&gt;
+&lt;h2 id="nav_point_63"&gt;2.10 小结&lt;/h2&gt;
+&lt;p class="zw"&gt;通过使用求值为True或False的表达式（也称为条件），你可以编写程序来决定哪些代码执行，哪些代码跳过。可以在循环中一遍又一遍地执行代码，只要某个条件求值为True。如果需要跳出循环或回到开始处，break和continue语句很有用。&lt;/p&gt;
+&lt;p class="zw"&gt;这些控制流语句让你写出非常聪明的程序。还有另一种类型的控制流，你可以通过编写自己的函数来实现。这是下一章的主题。&lt;/p&gt;
+&lt;h2 id="nav_point_64"&gt;2.11 习题&lt;/h2&gt;
+&lt;p class="zw"&gt;1．布尔数据类型的两个值是什么？如何拼写？&lt;/p&gt;
+&lt;p class="zw"&gt;2．3个布尔操作符是什么？&lt;/p&gt;
+&lt;p class="zw"&gt;3．写出每个布尔操作符的真值表（也就是操作数的每种可能组合，以及操作的结果）。&lt;/p&gt;
+&lt;p class="zw"&gt;4．以下表达式求值的结果是什么？&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;(5 &amp;gt; 4) and (3 == 5)
+not (5 &amp;gt; 4)
+(5 &amp;gt; 4) or (3 == 5)
+not ((5 &amp;gt; 4) or (3 == 5))
 (True and True) and (True == False)
-(not False) or (not True)</code>
-</pre>
-<p class="zw">5．6个比较操作符是什么？</p>
-<p class="zw">6．等于操作符和赋值操作符的区别是什么？</p>
-<p class="zw">7．解释什么是条件，可以在哪里使用条件。</p>
-<p class="zw">8．识别这段代码中的3个语句块：</p>
-<pre class="代码无行号"><code>spam = 0
+(not False) or (not True)&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;5．6个比较操作符是什么？&lt;/p&gt;
+&lt;p class="zw"&gt;6．等于操作符和赋值操作符的区别是什么？&lt;/p&gt;
+&lt;p class="zw"&gt;7．解释什么是条件，可以在哪里使用条件。&lt;/p&gt;
+&lt;p class="zw"&gt;8．识别这段代码中的3个语句块：&lt;/p&gt;
+&lt;pre class="代码无行号"&gt;&lt;code&gt;spam = 0
 if spam == 10:
     print('eggs')
-    if spam &gt; 5:
+    if spam &amp;gt; 5:
         print('bacon')
     else:
         print('ham')
     print('spam')
-print('spam')</code>
-</pre>
-<p class="zw">9．编写代码，如果变量spam中存放1，就打印Hello，如果变量中存放2，就打印Howdy，如果变量中存放其他值，就打印Greetings!</p>
-<p class="zw">10．如果程序陷在一个无限循环中，你可以按什么键？</p>
-<p class="zw">11．break和continue之间的区别是什么？</p>
-<p class="zw">12．在for循环中，range(10)、range(0, 10)和range(0, 10, 1)之间的区别是什么？</p>
-<p class="zw">13．编写一小段程序，利用for循环，打印出从1到10的数字。然后利用while循环，编写一个等价的程序，打印出从1到10的数字。</p>
-<p class="zw">14．如果在名为spam的模块中，有一个名为bacon()的函数，那么在导入spam模块后，如何调用它？</p>
-<p class="zw">附加题：在因特网上查找round()和abs()函数，弄清楚它们的作用。在交互式环境中尝试使用它们。</p>
-<p class="zw"><br style="page-break-after:always"/>
-</p>
-<div></div>
-]]></description>
+print('spam')&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p class="zw"&gt;9．编写代码，如果变量spam中存放1，就打印Hello，如果变量中存放2，就打印Howdy，如果变量中存放其他值，就打印Greetings!&lt;/p&gt;
+&lt;p class="zw"&gt;10．如果程序陷在一个无限循环中，你可以按什么键？&lt;/p&gt;
+&lt;p class="zw"&gt;11．break和continue之间的区别是什么？&lt;/p&gt;
+&lt;p class="zw"&gt;12．在for循环中，range(10)、range(0, 10)和range(0, 10, 1)之间的区别是什么？&lt;/p&gt;
+&lt;p class="zw"&gt;13．编写一小段程序，利用for循环，打印出从1到10的数字。然后利用while循环，编写一个等价的程序，打印出从1到10的数字。&lt;/p&gt;
+&lt;p class="zw"&gt;14．如果在名为spam的模块中，有一个名为bacon()的函数，那么在导入spam模块后，如何调用它？&lt;/p&gt;
+&lt;p class="zw"&gt;附加题：在因特网上查找round()和abs()函数，弄清楚它们的作用。在交互式环境中尝试使用它们。&lt;/p&gt;
+&lt;p class="zw"&gt;&lt;br style="page-break-after:always"/&gt;
+&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+</description>
 <pubDate>Thu, 29 Oct 2026 04:39:55 +0000</pubDate>
 <guid isPermaLink="false">epub-26</guid>
 </item>
+
 <item>
       <title>WorkBuddyGuide-第 2 章 WorkBuddy的下载、安装、登录与更新</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%202%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%99%BB%E5%BD%95%E4%B8%8E%E6%9B%B4%E6%96%B0/</link>
@@ -2691,6 +2705,7 @@ print('spam')</code>
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%202%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%99%BB%E5%BD%95%E4%B8%8E%E6%9B%B4%E6%96%B0/</guid>
       <pubDate>Thu, 20 Aug 2026 00:53:09 +0000</pubDate>
     </item>
+
 
 
 
@@ -3226,6 +3241,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -3243,6 +3259,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -3250,6 +3267,7 @@ Total number of items: 48&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</guid>
 <pubDate>Thu, 01 Oct 2026 06:58:23 +0000</pubDate>
 </item>
+
 
 
 
@@ -3292,6 +3310,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 7 章 WorkBuddy 使用连接器</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</link>
@@ -3299,6 +3318,7 @@ Total number of items: 48&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</guid>
 <pubDate>Sat, 03 Oct 2026 02:44:11 +0000</pubDate>
 </item>
+
 
 
 
@@ -4078,6 +4098,7 @@ help@nostarch.com&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 4 章 快速完成第一个 WorkBuddy 任务</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%204%20%E7%AB%A0%20%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90%E7%AC%AC%E4%B8%80%E4%B8%AA%20WorkBuddy%20%E4%BB%BB%E5%8A%A1/</link>
@@ -4085,6 +4106,7 @@ help@nostarch.com&lt;/code&gt;
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%204%20%E7%AB%A0%20%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90%E7%AC%AC%E4%B8%80%E4%B8%AA%20WorkBuddy%20%E4%BB%BB%E5%8A%A1/</guid>
       <pubDate>Mon, 31 Aug 2026 04:20:41 +0000</pubDate>
     </item>
+
 
 
 
@@ -5180,6 +5202,7 @@ except:
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 8 章 WorkBuddy 接入小程序与 IM 助理</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%208%20%E7%AB%A0%20WorkBuddy%20%E6%8E%A5%E5%85%A5%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8E%20IM%20%E5%8A%A9%E7%90%86/</link>
@@ -5187,6 +5210,7 @@ except:
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%208%20%E7%AB%A0%20WorkBuddy%20%E6%8E%A5%E5%85%A5%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8E%20IM%20%E5%8A%A9%E7%90%86/</guid>
       <pubDate>Mon, 28 Sep 2026 04:16:11 +0000</pubDate>
     </item>
+
 
 
 
@@ -5864,6 +5888,7 @@ cherries Carol moose
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 3 章 WorkBuddy 的主界面、任务与工作区</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%203%20%E7%AB%A0%20WorkBuddy%20%E7%9A%84%E4%B8%BB%E7%95%8C%E9%9D%A2%E3%80%81%E4%BB%BB%E5%8A%A1%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8C%BA/</link>
@@ -5872,484 +5897,6 @@ cherries Carol moose
       <pubDate>Mon, 24 Aug 2026 01:22:34 +0000</pubDate>
     </item>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<item>
-    <title>AutomaticApplicationPython - 034 - 第10章 调试.epub</title>
-    <description>&lt;p style='color: #888;'&gt;⏱ 预计阅读时间：57 分钟 (16945 字)&lt;/p&gt;&lt;hr&gt;&lt;h1 id="nav_point_258"&gt;第10章　调试&lt;/h1&gt;
-&lt;p class="zw"&gt;既然你已学习了足够的内容，可以编写更复杂的程序，可能就会在程序中发现不那么简单的缺陷。本章介绍了一些工具和技巧，用于寻找程序中缺陷的根源，帮助你更快更容易地修复缺陷。&lt;/p&gt;
-&lt;p class="zw"&gt;程序员之间流传着一个老笑话：“编码占了编程工作量的90%，调试占了另外90%。”&lt;/p&gt;
-&lt;p class="zw"&gt;计算机只会做你告诉它做的事情，它不会读懂你的心思，做你想要它做的事情。即使专业的程序员也一直在制造缺陷，所以如果你的程序有问题，不必感到沮丧。&lt;/p&gt;
-&lt;p class="zw"&gt;好在，有一些工具和技巧可以确定你的代码在做什么，以及哪儿出了问题。首先，你要查看日志和断言。这两项功能可以帮助你尽早发现缺陷。一般来说，缺陷发现的越早，就越容易修复。&lt;/p&gt;
-&lt;p class="zw"&gt;其次，你要学习如何使用调试器。调试器是IDLE的一项功能，它可以一次执行一条指令，在代码运行时，让你有机会检查变量的值，并追踪程序运行时值的变化。这比程序全速运行要慢得多，但可以帮助你查看程序运行时其中实际的值，而不是通过源代码推测值可能是什么。&lt;/p&gt;
-&lt;h2 id="nav_point_259"&gt;10.1 抛出异常&lt;/h2&gt;
-&lt;p class="zw"&gt;当Python试图执行无效代码时，就会抛出异常。在第 3 章中，你已看到如何使用try和except语句来处理Python的异常，这样程序就可以从你预期的异常中恢复。但你也可以在代码中抛出自己的异常。抛出异常相当于是说：“停止运行这个函数中的代码，将程序执行转到except语句”。&lt;/p&gt;
-&lt;p class="zw"&gt;抛出异常使用raise语句。在代码中，raise语句包含以下部分：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;raise关键字；&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;对Exception函数的调用；&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;传递给Exception函数的字符串，包含有用的出错信息。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;例如，在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;raise Exception('This is the error message.')&lt;/strong&gt;
-Traceback (most recent call last):
-   File "", line 1, in
-     raise Exception('This is the error message.')
-Exception: This is the error message.
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;如果没有try和except语句覆盖抛出异常的raise语句，该程序就会崩溃，并显示异常的出错信息。&lt;/p&gt;
-&lt;p class="zw"&gt;通常是调用该函数的代码知道如何处理异常，而不是该函数本身。所以你常常会看到raise语句在一个函数中，try和except语句在调用该函数的代码中。例如，打开一个新的文件编辑器窗口，输入以下代码，并保存为boxPrint.py：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　def boxPrint(symbol, width, height):
-　     if len(symbol) != 1:
-❶           raise Exception('Symbol must be a single character string.')
-　     if width &amp;lt;= 2:
-❷           raise Exception('Width must be greater than 2.')
- 　    if height &amp;lt;= 2:
-❸           raise Exception('Height must be greater than 2.')
-　     print(symbol * width)
-　     for i in range(height - 2):
- 　         print(symbol + (' ' * (width - 2)) + symbol)
-　     print(symbol * width)
-　for sym, w, h in (('*', 4, 4), ('O', 20, 5), ('x', 1, 3), ('ZZ', 3, 3)):
-　     try:
-　          boxPrint(sym, w, h)
-❹       except Exception as err:
-❺            print('An exception happened: ' + str(err))&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这里我们定义了一个boxPrint() 函数，它接受一个字符、一个宽度和一个高度。它按照指定的宽度和高度，用该字符创建了一个小盒子的图像。这个盒子被打印到屏幕上。&lt;/p&gt;
-&lt;p class="zw"&gt;假定我们希望该字符是一个字符，宽度和高度要大于2。我们添加了if语句，如果这些条件没有满足，就抛出异常。稍后，当我们用不同的参数调用boxPrint()时，try/except语句就会处理无效的参数。&lt;/p&gt;
-&lt;p class="zw"&gt;这个程序使用了except语句的except Exception as err形式❹。如果boxPrint()返回一个Exception对象❶❷❸，这条语句就会将它保存在名为err的变量中。Exception对象可以传递给str()，将它转换为一个字符串，得到用户友好的出错信息❺。运行boxPrint.py，输出看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;****
-*   *
-*   *
-****
-OOOOOOOOOOOOOOOOOOOO
-O                   O
-O                   O
-O                   O
-OOOOOOOOOOOOOOOOOOOO
-An exception happened: Width must be greater than 2.
-An exception happened: Symbol must be a single character string.&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;使用try和except语句，你可以更优雅地处理错误，而不是让整个程序崩溃。&lt;/p&gt;
-&lt;h2 id="nav_point_260"&gt;10.2 取得反向跟踪的字符串&lt;/h2&gt;
-&lt;p class="zw"&gt;如果Python遇到错误，它就会生成一些错误信息，称为“反向跟踪”。反向跟踪包含了出错消息、导致该错误的代码行号，以及导致该错误的函数调用的序列。这个序列称为“调用栈”。&lt;/p&gt;
-&lt;p class="zw"&gt;在IDLE中打开一个新的文件编辑器窗口，输入以下程序，并保存为error Example.py：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;def spam():
-     bacon()
-def bacon():
-     raise Exception('This is the error message.')
-spam()&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;如果运行errorExample.py，输出看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;Traceback (most recent call last):
-   File "errorExample.py", line 7, in &amp;lt;module&amp;gt;
-     spam()
-   File "errorExample.py", line 2, in spam
-     bacon()
-   File "errorExample.py", line 5, in bacon
-     raise Exception('This is the error message.')
-Exception: This is the error message.&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;通过反向跟踪，可以看到该错误发生在第5行，在bacon() 函数中。这次特定的bacon() 调用来自第2行，在spam() 函数中，它又在第7行被调用的。在从多个位置调用函数的程序中，调用栈就能帮助你确定哪次调用导致了错误。&lt;/p&gt;
-&lt;p class="zw"&gt;只要抛出的异常没有被处理，Python 就会显示反向跟踪。但你也可以调用traceback.format_exc()，得到它的字符串形式。如果你希望得到异常的反向跟踪的信息，但也希望except语句优雅地处理该异常，这个函数就很有用。在调用该函数之前，需要导入Python的traceback模块。&lt;/p&gt;
-&lt;p class="zw"&gt;例如，不是让程序在异常发生时就崩溃，可以将反向跟踪信息写入一个日志文件，并让程序继续运行。稍后，在准备调试程序时，可以检查该日志文件。在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import traceback&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;try:&lt;/strong&gt;
-&lt;strong&gt;           raise Exception('This is the error message.')&lt;/strong&gt;
-&lt;strong&gt;except:&lt;/strong&gt;
-&lt;strong&gt;           errorFile = open('errorInfo.txt', 'w')&lt;/strong&gt;
-&lt;strong&gt;           errorFile.write(traceback.format_exc())&lt;/strong&gt;
-&lt;strong&gt;           errorFile.close()&lt;/strong&gt;
-&lt;strong&gt;           print('The traceback info was written to errorInfo.txt.')&lt;/strong&gt;
-&lt;strong&gt;　&lt;/strong&gt;
-116
-The traceback info was written to errorInfo.txt.
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;write() 方法的返回值是116，因为116个字符被写入到文件中。反向跟踪文本被写入errorInfo.txt。&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;Traceback (most recent call last):
-   File "&amp;lt;pyshell#28&amp;gt;", line 2, in &amp;lt;module&amp;gt;
-Exception: This is the error message.&lt;/code&gt;
-&lt;/pre&gt;
-&lt;h2 id="nav_point_261"&gt;10.3 断言&lt;/h2&gt;
-&lt;p class="zw"&gt;“断言”是一个心智正常的检查，确保代码没有做什么明显错误的事情。这些心智正常的检查由assert语句执行。如果检查失败，就会抛出异常。在代码中，assert语句包含以下部分：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;assert关键字；&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;条件（即求值为True或False的表达式）；&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;逗号；&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;当条件为False时显示的字符串。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;例如，在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;podBayDoorStatus = 'open'&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;assert podBayDoorStatus == 'open', 'The pod bay doors need to be "open".'&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;podBayDoorStatus = 'I\'m sorry, Dave. I\'m afraid I can't do that.''&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;assert podBayDoorStatus == 'open', 'The pod bay doors need to be "open".'&lt;/strong&gt;
-Traceback (most recent call last):
-   File "&amp;lt; pyshell#10&amp;gt;", line 1, in &amp;lt; module&amp;gt;
-     assert podBayDoorStatus == 'open', 'The pod bay doors need to be "open".'
-AssertionError: The pod bay doors need to be "open".
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这里将podBayDoorStatus设置为 'open'，所以从此以后，我们充分期望这个变量的值是 'open'。在使用这个变量的程序中，基于这个值是 'open' 的假定，我们可能写下了大量的代码，即这些代码依赖于它是 'open'，才能按照期望工作。所以添加了一个断言，确保假定podBayDoorStatus是 'open' 是对的。这里，我们加入了信息 'The pod bay doors need to be "open".'，这样如果断言失败，就很容易看到哪里出了错。&lt;/p&gt;
-&lt;p class="zw"&gt;稍后，假如我们犯了一个明显的错误，把另外的值赋给podBayDoorStatus，但在很多行代码中，我们并没有意识到这一点。这个断言会抓住这个错误，清楚地告诉我们出了什么错。&lt;/p&gt;
-&lt;p class="zw"&gt;在日常英语中，assert语句是说：“我断言这个条件为真，如果不为真，程序中什么地方就有一个缺陷。”不像异常，代码不应该用try和except处理assert语句。如果assert失败，程序就应该崩溃。通过这样的快速失败，产生缺陷和你第一次注意到该缺陷之间的时间就缩短了。这将减少为了寻找导致该缺陷的代码，而需要检查的代码量。&lt;/p&gt;
-&lt;p class="zw"&gt;断言针对的是程序员的错误，而不是用户的错误。对于那些可以恢复的错误（诸如文件没有找到，或用户输入了无效的数据），请抛出异常，而不是用assert语句检测它。&lt;/p&gt;
-&lt;h3 id="nav_point_262"&gt;10.3.1 在交通灯模拟中使用断言&lt;/h3&gt;
-&lt;p class="zw"&gt;假定你在编写一个交通信号灯的模拟程序。代表路口信号灯的数据结构是一个字典，以 'ns' 和 'ew' 为键，分别表示南北向和东西向的信号灯。这些键的值可以是 'green'、'yellow' 或 'red' 之一。代码看起来可能像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;market_2nd = {'ns': 'green', 'ew': 'red'}
-mission_16th = {'ns': 'red', 'ew': 'green'}&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这两个变量将针对Market街和第2街路口，以及Mission街和第16街路口。作为项目启动，你希望编写一个switchLights() 函数，它接受一个路口字典作为参数，并切换红绿灯。&lt;/p&gt;
-&lt;p class="zw"&gt;开始你可能认为，switchLights() 只要将每一种灯按顺序切换到下一种顔色：'green' 值应该切换到 'yellow'，'yellow' 应该切换到 'red'，'red' 应该切换到'green'。实现这个思想的代码看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;def switchLights(stoplight):
-     for key in stoplight.keys():
-          if stoplight[key] == 'green':
-               stoplight[key] = 'yellow'
-          elif stoplight[key] == 'yellow':
-               stoplight[key] = 'red'
-          elif stoplight[key] == 'red':
-               stoplight[key] = 'green'
-switchLights(market_2nd)&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;你可能已经发现了这段代码的问题，但假设你编写了剩下的模拟代码，有几千行，但没有注意到这个问题。当最后运行时，程序没有崩溃，但虚拟的汽车撞车了！&lt;/p&gt;
-&lt;p class="zw"&gt;因为你已经编写了剩下的程序，所以不知道缺陷在哪里。也许在模拟汽车的代码中，或者在模拟司机的代码中。可能需要花几个小时追踪缺陷，才能找到switchLights() 函数。&lt;/p&gt;
-&lt;p class="zw"&gt;但如果在编写switchLights() 时，你添加了断言，确保至少一个交通灯是红色，可能在函数的底部添加这样的代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;assert 'red' in stoplight.values(), 'Neither light is red! ' + str(stoplight)&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;有了这个断言，程序就会崩溃，并提供这样的出错信息：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　Traceback (most recent call last):
-　   File "carSim.py", line 14, in &amp;lt;module&amp;gt;
-　     switchLights(market_2nd)
-　   File "carSim.py", line 13, in switchLights
-　     assert 'red' in stoplight.values(), 'Neither light is red! ' + str(stoplight)
-❶ AssertionError: Neither light is red! {'ns': 'yellow', 'ew': 'green'}&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这里重要的一行是AssertionError❶。虽然程序崩溃并非如你所愿，但它马上指出了心智正常检查失败：两个方向都没有红灯，这意味着两个方向的车都可以走。在程序执行中尽早快速失败，可以省去将来大量的调试工作。&lt;/p&gt;
-&lt;h3 id="nav_point_263"&gt;10.3.2 禁用断言&lt;/h3&gt;
-&lt;p class="zw"&gt;在运行Python时传入-O选项，可以禁用断言。如果你已完成了程序的编写和测试，不希望执行心智正常检测，从而减慢程序的速度，这样就很好（尽管大多数断言语句所花的时间，不会让你觉察到速度的差异）。断言是针对开发的，不是针对最终产品。当你将程序交给其他人运行时，它应该没有缺陷，不需要进行心智正常检查。如何用-O选项启动也许并不疯狂的程序，详细内容请参考附录B。&lt;/p&gt;
-&lt;h2 id="nav_point_264"&gt;10.4 日志&lt;/h2&gt;
-&lt;p class="zw"&gt;如果你曾经在代码中加入print() 语句，在程序运行时输出某些变量的值，你就使用了记日志的方式来调试代码。记日志是一种很好的方式，可以理解程序中发生的事，以及事情发生的顺序。Python的logging模块使得你很容易创建自定义的消息记录。这些日志消息将描述程序执行何时到达日志函数调用，并列出你指定的任何变量当时的值。另一方面，缺失日志信息表明有一部分代码被跳过，从未执行。&lt;/p&gt;
-&lt;h3 id="nav_point_265"&gt;10.4.1 使用日志模块&lt;/h3&gt;
-&lt;p class="zw"&gt;要启用logging模块，在程序运行时将日志信息显示在屏幕上，请将下面的代码复制到程序顶部（但在Python的#!行之下）：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;import logging
-logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s
--   %(message)s')&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;你不需要过于担心它的工作原理，但基本上，当 Python 记录一个事件的日志时，它会创建一个LogRecord对象，保存关于该事件的信息。logging模块的函数让你指定想看到的这个LogRecord对象的细节，以及希望的细节展示方式。&lt;/p&gt;
-&lt;p class="zw"&gt;假如你编写了一个函数，计算一个数的阶乘。在数学上，4 的阶乘是1 × 2 × 3 × 4，即24。7的阶乘是1 × 2 × 3 × 4 × 5 × 6 × 7，即5040。打开一个新的文件编辑器窗口，输入以下代码。其中有一个缺陷，但你也会输入一些日志信息，帮助你弄清楚哪里出了问题。将该程序保存为factorialLog.py。&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;import logging
-logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s
--   %(message)s')
-logging.debug('Start of program')
-def factorial(n):
-     logging.debug('Start of factorial(%s%%)' % (n))
-     total = 1
-     for i in range(n + 1):
-           total *= i
-           logging.debug('i is ' + str(i) + ', total is ' + str(total))
-     logging.debug('End of factorial(%s%%)' % (n))
-     return total
-print(factorial(5))
-logging.debug('End of program')&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这里，我们在想打印日志信息时，使用logging.debug() 函数。这个debug() 函数将调用basicConfig()，打印一行信息。这行信息的格式是我们在 basicConfig()函数中指定的，并且包括我们传递给 debug() 的消息。print（factorial（5））调用是原来程序的一部分，所以就算禁用日志信息，结果仍会显示。&lt;/p&gt;
-&lt;p class="zw"&gt;这个程序的输出就像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;2015-05-23 16:20:12,664 - DEBUG - Start of program
-2015-05-23 16:20:12,664 - DEBUG - Start of factorial(5)
-2015-05-23 16:20:12,665 - DEBUG - i is 0, total is 0
-2015-05-23 16:20:12,668 - DEBUG - i is 1, total is 0
-2015-05-23 16:20:12,670 - DEBUG - i is 2, total is 0
-2015-05-23 16:20:12,673 - DEBUG - i is 3, total is 0
-2015-05-23 16:20:12,675 - DEBUG - i is 4, total is 0
-2015-05-23 16:20:12,678 - DEBUG - i is 5, total is 0
-2015-05-23 16:20:12,680 - DEBUG - End of factorial(5)
-0
-2015-05-23 16:20:12,684 - DEBUG - End of program&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;factorial() 函数返回0作为5的阶乘，这是不对的。for循环应该用从1到5的数，乘以total的值。但logging.debug() 显示的日志信息表明，i变量从0开始，而不是1。因为0乘任何数都是0，所以接下来的迭代中，total的值都是错的。日志消息提供了可以追踪的痕迹，帮助你弄清楚何时事情开始不对。&lt;/p&gt;
-&lt;p class="zw"&gt;将代码行for i in range（n + 1）：改为for i in range（1，n + 1）：，再次运行程序。输出看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;2015-05-23 17:13:40,650 - DEBUG - Start of program
-2015-05-23 17:13:40,651 - DEBUG - Start of factorial(5)
-2015-05-23 17:13:40,651 - DEBUG - i is 1, total is 1
-2015-05-23 17:13:40,654 - DEBUG - i is 2, total is 2
-2015-05-23 17:13:40,656 - DEBUG - i is 3, total is 6
-2015-05-23 17:13:40,659 - DEBUG - i is 4, total is 24
-2015-05-23 17:13:40,661 - DEBUG - i is 5, total is 120
-2015-05-23 17:13:40,661 - DEBUG - End of factorial(5)
-120
-2015-05-23 17:13:40,666 - DEBUG - End of program&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;factorial（5）调用正确地返回120。日志消息表明循环内发生了什么，这直接指向了缺陷。&lt;/p&gt;
-&lt;p class="zw"&gt;你可以看到，logging.debug() 调用不仅打印出了传递给它的字符串，而且包含一个时间戳和单词DEBUG。&lt;/p&gt;
-&lt;h3 id="nav_point_266"&gt;10.4.2 不要用print()调试&lt;/h3&gt;
-&lt;p class="zw"&gt;输入import logging和logging.basicConfig（level=logging.DEBUG, format='% (asctime)s - %(levelname)s - %(message)s'）有一点不方便。你可能想使用print() 调用代替，但不要屈服于这种诱惑！在调试完成后，你需要花很多时间，从代码中清除每条日志消息的print() 调用。你甚至有可能不小心删除一些print() 调用，而它们不是用来产生日志消息的。日志消息的好处在于，你可以随心所欲地在程序中想加多少就加多少，稍后只要加入一次logging.disable（logging.CRITICAL）调用，就可以禁止日志。不像print()，logging模块使得显示和隐藏日志信息之间的切换变得很容易。&lt;/p&gt;
-&lt;p class="zw"&gt;日志消息是给程序员的，不是给用户的。用户不会因为你便于调试，而想看到的字典值的内容。请将日志信息用于类似这样的目的。对于用户希望看到的消息，例如“文件未找到”或者“无效的输入，请输入一个数字”，应该使用print() 调用。我们不希望禁用日志消息之后，让用户看不到有用的信息。&lt;/p&gt;
-&lt;h3 id="nav_point_267"&gt;10.4.3 日志级别&lt;/h3&gt;
-&lt;p class="zw"&gt;“日志级别”提供了一种方式，按重要性对日志消息进行分类。5个日志级别如表10-1所示，从最不重要到最重要。利用不同的日志函数，消息可以按某个级别记入日志。&lt;/p&gt;
-&lt;p class="表题"&gt;表10-1 Python中的日志级别&lt;/p&gt;
-&lt;table border="1" width="90%"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;
-&lt;p class="表头单元格"&gt;级别&lt;/p&gt;
-&lt;/th&gt;
-&lt;th&gt;
-&lt;p class="表头单元格"&gt;日志函数&lt;/p&gt;
-&lt;/th&gt;
-&lt;th&gt;
-&lt;p class="表头单元格"&gt;描述&lt;/p&gt;
-&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;DEBUG&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;logging.debug()&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;最低级别。用于小细节。通常只有在诊断问题时，你才会关心这些消息&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;INFO&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;logging.info()&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;用于记录程序中一般事件的信息，或确认一切工作正常&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;WARNING&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;logging.warning()&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;用于表示可能的问题，它不会阻止程序的工作，但将来可能会&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;ERROR&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;logging.error()&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;用于记录错误，它导致程序做某事失败&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;CRITICAL&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;logging.critical()&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;最高级别。用于表示致命的错误，它导致或将要导致程序完全停止工作&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p class="zw"&gt;日志消息作为一个字符串，传递给这些函数。日志级别是一种建议。归根到底，还是由你来决定日志消息属于哪一种类型。在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import logging&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s -&lt;/strong&gt;
-&lt;strong&gt;%(levelname)s - %(message)s')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;logging.debug('Some debugging details.')&lt;/strong&gt;
-2015-05-18 19:04:26,901 - DEBUG - Some debugging details.
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;logging.info('The logging module is working.')&lt;/strong&gt;
-2015-05-18 19:04:35,569 - INFO - The logging module is working.
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;logging.warning('An error message is about to be logged.')&lt;/strong&gt;
-2015-05-18 19:04:56,843 - WARNING - An error message is about to be logged.
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;logging.error('An error has occurred.')&lt;/strong&gt;
-2015-05-18 19:05:07,737 - ERROR - An error has occurred.
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;logging.critical('The program is unable to recover!')&lt;/strong&gt;
-2015-05-18 19:05:45,794 - CRITICAL - The program is unable to recover!
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;日志级别的好处在于，你可以改变想看到的日志消息的优先级。向basicConfig()函数传入logging.DEBUG作为level关键字参数，这将显示所有日志级别的消息（DEBUG是最低的级别）。但在开发了更多的程序后，你可能只对错误感兴趣。在这种情况下，可以将basicConfig() 的level参数设置为logging.ERROR，这将只显示ERROR和CRITICAL消息，跳过DEBUG、INFO和WARNING消息。&lt;/p&gt;
-&lt;h3 id="nav_point_268"&gt;10.4.4 禁用日志&lt;/h3&gt;
-&lt;p class="zw"&gt;在调试完程序后，你可能不希望所有这些日志消息出现在屏幕上。logging. disable() 函数禁用了这些消息，这样就不必进入到程序中，手工删除所有的日志调用。只要向logging.disable() 传入一个日志级别，它就会禁止该级别和更低级别的所有日志消息。所以，如果想要禁用所有日志，只要在程序中添加logging. disable（logging.CRITICAL）。例如，在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import logging&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;logging.basicConfig(level=logging.INFO, format=' %(asctime)s -&lt;/strong&gt;
-&lt;strong&gt;%(levelname)s - %(message)s')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;logging.critical('Critical error! Critical error!')&lt;/strong&gt;
-2015-05-22 11:10:48,054 - CRITICAL - Critical error! Critical error!
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;logging.disable(logging.CRITICAL)&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;logging.critical('Critical error! Critical error!')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;logging.error('Error! Error!')&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;因为logging.disable() 将禁用它之后的所有消息，你可能希望将它添加到程序中接近import logging代码行的位置。这样就很容易找到它，根据需要注释掉它，或取消注释，从而启用或禁用日志消息。&lt;/p&gt;
-&lt;h3 id="nav_point_269"&gt;10.4.5 将日志记录到文件&lt;/h3&gt;
-&lt;p class="zw"&gt;除了将日志消息显示在屏幕上，还可以将它们写入文本文件。logging.basic Config() 函数接受filename关键字参数，像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;import logging
-logging.basicConfig(&lt;strong&gt;filename='myProgramLog.txt'&lt;/strong&gt;
-, level=logging.DEBUG, format='
-%(asctime)s - %(levelname)s - %(message)s')
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;日志信息将被保存到myProgramLog.txt文件中。虽然日志消息很有用，但它们可能塞满屏幕，让你很难读到程序的输出。将日志信息写入到文件，让屏幕保持干净，又能保存信息，这样在运行程序后，可以阅读这些信息。可以用任何文件编辑器打开这个文本文件，诸如Notepad或TextEdit。&lt;/p&gt;
-&lt;h2 id="nav_point_270"&gt;10.5 IDLE的调试器&lt;/h2&gt;
-&lt;p class="zw"&gt;“调试器”是IDLE的一项功能，让你每次执行一行程序。调试器将运行一行代码，然后等待你告诉它继续。像这样让程序运行“在调试器之下”，你可以随便花多少时间，检查程序运行时任意一个时刻的变量的值。对于追踪缺陷，这是一个很有价值的工具。&lt;/p&gt;
-&lt;p class="zw"&gt;要启用IDLE的调试器，就在交互式环境窗口中点击DebugDebugger。这将打开调试控制（Debug Control）窗口，如图10-1所示。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="..\16-0403yds排版\16-0403yds排版\Links\Links\automate10-debugcontrolwindow.png" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/34_Image00102.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图10-1 调试控制窗口&lt;/p&gt;
-&lt;p class="zw"&gt;当调试控制窗口出现后，勾选全部4个复选框：Stack、Locals、Source和Globals。这样窗口将显示全部的调试信息。调试控制窗口显示时，只要你从文件编辑器运行程序，调试器就会在第一条指令之前暂停执行，并显示下面的信息：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;将要执行的代码行；&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;所有局部变量及其值的列表；&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;所有全局变量及其值的列表。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;你会注意到，在全局变量列表中，有一些变量你没有定义，诸如&lt;ins&gt;　&lt;/ins&gt;
- builtins&lt;ins&gt;　&lt;/ins&gt;
- 、&lt;ins&gt;　&lt;/ins&gt;
- doc&lt;ins&gt;　&lt;/ins&gt;
- 、&lt;ins&gt;　&lt;/ins&gt;
- file&lt;ins&gt;　&lt;/ins&gt;
- ，等等。它们是Python在运行程序时，自动设置的变量。这些变量的含义超出了本书的范围，你可以暂时忽略它们。&lt;/p&gt;
-&lt;p class="zw"&gt;程序将保持暂停，直到你按下调试控制窗口的5个按钮中的一个：Go、Step、Over、Out或Quit。&lt;/p&gt;
-&lt;h3 id="nav_point_271"&gt;10.5.1 Go&lt;/h3&gt;
-&lt;p class="zw"&gt;点击Go按钮将导致程序正常执行至终止，或到达一个“断点”（断点在本章稍后介绍）。如果你完成了调试，希望程序正常继续，就点击Go按钮。&lt;/p&gt;
-&lt;h3 id="nav_point_272"&gt;10.5.2 Step&lt;/h3&gt;
-&lt;p class="zw"&gt;点击Step按钮将导致调试器执行下一行代码，然后再次暂停。如果变量的值发生了变化，调试控制窗口的全局变量和局部变量列表就会更新。如果下一行代码是一个函数调用，调试器就会“步入”那个函数，跳到该函数的第一行代码。&lt;/p&gt;
-&lt;h3 id="nav_point_273"&gt;10.5.3 Over&lt;/h3&gt;
-&lt;p class="zw"&gt;点击Over按扭将执行下一行代码，与Step按钮类似。但是，如果下一行代码是函数调用，Over按钮将“跨过”该函数的代码。该函数的代码将以全速执行，调试器将在该函数返回后暂停。例如，如果下一行代码是print() 调用，你实际上不关心内建print() 函数中的代码，只希望传递给它的字符串打印在屏幕上。出于这个原因，使用Over按钮比使用Step按钮更常见。&lt;/p&gt;
-&lt;h3 id="nav_point_274"&gt;10.5.4 Out&lt;/h3&gt;
-&lt;p class="zw"&gt;点击Out按钮将导致调试器全速执行代码行，直到它从当前函数返回。如果你用Step按钮进入了一个函数，现在只想继续执行指令，直到该函数返回，那就点击Out按钮，从当前的函数调用“走出来”。&lt;/p&gt;
-&lt;h3 id="nav_point_275"&gt;10.5.5 Quit&lt;/h3&gt;
-&lt;p class="zw"&gt;如果你希望完全停止调试，不必继续执行剩下的程序，就点击Quit按钮。Quite按钮将马上终止该程序。如果你希望再次正常运行你的程序，就再次选择DebugDebugger，禁用调试器。&lt;/p&gt;
-&lt;h3 id="nav_point_276"&gt;10.5.6 调试一个数字相加的程序&lt;/h3&gt;
-&lt;p class="zw"&gt;打开一个新的文件编辑器窗口，输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;print('Enter the first number to add:')
-first = input()
-print('Enter the second number to add:')
-second = input()
-print('Enter the third number to add:')
-third = input()
-print('The sum is ' + first + second + third)&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;将它保存为buggyAddingProgram.py，不启用调试器，第一次运行它。程序的输出像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;Enter the first number to add:
-&lt;strong&gt;5&lt;/strong&gt;
-Enter the second number to add:
-&lt;strong&gt;3&lt;/strong&gt;
-Enter the third number to add:
-&lt;strong&gt;42&lt;/strong&gt;
-The sum is 5342
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这个程序没有崩溃，但求和显然是错的。让我们启用调试控制窗口，再次运行它，这次在调试器控制之下。&lt;/p&gt;
-&lt;p class="zw"&gt;当你按下F5或选择RunRun Module（启用DebugDebugger，选中调试控制窗口的所有4个复选框），程序启动时将暂停在第1行。调试器总是会暂停在它将要执行的代码行上。调试控制窗口看起来如图10-2所示。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="..\16-0403yds排版\16-0403yds排版\Links\Links\1002.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/34_Image00103.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图10-2 程序第一次在调试器下运行时的调试控制窗口&lt;/p&gt;
-&lt;p class="zw"&gt;点击一次Over按钮，执行第一个print() 调用。这里应该使用Over按钮，而不是Step，因为你不希望进入到print() 函数的代码中。调试控制窗口将更新到第2行，文件编辑器窗口的第2行将高亮显示，如图10-3所示。这告诉你程序当前执行到 哪里。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="..\16-0403yds排版\16-0403yds排版\Links\Links\automate10_03-left.png" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/34_Image00104.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="..\16-0403yds排版\16-0403yds排版\Links\Links\1003b.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/34_Image00105.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图10-3 点击Over按钮后的调试控制窗口&lt;/p&gt;
-&lt;p class="zw"&gt;再次点击Over按钮，执行input() 函数调用，当IDLE等待你在交互式环境窗口中为input() 调用输入内容时，调试控制窗口中的按钮将被禁用。输入5并按回车。调试控制窗口按钮将重新启用。&lt;/p&gt;
-&lt;p class="zw"&gt;继续点击Over按钮，输入3和42作为接下来的两个数，直到调试器位于第7行，程序中最后的print() 调用。调试控制窗口应该如图10-4所示。可以看到，在全局变量的部分，第一个、第二个和第三个变量设置为字符串值，而不是整型值。当最后一行执行时，这些字符串连接起来，而不是加起来，导致了这个缺陷。&lt;/p&gt;
-&lt;p class="zw"&gt;用调试器单步执行程序很有用，但也可能很慢。你常常希望程序正常运行，直到它到达特定的代码行。你可以使用断点，让调试器做到这一点。&lt;/p&gt;
-&lt;h3 id="nav_point_277"&gt;10.5.7 断点&lt;/h3&gt;
-&lt;p class="zw"&gt;“断点”可以设置在特定的代码行上，当程序执行到达该行时，它迫使调试器暂停。在一个新的文件编辑器窗口中，输入以下程序，它模拟投掷1000次硬币。将它保存为coinFlip.py。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="..\16-0403yds排版\16-0403yds排版\Links\Links\1004.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/34_Image00106.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图10-4 在最后一行的调试控制窗口。这些变量被设置为字符串，导致了这个缺陷&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　import random
-　heads = 0
-　for i in range(1, 1001):
-❶      if random.randint(0, 1) == 1:
-　          heads = heads + 1
-　     if i == 500:
-❷           print('Halfway done!')
-　print('Heads came up ' + str(heads) + ' times.')&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;在半数时间里，random.randint（0，1）调用❶将返回0，在另外半数时间将返回1。这可以用来模拟50/50的硬币投掷，其中1代表正面。当不用调试器运行该程序时，它很快输出下面的内容：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;Halfway done!
-Heads came up 490 times.&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;如果启用调试器运行这个程序，就必须点击几千次Over按钮，程序才能结束。如果你对程序执行到一半时heads的值感兴趣，等1000次硬币投掷完500次，可以在代码行print（'Halfway done!'）❷上设置断点。要设置断点，在文件编辑器中该行代码上点击右键，并选择Set Breakpoint，如图10-5所示。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="..\16-0403yds排版\16-0403yds排版\Links\Links\1005.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/34_Image00107.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图10-5 设置断点&lt;/p&gt;
-&lt;p class="zw"&gt;你不会在if语句上设置断点，因为if语句会在循环的每次迭代中都执行。通过在if语句内的代码上设置断点，调试器就会只在执行进入if语句时才中断。&lt;/p&gt;
-&lt;p class="zw"&gt;带有断点的代码行会在文件编辑器中以黄色高亮显示。如果在调试器下运行该程序，开始它会暂停在第一行，像平时一样。但如果点击Go，程序将全速运行，直到设置了断点的代码行。然后可以点击Go、Over、Step或Out，正常继续。&lt;/p&gt;
-&lt;p class="zw"&gt;如果希望清除断点，在文件编辑器中该行代码上点击右键，并从菜单中选择Clear Breakpoint。黄色高亮消失，以后调试器将不会在该行代码上中断。&lt;/p&gt;
-&lt;h2 id="nav_point_278"&gt;10.6 小结&lt;/h2&gt;
-&lt;p class="zw"&gt;断言、异常、日志和调试器，都是在程序中发现和预防缺陷的有用工具。用Python语句实现的断言，是实现心智正常检查的好方式。如果必要的条件没有保持为True，它将尽早给出警告。断言所针对的错误，是程序不应该尝试恢复的，而是应该快速失败。否则，你应该抛出异常。&lt;/p&gt;
-&lt;p class="zw"&gt;异常可以由try和except语句捕捉和处理。logging模块是一种很好的方式，可以在运行时查看代码的内部，它比使用print() 函数要方便得多，因为它有不同的日志级别，并能将日志写入文本文件。&lt;/p&gt;
-&lt;p class="zw"&gt;调试器让你每次单步执行一行代码。或者，可以用正常速度运行程序，并让调试器暂停在设置了断点的代码行上。利用调试器，你可以看到程序在运行期间，任何时候所有变量的值。&lt;/p&gt;
-&lt;p class="zw"&gt;这些调试工具和技术将帮助你编写正确工作的程序。不小心在代码中引入缺陷，这是不可避免的，不论你有多少年的编码经验。&lt;/p&gt;
-&lt;h2 id="nav_point_279"&gt;10.7 习题&lt;/h2&gt;
-&lt;p class="zw"&gt;1．写一条 assert 语句，如果变量 spam 是一个小于 10 的整数，就触发AssertionError。&lt;/p&gt;
-&lt;p class="zw"&gt;2．编写一条assert语句，如果eggs和bacon包含的字符串彼此相同，而且不论大小写如何，就触发AssertionError（也就是说，'hello' 和 'hello' 被认为相同，'goodbye' 和 'GOODbye' 也被认为相同）。&lt;/p&gt;
-&lt;p class="zw"&gt;3．编写一条assert语句，总是触发AssertionError。&lt;/p&gt;
-&lt;p class="zw"&gt;4．为了能调用logging.debug()，程序中必须加入哪两行代码？&lt;/p&gt;
-&lt;p class="zw"&gt;5．为了让logging.debug() 将日志消息发送到名为programLog.txt的文件中，程序必须加入哪两行代码？&lt;/p&gt;
-&lt;p class="zw"&gt;6．5个日志级别是什么？&lt;/p&gt;
-&lt;p class="zw"&gt;7．你可以加入哪一行代码，禁用程序中所有的日志消息？&lt;/p&gt;
-&lt;p class="zw"&gt;8．显示同样的消息，为什么使用日志消息比使用print() 要好？&lt;/p&gt;
-&lt;p class="zw"&gt;9．调试控制窗口中的Step、Over和Out按钮有什么区别？&lt;/p&gt;
-&lt;p class="zw"&gt;10．在点击调试控制窗口中的Go按钮后，调试器何时会停下来？&lt;/p&gt;
-&lt;p class="zw"&gt;11．什么是断点？&lt;/p&gt;
-&lt;p class="zw"&gt;12．在IDLE中，如何在一行代码上设置断点？&lt;/p&gt;
-&lt;h2 id="nav_point_280"&gt;10.8 实践项目&lt;/h2&gt;
-&lt;p class="zw"&gt;作为实践，编程完成下面的任务。&lt;/p&gt;
-&lt;h3 id="nav_point_281"&gt;调试硬币抛掷&lt;/h3&gt;
-&lt;p class="zw"&gt;下面程序的意图是一个简单的硬币抛掷猜测游戏。玩家有两次猜测机会（这是一个简单的游戏）。但是，程序中有一些缺陷。让程序运行几次，找出缺陷，使该程序能正确运行。&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;import random
-guess = ''
-while guess not in ('heads', 'tails'):
-     print('Guess the coin toss! Enter heads or tails:')
-     guess = input()
-toss = random.randint(0, 1) # 0 is tails, 1 is heads
-if toss == guess:
-     print('You got it!')
-else:
-     print('Nope! Guess again!')
-     guesss = input()
-     if toss == guess:
-          print('You got it!')
-     else:
-          print('Nope. You are really bad at this game.')&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;&lt;br style="page-break-after:always"/&gt;
-&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt;
-</description>
-    <pubDate>Mon, 21 Sep 2026 04:00:26 +0000</pubDate>
-    <guid isPermaLink="false">34</guid>
-</item>
 
 
 
