@@ -4,14 +4,15 @@
 <title>科目一：计算机工程</title>
 <link>https://github.com/ZHENHUA001A307/computer-engineering</link>
 <description>计算机工程材料推送</description>
-<lastBuildDate>Wed, 21 Oct 2026 03:50:28 +0000</lastBuildDate>
+<lastBuildDate>Thu, 29 Oct 2026 04:39:55 +0000</lastBuildDate>
 <item>
-<title><![CDATA[WorkBuddyGuide-课外阅读：一章看懂 AI 工作系统]]></title>
+<title>WorkBuddyGuide-课外阅读：一章看懂 AI 工作系统</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E8%AF%BE%E5%A4%96%E9%98%85%E8%AF%BB%EF%BC%9A%E4%B8%80%E7%AB%A0%E7%9C%8B%E6%87%82%20AI%20%E5%B7%A5%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
-<description><![CDATA[学习时长：约2小时；学习内容：AI工作系统的五类角色（LLM/Agent/Skill/工具接口/人）[reference:27]、LLM的原理与幻觉问题[reference:28]、Token与上下文窗口[reference:29]、Prompt的本质[reference:30]；学习目的：建立AI工作系统的完整认知框架，理解各组件如何协同工作]]></description>
+<description>学习时长：约2小时；学习内容：AI工作系统的五类角色（LLM/Agent/Skill/工具接口/人）[reference:27]、LLM的原理与幻觉问题[reference:28]、Token与上下文窗口[reference:29]、Prompt的本质[reference:30]；学习目的：建立AI工作系统的完整认知框架，理解各组件如何协同工作</description>
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E8%AF%BE%E5%A4%96%E9%98%85%E8%AF%BB%EF%BC%9A%E4%B8%80%E7%AB%A0%E7%9C%8B%E6%87%82%20AI%20%E5%B7%A5%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
 <pubDate>Wed, 21 Oct 2026 03:50:28 +0000</pubDate>
 </item>
+
 <item>
 <title>0025 - AutomaticApplicationPython - 第一部分 Python编程基础.epub</title>
 <description>&lt;p style='color:#888;'&gt;⏱ 预计阅读时间：42 分钟 (12531 字)&lt;/p&gt;&lt;hr&gt;&lt;h1 id="nav_point_20"&gt;第一部分　Python编程基础&lt;/h1&gt;
@@ -809,6 +810,7 @@ bacon + 1&lt;/code&gt;
 <guid isPermaLink="false">epub-25</guid>
 </item>
 
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -816,6 +818,7 @@ bacon + 1&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</guid>
 <pubDate>Wed, 14 Oct 2026 04:05:00 +0000</pubDate>
 </item>
+
 
 
 <item>
@@ -1111,6 +1114,7 @@ git_practice$&lt;/code&gt;
 <pubDate>Wed, 14 Oct 2026 03:30:13 +0000</pubDate>
 <guid isPermaLink="false">epub-24</guid>
 </item>
+
 
 
 
@@ -1920,6 +1924,7 @@ print(spam)&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 9 章 如何接入外部 API</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%209%20%E7%AB%A0%20%E5%A6%82%E4%BD%95%E6%8E%A5%E5%85%A5%E5%A4%96%E9%83%A8%20API/</link>
@@ -1937,6 +1942,748 @@ print(spam)&lt;/code&gt;
 
 
 
+
+<item>
+<title><![CDATA[0026 - AutomaticApplicationPython - 第2章 控制流.epub]]></title>
+<description><![CDATA[<p style='color:#888;'>⏱ 预计阅读时间：55 分钟 (16206 字)</p><hr><h1 id="nav_point_38">第2章 控制流</h1>
+<p class="zw">你已经知道了单条指令的基本知识。程序就是一系列指令。但编程真正的力量不仅在于运行（或“执行”）一条接一条的指令，就像周末的任务清单那样。根据表达式求值的结果，程序可以决定跳过指令，重复指令，或从几条指令中选择一条运行。实际上，你几乎永远不希望程序从第一行代码开始，简单地执行每行代码，直到最后一行。“控制流语句”可以决定在什么条件下执行哪些Python语句。</p>
+<p class="zw">这些控制流语句直接对应于流程图中的符号，所以在本章中，我将提供示例代码的流程图。图2-1展示了一张流程图，内容是如果下雨怎么办。按照箭头构成的路径，从开始到结束。</p>
+<p class="zw">在流程图中，通常有不止一种方法从开始走到结束。计算机程序中的代码行也是这样。流程图用菱形表示这些分支节点，其他步骤用矩形表示。开始和结束步骤用带圆角的矩形表示。</p>
+<p class="zw">但在学习流程控制语句之前，首先要学习如何表示这些yes和no选项。同时你也需要理解，如何将这些分支节点写成Python代码。要做到这一点，让我们先看看布尔值、比较操作符和布尔操作符。</p>
+<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_01.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00069.jpg" style="width: 100%" width="100%"/>
+</p>
+<p class="图题">图2-1 一张流程图，告诉你如果下雨要做什么</p>
+<h2 id="nav_point_39">2.1 布尔值</h2>
+<p class="zw">虽然整型、浮点型和字符串数据类型有无数种可能的值，但“布尔”数据类型只有两种值：True和False。Boolean（布尔）的首字母大写，因为这个数据类型是根据数学家George Boole命名的。在作为Python代码输入时，布尔值True和False不像字符串，两边没有引号，它们总是以大写字母T或F开头，后面的字母小写。在交互式环境中输入下面内容，其中有些指令是故意弄错的，它们将导致出错信息。</p>
+<pre class="代码无行号"><code>❶ &gt;&gt;&gt; <strong>spam = True</strong>
+　&gt;&gt;&gt; <strong>spam</strong>
+　True
+❷&gt;&gt;&gt; <strong>true</strong>
+　Traceback (most recent call last):
+　  File "&lt;pyshell#2&gt;", line 1, in &lt;module&gt;
+　    true
+　NameError: name 'true' is not defined
+❸ &gt;&gt;&gt; <strong>True = 2 + 2</strong>
+　SyntaxError: assignment to keyword
+</code>
+</pre>
+<p class="zw">像其他值一样，布尔值也用在表达式中，并且可以保存在变量中❶。如果大小写不正确❷，或者试图使用True和False作为变量名❸，Python就会给出错误信息。</p>
+<h2 id="nav_point_40">2.2 比较操作符</h2>
+<p class="zw">“比较操作符”比较两个值，求值为一个布尔值。表2-1列出了比较操作符。</p>
+<p class="表题">表2-1 比较操作符</p>
+<table border="1" width="90%">
+<thead>
+<tr>
+<th>
+<p class="表头单元格">操作符</p>
+</th>
+<th>
+<p class="表头单元格">含义</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="表格单元格">==</p>
+</td>
+<td>
+<p class="表格单元格">等于</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">!=</p>
+</td>
+<td>
+<p class="表格单元格">不等于</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">&lt;</p>
+</td>
+<td>
+<p class="表格单元格">小于</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">&gt;</p>
+</td>
+<td>
+<p class="表格单元格">大于</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">&lt;=</p>
+</td>
+<td>
+<p class="表格单元格">小于等于</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">&gt;=</p>
+</td>
+<td>
+<p class="表格单元格">大于等于</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="zw">这些操作符根据给它们提供的值，求值为True或False。现在让我们尝试一些操作符，从==和!=开始。</p>
+<pre class="代码无行号"><code>&gt;&gt;&gt;  <strong>42 == 42</strong>
+True
+&gt;&gt;&gt;  <strong>42 == 99</strong>
+False
+&gt;&gt;&gt;  <strong>2 != 3</strong>
+True
+&gt;&gt;&gt;  <strong>2 != 2</strong>
+False
+</code>
+</pre>
+<p class="zw">如果两边的值一样，==（等于）求值为True。如果两边的值不同，!=（不等于）求值为False。==和!=操作符实际上可以用于所有数据类型的值。</p>
+<pre class="代码无行号"><code>　&gt;&gt;&gt; <strong>'hello' == 'hello'</strong>
+　True
+　&gt;&gt;&gt; <strong>'hello' == 'Hello'</strong>
+　False
+　&gt;&gt;&gt; <strong>'dog' != 'cat'</strong>
+　True
+　&gt;&gt;&gt; <strong>True == True</strong>
+　True
+　&gt;&gt;&gt; <strong>True != False</strong>
+　True
+　&gt;&gt;&gt; <strong>42 == 42.0</strong>
+　True
+❶ &gt;&gt;&gt; <strong>42 == '42'</strong>
+　False
+ </code>
+</pre>
+<p class="zw">请注意，整型或浮点型的值永远不会与字符串相等。表达式42 == '42'❶求值为False是因为，Python认为整数42与字符串'42'不同。</p>
+<p class="zw">另一方面，&lt;、&gt;、&lt;=和&gt;=操作符仅用于整型和浮点型值。</p>
+<pre class="代码无行号"><code>　&gt;&gt;&gt; <strong>42 &lt; 100</strong>
+　True
+　&gt;&gt;&gt; <strong>42 &gt; 100</strong>
+　False
+　&gt;&gt;&gt; <strong>42 &lt; 42</strong>
+　False
+　&gt;&gt;&gt; <strong>eggCount = 42</strong>
+❷&gt;&gt;&gt; <strong>eggCount &lt;= 42</strong>
+　True
+　&gt;&gt;&gt; <strong>myAge = 29</strong>
+❸ &gt;&gt;&gt; <strong>myAge &gt;= 10</strong>
+　True </code>
+</pre>
+<p class="editing-tag 超强提示标签">操作符的区别</p>
+<blockquote class="超强提示 editing-block">
+<p class="zw"><br/>
+</p>
+<p class="zw">你可能已经注意到，==操作符（等于）有两个等号，而=操作符（赋值）只有一个等号。这两个操作符很容易混淆。只要记住：</p>
+<ul>
+<li>
+<p class="zw">==操作符（等于）问两个值是否彼此相同。</p>
+</li>
+<li>
+<p class="zw">=操作符（赋值）将右边的值放到左边的变量中。</p>
+</li>
+</ul>
+<p class="zw">为了记住谁是谁，请注意==操作符（等于）包含两个字符，就像!=操作符（不等于）包含两个字符一样。</p>
+</blockquote>
+<p class="zw">你会经常用比较操作符比较一个变量和另外某个值。就像在例子eggCount &lt;= 42❶和myAge &gt;= 10❷中一样（毕竟，除了在代码中输入'dog' != 'cat'以外，你本来也可以直接输入True）。稍后，在学习控制流语句时，你会看到更多的例子。</p>
+<h2 id="nav_point_41">2.3 布尔操作符</h2>
+<p class="zw">3个布尔操作符（and、or和not）用于比较布尔值。像比较操作符一样，它们将这些表达式求值为一个布尔值。让我们仔细看看这些操作符，从and操作符开始。</p>
+<h3 id="nav_point_42">2.3.1 二元布尔操作符</h3>
+<p class="zw">and和or操作符总是接受两个布尔值（或表达式），所以它们被认为是“二元”操作符。如果两个布尔值都为True，and操作符就将表达式求值为True，否则求值为False。在交互式环境中输入某个使用and的表达式，看看效果。</p>
+<pre class="代码无行号"><code>&gt;&gt;&gt; <strong>True and True</strong>
+True
+&gt;&gt;&gt; <strong>True and False</strong>
+False
+</code>
+</pre>
+<p class="zw">“真值表”显示了布尔操作符的所有可能结果。表2-2是操作符and的真值表。</p>
+<p class="表题">表2-2 and操作符的真值表</p>
+<table border="1" width="90%">
+<thead>
+<tr>
+<th>
+<p class="表头单元格">表达式</p>
+</th>
+<th>
+<p class="表头单元格">求值为</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="表格单元格">True and True</p>
+</td>
+<td>
+<p class="表格单元格">True</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">True and False</p>
+</td>
+<td>
+<p class="表格单元格">False</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">False and True</p>
+</td>
+<td>
+<p class="表格单元格">False</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">False and False</p>
+</td>
+<td>
+<p class="表格单元格">False</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="zw">另一方面，只要有一个布尔值为真，or操作符就将表达式求值为True。如果都是False，所求值为False。</p>
+<pre class="代码无行号"><code>&gt;&gt;&gt; <strong>False or True</strong>
+True
+&gt;&gt;&gt; <strong>False or False</strong>
+False
+</code>
+</pre>
+<p class="zw">可以在or操作符的真值表中看到每一种可能的结果，如表2-3所示。</p>
+<p class="表题">表2-3 or操作符的真值表</p>
+<table border="1" width="90%">
+<thead>
+<tr>
+<th>
+<p class="表头单元格">表达式</p>
+</th>
+<th>
+<p class="表头单元格">求值为</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="表格单元格">True or True</p>
+</td>
+<td>
+<p class="表格单元格">True</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">True or False</p>
+</td>
+<td>
+<p class="表格单元格">True</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">False or True</p>
+</td>
+<td>
+<p class="表格单元格">True</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">False or False</p>
+</td>
+<td>
+<p class="表格单元格">False</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="nav_point_43">2.3.2 not操作符</h3>
+<p class="zw">和and和or不同，not操作符只作用于一个布尔值（或表达式）。not操作符求值为相反的布尔值。</p>
+<pre class="代码无行号"><code>　&gt;&gt;&gt; <strong>not 　True</strong>
+　False
+❶ &gt;&gt;&gt; <strong>not not not not True</strong>
+　True
+</code>
+</pre>
+<p class="zw">就像在说话和写作中使用双重否定，你可以嵌套not操作符❶，虽然在真正的程序中并不经常这样做。表2-4展示了not的真值表。</p>
+<p class="表题">表2-4 not操作符的真值表</p>
+<table border="1" width="90%">
+<thead>
+<tr>
+<th>
+<p class="表头单元格">表达式</p>
+</th>
+<th>
+<p class="表头单元格">求值为</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p class="表格单元格">not True</p>
+</td>
+<td>
+<p class="表格单元格">False</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="表格单元格">not False</p>
+</td>
+<td>
+<p class="表格单元格">True</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="nav_point_44">2.4 混合布尔和比较操作符</h2>
+<p class="zw">既然比较操作符求值为布尔值，就可以和布尔操作符一起，在表达式中使用。</p>
+<p class="zw">回忆一下，and、or和not操作符称为布尔操作符是因为，它们总是操作于布尔值。虽然像4 &lt; 5这样的表达式不是布尔值，但可以求值为布尔值。在交互式环境中，尝试输入一些使用比较操作符的布尔表达式。</p>
+<pre class="代码无行号"><code>&gt;&gt;&gt; <strong>(4 &lt; 5) and (5 &lt; 6)</strong>
+True
+&gt;&gt;&gt; <strong>(4 &lt; 5) and (9 &lt; 6)</strong>
+False
+&gt;&gt;&gt; <strong>(1 == 2) or (2 == 2)</strong>
+True
+</code>
+</pre>
+<p class="zw">计算机将先求值左边的表达式，然后再求值右边的表达式。知道两个布尔值后，它又将整个表达式再求值为一个布尔值。你可以认为计算机求值(4 &lt; 5)和(5 &lt; 6)的过程，如图2-2所示。</p>
+<p class="图"><img alt="0202" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00070.jpg"/>
+</p>
+<p class="图题">图2-2 (4 &lt; 5)和 (5 &lt; 6) 求值为True的过程</p>
+<p class="zw">也可以在一个表达式中使用多个布尔操作符，与比较操作符一起使用。</p>
+<pre class="代码无行号"><code>&gt;&gt;&gt; <strong>2 + 2 == 4 and not 2 + 2 == 5 and 2 * 2 == 2 + 2</strong>
+True
+</code>
+</pre>
+<p class="zw">和算术操作符一样，布尔操作符也有操作顺序。在所有算术和比较操作符求值后，Python先求值not操作符，然后是and操作符，然后是or操作符。</p>
+<h2 id="nav_point_45">2.5 控制流的元素</h2>
+<p class="zw">控制流语句的开始部分通常是“条件”，接下来是一个代码块，称为“子句”。在开始学习具体的Python控制流语句之前，我将介绍条件和代码块。</p>
+<h3 id="nav_point_46">2.5.1 条件</h3>
+<p class="zw">你前面看到的布尔表达式可以看成是条件，它和表达式是一回事。“条件”只是在控制流语句的上下文中更具体的名称。条件总是求值为一个布尔值，True或False。控制流语句根据条件是True还是False，来决定做什么。几乎所有的控制流语句都使用条件。</p>
+<h3 id="nav_point_47">2.5.2 代码块</h3>
+<p class="zw">一些代码行可以作为一组，放在“代码块”中。可以根据代码行的缩进，知道代码块的开始和结束。代码块有3条规则。</p>
+<p class="zw">1．缩进增加时，代码块开始。</p>
+<p class="zw">2．代码块可以包含其他代码块。</p>
+<p class="zw">3．缩进减少为零，或减少为外面包围代码块的缩进，代码块就结束了。</p>
+<p class="zw">看一些有缩进的代码，更容易理解代码块。所以让我们在一小段游戏程序中，寻找代码块，如下所示：</p>
+<pre class="代码无行号"><code>　if name == 'Mary':
+❶     print('Hello Mary')
+　if password == 'swordfish':
+❷    print('Access granted.')
+　else:
+❸     print('Wrong password.')
+</code>
+</pre>
+<p class="zw">第一个代码块❶开始于代码行print('Hello Mary')，并且包含后面所有的行。在这个代码块中有另一个代码块❷，它只有一行代码：print('Access Granted.')。第三个代码块❸也只有一行：print('Wrong password.')。</p>
+<h2 id="nav_point_48">2.6 程序执行</h2>
+<p class="zw">在第1章的hello.py程序中，Python开始执行程序顶部的指令，然后一条接一条往下执行。“程序执行”（或简称“执行”）这一术语是指当前被执行的指令。如果将源代码打印在纸上，在它执行时用手指指着每一行代码，你可以认为手指就是程序执行。</p>
+<p class="zw">但是，并非所有的程序都是从上至下简单地执行。如果用手指追踪一个带有控制流语句的程序，可能会发现手指会根据条件跳过源代码，有可能跳过整个子句。</p>
+<h2 id="nav_point_49">2.7 控制流语句</h2>
+<p class="zw">现在，让我们来看最重要的控制流部分：语句本身。语句代表了在图2-1的流程图中看到的菱形，它们是程序将做出的实际决定。</p>
+<h3 id="nav_point_50">2.7.1 if语句</h3>
+<p class="zw">最常见的控制流语句是if语句。if语句的子句（也就是紧跟if语句的语句块），将在语句的条件为True时执行。如果条件为False，子句将跳过。</p>
+<p class="zw">在英文中，if语句念起来可能是：“如果条件为真，执行子句中的代码。”在Python中，if语句包含以下部分：</p>
+<ul>
+<li class="第1级无序列表">if关键字；</li>
+<li class="第1级无序列表">条件（即求值为True或False的表达式）；</li>
+<li class="第1级无序列表">冒号；</li>
+<li class="第1级无序列表">在下一行开始，缩进的代码块（称为if子句）。</li>
+</ul>
+<p class="zw">例如，假定有一些代码，检查某人的名字是否为Alice（假设此前曾为name赋值）。</p>
+<pre class="代码无行号"><code>if name == 'Alice':
+    print('Hi, Alice.')</code>
+</pre>
+<p class="zw">所有控制流语句都以冒号结尾，后面跟着一个新的代码块（子句）。语句的if子句是代码块，包含print('Hi, Alice.')。图2-3展示了这段代码的流程图。</p>
+<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_03.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00071.jpg"/>
+</p>
+<p class="图题">图2-3 if语句的流程图</p>
+<h3 id="nav_point_51">2.7.2 else语句</h3>
+<p class="zw">if子句后面有时候也可以跟着else语句。只有if语句的条件为False时，else子句才会执行。在英语中，else语句读起来可能是：“如果条件为真，执行这段代码。否则，执行那段代码”。else语句不包含条件，在代码中，else语句中包含下面部分：</p>
+<ul>
+<li class="第1级无序列表">else关键字；</li>
+<li class="第1级无序列表">冒号；</li>
+<li class="第1级无序列表">在下一行开始，缩进的代码块（称为else子句）。</li>
+</ul>
+<p class="zw">回到Alice的例子，我们来看看使用else语句的一些代码，在名字不是Alice时，提供不一样的问候。</p>
+<pre class="代码无行号"><code>if name == 'Alice':
+    print('Hi, Alice.')
+else:
+    print('Hello, stranger.')</code>
+</pre>
+<p class="zw">图2-4展示了这段代码的流程图。</p>
+<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_04.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00072.jpg"/>
+</p>
+<p class="图题">图2-4 else语句的流程图</p>
+<h3 id="nav_point_52">2.7.3 elif语句</h3>
+<p class="zw">虽然只有if或else子句会被执行，但有时候可能你希望，“许多”可能的子句中有一个被执行。elif语句是“否则如果”，总是跟在if或另一条elif语句后面。它提供了另一个条件，仅在前面的条件为False时才检查该条件。在代码中，elif语句总是包含以下部分：</p>
+<ul>
+<li class="第1级无序列表">elif关键字；</li>
+<li class="第1级无序列表">条件（即求值为True或False的表达式）；</li>
+<li class="第1级无序列表">冒号；</li>
+<li class="第1级无序列表">在下一行开始，缩进的代码块（称为elif子句）。</li>
+</ul>
+<p class="zw">让我们在名字检查程序中添加elif，看看这个语句的效果。</p>
+<pre class="代码无行号"><code>if name == 'Alice':
+    print('Hi, Alice.')
+elif age &lt; 12:
+    print('You are not Alice, kiddo.')</code>
+</pre>
+<p class="zw">这一次，检查此人的年龄。如果比 12 岁小，就告诉他一些不同的东西。可以在图2-5中看到这段代码的流程图。</p>
+<p class="zw">如果age &lt; 12为True并且name == 'Alice'为False，elif子句就会执行。但是，如果两个条件都为False，那么两个子句都会跳过。“不能”保证至少有一个子句会被执行。如果有一系列的elif语句，仅有一条或零条子句会被执行。一旦一个语句的条件为True，剩下的elif子句会自动跳过。例如，打开一个新的文件编辑器窗口，输入以下代码，保存为vampire.py。</p>
+<pre class="代码无行号"><code>if name == 'Alice':
+    print('Hi, Alice.')
+elif age &lt; 12:
+    print('You are not Alice, kiddo.')
+elif age &gt; 2000:
+    print('Unlike you, Alice is not an undead, immortal vampire.')
+elif age &gt; 100:
+    print('You are not Alice, grannie.')</code>
+</pre>
+<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_05.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00073.jpg"/>
+</p>
+<p class="图题">图2-5 elif语句的流程图</p>
+<p class="zw">这里，我添加了另外两条elif语句，让名字检查程序根据age的不同答案而发出问候。图2-6展示了这段代码的流程图。</p>
+<p class="zw">但是，elif语句的次序确实重要。让我们重新排序，引入一个缺陷。回忆一下，一旦找到一个True条件，剩余的子句就会自动跳过。所以如果交换vampire.py中的一些子句，就会遇到问题。像下面这样改变代码，将它保存为vampire2.py。</p>
+<pre class="代码无行号"><code>　if name == 'Alice':
+　    print('Hi, Alice.')
+　elif age &lt; 12:
+　    print('You are not Alice, kiddo.')
+❶ elif age &gt; 100:
+　    print('You are not Alice, grannie.')
+　elif age &gt; 2000:
+　    print('Unlike you, Alice is not an undead, immortal vampire.')
+</code>
+</pre>
+<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_06.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00074.jpg"/>
+</p>
+<p class="图题">图2-6 vampire.py程序中多重elif语句的流程图</p>
+<p class="zw">假设在这段代码执行之前，age变量的值是3000。你可能预计代码会打印出字符串'Unlike you, Alice is not an undead, immortal vampire.'。但是，因为age &gt; 100条件为真（毕竟3000大于100）❶，字符串'You are not Alice, grannie.'被打印出来，剩下的语句自动跳过。别忘了，最多只有一个子句会执行，对于elif语句，次序是很重要的。</p>
+<p class="zw">图2-7展示了前面代码的流程图。请注意，菱形age &gt; 100和age &gt; 2000交换了位置。</p>
+<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_07.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00075.jpg"/>
+</p>
+<p class="图题">图2-7 vampire2.py程序的流程图。打叉的路径在逻辑上永远不会发生，<br/>
+因为如果age大于2000，它就已经大于100了</p>
+<p class="zw">你可以选择在最后的elif语句后面加上else语句。在这种情况下，保证至少一个子句（且只有一个）会执行。如果每个if和elif语句中的条件都为False，就执行else子句。例如，让我们使用if、elif和else子句重新编写Alicee程序。</p>
+<pre class="代码无行号"><code>if name == 'Alice':
+    print('Hi, Alice.')
+elif age &lt; 12:
+    print('You are not Alice, kiddo.')
+else:
+    print('You are neither Alice nor a little kid.')</code>
+</pre>
+<p class="zw">图2-8展示了这段新代码的流程图，我们将它保存为littleKid.py。</p>
+<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_08.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00076.jpg"/>
+</p>
+<p class="图题">图2-8 前面littleKid.py程序的流程图</p>
+<p class="zw">在英语中，这类控制流结构会使得：“如果第一个条件为真，做这个。否则，如果第二个条件为真，做那个。否则，做另外的事。”如果你同时使用这3个语句，要记住这些次序规则，避免图2-7中那样的缺陷。首先，总是只有一个if语句。所有需要的elif语句都应该跟在if语句之后。其次，如果希望确保至少一条子句被执行，在最后加上else语句。</p>
+<h3 id="nav_point_53">2.7.4 while循环语句</h3>
+<p class="zw">利用while语句，可以让一个代码块一遍又一遍的执行。只要while语句的条件为True，while子句中的代码就会执行。在代码中，while语句总是包含下面几部分：</p>
+<ul>
+<li class="第1级无序列表">关键字；</li>
+<li class="第1级无序列表">条件（求值为True或False的表达式）；</li>
+<li class="第1级无序列表">冒号；</li>
+<li class="第1级无序列表">从新行开始，缩进的代码块（称为while子句）。</li>
+</ul>
+<p class="zw">可以看到，while语句看起来和if语句类似。不同之处是它们的行为。if子句结束时，程序继续执行if语句之后的语句。但在while子句结束时，程序执行跳回到while语句开始处。while子句常被称为“while循环”，或就是“循环”。</p>
+<p class="zw">让我们来看一个if语句和一个while循环。它们使用同样的条件，并基于该条件做出同样的动作。下面是if语句的代码：</p>
+<pre class="代码无行号"><code>spam = 0
+if spam &lt; 5:
+    print('Hello, world.')
+    spam = spam + 1</code>
+</pre>
+<p class="zw">下面是while语句的代码：</p>
+<pre class="代码无行号"><code>spam = 0
+while spam &lt; 5:
+    print('Hello, world.')
+    spam = spam + 1</code>
+</pre>
+<p class="zw">这些语句类似，if和while都检查spam的值，如果它小于５，就打印一条消息。但如果运行这两段代码，它们各自的表现非常不同。对于if语句，输出就是"Hello, world."。但对于while语句，输出是"Hello, world."重复了5次！看一看这两段代码的流程图，图2-9和2-10，找一找原因。</p>
+<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_10.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00077.jpg"/>
+</p>
+<p class="图题">图2-9 if语句代码的流程图</p>
+<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_09.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00078.jpg"/>
+</p>
+<p class="图题">图2-10 while语句代码的流程图</p>
+<p class="zw">带有if语句的代码检查条件，如果条件为True，就打印一次"Hello, world."。带有while循环的代码则不同，会打印5次。打印5次后停下来是因为，在每次循环迭代末尾，spam中的整数都增加1。这意味着循环将执行5次，然后spam &lt; 5变为False。</p>
+<p class="zw">在while循环中，条件总是在每次“迭代”开始时检查（也就是每次循环执行时）。如果条件为True，子句就会执行，然后，再次检查条件。当条件第一次为False时，while子句就跳过。</p>
+<h3 id="nav_point_54">2.7.5 恼人的循环</h3>
+<p class="zw">这里有一个小例子，它不停地要求你输入“your name”（就是这个字符串，而不是你的名字）。选择FileNew Window，打开一个新的文件编辑器窗口，输入以下代码，将文件保存为yourName.py：</p>
+<pre class="代码无行号"><code>❶ name = ''
+❷while name != 'your name':
+　    print('Please type your name.')
+❸     name = input()
+❹ print('Thank you!')
+</code>
+</pre>
+<p class="zw">首先，程序将变量name❶设置为一个空字符串。这样，条件name != 'your name'就会求值为True，程序就会进入while循环的子句❷。</p>
+<p class="zw">这个子句内的代码要求用户输入他们的名字，然后赋给name变量❸。因为这是语句块的最后一行，所以执行就回到while循环的开始，重新对条件求值。如果name中的值“不等于”字符串'your name'，那么条件就为True，执行将再次进入while子句。</p>
+<p class="zw">但如果用户输入your name，while循环的条件就变成'your name' != 'your name'，它求值为False。条件现在是False，程序就不会再次进入while循环子句，而是跳过它，继续执行程序后面的部分❹。图2-11展示了yourName.py程序的流程图。</p>
+<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_11.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00079.jpg"/>
+</p>
+<p class="图题">图2-11 yourName.py程序的流程图</p>
+<p class="zw">现在，让我们来看看yourName.py程序的效果。按F5键运行它，输几次your name之外的东西，然后再提供程序想要的输入。</p>
+<pre class="代码无行号"><code>Please type your name.
+<strong>Al</strong>
+Please type your name.
+<strong>Albert</strong>
+Please type your name.
+<strong>%#@#%*(^&amp;!!!</strong>
+Please type your name.
+<strong>your name</strong>
+Thank you!
+</code>
+</pre>
+<p class="zw">如果永不输入your name，那么循环的条件就永远不会为False，程序将永远问下去。这里，input()调用让用户输入正确的字符串，以便让程序继续。在其他程序，条件可能永远没有实际变化，这可能会出问题。让我们来看看如何跳出循环。</p>
+<h3 id="nav_point_55">2.7.6 break语句</h3>
+<p class="zw">有一个捷径，让执行提前跳出while循环子句。如果执行遇到break语句，就会马上退出while循环子句。在代码中，break语句仅包含break关键字。</p>
+<p class="zw">非常简单，对吗？这里有一个程序，和前面的程序做一样的事情，但使用了break语句来跳出循环。输入以下代码，将文件保存为yourName2.py：</p>
+<pre class="代码无行号"><code>❶ while True:
+　    print('Please type your name.')
+❷    name = input()
+❸     if name == 'your name':
+❹         break
+❺ print('Thank you!')</code>
+</pre>
+<p class="zw">第一行❶创建了一个“无限循环”，它是一个条件总是为True的while循环。（表达式True总是求值为True。）程序执行将总是进入循环，只有遇到break语句执行时才会退出（“永远不”退出的无限循环是一个常见的编程缺陷）。</p>
+<p class="zw">像以前一样，程序要求用户输入your name❷。但是现在，虽然执行仍然在while循环内，但有一个if语句会被执行❸，检查name是否等于your name。如果条件为True，break语句就会运行❹，执行就会跳出循环，转到print('Thank you!') ❺。否则，包含break语句的if语句子句就会跳过，让执行到达while循环的末尾。此时，程序执行跳回到while语句的开始❶，重新检查条件。因为条件是True，所以执行进入循环，再次要求用户输入your name。这个程序的流程图参见图2-12。</p>
+<p class="zw">运行yourName2.py，输入你为yourName.py程序输入的同样文本。重写的程序应该和原来的程序反应相同。</p>
+<p class="图"><img alt="..\automate02_12.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00080.jpg" style="width: 100%" width="100%"/>
+</p>
+<p class="图题">图2-12 带有无限循环的程序的流程图。注意打叉路径在逻辑上<br/>
+永远不会发生，因为循环条件总是为True</p>
+<h3 id="nav_point_56">2.7.7 continue语句</h3>
+<p class="zw">像break语句一样，continue语句用于循环内部。如果程序执行遇到continue语句，就会马上跳回到循环开始处，重新对循环条件求值（这也是执行到达循环末尾时发生的事情）。</p>
+<p class="zw">让我们用continue写一个程序，要求输入名字和口令。在一个新的文件编辑窗口中输入以下代码，将程序保存为swordfish.py。</p>
+<pre class="代码无行号"><code>　while True:
+　    print('Who are you?')
+　    name = input()
+❶     if name != 'Joe':
+❷        continue
+　    print('Hello, Joe. What is the password? (It is a fish.)')
+❸     password = input()
+　    if password == 'swordfish':
+❹         break
+❺ print('Access granted.')</code>
+</pre>
+<p class="zw">如果用户输入的名字不是Joe❶，continue语句❷将导致程序执行跳回到循环开始处。再次对条件求值时，执行总是进入循环，因为条件就是True。如果执行通过了if语句，用户就被要求输入口令❸。如果输入的口令是swordfish，break语句运行❹，执行跳出while循环，打印Access granted❺。否则，执行继续到while循环的末尾，又跳回到循环的开始。这个程序的流程图参见图2-13。</p>
+<p class="editing-tag 超强提示标签">陷在无限循环中？</p>
+<blockquote class="超强提示 editing-block">
+<p class="zw"><br/>
+</p>
+如果你运行一个有缺陷的程序，导致陷在一个无限循环中，那么请按Ctrl-C。这将向程序发送KeyboardInterrupt错误，导致它立即停止。试一下，在文件编辑器中创建一个简单的无限循环，将它保存为infiniteloop.py。<pre class="代码无行号"><code>while True:
+   print('Hello world!')</code>
+</pre>
+<p class="zw">如果运行这个程序，它将永远在屏幕上打印Hello world！因为while语句的条件总是True。在IDLE的交互式环境窗口中，只有两种办法停止这个程序：按下Ctrl-C或从菜单中选择ShellRestart Shell。如果你希望马上停止程序，即使它不是陷在一个无限循环中，Ctrl-C也是很方便的。</p>
+</blockquote>
+<p class="zw">运行这个程序，提供一些输入。只有你声称是Joe，它才会要求输入口令。一旦输入了正确的口令，它就会退出。</p>
+<pre class="代码无行号"><code>Who are you?
+<strong>I'm fine, thanks. Who are you?</strong>
+Who are you?
+<strong>Joe</strong>
+Hello, Joe. What is the password? (It is a fish.)
+<strong>Mary</strong>
+Who are you?
+<strong>Joe</strong>
+Hello, Joe. What is the password? (It is a fish.)
+<strong>swordfish</strong>
+Access granted.
+</code>
+</pre>
+<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_13.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00081.jpg" style="width: 100%" width="100%"/>
+</p>
+<p class="图题">图2-13 swordfish.py的流程图。打叉的路径在逻辑上永远不会执行，因为循环条件总是True</p>
+<h3 id="nav_point_57">2.7.8 for循环和range()函数</h3>
+<p class="zw">在条件为True时，while循环就会继续循环（这是它的名称的由来）。但如果你想让一个代码块执行固定次数，该怎么办？可以通过for循环语句和range()函数来实现。</p>
+<p class="editing-tag 超强提示标签">“类真”和“类假”的值</p>
+<blockquote class="超强提示 editing-block">
+<p class="zw"><br/>
+</p>
+其他数据类型中的某些值，条件认为它们等价于True和False。在用于条件时，0、0.0和' '（空字符串）被认为是False，其他值被认为是True。例如，请看下面的程序：<pre class="代码无行号"><code>name = ''
+while not name:❶
+    print('Enter your name:')
+    name = input()
+print('How many guests will you have?')
+numOfGuests = int(input())
+if numOfGuests:❷
+    print('Be sure to have enough room for all your guests.')❸
+print('Done')</code>
+</pre>
+<p class="zw">如果用户输入一个空字符串给name，那么while语句的条件就会是True ❶，程序继续要求输入名字。如果numOfGuests不是0 ❷，那么条件就被认为是True，程序就会为用户打印一条提醒信息❸。</p>
+<p class="zw">可以用not name != ' '代替not name，用numOfGuests != 0代替numOfGuests，但使用类真和类假的值会让代码更容易阅读。</p>
+</blockquote>
+<p class="zw">在代码中，for语句看起来像for i in range(5):这样，总是包含以下部分：</p>
+<ul>
+<li class="第1级无序列表">for关键字；</li>
+<li class="第1级无序列表">一个变量名；</li>
+<li class="第1级无序列表">in关键字；</li>
+<li class="第1级无序列表">调用range()方法，最多传入3个参数；</li>
+<li class="第1级无序列表">冒号；</li>
+<li class="第1级无序列表">从下一行开始，缩进的代码块（称为for子句）。</li>
+</ul>
+<p class="zw">让我们创建一个新的程序，名为fiveTimes.py，看看for循环的效果。</p>
+<pre class="代码无行号"><code>print('My name is')
+for i in range(5):
+    print('Jimmy Five Times (' + str(i) + ')')</code>
+</pre>
+<p class="zw">for循环子句中的代码运行了5次。第一次运行时，变量i被设为0。子句中的print()调用将打印出Jimmy Five Times (0)。Python完成for循环子句内所有代码的一次迭代之后，执行将回到循环的顶部，for语句让i增加1。这就是为什么range(5)导致子句的5次迭代，i分别被设置为0、1、2、3、4。变量i将递增到（但不包括）传递给range()函数的整数。图2-14展示了fiveTimes.py程序的流程图。</p>
+<p class="图"><img alt="..\16-0403 换字\16-0403\automate02_14.tif" src="https://raw.githubusercontent.com/ZHENHUA001A307/computer-engineering/main/image/26_Image00082.jpg"/>
+</p>
+<p class="图题">图2-14 fiveTimes.py的流程图</p>
+<p class="zw">运行这个程序时，它将打印5次Jimmy Five Times和i的值，然后离开for循环。</p>
+<pre class="代码无行号"><code>My name is
+Jimmy Five Times (0)
+Jimmy Five Times (1)
+Jimmy Five Times (2)
+Jimmy Five Times (3)
+Jimmy Five Times (4)</code>
+</pre>
+<p class="zw">也可以在循环中使用continue语句。continue语句将让for循环变量继续下一个值，就像程序执行已经到达循环的末尾并返回开始一样。实际上，只能在while和for循环内部使用continue和break语句。如果试图在别处使用这些语句，Python将报错。</p>
+<p class="zw">作为for循环的另一个例子，请考虑数学家高斯的故事。当高斯还是一个小孩时，老师想给全班同学布置很多计算作业。老师让他们从0加到100。高斯想到了一个聪明办法，在几秒钟内算出了答案，但你可以用for循环写一个Python程序，替你完成计算。</p>
+<pre class="代码无行号"><code>❶ total = 0
+❷for num in range(101):
+❸     total = total + num
+❹ print(total)
+</code>
+</pre>
+<p class="zw">结果应该是5050。程序刚开始时，total变量被设为0。然后for循环执行100次total = total + num。当循环完成100次迭代时，0到100的每个整数都加给了total。这时，total被打印到屏幕上。即使在最慢的计算机上，这个程序也不用1秒钟就能完成计算。</p>
+<p class="zw">（小高斯想到，有50对数加起来是100：1 + 99, 2 + 98, 3 + 97……直到49 + 51。因为50 × 100 是5000，再加上中间的50，所以0到100的所有数之和是5050。聪明的孩子！）</p>
+<h3 id="nav_point_58">2.7.9 等价的while循环</h3>
+<p class="zw">实际上可以用while循环来做和for循环同样的事，for循环只是更简洁。让我们用与for循环等价的while循环，重写fiveTimes.py。</p>
+<pre class="代码无行号"><code>print('My name is')
+i = 0
+while i &lt; 5:
+    print('Jimmy Five Times (' + str(i) + ')')
+    i = i + 1</code>
+</pre>
+<p class="zw">运行这个程序，输出应该和使用for循环的fiveTimes.py程序一样。</p>
+<h3 id="nav_point_59">2.7.10 range()的开始、停止和步长参数</h3>
+<p class="zw">某些函数可以用多个参数调用，参数之间用逗号分开，range()就是其中之一。这让你能够改变传递给range()的整数，实现各种整数序列，包括从0以外的值开始。</p>
+<pre class="代码无行号"><code>for i in range(12, 16):
+    print(i)</code>
+</pre>
+<p class="zw">第一个参数是for循环变量开始的值，第二个参数是上限，但不包含它，也就是循环停止的数字。</p>
+<pre class="代码无行号"><code>12
+13
+14
+15</code>
+</pre>
+<p class="zw">range()函数也可以有第三个参数。前两个参数分别是起始值和终止值，第三个参数是“步长”。步长是每次迭代后循环变量增加的值。</p>
+<pre class="代码无行号"><code>for i in range(0, 10, 2):
+    print(i)</code>
+</pre>
+<p class="zw">所以调用range(0, 10, 2)将从0数到8，间隔为2。</p>
+<pre class="代码无行号"><code>0
+2
+4
+6
+8</code>
+</pre>
+<p class="zw">在为for循环生成序列数据方面，range()函数很灵活。举例来说，甚至可以用负数作为步长参数，让循环计数逐渐减少，而不是增加。</p>
+<pre class="代码无行号"><code>for i in range(5, -1, -1):
+    print(i)</code>
+</pre>
+<p class="zw">运行一个for循环，用range(5, -1, -1)来打印i，结果将从5降至0。</p>
+<pre class="代码无行号"><code>5
+4
+3
+2
+1
+0</code>
+</pre>
+<h2 id="nav_point_60">2.8 导入模块</h2>
+<p class="zw">Python程序可以调用一组基本的函数，这称为“内建函数”，包括你见到过的print()、input()和len()函数。Python也包括一组模块，称为“标准库”。每个模块都是一个Python程序，包含一组相关的函数，可以嵌入你的程序之中。例如，math模块有数学运算相关的函数，random模块有随机数相关的函数，等等。</p>
+<p class="zw">在开始使用一个模块中的函数之前，必须用import语句导入该模块。在代码中，import语句包含以下部分：</p>
+<ul>
+<li class="第1级无序列表">import关键字；</li>
+<li class="第1级无序列表">模块的名称；</li>
+<li class="第1级无序列表">可选的更多模块名称，之间用逗号隔开。</li>
+</ul>
+<p class="zw">在导入一个模块后，就可以使用该模块中所有很酷的函数。让我们试一试random模块，它让我们能使用random.randint()函数。</p>
+<p class="zw">在文件编辑器中输入以下代码，保存为printRandom.py：</p>
+<pre class="代码无行号"><code>import random
+for i in range(5):
+    print(random.randint(1, 10))</code>
+</pre>
+<p class="zw">如果运行这个程序，输出看起来可能像这样：</p>
+<pre class="代码无行号"><code>4
+1
+8
+4
+1</code>
+</pre>
+<p class="zw">random.randint()函数调用求值为传递给它的两个整数之间的一个随机整数。因为randint()属于random模块，必须在函数名称之前先加上random.，告诉python在random模块中寻找这个函数。</p>
+<p class="zw">下面是import语句的例子，它导入了4个不同的模块：</p>
+<pre class="代码无行号"><code>import random, sys, os, math</code>
+</pre>
+<p class="zw">现在我们可以使用这4个模块中的所有函数。本书后面我们将学习更多的相关内容。</p>
+<h3 id="nav_point_61">from import语句</h3>
+<p class="zw">import语句的另一种形式包括from关键字，之后是模块名称，import关键字和一个星号，例如from random import *。</p>
+<p class="zw">使用这种形式的import语句，调用random模块中的函数时不需要random.前缀。但是，使用完整的名称会让代码更可读，所以最好是使用普通形式的import语句。</p>
+<h2 id="nav_point_62">2.9 用sys.exit()提前结束程序</h2>
+<p class="zw">要介绍的最后一个控制流概念，是如何终止程序。当程序执行到指令的底部时，总是会终止。但是，通过调用sys.exit()函数，可以让程序终止或退出。因为这个函数在sys模块中，所以必须先导入sys，才能使用它。</p>
+<p class="zw">打开一个新的文件编辑器窗口，输入以下代码。保存为exitExample.py：</p>
+<pre class="代码无行号"><code>import sys
+while True:
+    print('Type exit to exit.')
+    response = input()
+    if response == 'exit':
+        sys.exit()
+    print('You typed ' + response + '.')</code>
+</pre>
+<p class="zw">在IDLE中运行这个程序。该程序有一个无限循环，里面没有break语句。结束该程序的唯一方式，就是用户输入exit，导致sys.exit()被调用。如果response等于exit，程序就会中止。因为response变量由input()函数赋值，所以用户必须输入exit，才能停止该程序。</p>
+<h2 id="nav_point_63">2.10 小结</h2>
+<p class="zw">通过使用求值为True或False的表达式（也称为条件），你可以编写程序来决定哪些代码执行，哪些代码跳过。可以在循环中一遍又一遍地执行代码，只要某个条件求值为True。如果需要跳出循环或回到开始处，break和continue语句很有用。</p>
+<p class="zw">这些控制流语句让你写出非常聪明的程序。还有另一种类型的控制流，你可以通过编写自己的函数来实现。这是下一章的主题。</p>
+<h2 id="nav_point_64">2.11 习题</h2>
+<p class="zw">1．布尔数据类型的两个值是什么？如何拼写？</p>
+<p class="zw">2．3个布尔操作符是什么？</p>
+<p class="zw">3．写出每个布尔操作符的真值表（也就是操作数的每种可能组合，以及操作的结果）。</p>
+<p class="zw">4．以下表达式求值的结果是什么？</p>
+<pre class="代码无行号"><code>(5 &gt; 4) and (3 == 5)
+not (5 &gt; 4)
+(5 &gt; 4) or (3 == 5)
+not ((5 &gt; 4) or (3 == 5))
+(True and True) and (True == False)
+(not False) or (not True)</code>
+</pre>
+<p class="zw">5．6个比较操作符是什么？</p>
+<p class="zw">6．等于操作符和赋值操作符的区别是什么？</p>
+<p class="zw">7．解释什么是条件，可以在哪里使用条件。</p>
+<p class="zw">8．识别这段代码中的3个语句块：</p>
+<pre class="代码无行号"><code>spam = 0
+if spam == 10:
+    print('eggs')
+    if spam &gt; 5:
+        print('bacon')
+    else:
+        print('ham')
+    print('spam')
+print('spam')</code>
+</pre>
+<p class="zw">9．编写代码，如果变量spam中存放1，就打印Hello，如果变量中存放2，就打印Howdy，如果变量中存放其他值，就打印Greetings!</p>
+<p class="zw">10．如果程序陷在一个无限循环中，你可以按什么键？</p>
+<p class="zw">11．break和continue之间的区别是什么？</p>
+<p class="zw">12．在for循环中，range(10)、range(0, 10)和range(0, 10, 1)之间的区别是什么？</p>
+<p class="zw">13．编写一小段程序，利用for循环，打印出从1到10的数字。然后利用while循环，编写一个等价的程序，打印出从1到10的数字。</p>
+<p class="zw">14．如果在名为spam的模块中，有一个名为bacon()的函数，那么在导入spam模块后，如何调用它？</p>
+<p class="zw">附加题：在因特网上查找round()和abs()函数，弄清楚它们的作用。在交互式环境中尝试使用它们。</p>
+<p class="zw"><br style="page-break-after:always"/>
+</p>
+<div></div>
+]]></description>
+<pubDate>Thu, 29 Oct 2026 04:39:55 +0000</pubDate>
+<guid isPermaLink="false">epub-26</guid>
+</item>
 <item>
       <title>WorkBuddyGuide-第 2 章 WorkBuddy的下载、安装、登录与更新</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%202%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%99%BB%E5%BD%95%E4%B8%8E%E6%9B%B4%E6%96%B0/</link>
@@ -1944,6 +2691,7 @@ print(spam)&lt;/code&gt;
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%202%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%99%BB%E5%BD%95%E4%B8%8E%E6%9B%B4%E6%96%B0/</guid>
       <pubDate>Thu, 20 Aug 2026 00:53:09 +0000</pubDate>
     </item>
+
 
 
 
@@ -2477,6 +3225,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -2493,6 +3242,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -2500,6 +3250,7 @@ Total number of items: 48&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</guid>
 <pubDate>Thu, 01 Oct 2026 06:58:23 +0000</pubDate>
 </item>
+
 
 
 
@@ -2540,6 +3291,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 7 章 WorkBuddy 使用连接器</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</link>
@@ -2547,6 +3299,7 @@ Total number of items: 48&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</guid>
 <pubDate>Sat, 03 Oct 2026 02:44:11 +0000</pubDate>
 </item>
+
 
 
 
@@ -3324,6 +4077,7 @@ help@nostarch.com&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 4 章 快速完成第一个 WorkBuddy 任务</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%204%20%E7%AB%A0%20%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90%E7%AC%AC%E4%B8%80%E4%B8%AA%20WorkBuddy%20%E4%BB%BB%E5%8A%A1/</link>
@@ -3331,6 +4085,7 @@ help@nostarch.com&lt;/code&gt;
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%204%20%E7%AB%A0%20%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90%E7%AC%AC%E4%B8%80%E4%B8%AA%20WorkBuddy%20%E4%BB%BB%E5%8A%A1/</guid>
       <pubDate>Mon, 31 Aug 2026 04:20:41 +0000</pubDate>
     </item>
+
 
 
 
@@ -4424,6 +5179,7 @@ except:
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 8 章 WorkBuddy 接入小程序与 IM 助理</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%208%20%E7%AB%A0%20WorkBuddy%20%E6%8E%A5%E5%85%A5%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8E%20IM%20%E5%8A%A9%E7%90%86/</link>
@@ -4431,6 +5187,7 @@ except:
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%208%20%E7%AB%A0%20WorkBuddy%20%E6%8E%A5%E5%85%A5%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8E%20IM%20%E5%8A%A9%E7%90%86/</guid>
       <pubDate>Mon, 28 Sep 2026 04:16:11 +0000</pubDate>
     </item>
+
 
 
 
@@ -5106,6 +5863,7 @@ cherries Carol moose
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 3 章 WorkBuddy 的主界面、任务与工作区</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%203%20%E7%AB%A0%20WorkBuddy%20%E7%9A%84%E4%B8%BB%E7%95%8C%E9%9D%A2%E3%80%81%E4%BB%BB%E5%8A%A1%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8C%BA/</link>
@@ -5113,6 +5871,7 @@ cherries Carol moose
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%203%20%E7%AB%A0%20WorkBuddy%20%E7%9A%84%E4%B8%BB%E7%95%8C%E9%9D%A2%E3%80%81%E4%BB%BB%E5%8A%A1%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8C%BA/</guid>
       <pubDate>Mon, 24 Aug 2026 01:22:34 +0000</pubDate>
     </item>
+
 
 
 
@@ -5592,30 +6351,6 @@ else:
     <guid isPermaLink="false">34</guid>
 </item>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<item>
-      <title>WorkBuddyGuide-第 7 章 WorkBuddy 使用连接器</title>
-      <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</link>
-      <description>学习时长：约2小时；学习内容：MCP协议的概念与价值[reference:16]、MCP的核心特点（统一标准、三大能力、C/S架构、本地优先）[reference:17]、内置连接器（腾讯会议/腾讯文档/TAPD等）的加载与使用[reference:18]；学习目的：理解MCP的工作原理，学会通过连接器让WorkBuddy接入外部工具和服务</description>
-      <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</guid>
-      <pubDate>Mon, 21 Sep 2026 03:53:37 +0000</pubDate>
-    </item>
 
 
 
