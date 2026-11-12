@@ -4,7 +4,7 @@
 <title>科目一：计算机工程</title>
 <link>https://github.com/ZHENHUA001A307/computer-engineering</link>
 <description>计算机工程材料推送</description>
-<lastBuildDate>Tue, 10 Nov 2026 05:44:35 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 05:30:25 +0000</lastBuildDate>
 <item>
 <title>WorkBuddyGuide-课外阅读：一章看懂 AI 工作系统</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E8%AF%BE%E5%A4%96%E9%98%85%E8%AF%BB%EF%BC%9A%E4%B8%80%E7%AB%A0%E7%9C%8B%E6%87%82%20AI%20%E5%B7%A5%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
@@ -12,6 +12,7 @@
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E8%AF%BE%E5%A4%96%E9%98%85%E8%AF%BB%EF%BC%9A%E4%B8%80%E7%AB%A0%E7%9C%8B%E6%87%82%20AI%20%E5%B7%A5%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
 <pubDate>Wed, 21 Oct 2026 03:50:28 +0000</pubDate>
 </item>
+
 
 
 
@@ -829,6 +830,7 @@ bacon + 1&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -836,6 +838,7 @@ bacon + 1&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</guid>
 <pubDate>Wed, 14 Oct 2026 04:05:00 +0000</pubDate>
 </item>
+
 
 
 
@@ -1141,6 +1144,7 @@ git_practice$&lt;/code&gt;
 <pubDate>Wed, 14 Oct 2026 03:30:13 +0000</pubDate>
 <guid isPermaLink="false">epub-24</guid>
 </item>
+
 
 
 
@@ -1970,13 +1974,15 @@ print(spam)&lt;/code&gt;
 
 
 
+
 <item>
-<title><![CDATA[WorkBuddyGuide-第 15 章 资讯整合：把信息流变成每日通知]]></title>
+<title>WorkBuddyGuide-第 15 章 资讯整合：把信息流变成每日通知</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%BA%8C%E7%AF%87%20%E6%A1%88%E4%BE%8B%E7%AF%87%EF%BC%9A%E4%BB%8E%E4%B8%80%E9%A1%B9%E4%BB%BB%E5%8A%A1%E5%88%B0%E4%B8%80%E6%94%AF%20AI%20%E5%9B%A2%E9%98%9F/%E7%AC%AC%2015%20%E7%AB%A0%20%E8%B5%84%E8%AE%AF%E6%95%B4%E5%90%88%EF%BC%9A%E6%8A%8A%E4%BF%A1%E6%81%AF%E6%B5%81%E5%8F%98%E6%88%90%E6%AF%8F%E6%97%A5%E9%80%9A%E7%9F%A5/</link>
-<description><![CDATA[学习时长：约1.5小时；学习内容：资讯整合的工作流（收集→去重→筛选→摘要→核查→通知）[reference:41]、各类资讯Skill的选型（腾讯新闻/AIHOT/GitHub热门/arXiv论文追踪等）[reference:42]；学习目的：学会搭建自动化的资讯通知系统，把信息流变成每日定时推送]]></description>
+<description>学习时长：约1.5小时；学习内容：资讯整合的工作流（收集→去重→筛选→摘要→核查→通知）[reference:41]、各类资讯Skill的选型（腾讯新闻/AIHOT/GitHub热门/arXiv论文追踪等）[reference:42]；学习目的：学会搭建自动化的资讯通知系统，把信息流变成每日定时推送</description>
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%BA%8C%E7%AF%87%20%E6%A1%88%E4%BE%8B%E7%AF%87%EF%BC%9A%E4%BB%8E%E4%B8%80%E9%A1%B9%E4%BB%BB%E5%8A%A1%E5%88%B0%E4%B8%80%E6%94%AF%20AI%20%E5%9B%A2%E9%98%9F/%E7%AC%AC%2015%20%E7%AB%A0%20%E8%B5%84%E8%AE%AF%E6%95%B4%E5%90%88%EF%BC%9A%E6%8A%8A%E4%BF%A1%E6%81%AF%E6%B5%81%E5%8F%98%E6%88%90%E6%AF%8F%E6%97%A5%E9%80%9A%E7%9F%A5/</guid>
 <pubDate>Tue, 10 Nov 2026 05:44:35 +0000</pubDate>
 </item>
+
 <item>
 <title>WorkBuddyGuide-第 9 章 如何接入外部 API</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%209%20%E7%AB%A0%20%E5%A6%82%E4%BD%95%E6%8E%A5%E5%85%A5%E5%A4%96%E9%83%A8%20API/</link>
@@ -2004,6 +2010,7 @@ print(spam)&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-本篇导读</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%BA%8C%E7%AF%87%20%E6%A1%88%E4%BE%8B%E7%AF%87%EF%BC%9A%E4%BB%8E%E4%B8%80%E9%A1%B9%E4%BB%BB%E5%8A%A1%E5%88%B0%E4%B8%80%E6%94%AF%20AI%20%E5%9B%A2%E9%98%9F/</link>
@@ -2011,6 +2018,7 @@ print(spam)&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%BA%8C%E7%AF%87%20%E6%A1%88%E4%BE%8B%E7%AF%87%EF%BC%9A%E4%BB%8E%E4%B8%80%E9%A1%B9%E4%BB%BB%E5%8A%A1%E5%88%B0%E4%B8%80%E6%94%AF%20AI%20%E5%9B%A2%E9%98%9F/</guid>
 <pubDate>Thu, 29 Oct 2026 04:47:30 +0000</pubDate>
 </item>
+
 
 
 
@@ -2769,6 +2777,7 @@ print('spam')&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 2 章 WorkBuddy的下载、安装、登录与更新</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%202%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%99%BB%E5%BD%95%E4%B8%8E%E6%9B%B4%E6%96%B0/</link>
@@ -2776,6 +2785,7 @@ print('spam')&lt;/code&gt;
       <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%202%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%99%BB%E5%BD%95%E4%B8%8E%E6%9B%B4%E6%96%B0/</guid>
       <pubDate>Thu, 20 Aug 2026 00:53:09 +0000</pubDate>
     </item>
+
 
 
 
@@ -3329,6 +3339,14 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
+<item>
+<title><![CDATA[WorkBuddyGuide-第 16 章 收藏不是知识管理，能再次用起来才是]]></title>
+<link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%BA%8C%E7%AF%87%20%E6%A1%88%E4%BE%8B%E7%AF%87%EF%BC%9A%E4%BB%8E%E4%B8%80%E9%A1%B9%E4%BB%BB%E5%8A%A1%E5%88%B0%E4%B8%80%E6%94%AF%20AI%20%E5%9B%A2%E9%98%9F/%E7%AC%AC%2016%20%E7%AB%A0%20%E6%94%B6%E8%97%8F%E4%B8%8D%E6%98%AF%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%EF%BC%8C%E8%83%BD%E5%86%8D%E6%AC%A1%E7%94%A8%E8%B5%B7%E6%9D%A5%E6%89%8D%E6%98%AF/</link>
+<description><![CDATA[学习时长：约2小时；学习内容：个人知识系统的工具分工（WPS/ima/Obsidian/微信收藏等）[reference:43]、四个实操场景（灵感记录、微信收藏整理、ima知识库、Obsidian Wiki维护）[reference:44]；学习目的：建立可检索、可复用的个人知识管理系统，让收藏的内容真正产生价值]]></description>
+<guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%BA%8C%E7%AF%87%20%E6%A1%88%E4%BE%8B%E7%AF%87%EF%BC%9A%E4%BB%8E%E4%B8%80%E9%A1%B9%E4%BB%BB%E5%8A%A1%E5%88%B0%E4%B8%80%E6%94%AF%20AI%20%E5%9B%A2%E9%98%9F/%E7%AC%AC%2016%20%E7%AB%A0%20%E6%94%B6%E8%97%8F%E4%B8%8D%E6%98%AF%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%EF%BC%8C%E8%83%BD%E5%86%8D%E6%AC%A1%E7%94%A8%E8%B5%B7%E6%9D%A5%E6%89%8D%E6%98%AF/</guid>
+<pubDate>Thu, 12 Nov 2026 05:30:25 +0000</pubDate>
+</item>
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -3355,6 +3373,7 @@ Total number of items: 48&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 12 章 从整理桌面文件这些小事做起</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%BA%8C%E7%AF%87%20%E6%A1%88%E4%BE%8B%E7%AF%87%EF%BC%9A%E4%BB%8E%E4%B8%80%E9%A1%B9%E4%BB%BB%E5%8A%A1%E5%88%B0%E4%B8%80%E6%94%AF%20AI%20%E5%9B%A2%E9%98%9F/%E7%AC%AC%2012%20%E7%AB%A0%20%E4%BB%8E%E6%95%B4%E7%90%86%E6%A1%8C%E9%9D%A2%E6%96%87%E4%BB%B6%E8%BF%99%E4%BA%9B%E5%B0%8F%E4%BA%8B%E5%81%9A%E8%B5%B7/</link>
@@ -3362,6 +3381,7 @@ Total number of items: 48&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%BA%8C%E7%AF%87%20%E6%A1%88%E4%BE%8B%E7%AF%87%EF%BC%9A%E4%BB%8E%E4%B8%80%E9%A1%B9%E4%BB%BB%E5%8A%A1%E5%88%B0%E4%B8%80%E6%94%AF%20AI%20%E5%9B%A2%E9%98%9F/%E7%AC%AC%2012%20%E7%AB%A0%20%E4%BB%8E%E6%95%B4%E7%90%86%E6%A1%8C%E9%9D%A2%E6%96%87%E4%BB%B6%E8%BF%99%E4%BA%9B%E5%B0%8F%E4%BA%8B%E5%81%9A%E8%B5%B7/</guid>
 <pubDate>Thu, 05 Nov 2026 05:35:56 +0000</pubDate>
 </item>
+
 
 
 
@@ -4159,6 +4179,7 @@ print(spam)&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 10 章 WorkBuddy 自动化任务</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</link>
@@ -4166,6 +4187,7 @@ print(spam)&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%2010%20%E7%AB%A0%20WorkBuddy%20%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%BB%E5%8A%A1/</guid>
 <pubDate>Thu, 01 Oct 2026 06:58:23 +0000</pubDate>
 </item>
+
 
 
 
@@ -4226,6 +4248,7 @@ print(spam)&lt;/code&gt;
 
 
 
+
 <item>
 <title>WorkBuddyGuide-第 7 章 WorkBuddy 使用连接器</title>
 <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</link>
@@ -4233,6 +4256,7 @@ print(spam)&lt;/code&gt;
 <guid isPermaLink="false">https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%207%20%E7%AB%A0%20WorkBuddy%20%E4%BD%BF%E7%94%A8%E8%BF%9E%E6%8E%A5%E5%99%A8/</guid>
 <pubDate>Sat, 03 Oct 2026 02:44:11 +0000</pubDate>
 </item>
+
 
 
 
@@ -5030,6 +5054,7 @@ help@nostarch.com&lt;/code&gt;
 
 
 
+
 <item>
       <title>WorkBuddyGuide-第 4 章 快速完成第一个 WorkBuddy 任务</title>
       <link>https://workbuddy.homes/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC%204%20%E7%AB%A0%20%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90%E7%AC%AC%E4%B8%80%E4%B8%AA%20WorkBuddy%20%E4%BB%BB%E5%8A%A1/</link>
@@ -5038,1090 +5063,6 @@ help@nostarch.com&lt;/code&gt;
       <pubDate>Mon, 31 Aug 2026 04:20:41 +0000</pubDate>
     </item>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<item>
-    <title>AutomaticApplicationPython - 035 - 第11章 从Web抓取信息.epub</title>
-    <description>&lt;p style='color: #888;'&gt;⏱ 预计阅读时间：102 分钟 (30520 字)&lt;/p&gt;&lt;hr&gt;&lt;h1 id="nav_point_282"&gt;第11章　从Web抓取信息&lt;/h1&gt;
-&lt;p class="zw"&gt;少数可怕的时候，我没有 Wi-Fi。这时才意识到，我在计算机上所做的事，有多少实际上是在因特网上做的事。完全出于习惯，我会发现自己尝试收邮件、阅读朋友的推特，或回答问题：“在Kurtwood Smith演出1987年的机械战警之前，曾经演过主角吗？” &lt;a href="text00024.html#anchor111" id="ac111"&gt;
-&lt;sup&gt;[1]&lt;/sup&gt;
-&lt;/a&gt;
-&lt;/p&gt;
-&lt;p class="zw"&gt;因为计算机上如此多的工作都与因特网有关，所以如果程序能上网就太好了。“Web 抓取”是一个术语，即利用程序下载并处理来自Web的内容。例如，Google运行了许多web抓取程序，对网页进行索引，实现它的搜索引擎。在本章中，你将学习几个模块，让在Python中抓取网页变得很容易。&lt;/p&gt;
-&lt;p class="zw"&gt;webbrowser：是Python自带的，打开浏览器获取指定页面。&lt;/p&gt;
-&lt;p class="zw"&gt;requests：从因特网上下载文件和网页。&lt;/p&gt;
-&lt;p class="zw"&gt;Beautiful Soup：解析HTML，即网页编写的格式。&lt;/p&gt;
-&lt;p class="zw"&gt;selenium：启动并控制一个Web浏览器。selenium能够填写表单，并模拟鼠标在这个浏览器中点击。&lt;/p&gt;
-&lt;h2 id="nav_point_283"&gt;11.1 项目：利用webbrowser模块的mapIt.py&lt;/h2&gt;
-&lt;p class="zw"&gt;webbrowser模块的open()函数可以启动一个新浏览器，打开指定的URL。在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import webbrowser&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;webbrowser.open('http://inventwithpython.com/')&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;Web浏览器的选项卡将打开URL &lt;a href="http://inventwithpython.com/"&gt;http://inventwithpython.com/&lt;/a&gt;
- 。这大概就是webbrowser模块能做的唯一的事情。既使如此，open()函数确实让一些有趣的事情成为可能。例如，将一条街道的地址拷贝到剪贴板，并在Google地图上打开它的地图，这是很繁琐的事。你可以让这个任务减少几步，写一个简单的脚本，利用剪贴板中的内容在浏览器中自动加载地图。这样，你只要将地址拷贝到剪贴板，运行该脚本，地图就会加载。&lt;/p&gt;
-&lt;p class="zw"&gt;你的程序需要做到：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;从命令行参数或剪贴板中取得街道地址。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;打开Web浏览器，指向该地址的Google地图页面。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;这意味着代码需要做下列事情：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;从sys.argv读取命令行参数。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;读取剪贴板内容。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;调用webbrowser.open()函数打开外部浏览器。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;打开一个新的文件编辑器窗口，将它保存为mapIt.py。&lt;/p&gt;
-&lt;h3 id="nav_point_284"&gt;第1步：弄清楚URL&lt;/h3&gt;
-&lt;p class="zw"&gt;根据附录B中的指导，建立mapIt.py，这样当你从命令行运行它时，例如&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;C:\&amp;gt; mapit 870 Valencia St, San Francisco, CA 94110&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;该脚本将使用命令行参数，而不是剪贴板。如果没有命令行参数，程序就知道要使用剪贴板的内容。&lt;/p&gt;
-&lt;p class="zw"&gt;首先你需要弄清楚，对于指定的街道地址，要使用怎样的URL。你在浏览器中打开&lt;a href="http://maps.google.com/"&gt;http://maps.google.com/&lt;/a&gt;
- 并查找一个地址时，地址栏中的URL看起来就像这样：https:// www.google.com/maps/place/870+Valencia+St/@37.7590311,-122.4215096, 17z/data=&lt;br/&gt;
-!3m1!4b1!4m2!3m1!1s0x808f7e3dadc07a37:0xc86b0b2bb93b73d8.&lt;/p&gt;
-&lt;p class="zw"&gt;地址就在URL中，但其中还有许多附加的文本。网站常常在URL中添加额外的数据，帮助追踪访问者或定制网站。但如果你尝试使用https://www.google. com/maps/place/870+Valencia+St+San+Francisco+CA/，会发现仍然可以到达正确的页面。所以你的程序可以设置为打开一个浏览器，访问'https://www.google.com/ maps/place/your_address_string'（其中your_address_string是想查看地图的地址）。&lt;/p&gt;
-&lt;h3 id="nav_point_285"&gt;第2步：处理命令行参数&lt;/h3&gt;
-&lt;p class="zw"&gt;让你的代码看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;#! python3
-# mapIt.py - Launches a map in the browser using an address from the
-# command line or clipboard.
-import webbrowser, sys
-if len(sys.argv) &amp;gt; 1:
-    # Get address from command line.
-    address = ' '.join(sys.argv[1:])
-# TODO: Get address from clipboard.&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;在程序的#!行之后，需要导入webbrowser模块，用于加载浏览器；导入sys模块，用于读入可能的命令行参数。sys.argv变量保存了程序的文件名和命令行参数的列表。如果这个列表中不只有文件名，那么len(sys.argv)的返回值就会大于1，这意味着确实提供了命令行参数。&lt;/p&gt;
-&lt;p class="zw"&gt;命令行参数通常用空格分隔，但在这个例子中，你希望将所有参数解释为一个字符串。因为sys.argv是字符串的列表，所以你可以将它传递给join()方法，这将返回一个字符串。你不希望程序的名称出现在这个字符串中，所以不是使用sys.argv，而是使用sys.argv[1:]，砍掉这个数组的第一个元素。这个表达式求值得到的字符串，保存在address变量中。&lt;/p&gt;
-&lt;p class="zw"&gt;如果运行程序时在命令行中输入以下内容：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;mapit 870 Valencia St, San Francisco, CA 94110&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;…sys.argv变量将包含这样的列表值：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt; ['mapIt.py', '870', 'Valencia', 'St, ', 'San', 'Francisco, ', 'CA', '94110']&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;address变量将包含字符串'870 Valencia St, San Francisco, CA 94110'。&lt;/p&gt;
-&lt;h3 id="nav_point_286"&gt;第3步：处理剪贴板内容，加载浏览器&lt;/h3&gt;
-&lt;p class="zw"&gt;让你的代码看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;#! python3
-# mapIt.py - Launches a map in the browser using an address from the
-# command line or clipboard.
-import webbrowser, sys&lt;strong&gt;, pyperclip&lt;/strong&gt;
-if len(sys.argv) &amp;gt; 1:
-    # Get address from command line.
-    address = ' '.join(sys.argv[1:])
-&lt;strong&gt;else:&lt;/strong&gt;
-    &lt;strong&gt;# Get address from clipboard.&lt;/strong&gt;
-    &lt;strong&gt;address = pyperclip.paste()&lt;/strong&gt;
-&lt;strong&gt;webbrowser.open('https://www.google.com/maps/place/' + address)&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;如果没有命令行参数，程序将假定地址保存在剪贴板中。可以用pyperclip.paste()取得剪贴板的内容，并将它保存在名为address的变量中。最后，启动外部浏览器访问Google地图的URL，调用webbrowser.open()。&lt;/p&gt;
-&lt;p class="zw"&gt;虽然你写的某些程序将完成大型任务，为你节省数小时的时间，但使用一个程序，在每次执行一个常用任务时节省几秒钟时间，比如取得一个地址的地图，这同样令人满意。表11-1比较了有mapIt.py和没有它时，显示地图所需的步骤。&lt;/p&gt;
-&lt;p class="表题"&gt;表11-1 不用和利用mapIt.py取得地图&lt;/p&gt;
-&lt;table border="1" width="90%"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;
-&lt;p class="表头单元格"&gt;手工取得地图&lt;/p&gt;
-&lt;/th&gt;
-&lt;th&gt;
-&lt;p class="表头单元格"&gt;利用mapIt.py&lt;/p&gt;
-&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;高亮标记地址&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;高亮标记地址&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;拷贝地址&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;拷贝地址&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;打开Web浏览器&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;运行mapIt.py&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;打开&lt;em&gt;http://maps.google.com/&lt;/em&gt;
-&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt; &lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;点击地址文本字段&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt; &lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;拷贝地址&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt; &lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;按回车&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt; &lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p class="zw"&gt;看到程序让这个任务变得不那么繁琐了吗？&lt;/p&gt;
-&lt;h3 id="nav_point_287"&gt;第4步：类似程序的想法&lt;/h3&gt;
-&lt;p class="zw"&gt;只要你有一个URL，webbrowser模块就让用户不必打开浏览器，而直接加载一个网站。其他程序可以利用这项功能完成以下任务：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;在独立的浏览器标签中，打开一个页面中的所有链接。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;用浏览器打开本地天气的URL。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;打开你经常查看的几个社交网站。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="nav_point_288"&gt;11.2 用requests模块从Web下载文件&lt;/h2&gt;
-&lt;p class="zw"&gt;requests模块让你很容易从Web下载文件，不必担心一些复杂的问题，诸如网络错误、连接问题和数据压缩。requests模块不是Python自带的，所以必须先安装。通过命令行，运行pip install requests（附录A详细介绍了如何安装第三方模块）。&lt;/p&gt;
-&lt;p class="zw"&gt;编写requests模块是因为Python的urllib2模块用起来太复杂。实际上，请拿一支记号笔涂黑这一段。忘记我曾提到urllib2。如果你需要从Web下载东西，使用requests模块就好了。&lt;/p&gt;
-&lt;p class="zw"&gt;接下来，做一个简单的测试，确保requests模块已经正确安装。在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import requests&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;如果没有错误信息显示，requests模块就已经安装成功了。&lt;/p&gt;
-&lt;h3 id="nav_point_289"&gt;11.2.1 用requests.get()函数下载一个网页&lt;/h3&gt;
-&lt;p class="zw"&gt;requests.get()函数接受一个要下载的URL字符串。通过在requests.get()的返回值上调用type()，你可以看到它返回一个Response对象，其中包含了Web服务器对你的请求做出的响应。稍后我将更详细地解释Response对象，但现在请在交互式环境中输入以下代码，并保持计算机与因特网的连接：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import requests&lt;/strong&gt;
-❶ &amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;res = requests.get('http://www.gutenberg.org/cache/epub/1112/pg1112.txt')&lt;/strong&gt;
-　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;type(res)&lt;/strong&gt;
-　&amp;lt;class 'requests.models.Response'&amp;gt;
-❷ &amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;res.status_code == requests.codes.ok&lt;/strong&gt;
-　True
-　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;len(res.text)&lt;/strong&gt;
-　178981
-　&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;print(res.text[:250])&lt;/strong&gt;
-　The Project Gutenberg EBook of Romeo and Juliet, by William Shakespeare
-　This eBook is for the use of anyone anywhere at no cost and with
-　almost no restrictions whatsoever. You may copy it, give it away or
-　re-use it under the terms of the Proje
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;该URL指向一个文本页面，其中包含整部罗密欧与朱丽叶，它是由古登堡计划❶提供的。通过检查Response对象的status_code属性，你可以了解对这个网页的请求是否成功。如果该值等于requests.codes.ok，那么一切都好❷（顺便说一下，HTTP协议中“OK”的状态码是200。你可能已经熟悉404状态码，它表示“没找到”）。&lt;/p&gt;
-&lt;p class="zw"&gt;如果请求成功，下载的页面就作为一个字符串，保存在Response对象的text变量中。这个变量保存了包含整部戏剧的一个大字符串，调用len(res.text)表明，它的长度超过178000个字符。最后，调用print(res.text[:250])显示前250个字符。&lt;/p&gt;
-&lt;h3 id="nav_point_290"&gt;11.2.2 检查错误&lt;/h3&gt;
-&lt;p class="zw"&gt;正如你看到的，Response对象有一个status_code属性，可以检查它是否等于requests.codes.ok，了解下载是否成功。检查成功有一种简单的方法，就是在Response对象上调用raise_for_status()方法。如果下载文件出错，这将抛出异常。如果下载成功，就什么也不做。在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;res = requests.get('http://inventwithpython.com/page_that_does_not_exist')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;res.raise_for_status()&lt;/strong&gt;
-Traceback (most recent call last):
-  File "&amp;lt;pyshell#138&amp;gt;", line 1, in &amp;lt;module&amp;gt;
-    res.raise_for_status()
-  File "C:\Python34\lib\site-packages\requests\models.py", line 773, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 404 Client Error: Not Found
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;raise_for_status()方法是一种很好的方式，确保程序在下载失败时停止。这是一件好事：你希望程序在发生未预期的错误时，马上停止。如果下载失败对程序来说不够严重，可以用try和except语句将raise_for_status()代码行包裹起来，处理这一错误，不让程序崩溃。&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;import requests
-res = requests.get('http://inventwithpython.com/page_that_does_not_exist')
-try:
-    res.raise_for_status()
-except Exception as exc:
-    print('There was a problem: %s' % (exc))&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这次raise_for_status()方法调用导致程序输出以下内容：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;There was a problem: 404 Client Error: Not Found&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;总是在调用requests.get()之后再调用raise_for_status()。你希望确保下载确实成功，然后再让程序继续。&lt;/p&gt;
-&lt;h2 id="nav_point_291"&gt;11.3 将下载的文件保存到硬盘&lt;/h2&gt;
-&lt;p class="zw"&gt;现在，可以用标准的open()函数和write()方法，将Web页面保存到硬盘中的一个文件。但是，这里稍稍有一点不同。首先，必须用“写二进制”模式打开该文件，即向函数传入字符串'wb'，作为open()的第二参数。即使该页面是纯文本的（例如前面下载的罗密欧与朱丽叶的文本），你也需要写入二进制数据，而不是文本数据，目的是为了保存该文本中的“Unicode编码”。&lt;/p&gt;
-&lt;p class="editing-tag 超强提示标签"&gt;Unicode编码&lt;/p&gt;
-&lt;blockquote class="超强提示 editing-block"&gt;
-&lt;p class="zw"&gt;&lt;br/&gt;
-&lt;/p&gt;
-Unicode编码超出了本书的范围，但你可以通过以下网页了解更多的相关内容：&lt;ul&gt;
-&lt;li class="第2级无序列表"&gt;Joel on Software: The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!): &lt;em&gt;http://www.joelonsoftware.com/articles/Unicode.html&lt;/em&gt;
-&lt;/li&gt;
-&lt;li class="第2级无序列表"&gt;Pragmatic Unicode: &lt;em&gt;http://nedbatchelder.com/text/unipain.html&lt;/em&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p class="zw"&gt;为了将Web页面写入到一个文件，可以使用for循环和Response对象的iter_content()方法。&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import requests&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;res = requests.get('http://www.gutenberg.org/cache/epub/1112/pg1112.txt')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;res.raise_for_status()&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;playFile = open('RomeoAndJuliet.txt', 'wb')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;for chunk in res.iter_content(100000):&lt;/strong&gt;
-&lt;strong&gt;        playFile.write(chunk)&lt;/strong&gt;
-100000
-78981
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;playFile.close()&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;iter_content()方法在循环的每次迭代中，返回一段内容。每一段都是bytes数据类型，你需要指定一段包含多少字节。10万字节通常是不错的选择，所以将100000作为参数传递给iter_content()。&lt;/p&gt;
-&lt;p class="zw"&gt;文件RomeoAndJuliet.txt将存在于当前工作目录。请注意，虽然在网站上文件名是pg1112.txt，但在你的硬盘上，该文件的名字不同。requests模块只处理下载网页内容。一旦网页下载后，它就只是程序中的数据。即使在下载该网页后断开了因特网连接，该页面的所有数据仍然会在你的计算机中。&lt;/p&gt;
-&lt;p class="zw"&gt;write()方法返回一个数字，表示写入文件的字节数。在前面的例子中，第一段包含100000个字节，文件剩下的部分只需要78981个字节。&lt;/p&gt;
-&lt;p class="zw"&gt;回顾一下，下载并保存到文件的完整过程如下：&lt;/p&gt;
-&lt;p class="zw"&gt;1．调用requests.get()下载该文件。&lt;/p&gt;
-&lt;p class="zw"&gt;2．用'wb'调用open()，以写二进制的方式打开一个新文件。&lt;/p&gt;
-&lt;p class="zw"&gt;3．利用Respose对象的iter_content()方法做循环。&lt;/p&gt;
-&lt;p class="zw"&gt;4．在每次迭代中调用write()，将内容写入该文件。&lt;/p&gt;
-&lt;p class="zw"&gt;5．调用close()关闭该文件。&lt;/p&gt;
-&lt;p class="zw"&gt;这就是关于requests模块的全部内容！相对于写入文本文件的open()/write()/ close()工作步骤，for循环和iter_content()的部分可能看起来比较复杂，但这是为了确保requests模块即使在下载巨大的文件时也不会消耗太多内存。你可以访问&lt;a href="http://requests.readthedocs.org/"&gt;http://requests.readthedocs.org/&lt;/a&gt;
- ，了解requests模块的其他功能。&lt;/p&gt;
-&lt;h2 id="nav_point_292"&gt;11.4 HTML&lt;/h2&gt;
-&lt;p class="zw"&gt;在你拆解网页之前，需要学习一些HTML的基本知识。你也会看到如何利用Web浏览器的强大开发者工具，它们使得从Web抓取信息更容易。&lt;/p&gt;
-&lt;h3 id="nav_point_293"&gt;11.4.1 学习HTML的资源&lt;/h3&gt;
-&lt;p class="zw"&gt;超文本标记语言（HTML）是编写Web页面的格式。本章假定你对HTML有一些基本经验，但如果你需要初学者指南，我推荐以下站点：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;
-&lt;a href="http://htmldog.com/guides/html/beginner/"&gt;http://htmldog.com/guides/html/beginner/&lt;/a&gt;
-&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;
-&lt;a href="http://www.codecademy.com/tracks/web/"&gt;http://www.codecademy.com/tracks/web/&lt;/a&gt;
-&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;
-&lt;a href="https://developer.mozilla.org/en-US/learn/html/"&gt;https://developer.mozilla.org/en-US/learn/html/&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="nav_point_294"&gt;11.4.2 快速复习&lt;/h3&gt;
-&lt;p class="zw"&gt;假定你有一段时间没有看过HTML了，这里是对基本知识的快速复习。HTML文件是一个纯文本文件，带有.html文件扩展名。这种文件中的文本被“标签”环绕，标签是尖括号包围的单词。标签告诉浏览器以怎样的格式显示该页面。一个开始标签和一个结束标签可以包围某段文本，形成一个“元素”。“文本”（或“内部的HTML”）是在开始标签和结束标签之间的内容。例如，下面的HTML在浏览器中显示Hello world!，其中Hello用粗体显示。&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;lt;strong&amp;gt;Hello&amp;lt;/strong&amp;gt; world!&lt;strong&gt; &lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这段HTML在浏览器中看起来如图11-1所示。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="..\16-0403yds排版\16-0403yds排版\Links\Links\automate11_htmlhelloworld1.png" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/35_Image00108.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图11-1 浏览器渲染的Hello world!&lt;/p&gt;
-&lt;p class="zw"&gt;开始标签&amp;lt; strong&amp;gt;表明，标签包围的文本将使用粗体。结束标签&amp;lt; /strong&amp;gt;告诉浏览器，粗体文本到此结束。&lt;/p&gt;
-&lt;p class="zw"&gt;HTML中有许多不同的标签。有一些标签具有额外的特性，在尖括号内以“属性”的方式展现。例如，&amp;lt; a&amp;gt;标签包含一段文本，它应该是一个链接。这段文本链接的URL是由href属性确定的。下面是一个例子：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;Al's free &amp;amp;lt;a href="http://inventwithpython.com"&amp;gt;Python books&amp;amp;lt;/a&amp;gt;.&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这段HTML在浏览器中看起来如图11-2所示。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="..\16-0403yds排版\16-0403yds排版\Links\Links\automate11_htmlhelloworld2.png" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/35_Image00109.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图11-2 浏览器中渲染的链接&lt;/p&gt;
-&lt;p class="zw"&gt;某些元素具有id属性，可以用来在页面上唯一地确定该元素。你常常会告诉程序，根据元素的id属性来寻找它。所以利用浏览器的开发者工具，弄清楚元素的id属性，这是编写Web抓取程序常见的任务。&lt;/p&gt;
-&lt;h3 id="nav_point_295"&gt;11.4.3 查看网页的HTML源代码&lt;/h3&gt;
-&lt;p class="zw"&gt;对于程序要处理的网页，你需要查看它的HTML源代码。要做到这一点，在浏览器的任意网页上点击右键（或在OS X上Ctrl-点击），选择View Source或View page source，查看该页的 HTML 文本（参见图 11-3）。这是浏览器实际接收到的文本。浏览器知道如何通过这个HTML显示或渲染网页。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="..\16-0403yds排版\16-0403yds排版\Links\Links\automate11_viewsourcemenu.png" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/35_Image00110.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="..\16-0403yds排版\16-0403yds排版\Links\Links\automate11_viewsource.png" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/35_Image00111.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图11-3 查看网页的源代码&lt;/p&gt;
-&lt;p class="zw"&gt;我强烈建议你查看一些自己喜欢的网站的HTML源代码。在查看源代码时，如果你不能完全理解，也没有关系。你不需要完全掌握HTML，也能编写简单的Web抓取程序，毕竟你不是要编写自己的网站。只需要足够的知识，就能从已有的网站中挑选数据。&lt;/p&gt;
-&lt;h3 id="nav_point_296"&gt;11.4.4 打开浏览器的开发者工具&lt;/h3&gt;
-&lt;p class="zw"&gt;除了查看网页的源代码，你还可以利用浏览器的开发者工具，来检查页面的HTML。在Windows版的Chrome和IE中，开发者工具已经安装了。可以按下F12，让它们出现（参见图11-4）。再次按下F12，可以让开发者工具消失。在Chrome中，也可以选择View ►Developer ►Developer Tools，调出开发者工具。在OS X中按下⌘- Option-I，将打开Chrome的开发者工具。&lt;/p&gt;
-&lt;p class="zw"&gt;对于Firefox，可以在Windows和Linux中需要按下Ctrl-Shift-C，或在OS X中按下⌘-option-C，调出开发者工具查看器。它的布局几乎与Chrome的开发者工具一样。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="..\16-0403yds排版\16-0403yds排版\Links\Links\automate11_devtools.png" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/35_Image00112.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图11-4 Chrome浏览器中的开发者工具窗口&lt;/p&gt;
-&lt;p class="zw"&gt;在Safari中，打开Preferences窗口，并在Advanced pane选中Show Develop menu in the menu bar选项。在它启用后，你可以按下⌘-option-I，调出开发者工具。&lt;/p&gt;
-&lt;p class="zw"&gt;在浏览器中启用或安装了开发者工具之后，可以在网页中任何部分点击右键，在弹出菜单中选择Inspect Element，查看页面中这一部分对应的HTML。如果需要在Web抓取程序中解析HTML，这很有帮助。&lt;/p&gt;
-&lt;p class="editing-tag 超强提示标签"&gt;不要用正则表达式来解析HTML&lt;/p&gt;
-&lt;blockquote class="超强提示 editing-block"&gt;
-&lt;p class="zw"&gt;&lt;br/&gt;
-&lt;/p&gt;
-在一个字符串中定位特定的一段HTML，这似乎很适合使用正则表达式。但是，我建议你不要这么做。HTML 的格式可以有许多不同的方式，并且仍然被认为是有效的HTML，但尝试用正则表达式来捕捉所有这些可能的变化，将非常繁琐，并且容易出错。专门用于解析HTML的模块，诸如Beautiful Soup，将更不容易导致缺陷。在&lt;em&gt;http://stackoverflow.com/a/1732454/1893164/&lt;/em&gt;
- ，你会看到更充分的讨论，了解为什么不应该用正则表达式来解析HTML。&lt;/blockquote&gt;
-&lt;h3 id="nav_point_297"&gt;11.4.5 使用开发者工具来寻找HTML元素&lt;/h3&gt;
-&lt;p class="zw"&gt;程序利用requests模块下载了一个网页之后，你会得到该页的HTML内容，作为一个字符串值。现在你需要弄清楚，这段HTML的哪个部分对应于网页上你感兴趣的信息。&lt;/p&gt;
-&lt;p class="zw"&gt;这就是可以利用浏览器的开发者工具的地方。假定你需要编写一个程序，从&lt;a href="http://weather.gov/"&gt;http://weather.gov/&lt;/a&gt;
- 获取天气预报数据。在写代码之前，先做一点调查。如果你访问该网站，并查找邮政编码94105，该网站将打开一个页面，显示该地区的天气预报。&lt;/p&gt;
-&lt;p class="zw"&gt;如果你想抓取那个邮政编码对应的气温信息，怎么办？右键点击它在页面的位置（或在OS X上用Control-点击），在弹出的菜单中选择Inspect Element。这将打开开发者工具窗口，其中显示产生这部分网页的HTML。图11-5展示了开发者工具打开显示气温的HTML。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="..\16-0403yds排版\16-0403yds排版\Links\Links\automate11_weathergov.png" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/35_Image00113.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图11-5 用开发者工具查看包含温度文本的元素&lt;/p&gt;
-&lt;p class="zw"&gt;通过开发者工具，可以看到网页中负责气温部分的 HTML 是&amp;lt; p class= "myforecast- current-lrg"&amp;gt;57°F&amp;lt; /p&amp;gt;。这正是你要找的东西！看起来气温信息包含在一个&amp;lt; p&amp;gt;元素中，带有myforecast-current-lrg类。既然你知道了要找的是什么，BeautifulSoup模块就可以帮助你在这个字符串中找到它。&lt;/p&gt;
-&lt;h2 id="nav_point_298"&gt;11.5 用BeautifulSoup模块解析HTML&lt;/h2&gt;
-&lt;p class="zw"&gt;Beautiful Soup是一个模块，用于从HTML页面中提取信息（用于这个目的时，它比正则表达式好很多）。BeautifulSoup模块的名称是bs4（表示Beautiful Soup，第4版）。要安装它，需要在命令行中运行pip install beautifulsoup4（关于安装第三方模块的指导，请查看附录 A）。虽然安装时使用的名字是beautifulsoup4，但要导入它，就使用import bs4。&lt;/p&gt;
-&lt;p class="zw"&gt;在本章中，Beautiful Soup的例子将解析（即分析并确定其中的一些部分）硬盘上的一个HTML文件。在IDLE中打开一个新的文件编辑器窗口，输入以下代码，并保存为example.html。或者，从http://nostarch.com/automatestuff/下载它。&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;lt;!-- This is the example.html example file. --&amp;gt;
-&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;The Website Title&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;
-&amp;lt;body&amp;gt;
-&amp;lt;p&amp;gt;Download my &amp;lt;strong&amp;gt;Python&amp;lt;/strong&amp;gt; book from &amp;lt;a href="http://
-inventwithpython.com"&amp;gt;my website&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
-&amp;lt;p class="slogan"&amp;gt;Learn Python the easy way!&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;By &amp;lt;span id="author"&amp;gt;Al Sweigart&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;你可以看到，既使一个简单的HTML文件，也包含许多不同的标签和属性。对于复杂的网站，事情很快就变得令人困惑。好在，Beautiful Soup让处理HTML变得容易很多。&lt;/p&gt;
-&lt;h3 id="nav_point_299"&gt;11.5.1 从HTML创建一个BeautifulSoup对象&lt;/h3&gt;
-&lt;p class="zw"&gt;bs4.BeautifulSoup()函数调用时需要一个字符串，其中包含将要解析的HTML。bs4.BeautifulSoup()函数返回一个BeautifulSoup对象。在交互式环境中输入以下代码，同时保持计算机与因特网的连接：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import requests, bs4&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;res = requests.get('http://nostarch.com')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;res.raise_for_status()&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;noStarchSoup = bs4.BeautifulSoup(res.text)&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;type(noStarchSoup)&lt;/strong&gt;
-&amp;lt; class 'bs4.BeautifulSoup'&amp;gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这段代码利用requests.get()函数从No Starch Press网站下载主页，然后将响应结果的text属性传递给bs4.BeautifulSoup()。它返回的BeautifulSoup对象保存在变量noStarchSoup中。&lt;/p&gt;
-&lt;p class="zw"&gt;也可以向bs4.BeautifulSoup()传递一个File对象，从硬盘加载一个HTML文件。在交互式环境中输入以下代码（确保example.html文件在工作目录中）：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;exampleFile = open('example.html')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;exampleSoup = bs4.BeautifulSoup(exampleFile)&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;type(exampleSoup)&lt;/strong&gt;
-&amp;lt; class 'bs4.BeautifulSoup'&amp;gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;有了BeautifulSoup对象之后，就可以利用它的方法，定位HTML文档中的特定部分。&lt;/p&gt;
-&lt;h3 id="nav_point_300"&gt;11.5.2 用select()方法寻找元素&lt;/h3&gt;
-&lt;p class="zw"&gt;针对你要寻找的元素，调用method()方法，传入一个字符串作为CSS“选择器”，这样就可以取得Web页面元素。选择器就像正则表达式：它们指定了要寻找的模式，在这个例子中，是在HTML页面中寻找，而不是普通的文本字符串。&lt;/p&gt;
-&lt;p class="zw"&gt;完整地讨论 CSS 选择器的语法超出了本书的范围（在 http://nostarch.com/automatestuff/的资源中，有很好的选择器指南），但这里有一份选择器的简单介绍。表11-2举例展示了大多数常用CSS选择器的模式。&lt;/p&gt;
-&lt;p class="表题"&gt;表11-2 CSS选择器的例子&lt;/p&gt;
-&lt;table border="1" width="90%"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;
-&lt;p class="表头单元格"&gt;传递给&lt;strong&gt;select()&lt;/strong&gt;
- 方法的选择器&lt;/p&gt;
-&lt;/th&gt;
-&lt;th&gt;
-&lt;p class="表头单元格"&gt;将匹配…&lt;/p&gt;
-&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;soup.select('div')&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;所有名为&amp;lt; div&amp;gt;的元素&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;soup.select('#author')&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;带有id属性为author的元素&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;soup.select('.notice')&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;所有使用CSS class属性名为notice的元素&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;soup.select('div span')&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;所有在&amp;lt; div&amp;gt;元素之内的&amp;lt; span&amp;gt;元素&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;soup.select('div &amp;gt; span')&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;所有直接在&amp;lt; div&amp;gt;元素之内的&amp;lt; span&amp;gt;元素，中间没有其他元素&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;soup.select('input[name]')&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;所有名为&amp;lt; input&amp;gt;，并有一个name属性，其值无所谓的元素&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;soup.select('input[type="button"]')&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;所有名为&amp;lt; input&amp;gt;，并有一个type属性，其值为button的元素&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p class="zw"&gt;不同的选择器模式可以组合起来，形成复杂的匹配。例如，soup.select('p #author')将匹配所有id属性为author的元素，只要它也在一个&amp;lt; p&amp;gt;元素之内。&lt;/p&gt;
-&lt;p class="zw"&gt;select()方法将返回一个Tag对象的列表，这是Beautiful Soup表示一个HTML元素的方式。针对BeautifulSoup对象中的HTML的每次匹配，列表中都有一个Tag对象。Tag值可以传递给str()函数，显示它们代表的HTML标签。Tag值也可以有attrs属性，它将该Tag的所有HTML属性作为一个字典。利用前面的example.html文件，在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import bs4&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;exampleFile = open('example.html')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;exampleSoup = bs4.BeautifulSoup(exampleFile.read())&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;elems = exampleSoup.select('#author')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;type(elems)&lt;/strong&gt;
-&amp;lt; class 'list'&amp;gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;len(elems)&lt;/strong&gt;
-1
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;type(elems[0])&lt;/strong&gt;
-&amp;lt; class 'bs4.element.Tag'&amp;gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;elems[0].getText()&lt;/strong&gt;
-'Al Sweigart'
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;str(elems[0])&lt;/strong&gt;
-'&amp;lt; span id="author"&amp;gt;Al Sweigart&amp;lt; /span&amp;gt;'
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;elems[0].attrs&lt;/strong&gt;
-{'id': 'author'}
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这段代码将带有 id="author"的元素，从示例 HTML 中找出来。我们使用select('#author')返回一个列表，其中包含所有带有id="author"的元素。我们将这个Tag对象的列表保存在变量中elems，len(elems)告诉我们列表中只有一个Tag对象，只有一次匹配。在该元素上调用getText()方法，返回该元素的文本，或内部的HTML。一个元素的文本是在开始和结束标签之间的内容：在这个例子中，就是'Al Sweigart'。&lt;/p&gt;
-&lt;p class="zw"&gt;将该元素传递给str()，这将返回一个字符串，其中包含开始和结束标签，以及该元素的文本。最后，attrs给了我们一个字典，包含该元素的属性'id'，以及id属性的值'author'。&lt;/p&gt;
-&lt;p class="zw"&gt;也可以从BeautifulSoup对象中找出&amp;lt; p&amp;gt;元素。在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;pElems = exampleSoup.select('p')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;str(pElems[0])&lt;/strong&gt;
-'&amp;lt; p&amp;gt;Download my &amp;lt; strong&amp;gt;Python&amp;lt; /strong&amp;gt; book from &amp;lt; a href="http://
-inventwithpython.com"&amp;gt;my website&amp;lt; /a&amp;gt;.&amp;lt; /p&amp;gt;'
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;pElems[0].getText()&lt;/strong&gt;
-'Download my Python book from my website.'
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;str(pElems[1])&lt;/strong&gt;
-'&amp;lt; p class="slogan"&amp;gt;Learn Python the easy way!&amp;lt; /p&amp;gt;'
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;pElems[1].getText()&lt;/strong&gt;
-'Learn Python the easy way!'
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;str(pElems[2])&lt;/strong&gt;
-'&amp;lt; p&amp;gt;By &amp;lt; span id="author"&amp;gt;Al Sweigart&amp;lt; /span&amp;gt;&amp;lt; /p&amp;gt;'
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;pElems[2].getText()&lt;/strong&gt;
-'By Al Sweigart'
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这一次，select()给我们一个列表，包含3次匹配，我们将它保存在pElems中。在pElems[0]、pElems[1]和pElems[2]上使用str()，将每个元素显示为一个字符串，并在每个元素上使用getText()，显示它的文本。&lt;/p&gt;
-&lt;h3 id="nav_point_301"&gt;11.5.3 通过元素的属性获取数据&lt;/h3&gt;
-&lt;p class="zw"&gt;Tag对象的get()方法让我们很容易从元素中获取属性值。向该方法传入一个属性名称的字符串，它将返回该属性的值。利用example.html，在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;import bs4&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;soup = bs4.BeautifulSoup(open('example.html'))&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spanElem = soup.select('span')[0]&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;str(spanElem)&lt;/strong&gt;
-'&amp;lt; span id="author"&amp;gt;Al Sweigart&amp;lt; /span&amp;gt;'
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spanElem.get('id')&lt;/strong&gt;
-'author'
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spanElem.get('some_nonexistent_addr') == None&lt;/strong&gt;
-True
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;spanElem.attrs&lt;/strong&gt;
-{'id': 'author'}
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这里，我们使用select()来寻找所有&amp;lt; span&amp;gt;元素，然后将第一个匹配的元素保存在spanElem中。将属性名'id'传递给get()，返回该属性的值'author'。&lt;/p&gt;
-&lt;h2 id="nav_point_302"&gt;11.6 项目：“I’m Feeling Lucky”Google查找&lt;/h2&gt;
-&lt;p class="zw"&gt;每次我在 Google 上搜索一个主题时，都不会一次只看一个搜索结果。通过鼠标中键点击搜索结果链接，或在点击时按住CTRL键，我会在一些新的选项卡中打开前几个链接，稍后再来查看。我经常搜索Google，所以这个工作流程（开浏览器，查找一个主题，依次用中键点击几个链接）变得很乏味。如果我只要在命令行中输入查找主题，就能让计算机自动打开浏览器，并在新的选项卡中显示前面几项查询结果，那就太好了。让我们写一个脚本来完成这件事。&lt;/p&gt;
-&lt;p class="zw"&gt;下面是程序要做的事：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;从命令行参数中获取查询关键字。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;取得查询结果页面。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;为每个结果打开一个浏览器选项卡。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;这意味着代码需要完成以下工作：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;从sys.argv中读取命令行参数。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;用requests模块取得查询结果页面。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;找到每个查询结果的链接。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;调用webbrowser.open()函数打开Web浏览器。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;打开一个新的文件编辑器窗口，并保存为lucky.py。&lt;/p&gt;
-&lt;h3 id="nav_point_303"&gt;第１步：获取命令行参数，并请求查找页面&lt;/h3&gt;
-&lt;p class="zw"&gt;开始编码之前，你首先要知道查找结果页面的URL。在进行Google查找后，你看浏览器地址栏，就会发现结果页面的URL类似于https://www.google.com/ search?q=SEARCH_TERM_HERE。requests模块可以下载这个页面，然后可以用Beautiful Soup，找到HTML中的查询结果的链接。最后，用webbrowser模块，在浏览器选项卡中打开这些链接。&lt;/p&gt;
-&lt;p class="zw"&gt;让你的代码看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;#! python3
-# lucky.py - Opens several Google search results.
-import requests, sys, webbrowser, bs4
-print('Googling...')     # display text while downloading the Google page
-res = requests.get('http://google.com/search?q=' + ' '.join(sys.argv[1:]))
-res.raise_for_status()
-# TODO: Retrieve top search result links.
-# TODO: Open a browser tab for each result.&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;用户运行该程序时，将通过命令行参数指定查找的主题。这些参数将作为字符串，保存在sys.argv列表中。&lt;/p&gt;
-&lt;h3 id="nav_point_304"&gt;第２步：找到所有的结果&lt;/h3&gt;
-&lt;p class="zw"&gt;现在你需要使用Beautiful Soup，从下载的HTML中，提取排名靠前的查找结果链接。但如何知道完成这项工作需要怎样的选择器？例如，你不能只查找所有的&amp;lt; a&amp;gt;标签，因为在这个HTML中，有许多链接你是不关心的。因此，必须用浏览器的开发者工具来检查这个查找结果页面，尝试寻找一个选择器，它将挑选出你想要的链接。&lt;/p&gt;
-&lt;p class="zw"&gt;在针对Beautiful Soup进行Google查询后，你可以打开浏览器的开发者工具，查看该页面上的一些链接元素。它们看起来复杂得难以置信，大概像这样：&amp;lt; a href="/url?sa=t&amp;amp;amp;rct=j&amp;amp;amp;q=&amp;amp;amp;esrc=s&amp;amp;amp;source=web&amp;amp;amp;cd=1&amp;amp;amp; cad=rja&amp;amp;amp;uact=8&amp;amp;amp;ved=0CCgQFjAA&amp;amp;amp;url=http%3A%2F%2Fwww.crummy.com%2Fsoftware %2FBeautifulSoup%2F&amp;amp; amp;ei=LHBVU_XDD9KVyAShmYDwCw&amp;amp;amp;usg=AFQjCNHAxwplurFOBqg5cehWQEVKi-TuLQ&amp;amp;amp;sig2=sdZu6WVlBlVSDrwhtworMA" onmousedown="return rwt(this,'','','','1','AFQjCNH AxwplurFOBqg5cehWQEVKi- TuLQ','sdZu6WVlBlVSDrwhtworMA','0CCgQFjAA','','',event)" data-href="http://www. crummy.com/software/BeautifulSoup/"&amp;gt;&amp;lt; em&amp;gt; BeautifulSoup&amp;lt; /em&amp;gt;: We called him Tortoise because he taught us.&amp;lt; /a&amp;gt;&lt;/p&gt;
-&lt;p class="zw"&gt;该元素看起来复杂得难以置信，但这没有关系。只需要找到查询结果链接都具有的模式。但这个&amp;lt; a&amp;gt;元素没有什么特殊，难以和该页面上非查询结果的&amp;lt; a&amp;gt;元素区分开来。&lt;/p&gt;
-&lt;p class="zw"&gt;确保你的代码看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;#! python3
-# lucky.py - Opens several google search results.
-import requests, sys, webbrowser, bs4
---&lt;em&gt;snip&lt;/em&gt;
---
-&lt;strong&gt;# Retrieve top search result links.&lt;/strong&gt;
-&lt;strong&gt;soup = bs4.BeautifulSoup(res.text)&lt;/strong&gt;
-&lt;strong&gt;# Open a browser tab for each result.&lt;/strong&gt;
-&lt;strong&gt;linkElems = soup.select('.r a')&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;但是，如果从&amp;lt; a&amp;gt;元素向上看一点，就会发现这样一个元素：&amp;lt; h3 class="r"&amp;gt;。查看余下的HTML源代码，看起来r类仅用于查询结果链接。你不需要知道CSS类r是什么，或者它会做什么。只需要利用它作为一个标记，查找需要的&amp;lt; a&amp;gt;元素。可以通过下载页面的HTML文本，创建一个BeautifulSoup对象，然后用选择符'.r a'，找到所有具有CSS类r的元素中的&amp;lt; a&amp;gt;元素。&lt;/p&gt;
-&lt;h3 id="nav_point_305"&gt;第3步：针对每个结果打开Web浏览器&lt;/h3&gt;
-&lt;p class="zw"&gt;最后，我们将告诉程序，针对结果打开Web浏览器选项卡。将下面的内容添加到程序的末尾：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;#! python3
-# lucky.py - Opens several google search results.
-import requests, sys, webbrowser, bs4
---&lt;em&gt;snip&lt;/em&gt;
---
-# Open a browser tab for each result.
-linkElems = soup.select('.r a')
-&lt;strong&gt;numOpen = min(5, len(linkElems))&lt;/strong&gt;
-&lt;strong&gt;for i in range(numOpen):&lt;/strong&gt;
-&lt;strong&gt;    webbrowser.open('http://google.com' + linkElems[i].get('href'))&lt;/strong&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;默认情况下，你会使用webbrowser模块，在新的选项卡中打开前5个查询结果。但是，用户查询的主题可能少于5个查询结果。soup.select()调用返回一个列表，包含匹配'.r a'选择器的所有元素，所以打开选项卡的数目要么是5，要么是这个列表的长度（取决于哪一个更小）。&lt;/p&gt;
-&lt;p class="zw"&gt;内建的Python函数min()返回传入的整型或浮点型参数中最小的一个（也有内建的max()函数，返回传入的参数中最大的一个）。你可以使用min()弄清楚该列表中是否少于5个链接，并且将要打开的链接数保存在变量numOpen中。然后可以调用range(numOpen)，执行一个for循环。&lt;/p&gt;
-&lt;p class="zw"&gt;在该循环的每次迭代中，你使用webbrowser.open()，在Web浏览器中打开一个新的选项卡。请注意，返回的&amp;lt; a&amp;gt;元素的href属性中，不包含初始的http://google.com部分，所以必须连接它和href属性的字符串。&lt;/p&gt;
-&lt;p class="zw"&gt;现在可以马上打开前5个Google查找结果，比如说，要查找Python programming tutorials，你只要在命令行中运行lucky python programming tutorials（如何在你的操作系统中方便地运行程序，请参看附录B）。&lt;/p&gt;
-&lt;h3 id="nav_point_306"&gt;第4步：类似程序的想法&lt;/h3&gt;
-&lt;p class="zw"&gt;分选项卡浏览的好处在于，很容易在新选项卡中打开一些链接，稍后再来查看。一个自动打开几个链接的程序，很适合快捷地完成下列任务：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;查找亚马逊这样的电商网站后，打开所有的产品页面；&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;打开针对一个产品的所有评论的链接；&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;查找Flickr或Imgur这样的照片网站后，打开查找结果中的所有照片的链接。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="nav_point_307"&gt;11.7 项目：下载所有XKCD漫画&lt;/h2&gt;
-&lt;p class="zw"&gt;博客和其他经常更新的网站通常有一个首页，其中有最新的帖子，以及一个“前一篇”按钮，将你带到以前的帖子。然后那个帖子也有一个“前一篇”按钮，以此类推。这创建了一条线索，从最近的页面，直到该网站的第一个帖子。如果你希望拷贝该网站的内容，在离线的时候阅读，可以手工导航至每个页面并保存。但这是很无聊的工作，所以让我们写一个程序来做这件事。&lt;/p&gt;
-&lt;p class="zw"&gt;XKCD 是一个流行的极客漫画网站，它符合这个结构（参见图 11-6）。首页&lt;a href="http://xkcd.com/"&gt;http://xkcd.com/&lt;/a&gt;
- 有一个“Prev”按钮，让用户导航到前面的漫画。手工下载每张漫画要花较长的时间，但你可以写一个脚本，在几分钟内完成这件事。&lt;/p&gt;
-&lt;p class="zw"&gt;下面是程序要做的事：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;加载主页；&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;保存该页的漫画图片；&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;转入前一张漫画的链接；&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;重复直到第一张漫画。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="图"&gt;&lt;img alt="..\16-0403yds排版\16-0403yds排版\Links\Links\automate11_xkcd.png" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/35_Image00114.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图11-6 XKCD，“关于浪漫、讽刺、数学和语言的漫画网站”&lt;/p&gt;
-&lt;p class="zw"&gt;这意味着代码需要做下列事情：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;利用requests模块下载页面。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;利用Beautiful Soup找到页面中漫画图像的URL。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;利用iter_content()下载漫画图像，并保存到硬盘。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;找到前一张漫画的链接URL，然后重复。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;打开一个新的文件编辑器窗口，将它保存为downloadXkcd.py。&lt;/p&gt;
-&lt;h3 id="nav_point_308"&gt;第1步：设计程序&lt;/h3&gt;
-&lt;p class="zw"&gt;打开一个浏览器的开发者工具，检查该页面上的元素，你会发现下面的内容：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;漫画图像文件的URL，由一个&amp;lt; img&amp;gt;元素的href属性给出。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;&amp;lt; img&amp;gt;元素在&amp;lt; div id="comic"&amp;gt;元素之内。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;Prev按钮有一个rel HTML属性，值是prev。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;第一张漫画的Prev按钮链接到http://xkcd.com/# URL，表明没有前一个页面了。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;让你的代码看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;#! python3
-# downloadXkcd.py - Downloads every single XKCD comic.
-import requests, os, bs4
-url = 'http://xkcd.com'                # starting url
-os.makedirs('xkcd', exist_ok=True)     # store comics in ./xkcd
-while not url.endswith('#'):
-    # TODO: Download the page.
-    # TODO: Find the URL of the comic image.
-    # TODO: Download the image.
-    # TODO: Save the image to ./xkcd.
-    # TODO: Get the Prev button's url.
-print('Done.')&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;你会有一个url变量，开始的值是'http://xkcd.com'，然后反复更新（在一个for循环中），变成当前页面的Prev链接的URL。在循环的每一步，你将下载URL上的漫画。如果URL以'#'结束，你就知道需要结束循环。&lt;/p&gt;
-&lt;p class="zw"&gt;将图像文件下载到当前目录的一个名为xkcd的文件夹中。调用os.makedirs()函数。确保这个文件夹存在，并且关键字参数exist_ok=True在该文件夹已经存在时，防止该函数抛出异常。剩下的代码只是注释，列出了剩下程序的大纲。&lt;/p&gt;
-&lt;h3 id="nav_point_309"&gt;第2步：下载网页&lt;/h3&gt;
-&lt;p class="zw"&gt;我们来实现下载网页的代码。让你的代码看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;#! python3
-# downloadXkcd.py - Downloads every single XKCD comic.
-import requests, os, bs4
-url = 'http://xkcd.com'                # starting url
-os.makedirs('xkcd', exist_ok=True)     # store comics in ./xkcd
-while not url.endswith('#'):
-    &lt;strong&gt;# Download the page.&lt;/strong&gt;
-    &lt;strong&gt;print('Downloading page %s...' % url)&lt;/strong&gt;
-    &lt;strong&gt;res = requests.get(url)&lt;/strong&gt;
-    &lt;strong&gt;res.raise_for_status()&lt;/strong&gt;
-    &lt;strong&gt;soup = bs4.BeautifulSoup(res.text)&lt;/strong&gt;
-    # TODO: Find the URL of the comic image.
-    # TODO: Download the image.
-    # TODO: Save the image to ./xkcd.
-    # TODO: Get the Prev button's url.
-print('Done.')
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;首先，打印url，这样用户就知道程序将要下载哪个URL。然后利用requests模块的request.get()函数下载它。像以往一样，马上调用Response对象的raise_for_status()方法，如果下载发生问题，就抛出异常，并终止程序。否则，利用下载页面的文本创建一个BeautifulSoup对象。&lt;/p&gt;
-&lt;h3 id="nav_point_310"&gt;第3步：寻找和下载漫画图像&lt;/h3&gt;
-&lt;p class="zw"&gt;让你的代码看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;#! python3
-# downloadXkcd.py - Downloads every single XKCD comic.
-import requests, os, bs4
---&lt;em&gt;snip&lt;/em&gt;
---
-    &lt;strong&gt;# Find the URL of the comic image.&lt;/strong&gt;
-    &lt;strong&gt;comicElem = soup.select('#comic img')&lt;/strong&gt;
-    &lt;strong&gt;if comicElem == []:&lt;/strong&gt;
-        &lt;strong&gt;print('Could not find comic image.')&lt;/strong&gt;
-    &lt;strong&gt;else:&lt;/strong&gt;
-        &lt;strong&gt;comicUrl = comicElem[0].get('src')&lt;/strong&gt;
-        &lt;strong&gt;# Download the image.&lt;/strong&gt;
-        &lt;strong&gt;print('Downloading image %s...' % (comicUrl))&lt;/strong&gt;
-        &lt;strong&gt;res = requests.get(comicUrl)&lt;/strong&gt;
-        &lt;strong&gt;res.raise_for_status()&lt;/strong&gt;
-    # TODO: Save the image to ./xkcd.
-    # TODO: Get the Prev button's url.
-print('Done.')
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;用开发者工具检查XKCD主页后，你知道漫画图像的&amp;lt; img&amp;gt;元素是在一个&amp;lt; div&amp;gt;元素中，它带有的id属性设置为comic。所以选择器'#comic img'将从BeautifulSoup对象中选出正确的&amp;lt; img&amp;gt;元素。&lt;/p&gt;
-&lt;p class="zw"&gt;有一些XKCD页面有特殊的内容，不是一个简单的图像文件。这没问题，跳过它们就好了。如果选择器没有找到任何元素，那么soup.select('#comic img')将返回一个空的列表。出现这种情况时，程序将打印一条错误消息，不下载图像，继续执行。&lt;/p&gt;
-&lt;p class="zw"&gt;否则，选择器将返回一个列表，包含一个&amp;lt; img&amp;gt;元素。可以从这个&amp;lt; img&amp;gt;元素中取得src属性，将它传递给requests.get()，下载这个漫画的图像文件。&lt;/p&gt;
-&lt;h3 id="nav_point_311"&gt;第4步：保存图像，找到前一张漫画&lt;/h3&gt;
-&lt;p class="zw"&gt;让你的代码看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;#! python3
-# downloadXkcd.py - Downloads every single XKCD comic.
-import requests, os, bs4
---&lt;em&gt;snip&lt;/em&gt;
---
-        &lt;strong&gt;# Save the image to ./xkcd.&lt;/strong&gt;
-        &lt;strong&gt;imageFile = open(os.path.join('xkcd', os.path.basename(comicUrl)), 'wb')&lt;/strong&gt;
-        &lt;strong&gt;for chunk in res.iter_content(100000):&lt;/strong&gt;
-            &lt;strong&gt;imageFile.write(chunk)&lt;/strong&gt;
-        &lt;strong&gt;imageFile.close()&lt;/strong&gt;
-    &lt;strong&gt;# Get the Prev button's url.&lt;/strong&gt;
-    &lt;strong&gt;prevLink = soup.select('a[rel="prev"]')[0]&lt;/strong&gt;
-    &lt;strong&gt;url = 'http://xkcd.com' + prevLink.get('href')&lt;/strong&gt;
-print('Done.')
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这时，漫画的图像文件保存在变量res中。你需要将图像数据写入硬盘的文件。&lt;/p&gt;
-&lt;p class="zw"&gt;你需要为本地图像文件准备一个文件名，传递给 open()。comicUrl的值类似'http://imgs.xkcd.com/comics/heartbleed_explanation.png'。你可能注意到，它看起来很像文件路径。实际上，调用os.path.basename()时传入comicUrl，它只返回URL的最后部分：'heartbleed_explanation.png'。你可以用它作为文件名，将图像保存到硬盘。用os.path.join()连接这个名称和xkcd文件夹的名称，这样程序就会在Windows下使用倒斜杠（\），在OS X和Linux下使用斜杠（/）。既然你最后得到了文件名，就可以调用open()，用'wb'模式打开一个新文件。&lt;/p&gt;
-&lt;p class="zw"&gt;回忆一下本章早些时候，保存利用 Requests 下载的文件时，你需要循环处理iter_content()方法的返回值。for循环中的代码将一段图像数据写入文件（每次最多10万字节），然后关闭该文件。图像现在保存到硬盘中。&lt;/p&gt;
-&lt;p class="zw"&gt;然后，选择器'a[rel="prev"]'识别出rel属性设置为prev的&amp;lt; a&amp;gt;元素，利用这个&amp;lt; a&amp;gt;元素的href属性，取得前一张漫画的URL，将它保存在url中。然后while循环针对这张漫画，再次开始整个下载过程。&lt;/p&gt;
-&lt;p class="zw"&gt;这个程序的输出看起来像这样：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;Downloading page http://xkcd.com...
-Downloading image http://imgs.xkcd.com/comics/phone_alarm.png...
-Downloading page http://xkcd.com/1358/...
-Downloading image http://imgs.xkcd.com/comics/nro.png...
-Downloading page http://xkcd.com/1357/...
-Downloading image http://imgs.xkcd.com/comics/free_speech.png...
-Downloading page http://xkcd.com/1356/...
-Downloading image http://imgs.xkcd.com/comics/orbital_mechanics.png...
-Downloading page http://xkcd.com/1355/...
-Downloading image http://imgs.xkcd.com/comics/airplane_message.png...
-Downloading page http://xkcd.com/1354/...
-Downloading image http://imgs.xkcd.com/comics/heartbleed_explanation.png...
---&lt;em&gt;snip&lt;/em&gt;
---
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这个项目是一个很好的例子，说明程序可以自动顺着链接，从网络上抓取大量的数据。你可以从Beautiful Soup的文档了解它的更多功能：http://www. crummy.com/ software/BeautifulSoup/bs4/doc/.&lt;/p&gt;
-&lt;h3 id="nav_point_312"&gt;第5步：类似程序的想法&lt;/h3&gt;
-&lt;p class="zw"&gt;下载页面并追踪链接，是许多网络爬虫程序的基础。类似的程序也可以做下面的事情：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class="第1级无序列表"&gt;顺着网站的所有链接，备份整个网站。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;拷贝一个论坛的所有信息。&lt;/li&gt;
-&lt;li class="第1级无序列表"&gt;复制一个在线商店中所有产品的目录。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="zw"&gt;requests 和 BeautifulSoup 模块很了不起，只要你能弄清楚需要传递给requests.get()的URL。但是，有时候这并不容易找到。或者，你希望编程浏览的网站可能要求你先登录。selenium 模块将让你的程序具有执行这种复杂任务的能力。&lt;/p&gt;
-&lt;h2 id="nav_point_313"&gt;11.8 用selenium模块控制浏览器&lt;/h2&gt;
-&lt;p class="zw"&gt;selenium模块让Python直接控制浏览器，实际点击链接，填写登录信息，几乎就像是有一个人类用户在与页面交互。与Requests和Beautiful Soup相比，Selenium允许你用高级得多的方式与网页交互。但因为它启动了Web浏览器，假如你只是想从网络上下载一些文件，会有点慢，并且难以在后台运行。&lt;/p&gt;
-&lt;p class="zw"&gt;附录A有安装第三方模块的详细步骤。&lt;/p&gt;
-&lt;h3 id="nav_point_314"&gt;11.8.1 启动selenium控制的浏览器&lt;/h3&gt;
-&lt;p class="zw"&gt;对于这些例子，你需要FireFox浏览器。它将成为你控制的浏览器。如果你还没有FireFox，可以从http://getfirefox.com/免费下载它。&lt;/p&gt;
-&lt;p class="zw"&gt;导入selenium的模块需要一点技巧。不是import selenium，而是要运行from selenium import webdriver（为什么selenium模块要使用这种方式设置？答案超出了本书的范围）。之后，你可以用selenium启动FireFox浏览器。在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;from selenium import webdriver&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;browser = webdriver.Firefox()&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;type(browser)&lt;/strong&gt;
-&amp;lt; class 'selenium.webdriver.firefox.webdriver.WebDriver'&amp;gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;browser.get('http://inventwithpython.com')&lt;/strong&gt;
-&lt;br/&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;你会注意到，当 webdriver.Firefox()被调用时，FireFox 浏览器启动了。对值webdriver.Firefox()调用 type()，揭示它具有 WebDriver 数据类型。调用 browser. get('http://inventwithpython.com')将浏览器指向http://inventwithpython.com/。浏览器应该看起来如图11-7所示。&lt;/p&gt;
-&lt;p class="图"&gt;&lt;img alt="..\16-0403yds排版\16-0403yds排版\Links\Links\automate11_firefox_webdriver.png" src="https://raw.githubusercontent.com/ZHENHUA001A307/RSS_STORAGE_SOCIALSCIENCE/main/image/35_Image00115.jpg"/&gt;
-&lt;/p&gt;
-&lt;p class="图题"&gt;图11-7 在IDLE中调用webdriver.Firefox()和get()后，FireFox浏览器出现了&lt;/p&gt;
-&lt;h3 id="nav_point_315"&gt;11.8.2 在页面中寻找元素&lt;/h3&gt;
-&lt;p class="zw"&gt;WebDriver对象有好几种方法，用于在页面中寻找元素。它们被分成find&lt;em&gt;element&lt;/em&gt;
-&lt;em&gt;和find&lt;/em&gt;
- elements方法。find&lt;em&gt;element&lt;/em&gt;
-&lt;em&gt;方法返回一个WebElement对象，代表页面中匹配查询的第一个元素。find&lt;/em&gt;
- elements方法返回WebElement_*对象的列表，包含页面中所有匹配的元素。&lt;/p&gt;
-&lt;p class="zw"&gt;表11-3展示了find&lt;em&gt;element&lt;/em&gt;
-&lt;em&gt;和find&lt;/em&gt;
- elements方法的几个例子，它们在变量browser中保存的WebDriver对象上调用。&lt;/p&gt;
-&lt;p class="表题"&gt;表11-3 selenium的WebDriver方法，用于寻找元素&lt;/p&gt;
-&lt;table border="1" width="90%"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;
-&lt;p class="表头单元格"&gt;方法名&lt;/p&gt;
-&lt;/th&gt;
-&lt;th&gt;
-&lt;p class="表头单元格"&gt;返回的WebElement对象/列表&lt;/p&gt;
-&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;browser.find_element_by_class_name(&lt;em&gt;name&lt;/em&gt;
- ) browser.find_elements_by_class_name(&lt;em&gt;name&lt;/em&gt;
- )&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;使用CSS类name的元素&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;browser.find_element_by_css_selector(&lt;em&gt;selector&lt;/em&gt;
- ) browser.find_elements_by_css_selector(&lt;em&gt;selector&lt;/em&gt;
- )&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;匹配CSS &lt;em&gt;selector&lt;/em&gt;
- 的元素&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;browser.find_element_by_id(&lt;em&gt;id&lt;/em&gt;
- ) browser.find_elements_by_id(&lt;em&gt;id&lt;/em&gt;
- )&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;匹配&lt;em&gt;id&lt;/em&gt;
- 属性值的元素&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;browser.find_element_by_link_text(&lt;em&gt;text&lt;/em&gt;
- ) browser.find_elements_by_link_text(&lt;em&gt;text&lt;/em&gt;
- )&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;完全匹配提供的text的&amp;lt; a&amp;gt;元素&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;browser.find_element_by_partial_link_text(&lt;em&gt;text&lt;/em&gt;
- ) browser.find_elements_by_partial_link_text(&lt;em&gt;text&lt;/em&gt;
- )&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;包含提供的text的&amp;lt; a&amp;gt;元素&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;browser.find_element_by_name(&lt;em&gt;name&lt;/em&gt;
- ) browser.find_elements_by_name(&lt;em&gt;name&lt;/em&gt;
- )&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;匹配&lt;em&gt;name&lt;/em&gt;
- 属性值的元素&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;browser.find_element_by_tag_name(&lt;em&gt;name&lt;/em&gt;
- ) browser.find_elements_by_tag_name(&lt;em&gt;name&lt;/em&gt;
- )&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;匹配标签&lt;em&gt;name&lt;/em&gt;
- 的元素 (大小写无关，&amp;lt; a&amp;gt;元素匹配'a'和'A')&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p class="zw"&gt;除了*_by_tag_name()方法，所有方法的参数都是区分大小写的。如果页面上没有元素匹配该方法要查找的元素，selenium模块就会抛出NoSuchElement异常。如果你不希望这个异常让程序崩溃，就在代码中添加try和except语句。&lt;/p&gt;
-&lt;p class="zw"&gt;一旦有了WebElement对象，就可以读取表11-4中的属性，或调用其中的方法，了解它的更多功能。&lt;/p&gt;
-&lt;p class="表题"&gt;表11-4 WebElement的属性和方法&lt;/p&gt;
-&lt;table border="1" width="90%"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;
-&lt;p class="表头单元格"&gt;属性或方法&lt;/p&gt;
-&lt;/th&gt;
-&lt;th&gt;
-&lt;p class="表头单元格"&gt;描述&lt;/p&gt;
-&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;tag_name&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;标签名，例如 'a'表示&amp;lt; a&amp;gt;元素&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;get_attribute(&lt;em&gt;name&lt;/em&gt;
- )&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;该元素name属性的值&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;text&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;该元素内的文本，例如&amp;lt; span&amp;gt;hello&amp;lt; /span&amp;gt;中的'hello'&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;clear()&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;对于文本字段或文本区域元素，清除其中输入的文本&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;is_displayed()&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;如果该元素可见，返回True，否则返回False&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;is_enabled()&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;对于输入元素，如果该元素启用，返回True，否则返回False&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;is_selected()&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;对于复选框或单选框元素，如果该元素被选中，选择True，否则返回False&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;location&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;一个字典，包含键'x'和'y'，表示该元素在页面上的位置&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p class="zw"&gt;例如，打开一个新的文件编辑器，输入以下程序：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;from selenium import webdriver
-browser = webdriver.Firefox()
-browser.get('http://inventwithpython.com')
-try:
-    elem = browser.find_element_by_class_name('bookcover')
-    print('Found &amp;lt; %s&amp;gt; element with that class name!' % (elem.tag_name))
-except:
-    print('Was not able to find an element with that name.')&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这里我们打开FireFox，让它指向一个URL。在这个页面上，我们试图找到带有类名'bookcover'的元素。如果找到这样的元素，我们就用tag_name属性将它的标签名打印出来。如果没有找到这样的元素，就打印不同的信息。&lt;/p&gt;
-&lt;p class="zw"&gt;这个程序的输出如下：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;Found &amp;lt; img&amp;gt; element with that class name!&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;我们发现了一个元素带有类名'bookcover'，它的标签名是'img'。&lt;/p&gt;
-&lt;h3 id="nav_point_316"&gt;11.8.3 点击页面&lt;/h3&gt;
-&lt;p class="zw"&gt;find&lt;em&gt;element&lt;/em&gt;
-&lt;em&gt;和find&lt;/em&gt;
- elements方法返回的WebElement对象有一个click()方法，模拟鼠标在该元素上点击。这个方法可以用于链接跳转，选择单选按钮，点击提交按钮，或者触发该元素被鼠标点击时发生的任何事情。例如，在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;from selenium import webdriver&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;browser = webdriver.Firefox()&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;browser.get('http://inventwithpython.com')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;linkElem = browser.find_element_by_link_text('Read It Online')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;type(linkElem)&lt;/strong&gt;
-&amp;lt; class 'selenium.webdriver.remote.webelement.WebElement'&amp;gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;linkElem.click()     # follows the "Read It Online" link&lt;/strong&gt;
-&lt;br/&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;这段程序打开FireFox，指向http://inventwithpython.com/，取得&amp;lt; a&amp;gt;元素的WebElement对象，它的文本是“Read It Online”，然后模拟点击这个元素。就像你自己点击这个链接一样，浏览器将跳转到这个链接。&lt;/p&gt;
-&lt;h3 id="nav_point_317"&gt;11.8.4 填写并提交表单&lt;/h3&gt;
-&lt;p class="zw"&gt;向Web页面的文本字段发送击键，只要找到那个文本字段的&amp;lt; input&amp;gt;或&amp;lt; textarea&amp;gt;元素，然后调用send_keys()方法。例如，在交互式环境中输入以下代码：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;lt;code&amp;gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;from selenium import webdriver&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;browser = webdriver.Firefox()&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;browser.get('http://gmail.com')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;emailElem = browser.find_element_by_id('Email')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;emailElem.send_keys('not_my_real_email@gmail.com')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;passwordElem = browser.find_element_by_id('Passwd')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;passwordElem.send_keys('12345')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;passwordElem.submit()&lt;/strong&gt;
-&lt;br/&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;只要Gmail没有在本书出版后改变Username和Password文本字段的id，上面的代码就会用提供的文本填写这些文本字段（你总是可以用浏览器的开发者工具验证id）。在任何元素上调用submit()方法，都等同于点击该元素所在表单的Submit按钮（你可以很容易地调用emailElem.submit()，代码所做的事情一样）。&lt;/p&gt;
-&lt;h3 id="nav_point_318"&gt;11.8.5 发送特殊键&lt;/h3&gt;
-&lt;p class="zw"&gt;selenium有一个模块，针对不能用字符串值输入的键盘击键。它的功能非常类似于转义字符。这些值保存在selenium.webdriver.common.keys模块的属性中。由于这个模块名非常长，所以在程序顶部运行from selenium.webdriver. common.keys import Keys就比较容易。如果这么做，原来需要写from selenium.webdriver.common.keys的地方，就只要写Keys。表11-5列出了常用的Keys变量。&lt;/p&gt;
-&lt;p class="表题"&gt;表11-5 selenium.webdriver.common.keys模块中常用的变量&lt;/p&gt;
-&lt;table border="1" width="90%"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;
-&lt;p class="表头单元格"&gt;属性&lt;/p&gt;
-&lt;/th&gt;
-&lt;th&gt;
-&lt;p class="表头单元格"&gt;含义&lt;/p&gt;
-&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;Keys.DOWN, Keys.UP, Keys.LEFT,Keys.RIGHT&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;键盘箭头键&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;Keys.ENTER, Keys.RETURN&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;回车和换行键&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;Keys.HOME, Keys.END, Keys.PAGE_DOWN,Keys.PAGE_UP&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;Home键、End键、PageUp键和Page Down键&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;Keys.ESCAPE, Keys.BACK_SPACE,Keys.DELETE&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;Esc、Backspace和字母键&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;Keys.F1, Keys.F2, . . . , Keys.F12&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;键盘顶部的F1到F12键&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;Keys.TAB&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;p class="表格单元格"&gt;Tab键&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p class="zw"&gt;例如，如果光标当前不在文本字段中，按下home和end键，将使浏览器滚动到页面的顶部或底部。在交互式环境中输入以下代码，注意send_keys()调用是如何滚动页面的：&lt;/p&gt;
-&lt;pre class="代码无行号"&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;from selenium import webdriver&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;from selenium.webdriver.common.keys import Keys&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;browser = webdriver.Firefox()&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;browser.get('http://nostarch.com')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;htmlElem = browser.find_element_by_tag_name('html')&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;htmlElem.send_keys(Keys.END)     # scrolls to bottom&lt;/strong&gt;
-&amp;gt;&amp;gt;&amp;gt; &lt;strong&gt;htmlElem.send_keys(Keys.HOME)     # scrolls to top&lt;/strong&gt;
-&lt;br/&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p class="zw"&gt;&amp;lt; html&amp;gt;标签是HTML文件中的基本标签：HTML文件的完整内容包含在&amp;lt; html&amp;gt;和&amp;lt; /html&amp;gt;标签之内。调用browser.find_element_by_tag_name('html')是向一般Web页面发送按键的好地方。当你滚动到该页的底部，新的内容就会加载，这可能会有用。&lt;/p&gt;
-&lt;h3 id="nav_point_319"&gt;11.8.6 点击浏览器按钮&lt;/h3&gt;
-&lt;p class="zw"&gt;利用以下的方法，selenium也可以模拟点击各种浏览器按钮：&lt;/p&gt;
-&lt;p class="zw"&gt;browser.back()点击“返回”按钮。&lt;/p&gt;
-&lt;p class="zw"&gt;browser.forward()点击“前进”按钮。&lt;/p&gt;
-&lt;p class="zw"&gt;browser.refresh()点击“刷新”按钮。&lt;/p&gt;
-&lt;p class="zw"&gt;browser.quit()点击“关闭窗口”按钮。&lt;/p&gt;
-&lt;h3 id="nav_point_320"&gt;11.8.7 关于selenium的更多信息&lt;/h3&gt;
-&lt;p class="zw"&gt;selenium能做的事远远超出了这里描述的功能。它可以修改浏览器的cookie，截取页面快照，运行定制的JavaScript。要了解这些功能的更多信息，请参考文档：http://selenium-python.readthedocs.org/。&lt;/p&gt;
-&lt;h2 id="nav_point_321"&gt;11.9 小结&lt;/h2&gt;
-&lt;p class="zw"&gt;大多数无聊的任务并不限于操作你计算机中的文件。能够编程下载网页，可以让你的程序扩展到因特网。requests模块让下载变得很简单，加上HTML的概念和选择器的基本知识，你就可以利用BeautifulSoup模块，解析下载的网页。&lt;/p&gt;
-&lt;p class="zw"&gt;但要全面自动化所有针对网页的任务，你需要利用selenium模块，直接控制Web浏览器。selenium模块将允许你自动登录到网站，填写表单。因为Web浏览器是在因特网上收发信息的最常见方式，所以这是程序员工具箱中一件了不起的工具。&lt;/p&gt;
-&lt;h2 id="nav_point_322"&gt;11.10 习题&lt;/h2&gt;
-&lt;p class="zw"&gt;1．简单描述webbrowser、requests、BeautifulSoup和selenium模块之间的不同。&lt;/p&gt;
-&lt;p class="zw"&gt;2．requests.get()返回哪种类型的对象？如何以字符串的方式访问下载的内容？&lt;/p&gt;
-&lt;p class="zw"&gt;3．哪个Requests方法检查下载是否成功？&lt;/p&gt;
-&lt;p class="zw"&gt;4．如何取得Requests响应的HTTP状态码？&lt;/p&gt;
-&lt;p class="zw"&gt;5．如何将Requests响应保存到文件？&lt;/p&gt;
-&lt;p class="zw"&gt;6．要打开浏览器的开发者工具，快捷键是什么？&lt;/p&gt;
-&lt;p class="zw"&gt;7．在开发者工具中，如何查看页面上特定元素的HTML？&lt;/p&gt;
-&lt;p class="zw"&gt;8．要找到id属性为main的元素，CSS选择器的字符串是什么？&lt;/p&gt;
-&lt;p class="zw"&gt;9．要找到CSS类为highlight的元素，CSS选择器的字符串是什么？&lt;/p&gt;
-&lt;p class="zw"&gt;10．要找到一个&amp;lt; div&amp;gt;元素中所有的&amp;lt; div&amp;gt;元素，CSS 选择器的字符串是什么？&lt;/p&gt;
-&lt;p class="zw"&gt;11．要找到一个&amp;lt; button&amp;gt;元素，它的value属性被设置为favorite，CSS选择器的字符串是什么？&lt;/p&gt;
-&lt;p class="zw"&gt;12．假定你有一个Beautiful Soup的Tag对象保存在变量spam中，针对的元素是&amp;lt; div&amp;gt;Hello world!&amp;lt; /div&amp;gt;。如何从这个Tag对象中取得字符串'Hello world!'？&lt;/p&gt;
-&lt;p class="zw"&gt;13．如何将一个Beautiful Soup的Tag对象的所有属性保存到变量linkElem中？&lt;/p&gt;
-&lt;p class="zw"&gt;14．运行import selenium没有效果。如何正确地导入selenium模块？&lt;/p&gt;
-&lt;p class="zw"&gt;15．find&lt;em&gt;element&lt;/em&gt;
-&lt;em&gt;和find&lt;/em&gt;
- elements方法之间的区别是什么？&lt;/p&gt;
-&lt;p class="zw"&gt;16．Selenium的WebElement对象有哪些方法来模拟鼠标点击和键盘击键？&lt;/p&gt;
-&lt;p class="zw"&gt;17．你可以在Submit按钮的WebElement对象上调用send_keys(Keys.ENTER)，但利用selenium，还有什么更容易的方法提交表单？&lt;/p&gt;
-&lt;p class="zw"&gt;18．利用selenium如何模拟点击浏览器的“前进”、“返回”和“刷新”按钮？&lt;/p&gt;
-&lt;h2 id="nav_point_323"&gt;11.11 实践项目&lt;/h2&gt;
-&lt;p class="zw"&gt;作为实践，编程完成下列任务。&lt;/p&gt;
-&lt;h3 id="nav_point_324"&gt;11.11.1 命令行邮件程序&lt;/h3&gt;
-&lt;p class="zw"&gt;编写一个程序，通过命令行接受电子邮件地址和文本字符串。然后利用selenium登录到你的邮件账号，将该字符串作为邮件，发送到提供的地址（你也许希望为这个程序建立一个独立的邮件账号）。&lt;/p&gt;
-&lt;p class="zw"&gt;这是为程序添加通知功能的一种好方法。你也可以编写类似的程序，从Facebook或Twitter账号发送消息。&lt;/p&gt;
-&lt;h3 id="nav_point_325"&gt;11.11.2 图像网站下载&lt;/h3&gt;
-&lt;p class="zw"&gt;编写一个程序，访问图像共享网站，如Flickr或Imgur，查找一个类型的照片，然后下载所有查询结果的图像。可以编写一个程序，访问任何具有查找功能的图像网站。&lt;/p&gt;
-&lt;h3 id="nav_point_326"&gt;11.11.3 2048&lt;/h3&gt;
-&lt;p class="zw"&gt;2048是一个简单的游戏，通过箭头向上、下、左、右移动滑块，让滑块合并。实际上，你可以通过一遍一遍的重复“上、右、下、左”模式，获得相当高的分数。编写一个程序，打开https://gabrielecirulli.github.io/2048/上的游戏，不断发送上、右、下、左按键，自动玩游戏。&lt;/p&gt;
-&lt;h3 id="nav_point_327"&gt;11.11.4 链接验证&lt;/h3&gt;
-&lt;p class="zw"&gt;编写一个程序，对给定的网页URL，下载该页面所有链接的页面。程序应该标记出所有具有404“Not Found”状态码的页面，将它们作为坏链接输出。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p class="footnote"&gt;
-&lt;a href="text00024.html#ac111" id="anchor111"&gt;[1]&lt;/a&gt;
- 　答案是没有。&lt;/p&gt;
-&lt;p class="zw"&gt;&lt;br style="page-break-after:always"/&gt;
-&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt;
-</description>
-    <pubDate>Mon, 28 Sep 2026 04:24:23 +0000</pubDate>
-    <guid isPermaLink="false">35</guid>
-</item>
 
 
 
